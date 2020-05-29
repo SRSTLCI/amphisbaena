@@ -11,6 +11,12 @@ Amphisbaena may refer to either the app used by the Wóoyake Project, or the und
 * Xcode. The current version of Amphisbaena was built in Xcode 11.5 using Swift 5, but may work on later versions.
 * macOS Catalina 10.15.4 and later.
 
+## Builds
+
+The following build(s) are available for individuals who do not wish to build Amphisbaena themselves from Xcode. These are not likely to be the most up-to-date versions available, but will have the most stable features at the time they are provided. They are provided as-is.
+
+* Amphisbaena 0.1: [Link](https://www.dropbox.com/s/tae3blqrsyk7mep/Amphisbaena%200-1.zip?raw=1)
+
 ## Documentation
 
 Documentation of Amphisbaena is currently being written and will be updated at a later time.
