@@ -44,6 +44,12 @@
 		C9DE218D246D940C0091B4EB /* Amphisbaena_UnifiedContainer_TextBody_ELAN.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DE218C246D940C0091B4EB /* Amphisbaena_UnifiedContainer_TextBody_ELAN.swift */; };
 		C9DE218F246D94F30091B4EB /* Amphisbaena_UnifiedContainer_TextBody_MultipleFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DE218E246D94F30091B4EB /* Amphisbaena_UnifiedContainer_TextBody_MultipleFiles.swift */; };
 		C9DE2191246D967D0091B4EB /* Amphisbaena_UnifiedContainer_MultipleFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DE2190246D967D0091B4EB /* Amphisbaena_UnifiedContainer_MultipleFiles.swift */; };
+		C9E7C89224815F6500DA8BBE /* ELAN for Unified from Single ELAN.eaf in Resources */ = {isa = PBXBuildFile; fileRef = C9E7C88C24815F6500DA8BBE /* ELAN for Unified from Single ELAN.eaf */; };
+		C9E7C89324815F6500DA8BBE /* FLExText File.xml in Resources */ = {isa = PBXBuildFile; fileRef = C9E7C88D24815F6500DA8BBE /* FLExText File.xml */; };
+		C9E7C89424815F6500DA8BBE /* ELAN for Unified from Multiple Files.eaf in Resources */ = {isa = PBXBuildFile; fileRef = C9E7C88E24815F6500DA8BBE /* ELAN for Unified from Multiple Files.eaf */; };
+		C9E7C89524815F6500DA8BBE /* Transkribus Tags.csv in Resources */ = {isa = PBXBuildFile; fileRef = C9E7C88F24815F6500DA8BBE /* Transkribus Tags.csv */; };
+		C9E7C89624815F6500DA8BBE /* Transkribus TEI.xml in Resources */ = {isa = PBXBuildFile; fileRef = C9E7C89024815F6500DA8BBE /* Transkribus TEI.xml */; };
+		C9E7C89724815F6500DA8BBE /* Word Links.xml in Resources */ = {isa = PBXBuildFile; fileRef = C9E7C89124815F6500DA8BBE /* Word Links.xml */; };
 		C9F953FE243BAB09009E6B67 /* View_GenerateUnifiedFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F953FD243BAB09009E6B67 /* View_GenerateUnifiedFile.swift */; };
 		C9F95400243BAB1C009E6B67 /* View_GenerateUnifiedFile.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9F953FF243BAB1C009E6B67 /* View_GenerateUnifiedFile.xib */; };
 		C9F95403243BB3CE009E6B67 /* ViewController_UnifiedFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F95401243BB3CE009E6B67 /* ViewController_UnifiedFiles.swift */; };
@@ -112,6 +118,12 @@
 		C9DE218C246D940C0091B4EB /* Amphisbaena_UnifiedContainer_TextBody_ELAN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amphisbaena_UnifiedContainer_TextBody_ELAN.swift; sourceTree = "<group>"; };
 		C9DE218E246D94F30091B4EB /* Amphisbaena_UnifiedContainer_TextBody_MultipleFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amphisbaena_UnifiedContainer_TextBody_MultipleFiles.swift; sourceTree = "<group>"; };
 		C9DE2190246D967D0091B4EB /* Amphisbaena_UnifiedContainer_MultipleFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amphisbaena_UnifiedContainer_MultipleFiles.swift; sourceTree = "<group>"; };
+		C9E7C88C24815F6500DA8BBE /* ELAN for Unified from Single ELAN.eaf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "ELAN for Unified from Single ELAN.eaf"; sourceTree = "<group>"; };
+		C9E7C88D24815F6500DA8BBE /* FLExText File.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "FLExText File.xml"; sourceTree = "<group>"; };
+		C9E7C88E24815F6500DA8BBE /* ELAN for Unified from Multiple Files.eaf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "ELAN for Unified from Multiple Files.eaf"; sourceTree = "<group>"; };
+		C9E7C88F24815F6500DA8BBE /* Transkribus Tags.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Transkribus Tags.csv"; sourceTree = "<group>"; };
+		C9E7C89024815F6500DA8BBE /* Transkribus TEI.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Transkribus TEI.xml"; sourceTree = "<group>"; };
+		C9E7C89124815F6500DA8BBE /* Word Links.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Word Links.xml"; sourceTree = "<group>"; };
 		C9F953FD243BAB09009E6B67 /* View_GenerateUnifiedFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_GenerateUnifiedFile.swift; sourceTree = "<group>"; };
 		C9F953FF243BAB1C009E6B67 /* View_GenerateUnifiedFile.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View_GenerateUnifiedFile.xib; sourceTree = "<group>"; };
 		C9F95401243BB3CE009E6B67 /* ViewController_UnifiedFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_UnifiedFiles.swift; sourceTree = "<group>"; };
@@ -219,6 +231,7 @@
 				C96F2F2723F976A4007EC2BA /* AmphisbaenaTests */,
 				C96F2F3223F976A4007EC2BA /* AmphisbaenaUITests */,
 				C96F2F1123F976A3007EC2BA /* Products */,
+				C9E7C88B24815F4B00DA8BBE /* Sample Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -307,6 +320,19 @@
 				C9D5A36D242B9DBB00D2B821 /* AmphisbaenaTagFormatting.swift */,
 			);
 			path = "Amphisbaena Basic Types";
+			sourceTree = "<group>";
+		};
+		C9E7C88B24815F4B00DA8BBE /* Sample Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9E7C88E24815F6500DA8BBE /* ELAN for Unified from Multiple Files.eaf */,
+				C9E7C88C24815F6500DA8BBE /* ELAN for Unified from Single ELAN.eaf */,
+				C9E7C88D24815F6500DA8BBE /* FLExText File.xml */,
+				C9E7C88F24815F6500DA8BBE /* Transkribus Tags.csv */,
+				C9E7C89024815F6500DA8BBE /* Transkribus TEI.xml */,
+				C9E7C89124815F6500DA8BBE /* Word Links.xml */,
+			);
+			path = "Sample Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -413,12 +439,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9E7C89624815F6500DA8BBE /* Transkribus TEI.xml in Resources */,
 				C96F2F1A23F976A4007EC2BA /* Assets.xcassets in Resources */,
 				C99A2B5524291C2500F70B5C /* View_IngestFileManager_FileRow.xib in Resources */,
 				C9F95400243BAB1C009E6B67 /* View_GenerateUnifiedFile.xib in Resources */,
 				C96F2F1D23F976A4007EC2BA /* Main.storyboard in Resources */,
+				C9E7C89324815F6500DA8BBE /* FLExText File.xml in Resources */,
+				C9E7C89724815F6500DA8BBE /* Word Links.xml in Resources */,
+				C9E7C89224815F6500DA8BBE /* ELAN for Unified from Single ELAN.eaf in Resources */,
 				C99A2B5024291BAD00F70B5C /* ViewController_IngestFileManager.xib in Resources */,
+				C9E7C89424815F6500DA8BBE /* ELAN for Unified from Multiple Files.eaf in Resources */,
 				C9F95404243BB3CE009E6B67 /* ViewController_UnifiedFiles.xib in Resources */,
+				C9E7C89524815F6500DA8BBE /* Transkribus Tags.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

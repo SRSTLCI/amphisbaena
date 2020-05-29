@@ -1,0 +1,1924 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type='main'>D_DD_IO_19170401_p01_02_cropped</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>tranScriptorium</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl><publisher>TRP document creator: ebannister@standingrock.org</publisher></bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile xml:id='facs_1'>
+		<surface ulx='0' uly='0' lrx='931' lry='3567' corresp='D_DD_IO_19170401_p01_02_cropped-0001.jpg'>
+			<graphic url='D_DD_IO_19170401_p01_02_cropped-0001.jpg' width='931px' height='3567px'/>
+			<zone points='11,0 931,0 931,3567 11,3567' rendition='printspace'/>
+			<zone ulx='259' uly='28' lrx='658' lry='74' rendition='TextRegion' subtype='paragraph' xml:id='facs_1_r1'>
+				<zone ulx='260' uly='29' lrx='657' lry='73' rendition='Line' subtype='paragraph' xml:id='facs_1_r1l1'>
+					<zone ulx='260' uly='31' lrx='437' lry='65' rendition='Word' xml:id='facs_1_r1l1w1'/>
+					<zone ulx='456' uly='35' lrx='657' lry='71' rendition='Word' xml:id='facs_1_r1l1w2'/>
+				</zone>
+			</zone>
+			<zone ulx='23' uly='76' lrx='903' lry='507' rendition='TextRegion' subtype='paragraph' xml:id='facs_1_r2'>
+				<zone ulx='72' uly='77' lrx='899' lry='131' rendition='Line' xml:id='facs_1_r2l1'>
+					<zone ulx='72' uly='82' lrx='156' lry='112' rendition='Word' xml:id='facs_1_r2l1w1'/>
+					<zone ulx='178' uly='83' lrx='228' lry='120' rendition='Word' xml:id='facs_1_r2l1w2'/>
+					<zone ulx='248' uly='82' lrx='369' lry='115' rendition='Word' xml:id='facs_1_r2l1w3'/>
+					<zone ulx='385' uly='89' lrx='479' lry='124' rendition='Word' xml:id='facs_1_r2l1w4'/>
+					<zone ulx='495' uly='88' lrx='552' lry='119' rendition='Word' xml:id='facs_1_r2l1w5'/>
+					<zone ulx='576' uly='90' lrx='782' lry='124' rendition='Word' xml:id='facs_1_r2l1w6'/>
+					<zone ulx='809' uly='95' lrx='899' lry='125' rendition='Word' xml:id='facs_1_r2l1w7'/>
+				</zone>
+				<zone ulx='27' uly='119' lrx='899' lry='179' rendition='Line' xml:id='facs_1_r2l2'>
+					<zone ulx='27' uly='124' lrx='196' lry='165' rendition='Word' xml:id='facs_1_r2l2w1'/>
+					<zone ulx='212' uly='124' lrx='336' lry='165' rendition='Word' xml:id='facs_1_r2l2w2'/>
+					<zone ulx='358' uly='137' lrx='397' lry='166' rendition='Word' xml:id='facs_1_r2l2w3'/>
+					<zone ulx='420' uly='128' lrx='578' lry='161' rendition='Word' xml:id='facs_1_r2l2w4'/>
+					<zone ulx='603' uly='133' lrx='683' lry='165' rendition='Word' xml:id='facs_1_r2l2w5'/>
+					<zone ulx='705' uly='145' lrx='762' lry='174' rendition='Word' xml:id='facs_1_r2l2w6'/>
+					<zone ulx='785' uly='137' lrx='835' lry='167' rendition='Word' xml:id='facs_1_r2l2w7'/>
+					<zone ulx='860' uly='136' lrx='899' lry='168' rendition='Word' xml:id='facs_1_r2l2w8'/>
+				</zone>
+				<zone ulx='25' uly='163' lrx='898' lry='222' rendition='Line' xml:id='facs_1_r2l3'>
+					<zone ulx='25' uly='170' lrx='121' lry='207' rendition='Word' xml:id='facs_1_r2l3w1'/>
+					<zone ulx='143' uly='167' lrx='255' lry='207' rendition='Word' xml:id='facs_1_r2l3w2'/>
+					<zone ulx='282' uly='167' lrx='361' lry='200' rendition='Word' xml:id='facs_1_r2l3w3'/>
+					<zone ulx='384' uly='169' lrx='489' lry='202' rendition='Word' xml:id='facs_1_r2l3w4'/>
+					<zone ulx='514' uly='173' lrx='754' lry='217' rendition='Word' xml:id='facs_1_r2l3w5'/>
+					<zone ulx='778' uly='178' lrx='835' lry='209' rendition='Word' xml:id='facs_1_r2l3w6'/>
+					<zone ulx='859' uly='179' lrx='898' lry='210' rendition='Word' xml:id='facs_1_r2l3w7'/>
+				</zone>
+				<zone ulx='24' uly='205' lrx='902' lry='265' rendition='Line' xml:id='facs_1_r2l4'>
+					<zone ulx='24' uly='212' lrx='168' lry='251' rendition='Word' xml:id='facs_1_r2l4w1'/>
+					<zone ulx='189' uly='210' lrx='301' lry='249' rendition='Word' xml:id='facs_1_r2l4w2'/>
+					<zone ulx='318' uly='221' lrx='360' lry='250' rendition='Word' xml:id='facs_1_r2l4w3'/>
+					<zone ulx='375' uly='216' lrx='471' lry='251' rendition='Word' xml:id='facs_1_r2l4w4'/>
+					<zone ulx='487' uly='217' lrx='692' lry='258' rendition='Word' xml:id='facs_1_r2l4w5'/>
+					<zone ulx='706' uly='218' lrx='821' lry='260' rendition='Word' xml:id='facs_1_r2l4w6'/>
+					<zone ulx='844' uly='220' lrx='902' lry='252' rendition='Word' xml:id='facs_1_r2l4w7'/>
+				</zone>
+				<zone ulx='27' uly='246' lrx='901' lry='307' rendition='Line' xml:id='facs_1_r2l5'>
+					<zone ulx='27' uly='254' lrx='112' lry='284' rendition='Word' xml:id='facs_1_r2l5w1'/>
+					<zone ulx='136' uly='251' lrx='277' lry='291' rendition='Word' xml:id='facs_1_r2l5w2'/>
+					<zone ulx='302' uly='263' lrx='342' lry='293' rendition='Word' xml:id='facs_1_r2l5w3'/>
+					<zone ulx='365' uly='254' lrx='448' lry='286' rendition='Word' xml:id='facs_1_r2l5w4'/>
+					<zone ulx='474' uly='257' lrx='525' lry='296' rendition='Word' xml:id='facs_1_r2l5w5'/>
+					<zone ulx='549' uly='268' lrx='608' lry='290' rendition='Word' xml:id='facs_1_r2l5w6'/>
+					<zone ulx='631' uly='260' lrx='783' lry='302' rendition='Word' xml:id='facs_1_r2l5w7'/>
+					<zone ulx='834' uly='263' lrx='901' lry='293' rendition='Word' xml:id='facs_1_r2l5w8'/>
+				</zone>
+				<zone ulx='27' uly='291' lrx='899' lry='343' rendition='Line' xml:id='facs_1_r2l6'>
+					<zone ulx='27' uly='305' lrx='105' lry='336' rendition='Word' xml:id='facs_1_r2l6w1'/>
+					<zone ulx='136' uly='304' lrx='240' lry='334' rendition='Word' xml:id='facs_1_r2l6w2'/>
+					<zone ulx='271' uly='295' lrx='411' lry='337' rendition='Word' xml:id='facs_1_r2l6w3'/>
+					<zone ulx='440' uly='300' lrx='492' lry='329' rendition='Word' xml:id='facs_1_r2l6w4'/>
+					<zone ulx='522' uly='310' lrx='562' lry='340' rendition='Word' xml:id='facs_1_r2l6w5'/>
+					<zone ulx='591' uly='312' lrx='704' lry='334' rendition='Word' xml:id='facs_1_r2l6w6'/>
+					<zone ulx='736' uly='304' lrx='899' lry='336' rendition='Word' xml:id='facs_1_r2l6w7'/>
+				</zone>
+				<zone ulx='27' uly='334' lrx='902' lry='387' rendition='Line' xml:id='facs_1_r2l7'>
+					<zone ulx='27' uly='341' lrx='124' lry='378' rendition='Word' xml:id='facs_1_r2l7w1'/>
+					<zone ulx='144' uly='338' lrx='352' lry='378' rendition='Word' xml:id='facs_1_r2l7w2'/>
+					<zone ulx='378' uly='340' lrx='490' lry='381' rendition='Word' xml:id='facs_1_r2l7w3'/>
+					<zone ulx='507' uly='342' lrx='561' lry='374' rendition='Word' xml:id='facs_1_r2l7w4'/>
+					<zone ulx='585' uly='354' lrx='624' lry='383' rendition='Word' xml:id='facs_1_r2l7w5'/>
+					<zone ulx='649' uly='345' lrx='770' lry='376' rendition='Word' xml:id='facs_1_r2l7w6'/>
+					<zone ulx='796' uly='347' lrx='901' lry='379' rendition='Word' xml:id='facs_1_r2l7w7'/>
+				</zone>
+				<zone ulx='27' uly='375' lrx='902' lry='435' rendition='Line' xml:id='facs_1_r2l8'>
+					<zone ulx='28' uly='392' lrx='68' lry='412' rendition='Word' xml:id='facs_1_r2l8w1'/>
+					<zone ulx='96' uly='380' lrx='211' lry='419' rendition='Word' xml:id='facs_1_r2l8w2'/>
+					<zone ulx='242' uly='381' lrx='465' lry='413' rendition='Word' xml:id='facs_1_r2l8w3'/>
+					<zone ulx='493' uly='386' lrx='568' lry='424' rendition='Word' xml:id='facs_1_r2l8w4'/>
+					<zone ulx='597' uly='388' lrx='695' lry='428' rendition='Word' xml:id='facs_1_r2l8w5'/>
+					<zone ulx='718' uly='388' lrx='902' lry='429' rendition='Word' xml:id='facs_1_r2l8w6'/>
+				</zone>
+				<zone ulx='29' uly='417' lrx='901' lry='474' rendition='Line' xml:id='facs_1_r2l9'>
+					<zone ulx='29' uly='424' lrx='85' lry='455' rendition='Word' xml:id='facs_1_r2l9w1'/>
+					<zone ulx='117' uly='433' lrx='159' lry='462' rendition='Word' xml:id='facs_1_r2l9w2'/>
+					<zone ulx='191' uly='422' lrx='231' lry='453' rendition='Word' xml:id='facs_1_r2l9w3'/>
+					<zone ulx='261' uly='427' lrx='356' lry='463' rendition='Word' xml:id='facs_1_r2l9w4'/>
+					<zone ulx='386' uly='426' lrx='685' lry='470' rendition='Word' xml:id='facs_1_r2l9w5'/>
+					<zone ulx='718' uly='431' lrx='773' lry='461' rendition='Word' xml:id='facs_1_r2l9w6'/>
+					<zone ulx='802' uly='432' lrx='901' lry='463' rendition='Word' xml:id='facs_1_r2l9w7'/>
+				</zone>
+				<zone ulx='29' uly='465' lrx='237' lry='506' rendition='Line' subtype='paragraph' xml:id='facs_1_r2l10'>
+					<zone ulx='29' uly='466' lrx='237' lry='505' rendition='Word' xml:id='facs_1_r2l10w1'/>
+				</zone>
+			</zone>
+			<zone ulx='28' uly='511' lrx='907' lry='822' rendition='TextRegion' subtype='paragraph' xml:id='facs_1_r3'>
+				<zone ulx='72' uly='512' lrx='902' lry='568' rendition='Line' xml:id='facs_1_r3l1'>
+					<zone ulx='72' uly='517' lrx='157' lry='548' rendition='Word' xml:id='facs_1_r3l1w1'/>
+					<zone ulx='191' uly='518' lrx='240' lry='547' rendition='Word' xml:id='facs_1_r3l1w2'/>
+					<zone ulx='289' uly='518' lrx='408' lry='549' rendition='Word' xml:id='facs_1_r3l1w3'/>
+					<zone ulx='432' uly='525' lrx='525' lry='560' rendition='Word' xml:id='facs_1_r3l1w4'/>
+					<zone ulx='555' uly='524' lrx='760' lry='564' rendition='Word' xml:id='facs_1_r3l1w5'/>
+					<zone ulx='781' uly='524' lrx='839' lry='556' rendition='Word' xml:id='facs_1_r3l1w6'/>
+					<zone ulx='862' uly='535' lrx='902' lry='556' rendition='Word' xml:id='facs_1_r3l1w7'/>
+				</zone>
+				<zone ulx='29' uly='555' lrx='903' lry='612' rendition='Line' xml:id='facs_1_r3l2'>
+					<zone ulx='29' uly='560' lrx='280' lry='599' rendition='Word' xml:id='facs_1_r3l2w1'/>
+					<zone ulx='297' uly='560' lrx='421' lry='602' rendition='Word' xml:id='facs_1_r3l2w2'/>
+					<zone ulx='437' uly='562' lrx='493' lry='593' rendition='Word' xml:id='facs_1_r3l2w3'/>
+					<zone ulx='515' uly='564' lrx='630' lry='603' rendition='Word' xml:id='facs_1_r3l2w4'/>
+					<zone ulx='647' uly='567' lrx='777' lry='605' rendition='Word' xml:id='facs_1_r3l2w5'/>
+					<zone ulx='793' uly='576' lrx='833' lry='607' rendition='Word' xml:id='facs_1_r3l2w6'/>
+					<zone ulx='849' uly='568' lrx='903' lry='598' rendition='Word' xml:id='facs_1_r3l2w7'/>
+				</zone>
+				<zone ulx='29' uly='597' lrx='904' lry='655' rendition='Line' xml:id='facs_1_r3l3'>
+					<zone ulx='29' uly='603' lrx='234' lry='642' rendition='Word' xml:id='facs_1_r3l3w1'/>
+					<zone ulx='252' uly='602' lrx='351' lry='635' rendition='Word' xml:id='facs_1_r3l3w2'/>
+					<zone ulx='376' uly='602' lrx='489' lry='636' rendition='Word' xml:id='facs_1_r3l3w3'/>
+					<zone ulx='513' uly='606' lrx='605' lry='637' rendition='Word' xml:id='facs_1_r3l3w4'/>
+					<zone ulx='621' uly='599' lrx='669' lry='638' rendition='Word' xml:id='facs_1_r3l3w5'/>
+					<zone ulx='685' uly='608' lrx='712' lry='639' rendition='Word' xml:id='facs_1_r3l3w6'/>
+					<zone ulx='728' uly='619' lrx='785' lry='648' rendition='Word' xml:id='facs_1_r3l3w7'/>
+					<zone ulx='810' uly='615' lrx='904' lry='650' rendition='Word' xml:id='facs_1_r3l3w8'/>
+				</zone>
+				<zone ulx='30' uly='640' lrx='903' lry='693' rendition='Line' xml:id='facs_1_r3l4'>
+					<zone ulx='30' uly='645' lrx='205' lry='686' rendition='Word' xml:id='facs_1_r3l4w1'/>
+					<zone ulx='229' uly='645' lrx='284' lry='676' rendition='Word' xml:id='facs_1_r3l4w2'/>
+					<zone ulx='303' uly='645' lrx='343' lry='677' rendition='Word' xml:id='facs_1_r3l4w3'/>
+					<zone ulx='360' uly='646' lrx='482' lry='678' rendition='Word' xml:id='facs_1_r3l4w4'/>
+					<zone ulx='497' uly='649' lrx='579' lry='680' rendition='Word' xml:id='facs_1_r3l4w5'/>
+					<zone ulx='593' uly='650' lrx='645' lry='689' rendition='Word' xml:id='facs_1_r3l4w6'/>
+					<zone ulx='660' uly='650' lrx='805' lry='683' rendition='Word' xml:id='facs_1_r3l4w7'/>
+					<zone ulx='823' uly='655' lrx='903' lry='683' rendition='Word' xml:id='facs_1_r3l4w8'/>
+				</zone>
+				<zone ulx='30' uly='683' lrx='905' lry='732' rendition='Line' xml:id='facs_1_r3l5'>
+					<zone ulx='30' uly='689' lrx='88' lry='719' rendition='Word' xml:id='facs_1_r3l5w1'/>
+					<zone ulx='109' uly='688' lrx='148' lry='718' rendition='Word' xml:id='facs_1_r3l5w2'/>
+					<zone ulx='166' uly='688' lrx='320' lry='720' rendition='Word' xml:id='facs_1_r3l5w3'/>
+					<zone ulx='333' uly='689' lrx='483' lry='729' rendition='Word' xml:id='facs_1_r3l5w4'/>
+					<zone ulx='532' uly='691' lrx='638' lry='724' rendition='Word' xml:id='facs_1_r3l5w5'/>
+					<zone ulx='659' uly='703' lrx='771' lry='724' rendition='Word' xml:id='facs_1_r3l5w6'/>
+					<zone ulx='788' uly='694' lrx='905' lry='725' rendition='Word' xml:id='facs_1_r3l5w7'/>
+				</zone>
+				<zone ulx='30' uly='725' lrx='906' lry='782' rendition='Line' xml:id='facs_1_r3l6'>
+					<zone ulx='30' uly='734' lrx='128' lry='771' rendition='Word' xml:id='facs_1_r3l6w1'/>
+					<zone ulx='144' uly='731' lrx='204' lry='761' rendition='Word' xml:id='facs_1_r3l6w2'/>
+					<zone ulx='229' uly='729' lrx='395' lry='763' rendition='Word' xml:id='facs_1_r3l6w3'/>
+					<zone ulx='423' uly='733' lrx='643' lry='765' rendition='Word' xml:id='facs_1_r3l6w4'/>
+					<zone ulx='669' uly='736' lrx='767' lry='776' rendition='Word' xml:id='facs_1_r3l6w5'/>
+					<zone ulx='783' uly='736' lrx='906' lry='776' rendition='Word' xml:id='facs_1_r3l6w6'/>
+				</zone>
+				<zone ulx='32' uly='770' lrx='696' lry='821' rendition='Line' subtype='paragraph' xml:id='facs_1_r3l7'>
+					<zone ulx='32' uly='775' lrx='86' lry='803' rendition='Word' xml:id='facs_1_r3l7w1'/>
+					<zone ulx='108' uly='784' lrx='147' lry='813' rendition='Word' xml:id='facs_1_r3l7w2'/>
+					<zone ulx='165' uly='776' lrx='261' lry='813' rendition='Word' xml:id='facs_1_r3l7w3'/>
+					<zone ulx='279' uly='775' lrx='483' lry='815' rendition='Word' xml:id='facs_1_r3l7w4'/>
+					<zone ulx='502' uly='776' lrx='614' lry='817' rendition='Word' xml:id='facs_1_r3l7w5'/>
+					<zone ulx='630' uly='778' lrx='696' lry='809' rendition='Word' xml:id='facs_1_r3l7w6'/>
+				</zone>
+			</zone>
+			<zone ulx='31' uly='827' lrx='911' lry='1218' rendition='TextRegion' subtype='paragraph' xml:id='facs_1_r4'>
+				<zone ulx='75' uly='828' lrx='907' lry='874' rendition='Line' xml:id='facs_1_r4l1'>
+					<zone ulx='75' uly='833' lrx='161' lry='865' rendition='Word' xml:id='facs_1_r4l1w1'/>
+					<zone ulx='188' uly='835' lrx='240' lry='865' rendition='Word' xml:id='facs_1_r4l1w2'/>
+					<zone ulx='295' uly='834' lrx='449' lry='865' rendition='Word' xml:id='facs_1_r4l1w3'/>
+					<zone ulx='476' uly='836' lrx='586' lry='866' rendition='Word' xml:id='facs_1_r4l1w4'/>
+					<zone ulx='605' uly='837' lrx='725' lry='868' rendition='Word' xml:id='facs_1_r4l1w5'/>
+					<zone ulx='747' uly='838' lrx='803' lry='868' rendition='Word' xml:id='facs_1_r4l1w6'/>
+					<zone ulx='825' uly='839' lrx='907' lry='868' rendition='Word' xml:id='facs_1_r4l1w7'/>
+				</zone>
+				<zone ulx='32' uly='872' lrx='908' lry='918' rendition='Line' xml:id='facs_1_r4l2'>
+					<zone ulx='32' uly='888' lrx='48' lry='909' rendition='Word' xml:id='facs_1_r4l2w1'/>
+					<zone ulx='66' uly='877' lrx='236' lry='917' rendition='Word' xml:id='facs_1_r4l2w2'/>
+					<zone ulx='247' uly='877' lrx='348' lry='908' rendition='Word' xml:id='facs_1_r4l2w3'/>
+					<zone ulx='362' uly='875' lrx='501' lry='908' rendition='Word' xml:id='facs_1_r4l2w4'/>
+					<zone ulx='519' uly='878' lrx='639' lry='910' rendition='Word' xml:id='facs_1_r4l2w5'/>
+					<zone ulx='655' uly='880' lrx='711' lry='910' rendition='Word' xml:id='facs_1_r4l2w6'/>
+					<zone ulx='727' uly='890' lrx='840' lry='911' rendition='Word' xml:id='facs_1_r4l2w7'/>
+					<zone ulx='854' uly='880' lrx='908' lry='911' rendition='Word' xml:id='facs_1_r4l2w8'/>
+				</zone>
+				<zone ulx='33' uly='914' lrx='907' lry='966' rendition='Line' xml:id='facs_1_r4l3'>
+					<zone ulx='33' uly='919' lrx='173' lry='959' rendition='Word' xml:id='facs_1_r4l3w1'/>
+					<zone ulx='190' uly='920' lrx='285' lry='950' rendition='Word' xml:id='facs_1_r4l3w2'/>
+					<zone ulx='302' uly='921' lrx='427' lry='959' rendition='Word' xml:id='facs_1_r4l3w3'/>
+					<zone ulx='445' uly='921' lrx='483' lry='950' rendition='Word' xml:id='facs_1_r4l3w4'/>
+					<zone ulx='501' uly='921' lrx='670' lry='952' rendition='Word' xml:id='facs_1_r4l3w5'/>
+					<zone ulx='686' uly='923' lrx='907' lry='961' rendition='Word' xml:id='facs_1_r4l3w6'/>
+				</zone>
+				<zone ulx='32' uly='958' lrx='906' lry='1008' rendition='Line' xml:id='facs_1_r4l4'>
+					<zone ulx='33' uly='964' lrx='67' lry='1003' rendition='Word' xml:id='facs_1_r4l4w1'/>
+					<zone ulx='86' uly='973' lrx='127' lry='1002' rendition='Word' xml:id='facs_1_r4l4w2'/>
+					<zone ulx='142' uly='967' lrx='273' lry='993' rendition='Word' xml:id='facs_1_r4l4w3'/>
+					<zone ulx='296' uly='962' lrx='494' lry='995' rendition='Word' xml:id='facs_1_r4l4w4'/>
+					<zone ulx='504' uly='964' lrx='545' lry='995' rendition='Word' xml:id='facs_1_r4l4w5'/>
+					<zone ulx='567' uly='964' lrx='651' lry='995' rendition='Word' xml:id='facs_1_r4l4w6'/>
+					<zone ulx='672' uly='964' lrx='831' lry='1003' rendition='Word' xml:id='facs_1_r4l4w7'/>
+					<zone ulx='852' uly='965' lrx='906' lry='995' rendition='Word' xml:id='facs_1_r4l4w8'/>
+				</zone>
+				<zone ulx='34' uly='999' lrx='910' lry='1052' rendition='Line' xml:id='facs_1_r4l5'>
+					<zone ulx='34' uly='1007' lrx='96' lry='1037' rendition='Word' xml:id='facs_1_r4l5w1'/>
+					<zone ulx='156' uly='1004' lrx='300' lry='1036' rendition='Word' xml:id='facs_1_r4l5w2'/>
+					<zone ulx='331' uly='1005' lrx='450' lry='1037' rendition='Word' xml:id='facs_1_r4l5w3'/>
+					<zone ulx='482' uly='1006' lrx='539' lry='1037' rendition='Word' xml:id='facs_1_r4l5w4'/>
+					<zone ulx='574' uly='1007' lrx='703' lry='1037' rendition='Word' xml:id='facs_1_r4l5w5'/>
+					<zone ulx='734' uly='1006' lrx='910' lry='1046' rendition='Word' xml:id='facs_1_r4l5w6'/>
+				</zone>
+				<zone ulx='34' uly='1042' lrx='909' lry='1095' rendition='Line' xml:id='facs_1_r4l6'>
+					<zone ulx='34' uly='1048' lrx='162' lry='1088' rendition='Word' xml:id='facs_1_r4l6w1'/>
+					<zone ulx='189' uly='1048' lrx='432' lry='1088' rendition='Word' xml:id='facs_1_r4l6w2'/>
+					<zone ulx='452' uly='1048' lrx='508' lry='1079' rendition='Word' xml:id='facs_1_r4l6w3'/>
+					<zone ulx='535' uly='1049' lrx='617' lry='1079' rendition='Word' xml:id='facs_1_r4l6w4'/>
+					<zone ulx='632' uly='1060' lrx='670' lry='1079' rendition='Word' xml:id='facs_1_r4l6w5'/>
+					<zone ulx='694' uly='1049' lrx='842' lry='1090' rendition='Word' xml:id='facs_1_r4l6w6'/>
+					<zone ulx='869' uly='1060' lrx='909' lry='1088' rendition='Word' xml:id='facs_1_r4l6w7'/>
+				</zone>
+				<zone ulx='34' uly='1086' lrx='907' lry='1136' rendition='Line' xml:id='facs_1_r4l7'>
+					<zone ulx='34' uly='1091' lrx='98' lry='1131' rendition='Word' xml:id='facs_1_r4l7w1'/>
+					<zone ulx='116' uly='1100' lrx='158' lry='1130' rendition='Word' xml:id='facs_1_r4l7w2'/>
+					<zone ulx='173' uly='1090' lrx='285' lry='1130' rendition='Word' xml:id='facs_1_r4l7w3'/>
+					<zone ulx='300' uly='1101' lrx='341' lry='1130' rendition='Word' xml:id='facs_1_r4l7w4'/>
+					<zone ulx='359' uly='1091' lrx='436' lry='1121' rendition='Word' xml:id='facs_1_r4l7w5'/>
+					<zone ulx='452' uly='1091' lrx='574' lry='1122' rendition='Word' xml:id='facs_1_r4l7w6'/>
+					<zone ulx='592' uly='1092' lrx='805' lry='1131' rendition='Word' xml:id='facs_1_r4l7w7'/>
+					<zone ulx='824' uly='1102' lrx='907' lry='1123' rendition='Word' xml:id='facs_1_r4l7w8'/>
+				</zone>
+				<zone ulx='36' uly='1128' lrx='908' lry='1179' rendition='Line' xml:id='facs_1_r4l8'>
+					<zone ulx='36' uly='1135' lrx='118' lry='1165' rendition='Word' xml:id='facs_1_r4l8w1'/>
+					<zone ulx='139' uly='1133' lrx='267' lry='1164' rendition='Word' xml:id='facs_1_r4l8w2'/>
+					<zone ulx='286' uly='1144' lrx='326' lry='1173' rendition='Word' xml:id='facs_1_r4l8w3'/>
+					<zone ulx='351' uly='1133' lrx='477' lry='1163' rendition='Word' xml:id='facs_1_r4l8w4'/>
+					<zone ulx='496' uly='1135' lrx='576' lry='1164' rendition='Word' xml:id='facs_1_r4l8w5'/>
+					<zone ulx='601' uly='1135' lrx='806' lry='1174' rendition='Word' xml:id='facs_1_r4l8w6'/>
+					<zone ulx='826' uly='1134' lrx='908' lry='1165' rendition='Word' xml:id='facs_1_r4l8w7'/>
+				</zone>
+				<zone ulx='37' uly='1176' lrx='192' lry='1217' rendition='Line' subtype='paragraph' xml:id='facs_1_r4l9'>
+					<zone ulx='37' uly='1177' lrx='192' lry='1216' rendition='Word' xml:id='facs_1_r4l9w1'/>
+				</zone>
+			</zone>
+			<zone ulx='35' uly='1221' lrx='910' lry='1440' rendition='TextRegion' subtype='paragraph' xml:id='facs_1_r5'>
+				<zone ulx='80' uly='1222' lrx='909' lry='1271' rendition='Line' xml:id='facs_1_r5l1'>
+					<zone ulx='80' uly='1228' lrx='163' lry='1259' rendition='Word' xml:id='facs_1_r5l1w1'/>
+					<zone ulx='192' uly='1228' lrx='243' lry='1265' rendition='Word' xml:id='facs_1_r5l1w2'/>
+					<zone ulx='270' uly='1226' lrx='393' lry='1259' rendition='Word' xml:id='facs_1_r5l1w3'/>
+					<zone ulx='417' uly='1228' lrx='525' lry='1258' rendition='Word' xml:id='facs_1_r5l1w4'/>
+					<zone ulx='548' uly='1237' lrx='721' lry='1267' rendition='Word' xml:id='facs_1_r5l1w5'/>
+					<zone ulx='744' uly='1227' lrx='909' lry='1258' rendition='Word' xml:id='facs_1_r5l1w6'/>
+				</zone>
+				<zone ulx='36' uly='1265' lrx='908' lry='1314' rendition='Line' xml:id='facs_1_r5l2'>
+					<zone ulx='36' uly='1270' lrx='199' lry='1310' rendition='Word' xml:id='facs_1_r5l2w1'/>
+					<zone ulx='228' uly='1271' lrx='363' lry='1301' rendition='Word' xml:id='facs_1_r5l2w2'/>
+					<zone ulx='386' uly='1270' lrx='534' lry='1310' rendition='Word' xml:id='facs_1_r5l2w3'/>
+					<zone ulx='558' uly='1280' lrx='595' lry='1309' rendition='Word' xml:id='facs_1_r5l2w4'/>
+					<zone ulx='612' uly='1269' lrx='759' lry='1309' rendition='Word' xml:id='facs_1_r5l2w5'/>
+					<zone ulx='783' uly='1270' lrx='908' lry='1306' rendition='Word' xml:id='facs_1_r5l2w6'/>
+				</zone>
+				<zone ulx='36' uly='1308' lrx='909' lry='1357' rendition='Line' xml:id='facs_1_r5l3'>
+					<zone ulx='36' uly='1313' lrx='289' lry='1353' rendition='Word' xml:id='facs_1_r5l3w1'/>
+					<zone ulx='315' uly='1313' lrx='438' lry='1343' rendition='Word' xml:id='facs_1_r5l3w2'/>
+					<zone ulx='466' uly='1314' lrx='594' lry='1344' rendition='Word' xml:id='facs_1_r5l3w3'/>
+					<zone ulx='618' uly='1313' lrx='699' lry='1352' rendition='Word' xml:id='facs_1_r5l3w4'/>
+					<zone ulx='715' uly='1312' lrx='799' lry='1351' rendition='Word' xml:id='facs_1_r5l3w5'/>
+					<zone ulx='817' uly='1322' lrx='909' lry='1351' rendition='Word' xml:id='facs_1_r5l3w6'/>
+				</zone>
+				<zone ulx='36' uly='1351' lrx='909' lry='1398' rendition='Line' xml:id='facs_1_r5l4'>
+					<zone ulx='36' uly='1361' lrx='72' lry='1387' rendition='Word' xml:id='facs_1_r5l4w1'/>
+					<zone ulx='97' uly='1366' lrx='138' lry='1397' rendition='Word' xml:id='facs_1_r5l4w2'/>
+					<zone ulx='164' uly='1356' lrx='309' lry='1396' rendition='Word' xml:id='facs_1_r5l4w3'/>
+					<zone ulx='329' uly='1356' lrx='413' lry='1396' rendition='Word' xml:id='facs_1_r5l4w4'/>
+					<zone ulx='429' uly='1354' lrx='644' lry='1395' rendition='Word' xml:id='facs_1_r5l4w5'/>
+					<zone ulx='660' uly='1355' lrx='715' lry='1386' rendition='Word' xml:id='facs_1_r5l4w6'/>
+					<zone ulx='733' uly='1355' lrx='830' lry='1385' rendition='Word' xml:id='facs_1_r5l4w7'/>
+					<zone ulx='852' uly='1364' lrx='909' lry='1384' rendition='Word' xml:id='facs_1_r5l4w8'/>
+				</zone>
+				<zone ulx='36' uly='1401' lrx='172' lry='1439' rendition='Line' subtype='paragraph' xml:id='facs_1_r5l5'>
+					<zone ulx='36' uly='1401' lrx='172' lry='1439' rendition='Word' xml:id='facs_1_r5l5w1'/>
+				</zone>
+			</zone>
+			<zone ulx='37' uly='1444' lrx='916' lry='1920' rendition='TextRegion' subtype='paragraph' xml:id='facs_1_r6'>
+				<zone ulx='83' uly='1445' lrx='913' lry='1492' rendition='Line' xml:id='facs_1_r6l1'>
+					<zone ulx='83' uly='1450' lrx='166' lry='1481' rendition='Word' xml:id='facs_1_r6l1w1'/>
+					<zone ulx='192' uly='1451' lrx='243' lry='1480' rendition='Word' xml:id='facs_1_r6l1w2'/>
+					<zone ulx='292' uly='1449' lrx='465' lry='1480' rendition='Word' xml:id='facs_1_r6l1w3'/>
+					<zone ulx='490' uly='1452' lrx='585' lry='1489' rendition='Word' xml:id='facs_1_r6l1w4'/>
+					<zone ulx='612' uly='1449' lrx='671' lry='1478' rendition='Word' xml:id='facs_1_r6l1w5'/>
+					<zone ulx='698' uly='1448' lrx='811' lry='1478' rendition='Word' xml:id='facs_1_r6l1w6'/>
+					<zone ulx='836' uly='1451' lrx='913' lry='1477' rendition='Word' xml:id='facs_1_r6l1w7'/>
+				</zone>
+				<zone ulx='39' uly='1487' lrx='912' lry='1534' rendition='Line' xml:id='facs_1_r6l2'>
+					<zone ulx='39' uly='1493' lrx='165' lry='1524' rendition='Word' xml:id='facs_1_r6l2w1'/>
+					<zone ulx='184' uly='1493' lrx='294' lry='1524' rendition='Word' xml:id='facs_1_r6l2w2'/>
+					<zone ulx='311' uly='1502' lrx='349' lry='1523' rendition='Word' xml:id='facs_1_r6l2w3'/>
+					<zone ulx='369' uly='1492' lrx='446' lry='1531' rendition='Word' xml:id='facs_1_r6l2w4'/>
+					<zone ulx='468' uly='1492' lrx='523' lry='1522' rendition='Word' xml:id='facs_1_r6l2w5'/>
+					<zone ulx='544' uly='1501' lrx='584' lry='1522' rendition='Word' xml:id='facs_1_r6l2w6'/>
+					<zone ulx='603' uly='1491' lrx='670' lry='1530' rendition='Word' xml:id='facs_1_r6l2w7'/>
+					<zone ulx='690' uly='1490' lrx='809' lry='1521' rendition='Word' xml:id='facs_1_r6l2w8'/>
+					<zone ulx='829' uly='1489' lrx='912' lry='1520' rendition='Word' xml:id='facs_1_r6l2w9'/>
+				</zone>
+				<zone ulx='38' uly='1531' lrx='912' lry='1576' rendition='Line' xml:id='facs_1_r6l3'>
+					<zone ulx='38' uly='1537' lrx='163' lry='1568' rendition='Word' xml:id='facs_1_r6l3w1'/>
+					<zone ulx='193' uly='1536' lrx='330' lry='1574' rendition='Word' xml:id='facs_1_r6l3w2'/>
+					<zone ulx='354' uly='1543' lrx='447' lry='1574' rendition='Word' xml:id='facs_1_r6l3w3'/>
+					<zone ulx='464' uly='1534' lrx='591' lry='1571' rendition='Word' xml:id='facs_1_r6l3w4'/>
+					<zone ulx='608' uly='1533' lrx='722' lry='1570' rendition='Word' xml:id='facs_1_r6l3w5'/>
+					<zone ulx='738' uly='1533' lrx='795' lry='1563' rendition='Word' xml:id='facs_1_r6l3w6'/>
+					<zone ulx='812' uly='1534' lrx='912' lry='1562' rendition='Word' xml:id='facs_1_r6l3w7'/>
+				</zone>
+				<zone ulx='41' uly='1574' lrx='911' lry='1620' rendition='Line' xml:id='facs_1_r6l4'>
+					<zone ulx='41' uly='1579' lrx='170' lry='1616' rendition='Word' xml:id='facs_1_r6l4w1'/>
+					<zone ulx='188' uly='1579' lrx='244' lry='1609' rendition='Word' xml:id='facs_1_r6l4w2'/>
+					<zone ulx='263' uly='1578' lrx='430' lry='1618' rendition='Word' xml:id='facs_1_r6l4w3'/>
+					<zone ulx='478' uly='1577' lrx='580' lry='1616' rendition='Word' xml:id='facs_1_r6l4w4'/>
+					<zone ulx='600' uly='1575' lrx='720' lry='1607' rendition='Word' xml:id='facs_1_r6l4w5'/>
+					<zone ulx='735' uly='1585' lrx='773' lry='1605' rendition='Word' xml:id='facs_1_r6l4w6'/>
+					<zone ulx='791' uly='1575' lrx='911' lry='1605' rendition='Word' xml:id='facs_1_r6l4w7'/>
+				</zone>
+				<zone ulx='40' uly='1616' lrx='913' lry='1662' rendition='Line' xml:id='facs_1_r6l5'>
+					<zone ulx='40' uly='1622' lrx='72' lry='1661' rendition='Word' xml:id='facs_1_r6l5w1'/>
+					<zone ulx='93' uly='1621' lrx='222' lry='1652' rendition='Word' xml:id='facs_1_r6l5w2'/>
+					<zone ulx='244' uly='1621' lrx='300' lry='1651' rendition='Word' xml:id='facs_1_r6l5w3'/>
+					<zone ulx='321' uly='1622' lrx='358' lry='1651' rendition='Word' xml:id='facs_1_r6l5w4'/>
+					<zone ulx='374' uly='1629' lrx='486' lry='1650' rendition='Word' xml:id='facs_1_r6l5w5'/>
+					<zone ulx='501' uly='1618' lrx='588' lry='1650' rendition='Word' xml:id='facs_1_r6l5w6'/>
+					<zone ulx='604' uly='1618' lrx='722' lry='1657' rendition='Word' xml:id='facs_1_r6l5w7'/>
+					<zone ulx='739' uly='1618' lrx='819' lry='1649' rendition='Word' xml:id='facs_1_r6l5w8'/>
+					<zone ulx='835' uly='1617' lrx='913' lry='1646' rendition='Word' xml:id='facs_1_r6l5w9'/>
+				</zone>
+				<zone ulx='39' uly='1658' lrx='913' lry='1705' rendition='Line' xml:id='facs_1_r6l6'>
+					<zone ulx='39' uly='1664' lrx='174' lry='1705' rendition='Word' xml:id='facs_1_r6l6w1'/>
+					<zone ulx='194' uly='1665' lrx='287' lry='1694' rendition='Word' xml:id='facs_1_r6l6w2'/>
+					<zone ulx='303' uly='1663' lrx='426' lry='1694' rendition='Word' xml:id='facs_1_r6l6w3'/>
+					<zone ulx='451' uly='1661' lrx='596' lry='1700' rendition='Word' xml:id='facs_1_r6l6w4'/>
+					<zone ulx='621' uly='1660' lrx='746' lry='1691' rendition='Word' xml:id='facs_1_r6l6w5'/>
+					<zone ulx='769' uly='1660' lrx='808' lry='1690' rendition='Word' xml:id='facs_1_r6l6w6'/>
+					<zone ulx='825' uly='1669' lrx='913' lry='1699' rendition='Word' xml:id='facs_1_r6l6w7'/>
+				</zone>
+				<zone ulx='41' uly='1701' lrx='915' lry='1748' rendition='Line' xml:id='facs_1_r6l7'>
+					<zone ulx='41' uly='1707' lrx='96' lry='1738' rendition='Word' xml:id='facs_1_r6l7w1'/>
+					<zone ulx='111' uly='1707' lrx='254' lry='1747' rendition='Word' xml:id='facs_1_r6l7w2'/>
+					<zone ulx='297' uly='1706' lrx='392' lry='1736' rendition='Word' xml:id='facs_1_r6l7w3'/>
+					<zone ulx='406' uly='1710' lrx='499' lry='1744' rendition='Word' xml:id='facs_1_r6l7w4'/>
+					<zone ulx='510' uly='1704' lrx='570' lry='1735' rendition='Word' xml:id='facs_1_r6l7w5'/>
+					<zone ulx='583' uly='1704' lrx='695' lry='1734' rendition='Word' xml:id='facs_1_r6l7w6'/>
+					<zone ulx='710' uly='1713' lrx='776' lry='1733' rendition='Word' xml:id='facs_1_r6l7w7'/>
+					<zone ulx='792' uly='1702' lrx='915' lry='1733' rendition='Word' xml:id='facs_1_r6l7w8'/>
+				</zone>
+				<zone ulx='42' uly='1743' lrx='915' lry='1789' rendition='Line' xml:id='facs_1_r6l8'>
+					<zone ulx='42' uly='1749' lrx='153' lry='1781' rendition='Word' xml:id='facs_1_r6l8w1'/>
+					<zone ulx='169' uly='1760' lrx='208' lry='1780' rendition='Word' xml:id='facs_1_r6l8w2'/>
+					<zone ulx='225' uly='1759' lrx='269' lry='1781' rendition='Word' xml:id='facs_1_r6l8w3'/>
+					<zone ulx='288' uly='1749' lrx='342' lry='1781' rendition='Word' xml:id='facs_1_r6l8w4'/>
+					<zone ulx='357' uly='1758' lrx='398' lry='1779' rendition='Word' xml:id='facs_1_r6l8w5'/>
+					<zone ulx='420' uly='1747' lrx='454' lry='1777' rendition='Word' xml:id='facs_1_r6l8w6'/>
+					<zone ulx='471' uly='1747' lrx='593' lry='1777' rendition='Word' xml:id='facs_1_r6l8w7'/>
+					<zone ulx='611' uly='1746' lrx='648' lry='1776' rendition='Word' xml:id='facs_1_r6l8w8'/>
+					<zone ulx='676' uly='1744' lrx='820' lry='1784' rendition='Word' xml:id='facs_1_r6l8w9'/>
+					<zone ulx='842' uly='1743' lrx='915' lry='1774' rendition='Word' xml:id='facs_1_r6l8w10'/>
+				</zone>
+				<zone ulx='42' uly='1786' lrx='914' lry='1833' rendition='Line' xml:id='facs_1_r6l9'>
+					<zone ulx='42' uly='1793' lrx='107' lry='1823' rendition='Word' xml:id='facs_1_r6l9w1'/>
+					<zone ulx='125' uly='1792' lrx='184' lry='1822' rendition='Word' xml:id='facs_1_r6l9w2'/>
+					<zone ulx='205' uly='1792' lrx='244' lry='1823' rendition='Word' xml:id='facs_1_r6l9w3'/>
+					<zone ulx='264' uly='1801' lrx='354' lry='1831' rendition='Word' xml:id='facs_1_r6l9w4'/>
+					<zone ulx='377' uly='1790' lrx='489' lry='1829' rendition='Word' xml:id='facs_1_r6l9w5'/>
+					<zone ulx='505' uly='1800' lrx='545' lry='1829' rendition='Word' xml:id='facs_1_r6l9w6'/>
+					<zone ulx='561' uly='1798' lrx='650' lry='1828' rendition='Word' xml:id='facs_1_r6l9w7'/>
+					<zone ulx='672' uly='1787' lrx='763' lry='1817' rendition='Word' xml:id='facs_1_r6l9w8'/>
+					<zone ulx='790' uly='1787' lrx='914' lry='1817' rendition='Word' xml:id='facs_1_r6l9w9'/>
+				</zone>
+				<zone ulx='42' uly='1828' lrx='914' lry='1876' rendition='Line' xml:id='facs_1_r6l10'>
+					<zone ulx='42' uly='1835' lrx='84' lry='1866' rendition='Word' xml:id='facs_1_r6l10w1'/>
+					<zone ulx='98' uly='1835' lrx='320' lry='1875' rendition='Word' xml:id='facs_1_r6l10w2'/>
+					<zone ulx='340' uly='1832' lrx='503' lry='1873' rendition='Word' xml:id='facs_1_r6l10w3'/>
+					<zone ulx='525' uly='1831' lrx='581' lry='1862' rendition='Word' xml:id='facs_1_r6l10w4'/>
+					<zone ulx='605' uly='1831' lrx='703' lry='1861' rendition='Word' xml:id='facs_1_r6l10w5'/>
+					<zone ulx='729' uly='1829' lrx='859' lry='1868' rendition='Word' xml:id='facs_1_r6l10w6'/>
+					<zone ulx='875' uly='1838' lrx='914' lry='1859' rendition='Word' xml:id='facs_1_r6l10w7'/>
+				</zone>
+				<zone ulx='42' uly='1876' lrx='378' lry='1919' rendition='Line' subtype='paragraph' xml:id='facs_1_r6l11'>
+					<zone ulx='42' uly='1881' lrx='217' lry='1919' rendition='Word' xml:id='facs_1_r6l11w1'/>
+					<zone ulx='243' uly='1876' lrx='378' lry='1917' rendition='Word' xml:id='facs_1_r6l11w2'/>
+				</zone>
+			</zone>
+			<zone ulx='42' uly='1930' lrx='923' lry='2364' rendition='TextRegion' subtype='paragraph' xml:id='facs_1_r7'>
+				<zone ulx='86' uly='1931' lrx='917' lry='1978' rendition='Line' xml:id='facs_1_r7l1'>
+					<zone ulx='86' uly='1938' lrx='170' lry='1969' rendition='Word' xml:id='facs_1_r7l1w1'/>
+					<zone ulx='191' uly='1939' lrx='228' lry='1968' rendition='Word' xml:id='facs_1_r7l1w2'/>
+					<zone ulx='247' uly='1937' lrx='409' lry='1976' rendition='Word' xml:id='facs_1_r7l1w3'/>
+					<zone ulx='426' uly='1935' lrx='543' lry='1966' rendition='Word' xml:id='facs_1_r7l1w4'/>
+					<zone ulx='568' uly='1934' lrx='625' lry='1963' rendition='Word' xml:id='facs_1_r7l1w5'/>
+					<zone ulx='648' uly='1932' lrx='778' lry='1970' rendition='Word' xml:id='facs_1_r7l1w6'/>
+					<zone ulx='796' uly='1931' lrx='917' lry='1961' rendition='Word' xml:id='facs_1_r7l1w7'/>
+				</zone>
+				<zone ulx='43' uly='1973' lrx='918' lry='2022' rendition='Line' xml:id='facs_1_r7l2'>
+					<zone ulx='43' uly='1982' lrx='102' lry='2011' rendition='Word' xml:id='facs_1_r7l2w1'/>
+					<zone ulx='119' uly='1990' lrx='173' lry='2011' rendition='Word' xml:id='facs_1_r7l2w2'/>
+					<zone ulx='191' uly='1985' lrx='314' lry='2021' rendition='Word' xml:id='facs_1_r7l2w3'/>
+					<zone ulx='340' uly='1980' lrx='396' lry='2009' rendition='Word' xml:id='facs_1_r7l2w4'/>
+					<zone ulx='415' uly='1979' lrx='452' lry='2008' rendition='Word' xml:id='facs_1_r7l2w5'/>
+					<zone ulx='470' uly='1988' lrx='509' lry='2008' rendition='Word' xml:id='facs_1_r7l2w6'/>
+					<zone ulx='525' uly='1977' lrx='604' lry='2007' rendition='Word' xml:id='facs_1_r7l2w7'/>
+					<zone ulx='617' uly='1975' lrx='765' lry='2014' rendition='Word' xml:id='facs_1_r7l2w8'/>
+					<zone ulx='786' uly='1974' lrx='917' lry='2004' rendition='Word' xml:id='facs_1_r7l2w9'/>
+				</zone>
+				<zone ulx='44' uly='2015' lrx='914' lry='2064' rendition='Line' xml:id='facs_1_r7l3'>
+					<zone ulx='44' uly='2034' lrx='83' lry='2055' rendition='Word' xml:id='facs_1_r7l3w1'/>
+					<zone ulx='111' uly='2023' lrx='251' lry='2063' rendition='Word' xml:id='facs_1_r7l3w2'/>
+					<zone ulx='276' uly='2023' lrx='333' lry='2053' rendition='Word' xml:id='facs_1_r7l3w3'/>
+					<zone ulx='358' uly='2024' lrx='397' lry='2053' rendition='Word' xml:id='facs_1_r7l3w4'/>
+					<zone ulx='421' uly='2020' lrx='597' lry='2055' rendition='Word' xml:id='facs_1_r7l3w5'/>
+					<zone ulx='629' uly='2017' lrx='759' lry='2048' rendition='Word' xml:id='facs_1_r7l3w6'/>
+					<zone ulx='791' uly='2015' lrx='914' lry='2052' rendition='Word' xml:id='facs_1_r7l3w7'/>
+				</zone>
+				<zone ulx='46' uly='2058' lrx='916' lry='2107' rendition='Line' xml:id='facs_1_r7l4'>
+					<zone ulx='46' uly='2068' lrx='103' lry='2097' rendition='Word' xml:id='facs_1_r7l4w1'/>
+					<zone ulx='118' uly='2069' lrx='183' lry='2104' rendition='Word' xml:id='facs_1_r7l4w2'/>
+					<zone ulx='205' uly='2066' lrx='367' lry='2105' rendition='Word' xml:id='facs_1_r7l4w3'/>
+					<zone ulx='387' uly='2064' lrx='443' lry='2095' rendition='Word' xml:id='facs_1_r7l4w4'/>
+					<zone ulx='464' uly='2063' lrx='571' lry='2102' rendition='Word' xml:id='facs_1_r7l4w5'/>
+					<zone ulx='586' uly='2061' lrx='719' lry='2092' rendition='Word' xml:id='facs_1_r7l4w6'/>
+					<zone ulx='729' uly='2059' lrx='788' lry='2089' rendition='Word' xml:id='facs_1_r7l4w7'/>
+					<zone ulx='806' uly='2060' lrx='916' lry='2089' rendition='Word' xml:id='facs_1_r7l4w8'/>
+				</zone>
+				<zone ulx='45' uly='2100' lrx='918' lry='2147' rendition='Line' xml:id='facs_1_r7l5'>
+					<zone ulx='45' uly='2109' lrx='108' lry='2140' rendition='Word' xml:id='facs_1_r7l5w1'/>
+					<zone ulx='128' uly='2110' lrx='264' lry='2140' rendition='Word' xml:id='facs_1_r7l5w2'/>
+					<zone ulx='288' uly='2108' lrx='398' lry='2138' rendition='Word' xml:id='facs_1_r7l5w3'/>
+					<zone ulx='429' uly='2106' lrx='484' lry='2137' rendition='Word' xml:id='facs_1_r7l5w4'/>
+					<zone ulx='509' uly='2104' lrx='618' lry='2143' rendition='Word' xml:id='facs_1_r7l5w5'/>
+					<zone ulx='640' uly='2103' lrx='715' lry='2143' rendition='Word' xml:id='facs_1_r7l5w6'/>
+					<zone ulx='739' uly='2101' lrx='836' lry='2132' rendition='Word' xml:id='facs_1_r7l5w7'/>
+					<zone ulx='864' uly='2110' lrx='918' lry='2139' rendition='Word' xml:id='facs_1_r7l5w8'/>
+				</zone>
+				<zone ulx='44' uly='2143' lrx='917' lry='2191' rendition='Line' xml:id='facs_1_r7l6'>
+					<zone ulx='45' uly='2153' lrx='78' lry='2191' rendition='Word' xml:id='facs_1_r7l6w1'/>
+					<zone ulx='108' uly='2152' lrx='165' lry='2183' rendition='Word' xml:id='facs_1_r7l6w2'/>
+					<zone ulx='192' uly='2161' lrx='267' lry='2183' rendition='Word' xml:id='facs_1_r7l6w3'/>
+					<zone ulx='294' uly='2150' lrx='426' lry='2182' rendition='Word' xml:id='facs_1_r7l6w4'/>
+					<zone ulx='457' uly='2148' lrx='561' lry='2179' rendition='Word' xml:id='facs_1_r7l6w5'/>
+					<zone ulx='590' uly='2146' lrx='697' lry='2177' rendition='Word' xml:id='facs_1_r7l6w6'/>
+					<zone ulx='727' uly='2143' lrx='917' lry='2183' rendition='Word' xml:id='facs_1_r7l6w7'/>
+				</zone>
+				<zone ulx='45' uly='2184' lrx='920' lry='2235' rendition='Line' xml:id='facs_1_r7l7'>
+					<zone ulx='45' uly='2194' lrx='180' lry='2234' rendition='Word' xml:id='facs_1_r7l7w1'/>
+					<zone ulx='195' uly='2194' lrx='318' lry='2225' rendition='Word' xml:id='facs_1_r7l7w2'/>
+					<zone ulx='336' uly='2194' lrx='393' lry='2223' rendition='Word' xml:id='facs_1_r7l7w3'/>
+					<zone ulx='416' uly='2192' lrx='531' lry='2227' rendition='Word' xml:id='facs_1_r7l7w4'/>
+					<zone ulx='552' uly='2189' lrx='630' lry='2220' rendition='Word' xml:id='facs_1_r7l7w5'/>
+					<zone ulx='654' uly='2197' lrx='736' lry='2226' rendition='Word' xml:id='facs_1_r7l7w6'/>
+					<zone ulx='765' uly='2184' lrx='920' lry='2224' rendition='Word' xml:id='facs_1_r7l7w7'/>
+				</zone>
+				<zone ulx='46' uly='2227' lrx='922' lry='2277' rendition='Line' xml:id='facs_1_r7l8'>
+					<zone ulx='46' uly='2247' lrx='84' lry='2276' rendition='Word' xml:id='facs_1_r7l8w1'/>
+					<zone ulx='119' uly='2238' lrx='264' lry='2268' rendition='Word' xml:id='facs_1_r7l8w2'/>
+					<zone ulx='282' uly='2237' lrx='342' lry='2267' rendition='Word' xml:id='facs_1_r7l8w3'/>
+					<zone ulx='375' uly='2234' lrx='508' lry='2274' rendition='Word' xml:id='facs_1_r7l8w4'/>
+					<zone ulx='532' uly='2230' lrx='739' lry='2271' rendition='Word' xml:id='facs_1_r7l8w5'/>
+					<zone ulx='788' uly='2227' lrx='922' lry='2259' rendition='Word' xml:id='facs_1_r7l8w6'/>
+				</zone>
+				<zone ulx='45' uly='2269' lrx='921' lry='2317' rendition='Line' xml:id='facs_1_r7l9'>
+					<zone ulx='45' uly='2281' lrx='177' lry='2311' rendition='Word' xml:id='facs_1_r7l9w1'/>
+					<zone ulx='193' uly='2280' lrx='296' lry='2311' rendition='Word' xml:id='facs_1_r7l9w2'/>
+					<zone ulx='312' uly='2288' lrx='383' lry='2309' rendition='Word' xml:id='facs_1_r7l9w3'/>
+					<zone ulx='405' uly='2277' lrx='516' lry='2308' rendition='Word' xml:id='facs_1_r7l9w4'/>
+					<zone ulx='540' uly='2274' lrx='672' lry='2313' rendition='Word' xml:id='facs_1_r7l9w5'/>
+					<zone ulx='696' uly='2272' lrx='813' lry='2311' rendition='Word' xml:id='facs_1_r7l9w6'/>
+					<zone ulx='858' uly='2269' lrx='920' lry='2300' rendition='Word' xml:id='facs_1_r7l9w7'/>
+				</zone>
+				<zone ulx='45' uly='2312' lrx='886' lry='2363' rendition='Line' xml:id='facs_1_r7l10'>
+					<zone ulx='45' uly='2332' lrx='104' lry='2354' rendition='Word' xml:id='facs_1_r7l10w1'/>
+					<zone ulx='123' uly='2323' lrx='287' lry='2362' rendition='Word' xml:id='facs_1_r7l10w2'/>
+					<zone ulx='308' uly='2322' lrx='363' lry='2351' rendition='Word' xml:id='facs_1_r7l10w3'/>
+					<zone ulx='381' uly='2331' lrx='397' lry='2352' rendition='Word' xml:id='facs_1_r7l10w4'/>
+					<zone ulx='414' uly='2318' lrx='548' lry='2359' rendition='Word' xml:id='facs_1_r7l10w5'/>
+					<zone ulx='564' uly='2318' lrx='661' lry='2347' rendition='Word' xml:id='facs_1_r7l10w6'/>
+					<zone ulx='680' uly='2312' lrx='886' lry='2355' rendition='Word' xml:id='facs_1_r7l10w7'/>
+				</zone>
+			</zone>
+			<zone ulx='44' uly='2371' lrx='924' lry='2596' rendition='TextRegion' subtype='paragraph' xml:id='facs_1_r8'>
+				<zone ulx='89' uly='2372' lrx='921' lry='2424' rendition='Line' xml:id='facs_1_r8l1'>
+					<zone ulx='89' uly='2386' lrx='171' lry='2423' rendition='Word' xml:id='facs_1_r8l1w1'/>
+					<zone ulx='193' uly='2384' lrx='222' lry='2414' rendition='Word' xml:id='facs_1_r8l1w2'/>
+					<zone ulx='244' uly='2382' lrx='399' lry='2420' rendition='Word' xml:id='facs_1_r8l1w3'/>
+					<zone ulx='414' uly='2377' lrx='597' lry='2410' rendition='Word' xml:id='facs_1_r8l1w4'/>
+					<zone ulx='610' uly='2375' lrx='696' lry='2415' rendition='Word' xml:id='facs_1_r8l1w5'/>
+					<zone ulx='714' uly='2384' lrx='781' lry='2404' rendition='Word' xml:id='facs_1_r8l1w6'/>
+					<zone ulx='801' uly='2373' lrx='921' lry='2402' rendition='Word' xml:id='facs_1_r8l1w7'/>
+				</zone>
+				<zone ulx='45' uly='2415' lrx='923' lry='2466' rendition='Line' xml:id='facs_1_r8l2'>
+					<zone ulx='45' uly='2427' lrx='175' lry='2466' rendition='Word' xml:id='facs_1_r8l2w1'/>
+					<zone ulx='194' uly='2427' lrx='235' lry='2456' rendition='Word' xml:id='facs_1_r8l2w2'/>
+					<zone ulx='252' uly='2435' lrx='382' lry='2464' rendition='Word' xml:id='facs_1_r8l2w3'/>
+					<zone ulx='397' uly='2432' lrx='439' lry='2462' rendition='Word' xml:id='facs_1_r8l2w4'/>
+					<zone ulx='453' uly='2422' lrx='527' lry='2452' rendition='Word' xml:id='facs_1_r8l2w5'/>
+					<zone ulx='543' uly='2429' lrx='583' lry='2459' rendition='Word' xml:id='facs_1_r8l2w6'/>
+					<zone ulx='599' uly='2416' lrx='739' lry='2449' rendition='Word' xml:id='facs_1_r8l2w7'/>
+					<zone ulx='757' uly='2416' lrx='834' lry='2446' rendition='Word' xml:id='facs_1_r8l2w8'/>
+					<zone ulx='852' uly='2418' lrx='922' lry='2443' rendition='Word' xml:id='facs_1_r8l2w9'/>
+				</zone>
+				<zone ulx='48' uly='2457' lrx='921' lry='2509' rendition='Line' xml:id='facs_1_r8l3'>
+					<zone ulx='48' uly='2468' lrx='131' lry='2509' rendition='Word' xml:id='facs_1_r8l3w1'/>
+					<zone ulx='164' uly='2479' lrx='237' lry='2501' rendition='Word' xml:id='facs_1_r8l3w2'/>
+					<zone ulx='261' uly='2466' lrx='403' lry='2507' rendition='Word' xml:id='facs_1_r8l3w3'/>
+					<zone ulx='429' uly='2474' lrx='492' lry='2504' rendition='Word' xml:id='facs_1_r8l3w4'/>
+					<zone ulx='516' uly='2462' lrx='621' lry='2494' rendition='Word' xml:id='facs_1_r8l3w5'/>
+					<zone ulx='645' uly='2461' lrx='756' lry='2500' rendition='Word' xml:id='facs_1_r8l3w6'/>
+					<zone ulx='781' uly='2457' lrx='921' lry='2489' rendition='Word' xml:id='facs_1_r8l3w7'/>
+				</zone>
+				<zone ulx='45' uly='2499' lrx='919' lry='2552' rendition='Line' xml:id='facs_1_r8l4'>
+					<zone ulx='45' uly='2512' lrx='126' lry='2542' rendition='Word' xml:id='facs_1_r8l4w1'/>
+					<zone ulx='142' uly='2514' lrx='236' lry='2543' rendition='Word' xml:id='facs_1_r8l4w2'/>
+					<zone ulx='252' uly='2520' lrx='294' lry='2550' rendition='Word' xml:id='facs_1_r8l4w3'/>
+					<zone ulx='310' uly='2508' lrx='453' lry='2541' rendition='Word' xml:id='facs_1_r8l4w4'/>
+					<zone ulx='469' uly='2506' lrx='583' lry='2537' rendition='Word' xml:id='facs_1_r8l4w5'/>
+					<zone ulx='600' uly='2504' lrx='653' lry='2534' rendition='Word' xml:id='facs_1_r8l4w6'/>
+					<zone ulx='669' uly='2501' lrx='854' lry='2540' rendition='Word' xml:id='facs_1_r8l4w7'/>
+					<zone ulx='867' uly='2499' lrx='919' lry='2528' rendition='Word' xml:id='facs_1_r8l4w8'/>
+				</zone>
+				<zone ulx='48' uly='2553' lrx='277' lry='2595' rendition='Line' subtype='paragraph' xml:id='facs_1_r8l5'>
+					<zone ulx='48' uly='2554' lrx='126' lry='2585' rendition='Word' xml:id='facs_1_r8l5w1'/>
+					<zone ulx='144' uly='2554' lrx='277' lry='2594' rendition='Word' xml:id='facs_1_r8l5w2'/>
+				</zone>
+			</zone>
+			<zone ulx='45' uly='2592' lrx='927' lry='2988' rendition='TextRegion' subtype='paragraph' xml:id='facs_1_r9'>
+				<zone ulx='91' uly='2593' lrx='922' lry='2646' rendition='Line' xml:id='facs_1_r9l1'>
+					<zone ulx='91' uly='2608' lrx='173' lry='2645' rendition='Word' xml:id='facs_1_r9l1w1'/>
+					<zone ulx='194' uly='2607' lrx='223' lry='2636' rendition='Word' xml:id='facs_1_r9l1w2'/>
+					<zone ulx='252' uly='2603' lrx='475' lry='2641' rendition='Word' xml:id='facs_1_r9l1w3'/>
+					<zone ulx='493' uly='2611' lrx='531' lry='2631' rendition='Word' xml:id='facs_1_r9l1w4'/>
+					<zone ulx='551' uly='2598' lrx='675' lry='2636' rendition='Word' xml:id='facs_1_r9l1w5'/>
+					<zone ulx='692' uly='2595' lrx='821' lry='2624' rendition='Word' xml:id='facs_1_r9l1w6'/>
+					<zone ulx='839' uly='2593' lrx='922' lry='2622' rendition='Word' xml:id='facs_1_r9l1w7'/>
+				</zone>
+				<zone ulx='46' uly='2634' lrx='922' lry='2680' rendition='Line' xml:id='facs_1_r9l2'>
+					<zone ulx='46' uly='2648' lrx='276' lry='2679' rendition='Word' xml:id='facs_1_r9l2w1'/>
+					<zone ulx='300' uly='2647' lrx='391' lry='2677' rendition='Word' xml:id='facs_1_r9l2w2'/>
+					<zone ulx='412' uly='2643' lrx='539' lry='2674' rendition='Word' xml:id='facs_1_r9l2w3'/>
+					<zone ulx='558' uly='2639' lrx='680' lry='2672' rendition='Word' xml:id='facs_1_r9l2w4'/>
+					<zone ulx='696' uly='2637' lrx='751' lry='2668' rendition='Word' xml:id='facs_1_r9l2w5'/>
+					<zone ulx='768' uly='2636' lrx='837' lry='2675' rendition='Word' xml:id='facs_1_r9l2w6'/>
+					<zone ulx='854' uly='2634' lrx='922' lry='2664' rendition='Word' xml:id='facs_1_r9l2w7'/>
+				</zone>
+				<zone ulx='48' uly='2677' lrx='922' lry='2731' rendition='Line' xml:id='facs_1_r9l3'>
+					<zone ulx='48' uly='2692' lrx='114' lry='2722' rendition='Word' xml:id='facs_1_r9l3w1'/>
+					<zone ulx='132' uly='2691' lrx='188' lry='2722' rendition='Word' xml:id='facs_1_r9l3w2'/>
+					<zone ulx='204' uly='2691' lrx='257' lry='2722' rendition='Word' xml:id='facs_1_r9l3w3'/>
+					<zone ulx='277' uly='2690' lrx='316' lry='2720' rendition='Word' xml:id='facs_1_r9l3w4'/>
+					<zone ulx='333' uly='2686' lrx='476' lry='2729' rendition='Word' xml:id='facs_1_r9l3w5'/>
+					<zone ulx='494' uly='2683' lrx='602' lry='2716' rendition='Word' xml:id='facs_1_r9l3w6'/>
+					<zone ulx='620' uly='2693' lrx='656' lry='2721' rendition='Word' xml:id='facs_1_r9l3w7'/>
+					<zone ulx='685' uly='2679' lrx='723' lry='2712' rendition='Word' xml:id='facs_1_r9l3w8'/>
+					<zone ulx='747' uly='2680' lrx='824' lry='2708' rendition='Word' xml:id='facs_1_r9l3w9'/>
+					<zone ulx='848' uly='2677' lrx='922' lry='2707' rendition='Word' xml:id='facs_1_r9l3w10'/>
+				</zone>
+				<zone ulx='48' uly='2719' lrx='924' lry='2774' rendition='Line' xml:id='facs_1_r9l4'>
+					<zone ulx='48' uly='2734' lrx='198' lry='2773' rendition='Word' xml:id='facs_1_r9l4w1'/>
+					<zone ulx='215' uly='2732' lrx='324' lry='2764' rendition='Word' xml:id='facs_1_r9l4w2'/>
+					<zone ulx='341' uly='2741' lrx='384' lry='2762' rendition='Word' xml:id='facs_1_r9l4w3'/>
+					<zone ulx='403' uly='2728' lrx='535' lry='2767' rendition='Word' xml:id='facs_1_r9l4w4'/>
+					<zone ulx='551' uly='2722' lrx='782' lry='2765' rendition='Word' xml:id='facs_1_r9l4w5'/>
+					<zone ulx='831' uly='2719' lrx='923' lry='2750' rendition='Word' xml:id='facs_1_r9l4w6'/>
+				</zone>
+				<zone ulx='51' uly='2761' lrx='924' lry='2810' rendition='Line' xml:id='facs_1_r9l5'>
+					<zone ulx='51' uly='2778' lrx='90' lry='2807' rendition='Word' xml:id='facs_1_r9l5w1'/>
+					<zone ulx='108' uly='2776' lrx='218' lry='2808' rendition='Word' xml:id='facs_1_r9l5w2'/>
+					<zone ulx='234' uly='2775' lrx='292' lry='2807' rendition='Word' xml:id='facs_1_r9l5w3'/>
+					<zone ulx='311' uly='2773' lrx='453' lry='2807' rendition='Word' xml:id='facs_1_r9l5w4'/>
+					<zone ulx='472' uly='2771' lrx='543' lry='2801' rendition='Word' xml:id='facs_1_r9l5w5'/>
+					<zone ulx='559' uly='2769' lrx='614' lry='2798' rendition='Word' xml:id='facs_1_r9l5w6'/>
+					<zone ulx='630' uly='2765' lrx='719' lry='2806' rendition='Word' xml:id='facs_1_r9l5w7'/>
+					<zone ulx='736' uly='2774' lrx='776' lry='2794' rendition='Word' xml:id='facs_1_r9l5w8'/>
+					<zone ulx='792' uly='2761' lrx='924' lry='2801' rendition='Word' xml:id='facs_1_r9l5w9'/>
+				</zone>
+				<zone ulx='49' uly='2804' lrx='923' lry='2860' rendition='Line' xml:id='facs_1_r9l6'>
+					<zone ulx='49' uly='2818' lrx='252' lry='2859' rendition='Word' xml:id='facs_1_r9l6w1'/>
+					<zone ulx='270' uly='2818' lrx='330' lry='2848' rendition='Word' xml:id='facs_1_r9l6w2'/>
+					<zone ulx='348' uly='2815' lrx='408' lry='2847' rendition='Word' xml:id='facs_1_r9l6w3'/>
+					<zone ulx='430' uly='2824' lrx='471' lry='2854' rendition='Word' xml:id='facs_1_r9l6w4'/>
+					<zone ulx='488' uly='2812' lrx='574' lry='2852' rendition='Word' xml:id='facs_1_r9l6w5'/>
+					<zone ulx='599' uly='2810' lrx='650' lry='2840' rendition='Word' xml:id='facs_1_r9l6w6'/>
+					<zone ulx='672' uly='2808' lrx='731' lry='2839' rendition='Word' xml:id='facs_1_r9l6w7'/>
+					<zone ulx='755' uly='2806' lrx='803' lry='2839' rendition='Word' xml:id='facs_1_r9l6w8'/>
+					<zone ulx='824' uly='2804' lrx='923' lry='2835' rendition='Word' xml:id='facs_1_r9l6w9'/>
+				</zone>
+				<zone ulx='50' uly='2845' lrx='924' lry='2893' rendition='Line' xml:id='facs_1_r9l7'>
+					<zone ulx='50' uly='2872' lrx='169' lry='2893' rendition='Word' xml:id='facs_1_r9l7w1'/>
+					<zone ulx='183' uly='2861' lrx='305' lry='2892' rendition='Word' xml:id='facs_1_r9l7w2'/>
+					<zone ulx='324' uly='2859' lrx='432' lry='2890' rendition='Word' xml:id='facs_1_r9l7w3'/>
+					<zone ulx='449' uly='2856' lrx='590' lry='2887' rendition='Word' xml:id='facs_1_r9l7w4'/>
+					<zone ulx='606' uly='2852' lrx='671' lry='2883' rendition='Word' xml:id='facs_1_r9l7w5'/>
+					<zone ulx='684' uly='2849' lrx='784' lry='2881' rendition='Word' xml:id='facs_1_r9l7w6'/>
+					<zone ulx='799' uly='2845' lrx='858' lry='2878' rendition='Word' xml:id='facs_1_r9l7w7'/>
+					<zone ulx='859' uly='2844' lrx='925' lry='2881' rendition='Word' xml:id='facs_1_r9l7w8'/>
+				</zone>
+				<zone ulx='49' uly='2887' lrx='926' lry='2945' rendition='Line' xml:id='facs_1_r9l8'>
+					<zone ulx='49' uly='2906' lrx='207' lry='2944' rendition='Word' xml:id='facs_1_r9l8w1'/>
+					<zone ulx='234' uly='2913' lrx='276' lry='2944' rendition='Word' xml:id='facs_1_r9l8w2'/>
+					<zone ulx='300' uly='2901' lrx='475' lry='2933' rendition='Word' xml:id='facs_1_r9l8w3'/>
+					<zone ulx='500' uly='2896' lrx='626' lry='2927' rendition='Word' xml:id='facs_1_r9l8w4'/>
+					<zone ulx='652' uly='2901' lrx='765' lry='2924' rendition='Word' xml:id='facs_1_r9l8w5'/>
+					<zone ulx='791' uly='2887' lrx='926' lry='2929' rendition='Word' xml:id='facs_1_r9l8w6'/>
+				</zone>
+				<zone ulx='48' uly='2945' lrx='247' lry='2987' rendition='Line' subtype='paragraph' xml:id='facs_1_r9l9'>
+					<zone ulx='48' uly='2947' lrx='107' lry='2978' rendition='Word' xml:id='facs_1_r9l9w1'/>
+					<zone ulx='132' uly='2951' lrx='247' lry='2986' rendition='Word' xml:id='facs_1_r9l9w2'/>
+				</zone>
+			</zone>
+			<zone ulx='49' uly='2980' lrx='928' lry='3288' rendition='TextRegion' subtype='paragraph' xml:id='facs_1_r10'>
+				<zone ulx='92' uly='2981' lrx='925' lry='3039' rendition='Line' xml:id='facs_1_r10l1'>
+					<zone ulx='92' uly='3000' lrx='176' lry='3038' rendition='Word' xml:id='facs_1_r10l1w1'/>
+					<zone ulx='196' uly='3000' lrx='227' lry='3031' rendition='Word' xml:id='facs_1_r10l1w2'/>
+					<zone ulx='275' uly='2997' lrx='323' lry='3028' rendition='Word' xml:id='facs_1_r10l1w3'/>
+					<zone ulx='343' uly='2994' lrx='444' lry='3026' rendition='Word' xml:id='facs_1_r10l1w4'/>
+					<zone ulx='460' uly='2996' lrx='587' lry='3023' rendition='Word' xml:id='facs_1_r10l1w5'/>
+					<zone ulx='610' uly='2999' lrx='648' lry='3019' rendition='Word' xml:id='facs_1_r10l1w6'/>
+					<zone ulx='673' uly='2987' lrx='794' lry='3025' rendition='Word' xml:id='facs_1_r10l1w7'/>
+					<zone ulx='810' uly='2983' lrx='866' lry='3014' rendition='Word' xml:id='facs_1_r10l1w8'/>
+					<zone ulx='885' uly='2981' lrx='925' lry='3011' rendition='Word' xml:id='facs_1_r10l1w9'/>
+				</zone>
+				<zone ulx='50' uly='3024' lrx='921' lry='3081' rendition='Line' xml:id='facs_1_r10l2'>
+					<zone ulx='51' uly='3042' lrx='199' lry='3073' rendition='Word' xml:id='facs_1_r10l2w1'/>
+					<zone ulx='234' uly='3040' lrx='405' lry='3079' rendition='Word' xml:id='facs_1_r10l2w2'/>
+					<zone ulx='431' uly='3036' lrx='605' lry='3073' rendition='Word' xml:id='facs_1_r10l2w3'/>
+					<zone ulx='627' uly='3028' lrx='722' lry='3061' rendition='Word' xml:id='facs_1_r10l2w4'/>
+					<zone ulx='746' uly='3024' lrx='921' lry='3059' rendition='Word' xml:id='facs_1_r10l2w5'/>
+				</zone>
+				<zone ulx='51' uly='3069' lrx='923' lry='3119' rendition='Line' xml:id='facs_1_r10l3'>
+					<zone ulx='51' uly='3084' lrx='133' lry='3115' rendition='Word' xml:id='facs_1_r10l3w1'/>
+					<zone ulx='150' uly='3085' lrx='228' lry='3115' rendition='Word' xml:id='facs_1_r10l3w2'/>
+					<zone ulx='248' uly='3083' lrx='306' lry='3113' rendition='Word' xml:id='facs_1_r10l3w3'/>
+					<zone ulx='324' uly='3082' lrx='387' lry='3112' rendition='Word' xml:id='facs_1_r10l3w4'/>
+					<zone ulx='436' uly='3080' lrx='578' lry='3116' rendition='Word' xml:id='facs_1_r10l3w5'/>
+					<zone ulx='596' uly='3070' lrx='747' lry='3112' rendition='Word' xml:id='facs_1_r10l3w6'/>
+					<zone ulx='763' uly='3080' lrx='801' lry='3107' rendition='Word' xml:id='facs_1_r10l3w7'/>
+					<zone ulx='826' uly='3076' lrx='923' lry='3106' rendition='Word' xml:id='facs_1_r10l3w8'/>
+				</zone>
+				<zone ulx='51' uly='3113' lrx='925' lry='3167' rendition='Line' xml:id='facs_1_r10l4'>
+					<zone ulx='51' uly='3127' lrx='137' lry='3158' rendition='Word' xml:id='facs_1_r10l4w1'/>
+					<zone ulx='153' uly='3125' lrx='308' lry='3166' rendition='Word' xml:id='facs_1_r10l4w2'/>
+					<zone ulx='322' uly='3123' lrx='491' lry='3164' rendition='Word' xml:id='facs_1_r10l4w3'/>
+					<zone ulx='540' uly='3116' lrx='675' lry='3157' rendition='Word' xml:id='facs_1_r10l4w4'/>
+					<zone ulx='692' uly='3114' lrx='731' lry='3144' rendition='Word' xml:id='facs_1_r10l4w5'/>
+					<zone ulx='748' uly='3122' lrx='785' lry='3142' rendition='Word' xml:id='facs_1_r10l4w6'/>
+					<zone ulx='812' uly='3118' lrx='925' lry='3140' rendition='Word' xml:id='facs_1_r10l4w7'/>
+				</zone>
+				<zone ulx='52' uly='3152' lrx='920' lry='3204' rendition='Line' xml:id='facs_1_r10l5'>
+					<zone ulx='52' uly='3170' lrx='92' lry='3200' rendition='Word' xml:id='facs_1_r10l5w1'/>
+					<zone ulx='109' uly='3170' lrx='237' lry='3203' rendition='Word' xml:id='facs_1_r10l5w2'/>
+					<zone ulx='254' uly='3167' lrx='352' lry='3198' rendition='Word' xml:id='facs_1_r10l5w3'/>
+					<zone ulx='366' uly='3163' lrx='547' lry='3196' rendition='Word' xml:id='facs_1_r10l5w4'/>
+					<zone ulx='576' uly='3160' lrx='702' lry='3191' rendition='Word' xml:id='facs_1_r10l5w5'/>
+					<zone ulx='719' uly='3151' lrx='839' lry='3186' rendition='Word' xml:id='facs_1_r10l5w6'/>
+					<zone ulx='839' uly='3149' lrx='925' lry='3187' rendition='Word' xml:id='facs_1_r10l5w7'/>
+				</zone>
+				<zone ulx='52' uly='3193' lrx='927' lry='3252' rendition='Line' xml:id='facs_1_r10l6'>
+					<zone ulx='52' uly='3222' lrx='90' lry='3242' rendition='Word' xml:id='facs_1_r10l6w1'/>
+					<zone ulx='118' uly='3213' lrx='234' lry='3243' rendition='Word' xml:id='facs_1_r10l6w2'/>
+					<zone ulx='252' uly='3221' lrx='293' lry='3250' rendition='Word' xml:id='facs_1_r10l6w3'/>
+					<zone ulx='309' uly='3210' lrx='370' lry='3241' rendition='Word' xml:id='facs_1_r10l6w4'/>
+					<zone ulx='387' uly='3206' lrx='502' lry='3239' rendition='Word' xml:id='facs_1_r10l6w5'/>
+					<zone ulx='522' uly='3202' lrx='599' lry='3234' rendition='Word' xml:id='facs_1_r10l6w6'/>
+					<zone ulx='623' uly='3211' lrx='660' lry='3232' rendition='Word' xml:id='facs_1_r10l6w7'/>
+					<zone ulx='686' uly='3202' lrx='800' lry='3229' rendition='Word' xml:id='facs_1_r10l6w8'/>
+					<zone ulx='824' uly='3205' lrx='862' lry='3234' rendition='Word' xml:id='facs_1_r10l6w9'/>
+					<zone ulx='888' uly='3193' lrx='927' lry='3223' rendition='Word' xml:id='facs_1_r10l6w10'/>
+				</zone>
+				<zone ulx='52' uly='3252' lrx='409' lry='3287' rendition='Line' subtype='paragraph' xml:id='facs_1_r10l7'>
+					<zone ulx='52' uly='3254' lrx='184' lry='3286' rendition='Word' xml:id='facs_1_r10l7w1'/>
+					<zone ulx='202' uly='3255' lrx='263' lry='3284' rendition='Word' xml:id='facs_1_r10l7w2'/>
+					<zone ulx='282' uly='3253' lrx='409' lry='3283' rendition='Word' xml:id='facs_1_r10l7w3'/>
+				</zone>
+			</zone>
+			<zone ulx='51' uly='3303' lrx='931' lry='3568' rendition='TextRegion' subtype='paragraph' xml:id='facs_1_r11'>
+				<zone ulx='95' uly='3304' lrx='927' lry='3355' rendition='Line' xml:id='facs_1_r11l1'>
+					<zone ulx='95' uly='3316' lrx='169' lry='3354' rendition='Word' xml:id='facs_1_r11l1w1'/>
+					<zone ulx='178' uly='3316' lrx='255' lry='3344' rendition='Word' xml:id='facs_1_r11l1w2'/>
+					<zone ulx='308' uly='3310' lrx='530' lry='3348' rendition='Word' xml:id='facs_1_r11l1w3'/>
+					<zone ulx='541' uly='3308' lrx='667' lry='3337' rendition='Word' xml:id='facs_1_r11l1w4'/>
+					<zone ulx='678' uly='3310' lrx='717' lry='3332' rendition='Word' xml:id='facs_1_r11l1w5'/>
+					<zone ulx='729' uly='3306' lrx='844' lry='3328' rendition='Word' xml:id='facs_1_r11l1w6'/>
+					<zone ulx='859' uly='3304' lrx='926' lry='3325' rendition='Word' xml:id='facs_1_r11l1w7'/>
+				</zone>
+				<zone ulx='52' uly='3337' lrx='926' lry='3390' rendition='Line' xml:id='facs_1_r11l2'>
+					<zone ulx='52' uly='3357' lrx='115' lry='3388' rendition='Word' xml:id='facs_1_r11l2w1'/>
+					<zone ulx='134' uly='3357' lrx='261' lry='3389' rendition='Word' xml:id='facs_1_r11l2w2'/>
+					<zone ulx='287' uly='3355' lrx='387' lry='3386' rendition='Word' xml:id='facs_1_r11l2w3'/>
+					<zone ulx='411' uly='3352' lrx='468' lry='3382' rendition='Word' xml:id='facs_1_r11l2w4'/>
+					<zone ulx='492' uly='3350' lrx='576' lry='3380' rendition='Word' xml:id='facs_1_r11l2w5'/>
+					<zone ulx='601' uly='3348' lrx='696' lry='3385' rendition='Word' xml:id='facs_1_r11l2w6'/>
+					<zone ulx='719' uly='3337' lrx='926' lry='3373' rendition='Word' xml:id='facs_1_r11l2w7'/>
+				</zone>
+				<zone ulx='52' uly='3380' lrx='926' lry='3441' rendition='Line' xml:id='facs_1_r11l3'>
+					<zone ulx='52' uly='3401' lrx='186' lry='3430' rendition='Word' xml:id='facs_1_r11l3w1'/>
+					<zone ulx='199' uly='3400' lrx='314' lry='3440' rendition='Word' xml:id='facs_1_r11l3w2'/>
+					<zone ulx='328' uly='3398' lrx='430' lry='3436' rendition='Word' xml:id='facs_1_r11l3w3'/>
+					<zone ulx='443' uly='3394' lrx='526' lry='3424' rendition='Word' xml:id='facs_1_r11l3w4'/>
+					<zone ulx='543' uly='3387' lrx='704' lry='3425' rendition='Word' xml:id='facs_1_r11l3w5'/>
+					<zone ulx='722' uly='3393' lrx='790' lry='3413' rendition='Word' xml:id='facs_1_r11l3w6'/>
+					<zone ulx='805' uly='3380' lrx='926' lry='3419' rendition='Word' xml:id='facs_1_r11l3w7'/>
+				</zone>
+				<zone ulx='53' uly='3422' lrx='925' lry='3482' rendition='Line' xml:id='facs_1_r11l4'>
+					<zone ulx='53' uly='3442' lrx='125' lry='3473' rendition='Word' xml:id='facs_1_r11l4w1'/>
+					<zone ulx='177' uly='3441' lrx='343' lry='3481' rendition='Word' xml:id='facs_1_r11l4w2'/>
+					<zone ulx='369' uly='3440' lrx='472' lry='3478' rendition='Word' xml:id='facs_1_r11l4w3'/>
+					<zone ulx='488' uly='3433' lrx='627' lry='3465' rendition='Word' xml:id='facs_1_r11l4w4'/>
+					<zone ulx='649' uly='3427' lrx='775' lry='3458' rendition='Word' xml:id='facs_1_r11l4w5'/>
+					<zone ulx='796' uly='3425' lrx='829' lry='3454' rendition='Word' xml:id='facs_1_r11l4w6'/>
+					<zone ulx='856' uly='3422' lrx='925' lry='3451' rendition='Word' xml:id='facs_1_r11l4w7'/>
+				</zone>
+				<zone ulx='54' uly='3467' lrx='930' lry='3525' rendition='Line' xml:id='facs_1_r11l5'>
+					<zone ulx='55' uly='3485' lrx='147' lry='3523' rendition='Word' xml:id='facs_1_r11l5w1'/>
+					<zone ulx='166' uly='3485' lrx='208' lry='3515' rendition='Word' xml:id='facs_1_r11l5w2'/>
+					<zone ulx='226' uly='3482' lrx='390' lry='3523' rendition='Word' xml:id='facs_1_r11l5w3'/>
+					<zone ulx='409' uly='3481' lrx='504' lry='3519' rendition='Word' xml:id='facs_1_r11l5w4'/>
+					<zone ulx='521' uly='3469' lrx='727' lry='3509' rendition='Word' xml:id='facs_1_r11l5w5'/>
+					<zone ulx='742' uly='3478' lrx='782' lry='3499' rendition='Word' xml:id='facs_1_r11l5w6'/>
+					<zone ulx='799' uly='3467' lrx='930' lry='3496' rendition='Word' xml:id='facs_1_r11l5w7'/>
+				</zone>
+				<zone ulx='53' uly='3508' lrx='928' lry='3567' rendition='Line' xml:id='facs_1_r11l6'>
+					<zone ulx='53' uly='3527' lrx='161' lry='3566' rendition='Word' xml:id='facs_1_r11l6w1'/>
+					<zone ulx='186' uly='3538' lrx='227' lry='3567' rendition='Word' xml:id='facs_1_r11l6w2'/>
+					<zone ulx='250' uly='3527' lrx='329' lry='3556' rendition='Word' xml:id='facs_1_r11l6w3'/>
+					<zone ulx='354' uly='3521' lrx='504' lry='3554' rendition='Word' xml:id='facs_1_r11l6w4'/>
+					<zone ulx='542' uly='3518' lrx='630' lry='3553' rendition='Word' xml:id='facs_1_r11l6w5'/>
+					<zone ulx='657' uly='3515' lrx='716' lry='3545' rendition='Word' xml:id='facs_1_r11l6w6'/>
+					<zone ulx='740' uly='3521' lrx='779' lry='3551' rendition='Word' xml:id='facs_1_r11l6w7'/>
+					<zone ulx='805' uly='3509' lrx='928' lry='3539' rendition='Word' xml:id='facs_1_r11l6w8'/>
+				</zone>
+			</zone>
+		</surface>
+	</facsimile>
+	<facsimile xml:id='facs_2'>
+		<surface ulx='0' uly='0' lrx='893' lry='1085' corresp='D_DD_IO_19170401_p01_02_cropped-0002.jpg'>
+			<graphic url='D_DD_IO_19170401_p01_02_cropped-0002.jpg' width='893px' height='1085px'/>
+			<zone points='0,24 893,24 893,1085 0,1085' rendition='printspace'/>
+			<zone ulx='13' uly='29' lrx='893' lry='282' rendition='TextRegion' subtype='paragraph' xml:id='facs_2_r1'>
+				<zone ulx='14' uly='30' lrx='891' lry='72' rendition='Line' xml:id='facs_2_r1l1'>
+					<zone ulx='14' uly='30' lrx='172' lry='62' rendition='Word' xml:id='facs_2_r1l1w1'/>
+					<zone ulx='198' uly='32' lrx='314' lry='62' rendition='Word' xml:id='facs_2_r1l1w2'/>
+					<zone ulx='338' uly='35' lrx='434' lry='72' rendition='Word' xml:id='facs_2_r1l1w3'/>
+					<zone ulx='457' uly='30' lrx='599' lry='62' rendition='Word' xml:id='facs_2_r1l1w4'/>
+					<zone ulx='627' uly='30' lrx='670' lry='60' rendition='Word' xml:id='facs_2_r1l1w5'/>
+					<zone ulx='689' uly='30' lrx='825' lry='59' rendition='Word' xml:id='facs_2_r1l1w6'/>
+					<zone ulx='852' uly='30' lrx='891' lry='59' rendition='Word' xml:id='facs_2_r1l1w7'/>
+				</zone>
+				<zone ulx='16' uly='71' lrx='892' lry='113' rendition='Line' xml:id='facs_2_r1l2'>
+					<zone ulx='16' uly='72' lrx='144' lry='104' rendition='Word' xml:id='facs_2_r1l2w1'/>
+					<zone ulx='157' uly='74' lrx='260' lry='113' rendition='Word' xml:id='facs_2_r1l2w2'/>
+					<zone ulx='276' uly='84' lrx='314' lry='112' rendition='Word' xml:id='facs_2_r1l2w3'/>
+					<zone ulx='329' uly='74' lrx='480' lry='103' rendition='Word' xml:id='facs_2_r1l2w4'/>
+					<zone ulx='497' uly='75' lrx='536' lry='103' rendition='Word' xml:id='facs_2_r1l2w5'/>
+					<zone ulx='550' uly='72' lrx='674' lry='109' rendition='Word' xml:id='facs_2_r1l2w6'/>
+					<zone ulx='694' uly='72' lrx='791' lry='102' rendition='Word' xml:id='facs_2_r1l2w7'/>
+					<zone ulx='809' uly='71' lrx='892' lry='101' rendition='Word' xml:id='facs_2_r1l2w8'/>
+				</zone>
+				<zone ulx='15' uly='113' lrx='890' lry='146' rendition='Line' xml:id='facs_2_r1l3'>
+					<zone ulx='15' uly='115' lrx='238' lry='146' rendition='Word' xml:id='facs_2_r1l3w1'/>
+					<zone ulx='259' uly='115' lrx='349' lry='146' rendition='Word' xml:id='facs_2_r1l3w2'/>
+					<zone ulx='372' uly='115' lrx='497' lry='144' rendition='Word' xml:id='facs_2_r1l3w3'/>
+					<zone ulx='518' uly='125' lrx='570' lry='144' rendition='Word' xml:id='facs_2_r1l3w4'/>
+					<zone ulx='589' uly='114' lrx='669' lry='145' rendition='Word' xml:id='facs_2_r1l3w5'/>
+					<zone ulx='681' uly='116' lrx='736' lry='144' rendition='Word' xml:id='facs_2_r1l3w6'/>
+					<zone ulx='749' uly='113' lrx='890' lry='143' rendition='Word' xml:id='facs_2_r1l3w7'/>
+				</zone>
+				<zone ulx='15' uly='156' lrx='891' lry='196' rendition='Line' xml:id='facs_2_r1l4'>
+					<zone ulx='15' uly='157' lrx='94' lry='196' rendition='Word' xml:id='facs_2_r1l4w1'/>
+					<zone ulx='111' uly='158' lrx='168' lry='188' rendition='Word' xml:id='facs_2_r1l4w2'/>
+					<zone ulx='182' uly='158' lrx='307' lry='189' rendition='Word' xml:id='facs_2_r1l4w3'/>
+					<zone ulx='324' uly='158' lrx='382' lry='187' rendition='Word' xml:id='facs_2_r1l4w4'/>
+					<zone ulx='403' uly='159' lrx='440' lry='186' rendition='Word' xml:id='facs_2_r1l4w5'/>
+					<zone ulx='456' uly='160' lrx='511' lry='188' rendition='Word' xml:id='facs_2_r1l4w6'/>
+					<zone ulx='529' uly='156' lrx='669' lry='194' rendition='Word' xml:id='facs_2_r1l4w7'/>
+					<zone ulx='669' uly='153' lrx='759' lry='190' rendition='Word' xml:id='facs_2_r1l4w8'/>
+					<zone ulx='771' uly='156' lrx='891' lry='186' rendition='Word' xml:id='facs_2_r1l4w9'/>
+				</zone>
+				<zone ulx='17' uly='198' lrx='891' lry='239' rendition='Line' xml:id='facs_2_r1l5'>
+					<zone ulx='17' uly='199' lrx='124' lry='230' rendition='Word' xml:id='facs_2_r1l5w1'/>
+					<zone ulx='141' uly='200' lrx='217' lry='231' rendition='Word' xml:id='facs_2_r1l5w2'/>
+					<zone ulx='238' uly='200' lrx='307' lry='239' rendition='Word' xml:id='facs_2_r1l5w3'/>
+					<zone ulx='332' uly='199' lrx='390' lry='230' rendition='Word' xml:id='facs_2_r1l5w4'/>
+					<zone ulx='415' uly='210' lrx='453' lry='238' rendition='Word' xml:id='facs_2_r1l5w5'/>
+					<zone ulx='480' uly='198' lrx='717' lry='237' rendition='Word' xml:id='facs_2_r1l5w6'/>
+					<zone ulx='738' uly='198' lrx='832' lry='228' rendition='Word' xml:id='facs_2_r1l5w7'/>
+					<zone ulx='853' uly='207' lrx='891' lry='228' rendition='Word' xml:id='facs_2_r1l5w8'/>
+				</zone>
+				<zone ulx='16' uly='241' lrx='279' lry='281' rendition='Line' xml:id='facs_2_r1l6'>
+					<zone ulx='16' uly='241' lrx='194' lry='281' rendition='Word' xml:id='facs_2_r1l6w1'/>
+					<zone ulx='213' uly='243' lrx='279' lry='272' rendition='Word' xml:id='facs_2_r1l6w2'/>
+				</zone>
+			</zone>
+			<zone ulx='16' uly='290' lrx='894' lry='670' rendition='TextRegion' subtype='paragraph' xml:id='facs_2_r2'>
+				<zone ulx='58' uly='291' lrx='893' lry='332' rendition='Line' xml:id='facs_2_r2l1'>
+					<zone ulx='58' uly='294' lrx='140' lry='332' rendition='Word' xml:id='facs_2_r2l1w1'/>
+					<zone ulx='160' uly='292' lrx='212' lry='323' rendition='Word' xml:id='facs_2_r2l1w2'/>
+					<zone ulx='252' uly='291' lrx='474' lry='330' rendition='Word' xml:id='facs_2_r2l1w3'/>
+					<zone ulx='492' uly='294' lrx='619' lry='322' rendition='Word' xml:id='facs_2_r2l1w4'/>
+					<zone ulx='640' uly='291' lrx='694' lry='321' rendition='Word' xml:id='facs_2_r2l1w5'/>
+					<zone ulx='715' uly='300' lrx='752' lry='321' rendition='Word' xml:id='facs_2_r2l1w6'/>
+					<zone ulx='771' uly='293' lrx='893' lry='330' rendition='Word' xml:id='facs_2_r2l1w7'/>
+				</zone>
+				<zone ulx='18' uly='333' lrx='893' lry='372' rendition='Line' xml:id='facs_2_r2l2'>
+					<zone ulx='18' uly='335' lrx='74' lry='364' rendition='Word' xml:id='facs_2_r2l2w1'/>
+					<zone ulx='93' uly='335' lrx='130' lry='366' rendition='Word' xml:id='facs_2_r2l2w2'/>
+					<zone ulx='154' uly='334' lrx='283' lry='365' rendition='Word' xml:id='facs_2_r2l2w3'/>
+					<zone ulx='294' uly='334' lrx='324' lry='364' rendition='Word' xml:id='facs_2_r2l2w4'/>
+					<zone ulx='344' uly='334' lrx='484' lry='365' rendition='Word' xml:id='facs_2_r2l2w5'/>
+					<zone ulx='501' uly='333' lrx='661' lry='372' rendition='Word' xml:id='facs_2_r2l2w6'/>
+					<zone ulx='679' uly='336' lrx='774' lry='372' rendition='Word' xml:id='facs_2_r2l2w7'/>
+					<zone ulx='788' uly='342' lrx='825' lry='363' rendition='Word' xml:id='facs_2_r2l2w8'/>
+					<zone ulx='840' uly='333' lrx='893' lry='361' rendition='Word' xml:id='facs_2_r2l2w9'/>
+				</zone>
+				<zone ulx='17' uly='373' lrx='893' lry='415' rendition='Line' xml:id='facs_2_r2l3'>
+					<zone ulx='17' uly='381' lrx='105' lry='408' rendition='Word' xml:id='facs_2_r2l3w1'/>
+					<zone ulx='129' uly='377' lrx='241' lry='415' rendition='Word' xml:id='facs_2_r2l3w2'/>
+					<zone ulx='266' uly='375' lrx='426' lry='406' rendition='Word' xml:id='facs_2_r2l3w3'/>
+					<zone ulx='454' uly='377' lrx='509' lry='405' rendition='Word' xml:id='facs_2_r2l3w4'/>
+					<zone ulx='534' uly='375' lrx='594' lry='405' rendition='Word' xml:id='facs_2_r2l3w5'/>
+					<zone ulx='618' uly='378' lrx='680' lry='405' rendition='Word' xml:id='facs_2_r2l3w6'/>
+					<zone ulx='707' uly='375' lrx='751' lry='405' rendition='Word' xml:id='facs_2_r2l3w7'/>
+					<zone ulx='798' uly='373' lrx='893' lry='405' rendition='Word' xml:id='facs_2_r2l3w8'/>
+				</zone>
+				<zone ulx='18' uly='416' lrx='893' lry='456' rendition='Line' xml:id='facs_2_r2l4'>
+					<zone ulx='18' uly='419' lrx='217' lry='450' rendition='Word' xml:id='facs_2_r2l4w1'/>
+					<zone ulx='245' uly='418' lrx='337' lry='449' rendition='Word' xml:id='facs_2_r2l4w2'/>
+					<zone ulx='369' uly='418' lrx='498' lry='449' rendition='Word' xml:id='facs_2_r2l4w3'/>
+					<zone ulx='517' uly='428' lrx='556' lry='456' rendition='Word' xml:id='facs_2_r2l4w4'/>
+					<zone ulx='572' uly='417' lrx='761' lry='456' rendition='Word' xml:id='facs_2_r2l4w5'/>
+					<zone ulx='777' uly='416' lrx='835' lry='447' rendition='Word' xml:id='facs_2_r2l4w6'/>
+					<zone ulx='852' uly='426' lrx='893' lry='446' rendition='Word' xml:id='facs_2_r2l4w7'/>
+				</zone>
+				<zone ulx='18' uly='459' lrx='893' lry='499' rendition='Line' xml:id='facs_2_r2l5'>
+					<zone ulx='18' uly='462' lrx='141' lry='492' rendition='Word' xml:id='facs_2_r2l5w1'/>
+					<zone ulx='166' uly='461' lrx='222' lry='490' rendition='Word' xml:id='facs_2_r2l5w2'/>
+					<zone ulx='242' uly='462' lrx='325' lry='491' rendition='Word' xml:id='facs_2_r2l5w3'/>
+					<zone ulx='349' uly='459' lrx='512' lry='499' rendition='Word' xml:id='facs_2_r2l5w4'/>
+					<zone ulx='531' uly='469' lrx='600' lry='490' rendition='Word' xml:id='facs_2_r2l5w5'/>
+					<zone ulx='627' uly='459' lrx='751' lry='499' rendition='Word' xml:id='facs_2_r2l5w6'/>
+					<zone ulx='776' uly='459' lrx='832' lry='489' rendition='Word' xml:id='facs_2_r2l5w7'/>
+					<zone ulx='855' uly='468' lrx='893' lry='498' rendition='Word' xml:id='facs_2_r2l5w8'/>
+				</zone>
+				<zone ulx='19' uly='501' lrx='893' lry='542' rendition='Line' xml:id='facs_2_r2l6'>
+					<zone ulx='19' uly='507' lrx='139' lry='535' rendition='Word' xml:id='facs_2_r2l6w1'/>
+					<zone ulx='158' uly='503' lrx='366' lry='542' rendition='Word' xml:id='facs_2_r2l6w2'/>
+					<zone ulx='384' uly='503' lrx='450' lry='539' rendition='Word' xml:id='facs_2_r2l6w3'/>
+					<zone ulx='471' uly='502' lrx='569' lry='533' rendition='Word' xml:id='facs_2_r2l6w4'/>
+					<zone ulx='583' uly='501' lrx='698' lry='540' rendition='Word' xml:id='facs_2_r2l6w5'/>
+					<zone ulx='715' uly='511' lrx='754' lry='540' rendition='Word' xml:id='facs_2_r2l6w6'/>
+					<zone ulx='772' uly='501' lrx='893' lry='531' rendition='Word' xml:id='facs_2_r2l6w7'/>
+				</zone>
+				<zone ulx='18' uly='543' lrx='893' lry='583' rendition='Line' xml:id='facs_2_r2l7'>
+					<zone ulx='18' uly='546' lrx='116' lry='576' rendition='Word' xml:id='facs_2_r2l7w1'/>
+					<zone ulx='141' uly='546' lrx='199' lry='575' rendition='Word' xml:id='facs_2_r2l7w2'/>
+					<zone ulx='234' uly='546' lrx='272' lry='575' rendition='Word' xml:id='facs_2_r2l7w3'/>
+					<zone ulx='299' uly='545' lrx='418' lry='576' rendition='Word' xml:id='facs_2_r2l7w4'/>
+					<zone ulx='444' uly='545' lrx='622' lry='583' rendition='Word' xml:id='facs_2_r2l7w5'/>
+					<zone ulx='650' uly='554' lrx='689' lry='582' rendition='Word' xml:id='facs_2_r2l7w6'/>
+					<zone ulx='717' uly='543' lrx='778' lry='573' rendition='Word' xml:id='facs_2_r2l7w7'/>
+					<zone ulx='801' uly='546' lrx='893' lry='582' rendition='Word' xml:id='facs_2_r2l7w8'/>
+				</zone>
+				<zone ulx='19' uly='585' lrx='893' lry='627' rendition='Line' xml:id='facs_2_r2l8'>
+					<zone ulx='19' uly='589' lrx='141' lry='623' rendition='Word' xml:id='facs_2_r2l8w1'/>
+					<zone ulx='176' uly='588' lrx='325' lry='627' rendition='Word' xml:id='facs_2_r2l8w2'/>
+					<zone ulx='362' uly='587' lrx='475' lry='618' rendition='Word' xml:id='facs_2_r2l8w3'/>
+					<zone ulx='509' uly='587' lrx='566' lry='618' rendition='Word' xml:id='facs_2_r2l8w4'/>
+					<zone ulx='595' uly='586' lrx='674' lry='616' rendition='Word' xml:id='facs_2_r2l8w5'/>
+					<zone ulx='708' uly='585' lrx='822' lry='615' rendition='Word' xml:id='facs_2_r2l8w6'/>
+					<zone ulx='854' uly='594' lrx='893' lry='615' rendition='Word' xml:id='facs_2_r2l8w7'/>
+				</zone>
+				<zone ulx='20' uly='629' lrx='475' lry='669' rendition='Line' xml:id='facs_2_r2l9'>
+					<zone ulx='20' uly='630' lrx='183' lry='669' rendition='Word' xml:id='facs_2_r2l9w1'/>
+					<zone ulx='201' uly='630' lrx='240' lry='661' rendition='Word' xml:id='facs_2_r2l9w2'/>
+					<zone ulx='267' uly='630' lrx='389' lry='669' rendition='Word' xml:id='facs_2_r2l9w3'/>
+					<zone ulx='409' uly='629' lrx='475' lry='659' rendition='Word' xml:id='facs_2_r2l9w4'/>
+				</zone>
+			</zone>
+			<zone ulx='20' uly='677' lrx='894' lry='1059' rendition='TextRegion' subtype='paragraph' xml:id='facs_2_r3'>
+				<zone ulx='65' uly='678' lrx='893' lry='720' rendition='Line' xml:id='facs_2_r3l1'>
+					<zone ulx='65' uly='683' lrx='144' lry='720' rendition='Word' xml:id='facs_2_r3l1w1'/>
+					<zone ulx='171' uly='681' lrx='221' lry='712' rendition='Word' xml:id='facs_2_r3l1w2'/>
+					<zone ulx='270' uly='680' lrx='421' lry='710' rendition='Word' xml:id='facs_2_r3l1w3'/>
+					<zone ulx='445' uly='680' lrx='594' lry='716' rendition='Word' xml:id='facs_2_r3l1w4'/>
+					<zone ulx='624' uly='679' lrx='682' lry='709' rendition='Word' xml:id='facs_2_r3l1w5'/>
+					<zone ulx='709' uly='688' lrx='747' lry='709' rendition='Word' xml:id='facs_2_r3l1w6'/>
+					<zone ulx='773' uly='678' lrx='893' lry='709' rendition='Word' xml:id='facs_2_r3l1w7'/>
+				</zone>
+				<zone ulx='21' uly='721' lrx='893' lry='760' rendition='Line' xml:id='facs_2_r3l2'>
+					<zone ulx='21' uly='724' lrx='164' lry='754' rendition='Word' xml:id='facs_2_r3l2w1'/>
+					<zone ulx='181' uly='723' lrx='297' lry='754' rendition='Word' xml:id='facs_2_r3l2w2'/>
+					<zone ulx='308' uly='722' lrx='511' lry='760' rendition='Word' xml:id='facs_2_r3l2w3'/>
+					<zone ulx='524' uly='721' lrx='668' lry='752' rendition='Word' xml:id='facs_2_r3l2w4'/>
+					<zone ulx='682' uly='721' lrx='813' lry='752' rendition='Word' xml:id='facs_2_r3l2w5'/>
+					<zone ulx='830' uly='721' lrx='893' lry='758' rendition='Word' xml:id='facs_2_r3l2w6'/>
+				</zone>
+				<zone ulx='21' uly='762' lrx='893' lry='796' rendition='Line' xml:id='facs_2_r3l3'>
+					<zone ulx='21' uly='770' lrx='76' lry='796' rendition='Word' xml:id='facs_2_r3l3w1'/>
+					<zone ulx='110' uly='765' lrx='297' lry='796' rendition='Word' xml:id='facs_2_r3l3w2'/>
+					<zone ulx='333' uly='766' lrx='420' lry='794' rendition='Word' xml:id='facs_2_r3l3w3'/>
+					<zone ulx='444' uly='764' lrx='596' lry='794' rendition='Word' xml:id='facs_2_r3l3w4'/>
+					<zone ulx='625' uly='763' lrx='772' lry='794' rendition='Word' xml:id='facs_2_r3l3w5'/>
+					<zone ulx='794' uly='762' lrx='893' lry='793' rendition='Word' xml:id='facs_2_r3l3w6'/>
+				</zone>
+				<zone ulx='22' uly='805' lrx='890' lry='845' rendition='Line' xml:id='facs_2_r3l4'>
+					<zone ulx='22' uly='809' lrx='106' lry='839' rendition='Word' xml:id='facs_2_r3l4w1'/>
+					<zone ulx='141' uly='808' lrx='204' lry='838' rendition='Word' xml:id='facs_2_r3l4w2'/>
+					<zone ulx='240' uly='807' lrx='396' lry='845' rendition='Word' xml:id='facs_2_r3l4w3'/>
+					<zone ulx='421' uly='817' lrx='460' lry='845' rendition='Word' xml:id='facs_2_r3l4w4'/>
+					<zone ulx='485' uly='806' lrx='649' lry='837' rendition='Word' xml:id='facs_2_r3l4w5'/>
+					<zone ulx='675' uly='805' lrx='890' lry='844' rendition='Word' xml:id='facs_2_r3l4w6'/>
+				</zone>
+				<zone ulx='23' uly='846' lrx='893' lry='889' rendition='Line' xml:id='facs_2_r3l5'>
+					<zone ulx='23' uly='853' lrx='150' lry='881' rendition='Word' xml:id='facs_2_r3l5w1'/>
+					<zone ulx='167' uly='850' lrx='242' lry='880' rendition='Word' xml:id='facs_2_r3l5w2'/>
+					<zone ulx='258' uly='849' lrx='392' lry='889' rendition='Word' xml:id='facs_2_r3l5w3'/>
+					<zone ulx='409' uly='859' lrx='447' lry='887' rendition='Word' xml:id='facs_2_r3l5w4'/>
+					<zone ulx='466' uly='848' lrx='691' lry='879' rendition='Word' xml:id='facs_2_r3l5w5'/>
+					<zone ulx='711' uly='847' lrx='800' lry='878' rendition='Word' xml:id='facs_2_r3l5w6'/>
+					<zone ulx='821' uly='846' lrx='893' lry='876' rendition='Word' xml:id='facs_2_r3l5w7'/>
+				</zone>
+				<zone ulx='24' uly='889' lrx='886' lry='931' rendition='Line' xml:id='facs_2_r3l6'>
+					<zone ulx='24' uly='902' lrx='80' lry='923' rendition='Word' xml:id='facs_2_r3l6w1'/>
+					<zone ulx='105' uly='893' lrx='188' lry='923' rendition='Word' xml:id='facs_2_r3l6w2'/>
+					<zone ulx='214' uly='902' lrx='264' lry='921' rendition='Word' xml:id='facs_2_r3l6w3'/>
+					<zone ulx='289' uly='891' lrx='455' lry='931' rendition='Word' xml:id='facs_2_r3l6w4'/>
+					<zone ulx='479' uly='890' lrx='578' lry='929' rendition='Word' xml:id='facs_2_r3l6w5'/>
+					<zone ulx='595' uly='891' lrx='707' lry='930' rendition='Word' xml:id='facs_2_r3l6w6'/>
+					<zone ulx='727' uly='889' lrx='827' lry='920' rendition='Word' xml:id='facs_2_r3l6w7'/>
+					<zone ulx='843' uly='898' lrx='886' lry='928' rendition='Word' xml:id='facs_2_r3l6w8'/>
+				</zone>
+				<zone ulx='23' uly='932' lrx='893' lry='973' rendition='Line' xml:id='facs_2_r3l7'>
+					<zone ulx='23' uly='935' lrx='101' lry='973' rendition='Word' xml:id='facs_2_r3l7w1'/>
+					<zone ulx='124' uly='935' lrx='192' lry='965' rendition='Word' xml:id='facs_2_r3l7w2'/>
+					<zone ulx='248' uly='934' lrx='296' lry='964' rendition='Word' xml:id='facs_2_r3l7w3'/>
+					<zone ulx='320' uly='934' lrx='444' lry='964' rendition='Word' xml:id='facs_2_r3l7w4'/>
+					<zone ulx='468' uly='933' lrx='609' lry='963' rendition='Word' xml:id='facs_2_r3l7w5'/>
+					<zone ulx='634' uly='933' lrx='765' lry='962' rendition='Word' xml:id='facs_2_r3l7w6'/>
+					<zone ulx='788' uly='932' lrx='893' lry='970' rendition='Word' xml:id='facs_2_r3l7w7'/>
+				</zone>
+				<zone ulx='24' uly='974' lrx='889' lry='1016' rendition='Line' xml:id='facs_2_r3l8'>
+					<zone ulx='24' uly='981' lrx='118' lry='1016' rendition='Word' xml:id='facs_2_r3l8w1'/>
+					<zone ulx='149' uly='986' lrx='186' lry='1007' rendition='Word' xml:id='facs_2_r3l8w2'/>
+					<zone ulx='220' uly='976' lrx='407' lry='1015' rendition='Word' xml:id='facs_2_r3l8w3'/>
+					<zone ulx='440' uly='975' lrx='500' lry='1006' rendition='Word' xml:id='facs_2_r3l8w4'/>
+					<zone ulx='535' uly='975' lrx='616' lry='1005' rendition='Word' xml:id='facs_2_r3l8w5'/>
+					<zone ulx='648' uly='975' lrx='767' lry='1013' rendition='Word' xml:id='facs_2_r3l8w6'/>
+					<zone ulx='803' uly='974' lrx='889' lry='1004' rendition='Word' xml:id='facs_2_r3l8w7'/>
+				</zone>
+				<zone ulx='24' uly='1018' lrx='502' lry='1058' rendition='Line' xml:id='facs_2_r3l9'>
+					<zone ulx='24' uly='1019' lrx='188' lry='1058' rendition='Word' xml:id='facs_2_r3l9w1'/>
+					<zone ulx='205' uly='1028' lrx='275' lry='1049' rendition='Word' xml:id='facs_2_r3l9w2'/>
+					<zone ulx='295' uly='1018' lrx='419' lry='1057' rendition='Word' xml:id='facs_2_r3l9w3'/>
+					<zone ulx='437' uly='1018' lrx='502' lry='1049' rendition='Word' xml:id='facs_2_r3l9w4'/>
+				</zone>
+			</zone>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<pb facs='#facs_1' xml:id='D_DD_IO_19170401_p01_02_cropped-0001.jpg' n='1'/>
+			<p facs='#facs_1_r1'>
+				<lb facs='#facs_1_r1l1' n='N001'/>
+					<w facs='#facs_1_r1l1w1'><hi rend='smallCaps:true; fontSize:0.0; kerning:0;'>Anpetu</hi></w>
+					<w facs='#facs_1_r1l1w2'><hi rend='smallCaps:true; fontSize:0.0; kerning:0;'>Oyakapi</hi></w>
+				
+			</p>
+			<p facs='#facs_1_r2'>
+				<lb facs='#facs_1_r2l1' n='N001'/>
+					<w facs='#facs_1_r2l1w1'><date month='3' year='1917' day='15'>Mar.</date></w>
+					<w facs='#facs_1_r2l1w2'><date month='3' year='1917' day='15'>15,</date></w>
+					<w facs='#facs_1_r2l1w3'><placeName>Russia</placeName></w>
+					<w facs='#facs_1_r2l1w4'>oyate</w>
+					<w facs='#facs_1_r2l1w5'>kin</w>
+					<w facs='#facs_1_r2l1w6'>ehantanhan</w>
+					<w facs='#facs_1_r2l1w7'>wica-</w>
+				
+				<lb facs='#facs_1_r2l2' n='N002'/>
+					<w facs='#facs_1_r2l2w1'>śtayatapi</w>
+					<w facs='#facs_1_r2l2w2'>yuhapi</w>
+					<w facs='#facs_1_r2l2w3'>qa</w>
+					<w facs='#facs_1_r2l2w4'>heceedan</w>
+					<w facs='#facs_1_r2l2w5'>taku</w>
+					<w facs='#facs_1_r2l2w6'>eye</w>
+					<w facs='#facs_1_r2l2w7'>cin</w>
+					<w facs='#facs_1_r2l2w8'>he</w>
+				
+				<lb facs='#facs_1_r2l3' n='N003'/>
+					<w facs='#facs_1_r2l3w1'>oyate</w>
+					<w facs='#facs_1_r2l3w2'>opapi,</w>
+					<w facs='#facs_1_r2l3w3'>tuka</w>
+					<w facs='#facs_1_r2l3w4'>dehan</w>
+					<w facs='#facs_1_r2l3w5'>wicaśtayatapi</w>
+					<w facs='#facs_1_r2l3w6'>kin</w>
+					<w facs='#facs_1_r2l3w7'>he</w>
+				
+				<lb facs='#facs_1_r2l4' n='N004'/>
+					<w facs='#facs_1_r2l4w1'>ayuśtan</w>
+					<w facs='#facs_1_r2l4w2'>kiyapi</w>
+					<w facs='#facs_1_r2l4w3'>qa</w>
+					<w facs='#facs_1_r2l4w4'>oyate</w>
+					<w facs='#facs_1_r2l4w5'>tawaiçiyapi</w>
+					<w facs='#facs_1_r2l4w6'>hecapi</w>
+					<w facs='#facs_1_r2l4w7'>kta</w>
+				
+				<lb facs='#facs_1_r2l5' n='N005'/>
+					<w facs='#facs_1_r2l5w1'>heon</w>
+					<w facs='#facs_1_r2l5w2'>heconpi</w>
+					<w facs='#facs_1_r2l5w3'>qa</w>
+					<w facs='#facs_1_r2l5w4'>heon</w>
+					<w facs='#facs_1_r2l5w5'>iye</w>
+					<w facs='#facs_1_r2l5w6'>ena</w>
+					<w facs='#facs_1_r2l5w7'>kicizapi.</w>
+					<w facs='#facs_1_r2l5w8'>Tka</w>
+				
+				<lb facs='#facs_1_r2l6' n='N006'/>
+					<w facs='#facs_1_r2l6w1'>eqeś</w>
+					<w facs='#facs_1_r2l6w2'>sanpa</w>
+					<w facs='#facs_1_r2l6w3'>kicizapi</w>
+					<w facs='#facs_1_r2l6w4'>śni</w>
+					<w facs='#facs_1_r2l6w5'>qa</w>
+					<w facs='#facs_1_r2l6w6'>wanna</w>
+					<w facs='#facs_1_r2l6w7'>detanhan</w>
+				
+				<lb facs='#facs_1_r2l7' n='N007'/>
+					<w facs='#facs_1_r2l7w1'>oyate</w>
+					<w facs='#facs_1_r2l7w2'>tawaiçiyapi</w>
+					<w facs='#facs_1_r2l7w3'>hecapi</w>
+					<w facs='#facs_1_r2l7w4'>kta</w>
+					<w facs='#facs_1_r2l7w5'>qa</w>
+					<w facs='#facs_1_r2l7w6'><placeName>United</placeName></w>
+					<w facs='#facs_1_r2l7w7'><placeName>States</placeName></w>
+				
+				<lb facs='#facs_1_r2l8' n='N008'/>
+					<w facs='#facs_1_r2l8w1'>en</w>
+					<w facs='#facs_1_r2l8w2'>iyecen</w>
+					<w facs='#facs_1_r2l8w3'>tunkanśidan</w>
+					<w facs='#facs_1_r2l8w4'>yapi</w>
+					<w facs='#facs_1_r2l8w5'>wanji</w>
+					<w facs='#facs_1_r2l8w6'>kaḣniġapi</w>
+				
+				<lb facs='#facs_1_r2l9' n='N009'/>
+					<w facs='#facs_1_r2l9w1'>kta</w>
+					<w facs='#facs_1_r2l9w2'>qa</w>
+					<w facs='#facs_1_r2l9w3'>he</w>
+					<w facs='#facs_1_r2l9w4'>oyate</w>
+					<w facs='#facs_1_r2l9w5'>tunkanśidanyapi</w>
+					<w facs='#facs_1_r2l9w6'>kta</w>
+					<w facs='#facs_1_r2l9w7'>hecen</w>
+				
+				<lb facs='#facs_1_r2l10' n='N010'/>
+					<w facs='#facs_1_r2l10w1'>idhuśtanpi.</w>
+				
+			</p>
+			<p facs='#facs_1_r3'>
+				<lb facs='#facs_1_r3l1' n='N001'/>
+					<w facs='#facs_1_r3l1w1'><date month='3' year='1917' day='16'>Mar.</date></w>
+					<w facs='#facs_1_r3l1w2'><date month='3' year='1917' day='16'>16.</date></w>
+					<w facs='#facs_1_r3l1w3'><placeName>Russia</placeName></w>
+					<w facs='#facs_1_r3l1w4'>oyate</w>
+					<w facs='#facs_1_r3l1w5'>tawaiçiyapi</w>
+					<w facs='#facs_1_r3l1w6'>kta</w>
+					<w facs='#facs_1_r3l1w7'>on</w>
+				
+				<lb facs='#facs_1_r3l2' n='N002'/>
+					<w facs='#facs_1_r3l2w1'>wicaśtayatapi</w>
+					<w facs='#facs_1_r3l2w2'>yuhapi</w>
+					<w facs='#facs_1_r3l2w3'>kin</w>
+					<w facs='#facs_1_r3l2w4'>ḣeyam</w>
+					<w facs='#facs_1_r3l2w5'>iyeyapi</w>
+					<w facs='#facs_1_r3l2w6'>qa</w>
+					<w facs='#facs_1_r3l2w7'>wi-</w>
+				
+				<lb facs='#facs_1_r3l3' n='N003'/>
+					<w facs='#facs_1_r3l3w1'>caśtayatapi</w>
+					<w facs='#facs_1_r3l3w2'>okihe</w>
+					<w facs='#facs_1_r3l3w3'><persName><forename>Nicholas</forename><surname>Alexandrovich</surname>Grand</persName></w>
+					<w facs='#facs_1_r3l3w4'><persName><forename>Nicholas</forename><surname>Alexandrovich</surname>Duke</persName></w>
+					<w facs='#facs_1_r3l3w5'>he</w>
+					<w facs='#facs_1_r3l3w6'>iś</w>
+					<w facs='#facs_1_r3l3w7'>eya</w>
+					<w facs='#facs_1_r3l3w8'>oyate</w>
+				
+				<lb facs='#facs_1_r3l4' n='N004'/>
+					<w facs='#facs_1_r3l4w1'>tawaiçiye</w>
+					<w facs='#facs_1_r3l4w2'>kta</w>
+					<w facs='#facs_1_r3l4w3'>he</w>
+					<w facs='#facs_1_r3l4w4'>wicada</w>
+					<w facs='#facs_1_r3l4w5'>heon</w>
+					<w facs='#facs_1_r3l4w6'>iye</w>
+					<w facs='#facs_1_r3l4w7'>wicoḣan</w>
+					<w facs='#facs_1_r3l4w8'>tawa</w>
+				
+				<lb facs='#facs_1_r3l5' n='N005'/>
+					<w facs='#facs_1_r3l5w1'>kin</w>
+					<w facs='#facs_1_r3l5w2'>he</w>
+					<w facs='#facs_1_r3l5w3'>wancake</w>
+					<w facs='#facs_1_r3l5w4'>enakiya.</w>
+					<w facs='#facs_1_r3l5w5'>Hecen</w>
+					<w facs='#facs_1_r3l5w6'>wanna</w>
+					<w facs='#facs_1_r3l5w7'>Russia</w>
+				
+				<lb facs='#facs_1_r3l6' n='N006'/>
+					<w facs='#facs_1_r3l6w1'>oyate</w>
+					<w facs='#facs_1_r3l6w2'>kin</w>
+					<w facs='#facs_1_r3l6w3'>detanhan</w>
+					<w facs='#facs_1_r3l6w4'>tunkanśidan</w>
+					<w facs='#facs_1_r3l6w5'>wanji</w>
+					<w facs='#facs_1_r3l6w6'>yuhapi</w>
+				
+				<lb facs='#facs_1_r3l7' n='N007'/>
+					<w facs='#facs_1_r3l7w1'>kta</w>
+					<w facs='#facs_1_r3l7w2'>qa</w>
+					<w facs='#facs_1_r3l7w3'>oyate</w>
+					<w facs='#facs_1_r3l7w4'>tawaiçiyapi</w>
+					<w facs='#facs_1_r3l7w5'>hecapi</w>
+					<w facs='#facs_1_r3l7w6'>kta.</w>
+				
+			</p>
+			<p facs='#facs_1_r4'>
+				<lb facs='#facs_1_r4l1' n='N001'/>
+					<w facs='#facs_1_r4l1w1'><date month='3' year='1917' day='20'>Mar.</date></w>
+					<w facs='#facs_1_r4l1w2'><date month='3' year='1917' day='20'>20.</date></w>
+					<w facs='#facs_1_r4l1w3'>Waśicun</w>
+					<w facs='#facs_1_r4l1w4'>ikceka</w>
+					<w facs='#facs_1_r4l1w5'>akicita</w>
+					<w facs='#facs_1_r4l1w6'>kin</w>
+					<w facs='#facs_1_r4l1w7'>hena</w>
+				
+				<lb facs='#facs_1_r4l2' n='N002'/>
+					<w facs='#facs_1_r4l2w1'>e</w>
+					<w facs='#facs_1_r4l2w2'>waśakapi</w>
+					<w facs='#facs_1_r4l2w3'>hecen</w>
+					<w facs='#facs_1_r4l2w4'>German</w>
+					<w facs='#facs_1_r4l2w5'>akicita</w>
+					<w facs='#facs_1_r4l2w6'>kin</w>
+					<w facs='#facs_1_r4l2w7'>wanna</w>
+					<w facs='#facs_1_r4l2w8'>he-</w>
+				
+				<lb facs='#facs_1_r4l3' n='N003'/>
+					<w facs='#facs_1_r4l3w1'>ktakiya</w>
+					<w facs='#facs_1_r4l3w2'>maka</w>
+					<w facs='#facs_1_r4l3w3'>iyutapi</w>
+					<w facs='#facs_1_r4l3w4'>25</w>
+					<w facs='#facs_1_r4l3w5'>hehanyan</w>
+					<w facs='#facs_1_r4l3w6'><sic correction='napewicaya-'>napewicayu-</sic></w>
+				
+				<lb facs='#facs_1_r4l4' n='N004'/>
+					<w facs='#facs_1_r4l4w1'>pi</w>
+					<w facs='#facs_1_r4l4w2'>qa</w>
+					<w facs='#facs_1_r4l4w3'>otonwe</w>
+					<w facs='#facs_1_r4l4w4'>cikcistinna</w>
+					<w facs='#facs_1_r4l4w5'>40</w>
+					<w facs='#facs_1_r4l4w6'>hena</w>
+					<w facs='#facs_1_r4l4w7'>Sagdaśin</w>
+					<w facs='#facs_1_r4l4w8'>kin</w>
+				
+				<lb facs='#facs_1_r4l5' n='N005'/>
+					<w facs='#facs_1_r4l5w1'>icu.</w>
+					<w facs='#facs_1_r4l5w2'>German</w>
+					<w facs='#facs_1_r4l5w3'>akicita</w>
+					<w facs='#facs_1_r4l5w4'>kin</w>
+					<w facs='#facs_1_r4l5w5'>makoce</w>
+					<w facs='#facs_1_r4l5w6'>otinskoya</w>
+				
+				<lb facs='#facs_1_r4l6' n='N006'/>
+					<w facs='#facs_1_r4l6w1'>eḣpeya</w>
+					<w facs='#facs_1_r4l6w2'>napewicayapi</w>
+					<w facs='#facs_1_r4l6w3'>kin</w>
+					<w facs='#facs_1_r4l6w4'>hena</w>
+					<w facs='#facs_1_r4l6w5'>en</w>
+					<w facs='#facs_1_r4l6w6'>cankaġa</w>
+					<w facs='#facs_1_r4l6w7'>qa</w>
+				
+				<lb facs='#facs_1_r4l7' n='N007'/>
+					<w facs='#facs_1_r4l7w1'>tipi</w>
+					<w facs='#facs_1_r4l7w2'>qa</w>
+					<w facs='#facs_1_r4l7w3'>owoju</w>
+					<w facs='#facs_1_r4l7w4'>qa</w>
+					<w facs='#facs_1_r4l7w5'>taku</w>
+					<w facs='#facs_1_r4l7w6'>owasin</w>
+					<w facs='#facs_1_r4l7w7'>ihangkiyapi</w>
+					<w facs='#facs_1_r4l7w8'>ecee.</w>
+				
+				<lb facs='#facs_1_r4l8' n='N008'/>
+					<w facs='#facs_1_r4l8w1'>Ecin</w>
+					<w facs='#facs_1_r4l8w2'>British</w>
+					<w facs='#facs_1_r4l8w3'>qa</w>
+					<w facs='#facs_1_r4l8w4'>French</w>
+					<w facs='#facs_1_r4l8w5'>hena</w>
+					<w facs='#facs_1_r4l8w6'>ipiwicadapi</w>
+					<w facs='#facs_1_r4l8w7'>heon</w>
+				
+				<lb facs='#facs_1_r4l9' n='N009'/>
+					<w facs='#facs_1_r4l9w1'>heconpi.</w>
+				
+			</p>
+			<p facs='#facs_1_r5'>
+				<lb facs='#facs_1_r5l1' n='N001'/>
+					<w facs='#facs_1_r5l1w1'><date month='3' year='1917' day='25'>Mar.</date></w>
+					<w facs='#facs_1_r5l1w2'><date month='3' year='1917' day='25'>25,</date></w>
+					<w facs='#facs_1_r5l1w3'>United</w>
+					<w facs='#facs_1_r5l1w4'>States</w>
+					<w facs='#facs_1_r5l1w5'>owancaya</w>
+					<w facs='#facs_1_r5l1w6'>detanhan</w>
+				
+				<lb facs='#facs_1_r5l2' n='N002'/>
+					<w facs='#facs_1_r5l2w1'>cankaġa,</w>
+					<w facs='#facs_1_r5l2w2'>ḣemani</w>
+					<w facs='#facs_1_r5l2w3'>cankaġa</w>
+					<w facs='#facs_1_r5l2w4'>qa</w>
+					<w facs='#facs_1_r5l2w5'>cankaġa</w>
+					<w facs='#facs_1_r5l2w6'>ikceka,</w>
+				
+				<lb facs='#facs_1_r5l3' n='N003'/>
+					<w facs='#facs_1_r5l3w1'>tankinkinyan</w>
+					<w facs='#facs_1_r5l3w2'>owasin</w>
+					<w facs='#facs_1_r5l3w3'>wicaśta</w>
+					<w facs='#facs_1_r5l3w4'>wipe</w>
+					<w facs='#facs_1_r5l3w5'>yuha</w>
+					<w facs='#facs_1_r5l3w6'>anpe-</w>
+				
+				<lb facs='#facs_1_r5l4' n='N004'/>
+					<w facs='#facs_1_r5l4w1'>tu</w>
+					<w facs='#facs_1_r5l4w2'>qa</w>
+					<w facs='#facs_1_r5l4w3'>hanyetu</w>
+					<w facs='#facs_1_r5l4w4'>koya</w>
+					<w facs='#facs_1_r5l4w5'>awanyakapi</w>
+					<w facs='#facs_1_r5l4w6'>kta</w>
+					<w facs='#facs_1_r5l4w7'>hecen</w>
+					<w facs='#facs_1_r5l4w8'>wo-</w>
+				
+				<lb facs='#facs_1_r5l5' n='N005'/>
+					<w facs='#facs_1_r5l5w1'>yuśtan.</w>
+				
+			</p>
+			<p facs='#facs_1_r6'>
+				<lb facs='#facs_1_r6l1' n='N001'/>
+					<w facs='#facs_1_r6l1w1'><date month='3' year='1917' day='27'>Mar.</date></w>
+					<w facs='#facs_1_r6l1w2'><date month='3' year='1917' day='27'>27.</date></w>
+					<w facs='#facs_1_r6l1w3'>Detanhan</w>
+					<w facs='#facs_1_r6l1w4'>oyate</w>
+					<w facs='#facs_1_r6l1w5'>obe</w>
+					<w facs='#facs_1_r6l1w6'>tokeca</w>
+					<w facs='#facs_1_r6l1w7'>tona</w>
+				
+				<lb facs='#facs_1_r6l2' n='N002'/>
+					<w facs='#facs_1_r6l2w1'>United</w>
+					<w facs='#facs_1_r6l2w2'>States</w>
+					<w facs='#facs_1_r6l2w3'>en</w>
+					<w facs='#facs_1_r6l2w4'>unpi</w>
+					<w facs='#facs_1_r6l2w5'>kta</w>
+					<w facs='#facs_1_r6l2w6'>on</w>
+					<w facs='#facs_1_r6l2w7'>hipi</w>
+					<w facs='#facs_1_r6l2w8'>kinhan</w>
+					<w facs='#facs_1_r6l2w9'>hena</w>
+				
+				<lb facs='#facs_1_r6l3' n='N003'/>
+					<w facs='#facs_1_r6l3w1'>owasin</w>
+					<w facs='#facs_1_r6l3w2'>wowapi</w>
+					<w facs='#facs_1_r6l3w3'>yawa</w>
+					<w facs='#facs_1_r6l3w4'>okihipi</w>
+					<w facs='#facs_1_r6l3w5'>hecapi</w>
+					<w facs='#facs_1_r6l3w6'>kta</w>
+					<w facs='#facs_1_r6l3w7'>hecen</w>
+				
+				<lb facs='#facs_1_r6l4' n='N004'/>
+					<w facs='#facs_1_r6l4w1'>wakiya</w>
+					<w facs='#facs_1_r6l4w2'>kin</w>
+					<w facs='#facs_1_r6l4w3'>yuśtanpi.</w>
+					<w facs='#facs_1_r6l4w4'>Oyate</w>
+					<w facs='#facs_1_r6l4w5'>owasin</w>
+					<w facs='#facs_1_r6l4w6'>en</w>
+					<w facs='#facs_1_r6l4w7'>Wowa-</w>
+				
+				<lb facs='#facs_1_r6l5' n='N005'/>
+					<w facs='#facs_1_r6l5w1'>pi</w>
+					<w facs='#facs_1_r6l5w2'>Wakan</w>
+					<w facs='#facs_1_r6l5w3'>kin</w>
+					<w facs='#facs_1_r6l5w4'>he</w>
+					<w facs='#facs_1_r6l5w5'>wanna</w>
+					<w facs='#facs_1_r6l5w6'>ieska</w>
+					<w facs='#facs_1_r6l5w7'>kaġapi</w>
+					<w facs='#facs_1_r6l5w8'>heon</w>
+					<w facs='#facs_1_r6l5w9'>taku</w>
+				
+				<lb facs='#facs_1_r6l6' n='N006'/>
+					<w facs='#facs_1_r6l6w1'>oyatepi</w>
+					<w facs='#facs_1_r6l6w2'>kaśta</w>
+					<w facs='#facs_1_r6l6w3'>owasin</w>
+					<w facs='#facs_1_r6l6w4'>Wowapi</w>
+					<w facs='#facs_1_r6l6w5'>Wakan</w>
+					<w facs='#facs_1_r6l6w6'>he</w>
+					<w facs='#facs_1_r6l6w7'>yawa</w>
+				
+				<lb facs='#facs_1_r6l7' n='N007'/>
+					<w facs='#facs_1_r6l7w1'>kta</w>
+					<w facs='#facs_1_r6l7w2'>okihipi.</w>
+					<w facs='#facs_1_r6l7w3'>Heon</w>
+					<w facs='#facs_1_r6l7w4'>oyate</w>
+					<w facs='#facs_1_r6l7w5'>obe</w>
+					<w facs='#facs_1_r6l7w6'>tokeca</w>
+					<w facs='#facs_1_r6l7w7'>wan</w>
+					<w facs='#facs_1_r6l7w8'>United</w>
+				
+				<lb facs='#facs_1_r6l8' n='N008'/>
+					<w facs='#facs_1_r6l8w1'>States</w>
+					<w facs='#facs_1_r6l8w2'>en</w>
+					<w facs='#facs_1_r6l8w3'>un</w>
+					<w facs='#facs_1_r6l8w4'>kta</w>
+					<w facs='#facs_1_r6l8w5'>on</w>
+					<w facs='#facs_1_r6l8w6'>hi</w>
+					<w facs='#facs_1_r6l8w7'>kinhan</w>
+					<w facs='#facs_1_r6l8w8'>he</w>
+					<w facs='#facs_1_r6l8w9'>Wowapi</w>
+					<w facs='#facs_1_r6l8w10'>Wa-</w>
+				
+				<lb facs='#facs_1_r6l9' n='N009'/>
+					<w facs='#facs_1_r6l9w1'>kan</w>
+					<w facs='#facs_1_r6l9w2'>kin</w>
+					<w facs='#facs_1_r6l9w3'>he</w>
+					<w facs='#facs_1_r6l9w4'>yawa</w>
+					<w facs='#facs_1_r6l9w5'>kiyapi</w>
+					<w facs='#facs_1_r6l9w6'>qa</w>
+					<w facs='#facs_1_r6l9w7'>yawa</w>
+					<w facs='#facs_1_r6l9w8'>okihi</w>
+					<w facs='#facs_1_r6l9w9'>kinhan</w>
+				
+				<lb facs='#facs_1_r6l10' n='N010'/>
+					<w facs='#facs_1_r6l10w1'>he</w>
+					<w facs='#facs_1_r6l10w2'>eciyatanhan</w>
+					<w facs='#facs_1_r6l10w3'>sdonyapi</w>
+					<w facs='#facs_1_r6l10w4'>kta</w>
+					<w facs='#facs_1_r6l10w5'>hecen</w>
+					<w facs='#facs_1_r6l10w6'>wakiya</w>
+					<w facs='#facs_1_r6l10w7'>en</w>
+				
+				<lb facs='#facs_1_r6l11' n='N011'/>
+					<w facs='#facs_1_r6l11w1'>woyuśtan</w>
+					<w facs='#facs_1_r6l11w2'>kaġapi.</w>
+				
+			</p>
+			<p facs='#facs_1_r7'>
+				<lb facs='#facs_1_r7l1' n='N001'/>
+					<w facs='#facs_1_r7l1w1'><date month='3' year='1917' day='29'>Mar.</date></w>
+					<w facs='#facs_1_r7l1w2'><date month='3' year='1917' day='29'>29</date></w>
+					<w facs='#facs_1_r7l1w3'>Sagdaśin</w>
+					<w facs='#facs_1_r7l1w4'>akicita</w>
+					<w facs='#facs_1_r7l1w5'>kin</w>
+					<w facs='#facs_1_r7l1w6'>Turkey</w>
+					<w facs='#facs_1_r7l1w7'>akicita</w>
+				
+				<lb facs='#facs_1_r7l2' n='N002'/>
+					<w facs='#facs_1_r7l2w1'>kin</w>
+					<w facs='#facs_1_r7l2w2'>om</w>
+					<w facs='#facs_1_r7l2w3'>anpetu</w>
+					<w facs='#facs_1_r7l2w4'>kin</w>
+					<w facs='#facs_1_r7l2w5'>he</w>
+					<w facs='#facs_1_r7l2w6'>en</w>
+					<w facs='#facs_1_r7l2w7'>nina</w>
+					<w facs='#facs_1_r7l2w8'>kicizapi.</w>
+					<w facs='#facs_1_r7l2w9'>Makoce</w>
+				
+				<lb facs='#facs_1_r7l3' n='N003'/>
+					<w facs='#facs_1_r7l3w1'>en</w>
+					<w facs='#facs_1_r7l3w2'>kicizapi</w>
+					<w facs='#facs_1_r7l3w3'>kin</w>
+					<w facs='#facs_1_r7l3w4'>de</w>
+					<w facs='#facs_1_r7l3w5'><placeName>Palestine,</placeName></w>
+					<w facs='#facs_1_r7l3w6'>makoce</w>
+					<w facs='#facs_1_r7l3w7'>wakan,</w>
+				
+				<lb facs='#facs_1_r7l4' n='N004'/>
+					<w facs='#facs_1_r7l4w1'>kin</w>
+					<w facs='#facs_1_r7l4w2'>etu,</w>
+					<w facs='#facs_1_r7l4w3'>Sagdaśin</w>
+					<w facs='#facs_1_r7l4w4'>kin</w>
+					<w facs='#facs_1_r7l4w5'><placeName>Egypt</placeName></w>
+					<w facs='#facs_1_r7l4w6'><placeName>makoce</placeName></w>
+					<w facs='#facs_1_r7l4w7'>kin</w>
+					<w facs='#facs_1_r7l4w8'>hetan-</w>
+				
+				<lb facs='#facs_1_r7l5' n='N005'/>
+					<w facs='#facs_1_r7l5w1'>han</w>
+					<w facs='#facs_1_r7l5w2'>makoce</w>
+					<w facs='#facs_1_r7l5w3'>wakan</w>
+					<w facs='#facs_1_r7l5w4'>kin</w>
+					<w facs='#facs_1_r7l5w5'>etkiya</w>
+					<w facs='#facs_1_r7l5w6'>yapi</w>
+					<w facs='#facs_1_r7l5w7'>token</w>
+					<w facs='#facs_1_r7l5w8'>ya-</w>
+				
+				<lb facs='#facs_1_r7l6' n='N006'/>
+					<w facs='#facs_1_r7l6w1'>pi</w>
+					<w facs='#facs_1_r7l6w2'>kin</w>
+					<w facs='#facs_1_r7l6w3'>ecen</w>
+					<w facs='#facs_1_r7l6w4'>ḣemani</w>
+					<w facs='#facs_1_r7l6w5'>canku</w>
+					<w facs='#facs_1_r7l6w6'>nakun</w>
+					<w facs='#facs_1_r7l6w7'>kaḣ-ayapi.</w>
+				
+				<lb facs='#facs_1_r7l7' n='N007'/>
+					<w facs='#facs_1_r7l7w1'>Turkey</w>
+					<w facs='#facs_1_r7l7w2'>akicita</w>
+					<w facs='#facs_1_r7l7w3'>kin</w>
+					<w facs='#facs_1_r7l7w4'>20,000</w>
+					<w facs='#facs_1_r7l7w5'>tuka</w>
+					<w facs='#facs_1_r7l7w6'>nape</w>
+					<w facs='#facs_1_r7l7w7'>wicayapi</w>
+				
+				<lb facs='#facs_1_r7l8' n='N008'/>
+					<w facs='#facs_1_r7l8w1'>qa</w>
+					<w facs='#facs_1_r7l8w2'><sic correction='etanhan'>etauhan</sic></w>
+					<w facs='#facs_1_r7l8w3'>900</w>
+					<w facs='#facs_1_r7l8w4'>wayaka</w>
+					<w facs='#facs_1_r7l8w5'>wicayuzapi.</w>
+					<w facs='#facs_1_r7l8w6'>Akicita</w>
+				
+				<lb facs='#facs_1_r7l9' n='N009'/>
+					<w facs='#facs_1_r7l9w1'>itancan</w>
+					<w facs='#facs_1_r7l9w2'>tanka</w>
+					<w facs='#facs_1_r7l9w3'>wan</w>
+					<w facs='#facs_1_r7l9w4'>nakun</w>
+					<w facs='#facs_1_r7l9w5'>wayaka</w>
+					<w facs='#facs_1_r7l9w6'>yuzapi</w>
+					<w facs='#facs_1_r7l9w7'>He-</w>
+				
+				<lb facs='#facs_1_r7l10' n='N010'/>
+					<w facs='#facs_1_r7l10w1'>cen</w>
+					<w facs='#facs_1_r7l10w2'>Sagdaśin</w>
+					<w facs='#facs_1_r7l10w3'>kin</w>
+					<w facs='#facs_1_r7l10w4'>e</w>
+					<w facs='#facs_1_r7l10w5'>ohiyapi</w>
+					<w facs='#facs_1_r7l10w6'>hecen</w>
+					<w facs='#facs_1_r7l10w7'>yuotaninpi.</w>
+				
+			</p>
+			<p facs='#facs_1_r8'>
+				<lb facs='#facs_1_r8l1' n='N001'/>
+					<w facs='#facs_1_r8l1w1'><date month='4' year='1917' day='5'>Apr.</date></w>
+					<w facs='#facs_1_r8l1w2'><date month='4' year='1917' day='5'>5.</date></w>
+					<w facs='#facs_1_r8l1w3'><placeName>Redding</placeName></w>
+					<w facs='#facs_1_r8l1w4'><placeName>California</placeName></w>
+					<w facs='#facs_1_r8l1w5'>paha</w>
+					<w facs='#facs_1_r8l1w6'>wan</w>
+					<w facs='#facs_1_r8l1w7'><placeName>Lassen</placeName></w>
+				
+				<lb facs='#facs_1_r8l2' n='N002'/>
+					<w facs='#facs_1_r8l2w1'>eciyapi</w>
+					<w facs='#facs_1_r8l2w2'>he</w>
+					<w facs='#facs_1_r8l2w3'>napopa</w>
+					<w facs='#facs_1_r8l2w4'>qa</w>
+					<w facs='#facs_1_r8l2w5'>oide</w>
+					<w facs='#facs_1_r8l2w6'>qa</w>
+					<w facs='#facs_1_r8l2w7'>etanhan</w>
+					<w facs='#facs_1_r8l2w8'><sic correction='ogna'>ohni</sic></w>
+					<w facs='#facs_1_r8l2w9'>śota</w>
+				
+				<lb facs='#facs_1_r8l3' n='N003'/>
+					<w facs='#facs_1_r8l3w1'>hiyu</w>
+					<w facs='#facs_1_r8l3w2'>ecee</w>
+					<w facs='#facs_1_r8l3w3'>oyakapi</w>
+					<w facs='#facs_1_r8l3w4'>qon</w>
+					<w facs='#facs_1_r8l3w5'>dehan</w>
+					<w facs='#facs_1_r8l3w6'>iyotan</w>
+					<w facs='#facs_1_r8l3w7'>etanhan</w>
+				
+				<lb facs='#facs_1_r8l4' n='N004'/>
+					<w facs='#facs_1_r8l4w1'>nina</w>
+					<w facs='#facs_1_r8l4w2'>ośota</w>
+					<w facs='#facs_1_r8l4w3'>qa</w>
+					<w facs='#facs_1_r8l4w4'>etanhan</w>
+					<w facs='#facs_1_r8l4w5'>caḣota</w>
+					<w facs='#facs_1_r8l4w6'>kin</w>
+					<w facs='#facs_1_r8l4w7'>okokipeya</w>
+					<w facs='#facs_1_r8l4w8'>bo-</w>
+				
+				<lb facs='#facs_1_r8l5' n='N005'/>
+					<w facs='#facs_1_r8l5w1'>mdu</w>
+					<w facs='#facs_1_r8l5w2'>keyapi.</w>
+				
+			</p>
+			<p facs='#facs_1_r9'>
+				<lb facs='#facs_1_r9l1' n='N001'/>
+					<w facs='#facs_1_r9l1w1'><date month='4' year='1917' day='6'>Apr.</date></w>
+					<w facs='#facs_1_r9l1w2'><date month='4' year='1917' day='6'>6.</date></w>
+					<w facs='#facs_1_r9l1w3'><placeName>Washington</placeName></w>
+					<w facs='#facs_1_r9l1w4'>en</w>
+					<w facs='#facs_1_r9l1w5'>wakiya</w>
+					<w facs='#facs_1_r9l1w6'>wicaśta</w>
+					<w facs='#facs_1_r9l1w7'>hena</w>
+				
+				<lb facs='#facs_1_r9l2' n='N002'/>
+					<w facs='#facs_1_r9l2w1'>tunkanśidan</w>
+					<w facs='#facs_1_r9l2w2'><persName><forename>Woodrow</forename><surname>Wilson</surname>Pres.</persName></w>
+					<w facs='#facs_1_r9l2w3'><persName><forename>Woodrow</forename><surname>Wilson</surname>Wilson</persName></w>
+					<w facs='#facs_1_r9l2w4'>okicize</w>
+					<w facs='#facs_1_r9l2w5'>kte</w>
+					<w facs='#facs_1_r9l2w6'>qaiś</w>
+					<w facs='#facs_1_r9l2w7'>oki-</w>
+				
+				<lb facs='#facs_1_r9l3' n='N003'/>
+					<w facs='#facs_1_r9l3w1'>cize</w>
+					<w facs='#facs_1_r9l3w2'>kte</w>
+					<w facs='#facs_1_r9l3w3'>śni</w>
+					<w facs='#facs_1_r9l3w4'>he</w>
+					<w facs='#facs_1_r9l3w5'>iyukcan</w>
+					<w facs='#facs_1_r9l3w6'>wicaśi</w>
+					<w facs='#facs_1_r9l3w7'>qa</w>
+					<w facs='#facs_1_r9l3w8'>he</w>
+					<w facs='#facs_1_r9l3w9'>nina</w>
+					<w facs='#facs_1_r9l3w10'>iwo-</w>
+				
+				<lb facs='#facs_1_r9l4' n='N004'/>
+					<w facs='#facs_1_r9l4w1'>hdakapi</w>
+					<w facs='#facs_1_r9l4w2'>hehan</w>
+					<w facs='#facs_1_r9l4w3'>on</w>
+					<w facs='#facs_1_r9l4w4'>wowapi</w>
+					<w facs='#facs_1_r9l4w5'>oiyoḣpeyapi.</w>
+					<w facs='#facs_1_r9l4w6'>Unit-</w>
+				
+				<lb facs='#facs_1_r9l5' n='N005'/>
+					<w facs='#facs_1_r9l5w1'>ed</w>
+					<w facs='#facs_1_r9l5w2'>States</w>
+					<w facs='#facs_1_r9l5w3'>kin</w>
+					<w facs='#facs_1_r9l5w4'>German</w>
+					<w facs='#facs_1_r9l5w5'>kize</w>
+					<w facs='#facs_1_r9l5w6'>kta</w>
+					<w facs='#facs_1_r9l5w7'>cinpi</w>
+					<w facs='#facs_1_r9l5w8'>on</w>
+					<w facs='#facs_1_r9l5w9'>wowapi</w>
+				
+				<lb facs='#facs_1_r9l6' n='N006'/>
+					<w facs='#facs_1_r9l6w1'>iyoḣpeyapi</w>
+					<w facs='#facs_1_r9l6w2'>kin</w>
+					<w facs='#facs_1_r9l6w3'>373</w>
+					<w facs='#facs_1_r9l6w4'>qa</w>
+					<w facs='#facs_1_r9l6w5'>cinpi</w>
+					<w facs='#facs_1_r9l6w6'>śni</w>
+					<w facs='#facs_1_r9l6w7'>kin</w>
+					<w facs='#facs_1_r9l6w8'>50,</w>
+					<w facs='#facs_1_r9l6w9'>hecen</w>
+				
+				<lb facs='#facs_1_r9l7' n='N007'/>
+					<w facs='#facs_1_r9l7w1'>wanna</w>
+					<w facs='#facs_1_r9l7w2'>United</w>
+					<w facs='#facs_1_r9l7w3'>States</w>
+					<w facs='#facs_1_r9l7w4'>German</w>
+					<w facs='#facs_1_r9l7w5'>kici</w>
+					<w facs='#facs_1_r9l7w6'>kicize</w>
+					<w facs='#facs_1_r9l7w7'>kta</w>
+					<w facs='#facs_1_r9l7w8'>hee</w>
+				
+				<lb facs='#facs_1_r9l8' n='N008'/>
+					<w facs='#facs_1_r9l8w1'>yuśtanpi</w>
+					<w facs='#facs_1_r9l8w2'>qa</w>
+					<w facs='#facs_1_r9l8w3'>President</w>
+					<w facs='#facs_1_r9l8w4'>Wilson</w>
+					<w facs='#facs_1_r9l8w5'>wanna</w>
+					<w facs='#facs_1_r9l8w6'>wowapi</w>
+				
+				<lb facs='#facs_1_r9l9' n='N009'/>
+					<w facs='#facs_1_r9l9w1'>kin</w>
+					<w facs='#facs_1_r9l9w2'>yutan.</w>
+				
+			</p>
+			<p facs='#facs_1_r10'>
+				<lb facs='#facs_1_r10l1' n='N001'/>
+					<w facs='#facs_1_r10l1w1'><date month='4' year='1917' day='9'>Apr.</date></w>
+					<w facs='#facs_1_r10l1w2'><date month='4' year='1917' day='9'>9.</date></w>
+					<w facs='#facs_1_r10l1w3'><placeName>St.</placeName></w>
+					<w facs='#facs_1_r10l1w4'><placeName>Louis</placeName></w>
+					<w facs='#facs_1_r10l1w5'><placeName>otonwe</placeName></w>
+					<w facs='#facs_1_r10l1w6'>en</w>
+					<w facs='#facs_1_r10l1w7'>anpetu</w>
+					<w facs='#facs_1_r10l1w8'>kin</w>
+					<w facs='#facs_1_r10l1w9'>he</w>
+				
+				<lb facs='#facs_1_r10l2' n='N002'/>
+					<w facs='#facs_1_r10l2w1'>minutes</w>
+					<w facs='#facs_1_r10l2w2'>śahdoġan</w>
+					<w facs='#facs_1_r10l2w3'>hehanyan</w>
+					<w facs='#facs_1_r10l2w4'>maka</w>
+					<w facs='#facs_1_r10l2w5'>śkanśkan,</w>
+				
+				<lb facs='#facs_1_r10l3' n='N003'/>
+					<w facs='#facs_1_r10l3w1'>tuka</w>
+					<w facs='#facs_1_r10l3w2'>nina</w>
+					<w facs='#facs_1_r10l3w3'>ḣce</w>
+					<w facs='#facs_1_r10l3w4'>śni.</w>
+					<w facs='#facs_1_r10l3w5'>Owanye</w>
+					<w facs='#facs_1_r10l3w6'>wanjikji</w>
+					<w facs='#facs_1_r10l3w7'>qa</w>
+					<w facs='#facs_1_r10l3w8'>inyan</w>
+				
+				<lb facs='#facs_1_r10l4' n='N004'/>
+					<w facs='#facs_1_r10l4w1'>oceti</w>
+					<w facs='#facs_1_r10l4w2'>wanjikji</w>
+					<w facs='#facs_1_r10l4w3'>yumdeca.</w>
+					<w facs='#facs_1_r10l4w4'>Oyanke</w>
+					<w facs='#facs_1_r10l4w5'>de</w>
+					<w facs='#facs_1_r10l4w6'>en</w>
+					<w facs='#facs_1_r10l4w7'>wanna</w>
+				
+				<lb facs='#facs_1_r10l5' n='N005'/>
+					<w facs='#facs_1_r10l5w1'>de</w>
+					<w facs='#facs_1_r10l5w2'>iyamni</w>
+					<w facs='#facs_1_r10l5w3'>maka</w>
+					<w facs='#facs_1_r10l5w4'>śkanśkan,</w>
+					<w facs='#facs_1_r10l5w5'>ehanna</w>
+					<w facs='#facs_1_r10l5w6'>omaka</w>
+					<w facs='#facs_1_r10l5w7'>1811</w>
+				
+				<lb facs='#facs_1_r10l6' n='N006'/>
+					<w facs='#facs_1_r10l6w1'>en</w>
+					<w facs='#facs_1_r10l6w2'>hececa</w>
+					<w facs='#facs_1_r10l6w3'>qa</w>
+					<w facs='#facs_1_r10l6w4'>ake</w>
+					<w facs='#facs_1_r10l6w5'>omaka</w>
+					<w facs='#facs_1_r10l6w6'>1812</w>
+					<w facs='#facs_1_r10l6w7'>en</w>
+					<w facs='#facs_1_r10l6w8'>hececa</w>
+					<w facs='#facs_1_r10l6w9'>qa</w>
+					<w facs='#facs_1_r10l6w10'>de</w>
+				
+				<lb facs='#facs_1_r10l7' n='N007'/>
+					<w facs='#facs_1_r10l7w1'>nakaha</w>
+					<w facs='#facs_1_r10l7w2'>ake</w>
+					<w facs='#facs_1_r10l7w3'>hececa.</w>
+				
+			</p>
+			<p facs='#facs_1_r11'>
+				<lb facs='#facs_1_r11l1' n='N001'/>
+					<w facs='#facs_1_r11l1w1'><date month='4' year='1917' day='11'>Apr</date></w>
+					<w facs='#facs_1_r11l1w2'><date month='4' year='1917' day='11'>.11.</date></w>
+					<w facs='#facs_1_r11l1w3'>Washington</w>
+					<w facs='#facs_1_r11l1w4'>otonwe</w>
+					<w facs='#facs_1_r11l1w5'>en</w>
+					<w facs='#facs_1_r11l1w6'>wanna</w>
+					<w facs='#facs_1_r11l1w7'>eca-</w>
+				
+				<lb facs='#facs_1_r11l2' n='N002'/>
+					<w facs='#facs_1_r11l2w1'>dan</w>
+					<w facs='#facs_1_r11l2w2'>okicize</w>
+					<w facs='#facs_1_r11l2w3'>tanka</w>
+					<w facs='#facs_1_r11l2w4'>kin</w>
+					<w facs='#facs_1_r11l2w5'>heon</w>
+					<w facs='#facs_1_r11l2w6'>oyate</w>
+					<w facs='#facs_1_r11l2w7'>etanhanhan</w>
+				
+				<lb facs='#facs_1_r11l3' n='N003'/>
+					<w facs='#facs_1_r11l3w1'>wicaśta</w>
+					<w facs='#facs_1_r11l3w2'>iyotan</w>
+					<w facs='#facs_1_r11l3w3'>ksapa</w>
+					<w facs='#facs_1_r11l3w4'>hena</w>
+					<w facs='#facs_1_r11l3w5'>omniciye</w>
+					<w facs='#facs_1_r11l3w6'>wan</w>
+					<w facs='#facs_1_r11l3w7'>yuhapi</w>
+				
+				<lb facs='#facs_1_r11l4' n='N004'/>
+					<w facs='#facs_1_r11l4w1'>kta.</w>
+					<w facs='#facs_1_r11l4w2'>Sagdaśin</w>
+					<w facs='#facs_1_r11l4w3'>oyate</w>
+					<w facs='#facs_1_r11l4w4'>etanhan</w>
+					<w facs='#facs_1_r11l4w5'><persName>Arthur</persName></w>
+					<w facs='#facs_1_r11l4w6'><persName>J.</persName></w>
+					<w facs='#facs_1_r11l4w7'><persName>Bal-</persName></w>
+				
+				<lb facs='#facs_1_r11l5' n='N005'/>
+					<w facs='#facs_1_r11l5w1'><persName><forename>Arthur J.</forename><surname>Balour</surname>four,</persName></w>
+					<w facs='#facs_1_r11l5w2'>he</w>
+					<w facs='#facs_1_r11l5w3'>Sagdaśin</w>
+					<w facs='#facs_1_r11l5w4'>oyate</w>
+					<w facs='#facs_1_r11l5w5'>tokiconzepi</w>
+					<w facs='#facs_1_r11l5w6'>en</w>
+					<w facs='#facs_1_r11l5w7'>wicaśta</w>
+				
+				<lb facs='#facs_1_r11l6' n='N006'/>
+					<w facs='#facs_1_r11l6w1'>ksapa</w>
+					<w facs='#facs_1_r11l6w2'>qa</w>
+					<w facs='#facs_1_r11l6w3'>nina</w>
+					<w facs='#facs_1_r11l6w4'>okitanin</w>
+					<w facs='#facs_1_r11l6w5'>heca,</w>
+					<w facs='#facs_1_r11l6w6'>hee</w>
+					<w facs='#facs_1_r11l6w7'>qa</w>
+					<w facs='#facs_1_r11l6w8'>France</w>
+				
+			</p>
+			<pb facs='#facs_2' xml:id='D_DD_IO_19170401_p01_02_cropped-0002.jpg' n='2'/>
+			<p facs='#facs_2_r1'>
+				<lb facs='#facs_2_r1l1' n='N001'/>
+					<w facs='#facs_2_r1l1w1'>Waśicun</w>
+					<w facs='#facs_2_r1l1w2'>ikceka</w>
+					<w facs='#facs_2_r1l1w3'>oyate</w>
+					<w facs='#facs_2_r1l1w4'>etanhan</w>
+					<w facs='#facs_2_r1l1w5'><persName><forename>René</forename><surname>Viviani</surname>M.</persName></w>
+					<w facs='#facs_2_r1l1w6'><persName><forename>René</forename><surname>Viviani</surname>Viviani</persName></w>
+					<w facs='#facs_2_r1l1w7'>he</w>
+				
+				<lb facs='#facs_2_r1l2' n='N002'/>
+					<w facs='#facs_2_r1l2w1'>wicaśta</w>
+					<w facs='#facs_2_r1l2w2'>ksapa</w>
+					<w facs='#facs_2_r1l2w3'>qa</w>
+					<w facs='#facs_2_r1l2w4'>okitanin</w>
+					<w facs='#facs_2_r1l2w5'>he</w>
+					<w facs='#facs_2_r1l2w6'>nakun,</w>
+					<w facs='#facs_2_r1l2w7'>hecen</w>
+					<w facs='#facs_2_r1l2w8'>hena</w>
+				
+				<lb facs='#facs_2_r1l3' n='N003'/>
+					<w facs='#facs_2_r1l3w1'>tunkanśidan</w>
+					<w facs='#facs_2_r1l3w2'>Pres.</w>
+					<w facs='#facs_2_r1l3w3'>Wilson</w>
+					<w facs='#facs_2_r1l3w4'>on</w>
+					<w facs='#facs_2_r1l3w5'>taku</w>
+					<w facs='#facs_2_r1l3w6'>ota</w>
+					<w facs='#facs_2_r1l3w7'>iwohda-</w>
+				
+				<lb facs='#facs_2_r1l4' n='N004'/>
+					<w facs='#facs_2_r1l4w1'>kapi</w>
+					<w facs='#facs_2_r1l4w2'>kta</w>
+					<w facs='#facs_2_r1l4w3'>okicize</w>
+					<w facs='#facs_2_r1l4w4'>kin</w>
+					<w facs='#facs_2_r1l4w5'>he</w>
+					<w facs='#facs_2_r1l4w6'>tan</w>
+					<w facs='#facs_2_r1l4w7'>tanhan,</w>
+					<w facs='#facs_2_r1l4w8'>heon</w>
+					<w facs='#facs_2_r1l4w9'>United</w>
+				
+				<lb facs='#facs_2_r1l5' n='N005'/>
+					<w facs='#facs_2_r1l5w1'>States</w>
+					<w facs='#facs_2_r1l5w2'>ekta</w>
+					<w facs='#facs_2_r1l5w3'>hipi</w>
+					<w facs='#facs_2_r1l5w4'>kta</w>
+					<w facs='#facs_2_r1l5w5'>qa</w>
+					<w facs='#facs_2_r1l5w6'><sic correction='Washington'>Washinġton,</sic></w>
+					<w facs='#facs_2_r1l5w7'>D. C.</w>
+					<w facs='#facs_2_r1l5w8'>en</w>
+				
+				<lb facs='#facs_2_r1l6' n='N006'/>
+					<w facs='#facs_2_r1l6w1'>mniciyapi</w>
+					<w facs='#facs_2_r1l6w2'>kte.</w>
+				
+			</p>
+			<p facs='#facs_2_r2'>
+				<lb facs='#facs_2_r2l1' n='N001'/>
+					<w facs='#facs_2_r2l1w1'><date month='4' year='1917' day='22'>Apr.</date></w>
+					<w facs='#facs_2_r2l1w2'><date month='4' year='1917' day='22'>22.</date></w>
+					<w facs='#facs_2_r2l1w3'>Washington</w>
+					<w facs='#facs_2_r2l1w4'>otonwe</w>
+					<w facs='#facs_2_r2l1w5'>kin</w>
+					<w facs='#facs_2_r2l1w6'>en</w>
+					<w facs='#facs_2_r2l1w7'>anpetu</w>
+				
+				<lb facs='#facs_2_r2l2' n='N002'/>
+					<w facs='#facs_2_r2l2w1'>kin</w>
+					<w facs='#facs_2_r2l2w2'>he</w>
+					<w facs='#facs_2_r2l2w3'>Arthur</w>
+					<w facs='#facs_2_r2l2w4'>J.</w>
+					<w facs='#facs_2_r2l2w5'>Balfour</w>
+					<w facs='#facs_2_r2l2w6'>Sagdaśin</w>
+					<w facs='#facs_2_r2l2w7'>oyate</w>
+					<w facs='#facs_2_r2l2w8'>en</w>
+					<w facs='#facs_2_r2l2w9'>wi-</w>
+				
+				<lb facs='#facs_2_r2l3' n='N003'/>
+					<w facs='#facs_2_r2l3w1'>caśta</w>
+					<w facs='#facs_2_r2l3w2'>iyotan</w>
+					<w facs='#facs_2_r2l3w3'>okinihan</w>
+					<w facs='#facs_2_r2l3w4'>kin</w>
+					<w facs='#facs_2_r2l3w5'>hee</w>
+					<w facs='#facs_2_r2l3w6'>hen</w>
+					<w facs='#facs_2_r2l3w7'>hi.</w>
+					<w facs='#facs_2_r2l3w8'>Hena</w>
+				
+				<lb facs='#facs_2_r2l4' n='N004'/>
+					<w facs='#facs_2_r2l4w1'>tnnkaśidan</w>
+					<w facs='#facs_2_r2l4w2'>Pres.</w>
+					<w facs='#facs_2_r2l4w3'>Wilson</w>
+					<w facs='#facs_2_r2l4w4'>qa</w>
+					<w facs='#facs_2_r2l4w5'>oitancanpi</w>
+					<w facs='#facs_2_r2l4w6'>kin</w>
+					<w facs='#facs_2_r2l4w7'>on</w>
+				
+				<lb facs='#facs_2_r2l5' n='N005'/>
+					<w facs='#facs_2_r2l5w1'>okicize</w>
+					<w facs='#facs_2_r2l5w2'>kin</w>
+					<w facs='#facs_2_r2l5w3'>heon</w>
+					<w facs='#facs_2_r2l5w4'>omniciye</w>
+					<w facs='#facs_2_r2l5w5'>wan</w>
+					<w facs='#facs_2_r2l5w6'>yuhapi</w>
+					<w facs='#facs_2_r2l5w7'>kta</w>
+					<w facs='#facs_2_r2l5w8'>qa</w>
+				
+				<lb facs='#facs_2_r2l6' n='N006'/>
+					<w facs='#facs_2_r2l6w1'>tanyan</w>
+					<w facs='#facs_2_r2l6w2'>iwanyakapi</w>
+					<w facs='#facs_2_r2l6w3'>kta,</w>
+					<w facs='#facs_2_r2l6w4'>token</w>
+					<w facs='#facs_2_r2l6w5'>econpi</w>
+					<w facs='#facs_2_r2l6w6'>qa</w>
+					<w facs='#facs_2_r2l6w7'>okicize</w>
+				
+				<lb facs='#facs_2_r2l7' n='N007'/>
+					<w facs='#facs_2_r2l7w1'>tanka</w>
+					<w facs='#facs_2_r2l7w2'>kin</w>
+					<w facs='#facs_2_r2l7w3'>de</w>
+					<w facs='#facs_2_r2l7w4'>ecadan</w>
+					<w facs='#facs_2_r2l7w5'>ayuśtanpi</w>
+					<w facs='#facs_2_r2l7w6'>qa</w>
+					<w facs='#facs_2_r2l7w7'>ake</w>
+					<w facs='#facs_2_r2l7w8'>oyate</w>
+				
+				<lb facs='#facs_2_r2l8' n='N008'/>
+					<w facs='#facs_2_r2l8w1'>o was in</w>
+					<w facs='#facs_2_r2l8w2'>wookiye</w>
+					<w facs='#facs_2_r2l8w3'>wanke</w>
+					<w facs='#facs_2_r2l8w4'>kta</w>
+					<w facs='#facs_2_r2l8w5'>taku</w>
+					<w facs='#facs_2_r2l8w6'>hececa</w>
+					<w facs='#facs_2_r2l8w7'>on</w>
+				
+				<lb facs='#facs_2_r2l9' n='N009'/>
+					<w facs='#facs_2_r2l9w1'>omniciye</w>
+					<w facs='#facs_2_r2l9w2'>de</w>
+					<w facs='#facs_2_r2l9w3'>yuhapi</w>
+					<w facs='#facs_2_r2l9w4'>kta.</w>
+				
+			</p>
+			<p facs='#facs_2_r3'>
+				<lb facs='#facs_2_r3l1' n='N001'/>
+					<w facs='#facs_2_r3l1w1'><date month='4' year='1917' day='24'>Apr.</date></w>
+					<w facs='#facs_2_r3l1w2'><date month='4' year='1917' day='24'>24.</date></w>
+					<w facs='#facs_2_r3l1w3'><placeName>Fortress</placeName></w>
+					<w facs='#facs_2_r3l1w4'><placeName>Monroe,</placeName></w>
+					<w facs='#facs_2_r3l1w5'><placeName>Va.</placeName></w>
+					<w facs='#facs_2_r3l1w6'>en</w>
+					<w facs='#facs_2_r3l1w7'>France</w>
+				
+				<lb facs='#facs_2_r3l2' n='N002'/>
+					<w facs='#facs_2_r3l2w1'>waśicun</w>
+					<w facs='#facs_2_r3l2w2'>ikceka</w>
+					<w facs='#facs_2_r3l2w3'>tamakocepi</w>
+					<w facs='#facs_2_r3l2w4'>etanhan</w>
+					<w facs='#facs_2_r3l2w5'>wicaśta</w>
+					<w facs='#facs_2_r3l2w6'>iyo-</w>
+				
+				<lb facs='#facs_2_r3l3' n='N003'/>
+					<w facs='#facs_2_r3l3w1'>tan</w>
+					<w facs='#facs_2_r3l3w2'><sic correction='okitaninpi'>okitanindi</sic></w>
+					<w facs='#facs_2_r3l3w3'>Rene</w>
+					<w facs='#facs_2_r3l3w4'><sic correction='Viviani'>Viviana,</sic></w>
+					<w facs='#facs_2_r3l3w5'><persName><forename>Joseph</forename><surname>Joffre</surname>Marshal</persName></w>
+					<w facs='#facs_2_r3l3w6'><persName><forename>Joseph</forename><surname>Joffre</surname>Joffre</persName></w>
+				
+				<lb facs='#facs_2_r3l4' n='N004'/>
+					<w facs='#facs_2_r3l4w1'>hena</w>
+					<w facs='#facs_2_r3l4w2'>hen</w>
+					<w facs='#facs_2_r3l4w3'>hihunipi</w>
+					<w facs='#facs_2_r3l4w4'>qa</w>
+					<w facs='#facs_2_r3l4w5'>hetanhan</w>
+					<w facs='#facs_2_r3l4w6'>Washington</w>
+				
+				<lb facs='#facs_2_r3l5' n='N005'/>
+					<w facs='#facs_2_r3l5w1'>otonwe</w>
+					<w facs='#facs_2_r3l5w2'>ekta</w>
+					<w facs='#facs_2_r3l5w3'>iyayapi</w>
+					<w facs='#facs_2_r3l5w4'>qa</w>
+					<w facs='#facs_2_r3l5w5'>tunkanśidan</w>
+					<w facs='#facs_2_r3l5w6'>Pres.</w>
+					<w facs='#facs_2_r3l5w7'>Wil-</w>
+				
+				<lb facs='#facs_2_r3l6' n='N006'/>
+					<w facs='#facs_2_r3l6w1'>son</w>
+					<w facs='#facs_2_r3l6w2'>hena</w>
+					<w facs='#facs_2_r3l6w3'>om</w>
+					<w facs='#facs_2_r3l6w4'>omniciye</w>
+					<w facs='#facs_2_r3l6w5'>wanji</w>
+					<w facs='#facs_2_r3l6w6'>iyotan</w>
+					<w facs='#facs_2_r3l6w7'>tanka</w>
+					<w facs='#facs_2_r3l6w8'>yu-</w>
+				
+				<lb facs='#facs_2_r3l7' n='N007'/>
+					<w facs='#facs_2_r3l7w1'>hapi</w>
+					<w facs='#facs_2_r3l7w2'>kta.</w>
+					<w facs='#facs_2_r3l7w3'>De</w>
+					<w facs='#facs_2_r3l7w4'>itokam</w>
+					<w facs='#facs_2_r3l7w5'>tohnina</w>
+					<w facs='#facs_2_r3l7w6'>wicaśta</w>
+					<w facs='#facs_2_r3l7w7'>iyotan</w>
+				
+				<lb facs='#facs_2_r3l8' n='N008'/>
+					<w facs='#facs_2_r3l8w1'>oyate</w>
+					<w facs='#facs_2_r3l8w2'>en</w>
+					<w facs='#facs_2_r3l8w3'>okitaninpi</w>
+					<w facs='#facs_2_r3l8w4'>ḣca</w>
+					<w facs='#facs_2_r3l8w5'>hena</w>
+					<w facs='#facs_2_r3l8w6'>witaya</w>
+					<w facs='#facs_2_r3l8w7'>hecen</w>
+				
+				<lb facs='#facs_2_r3l9' n='N009'/>
+					<w facs='#facs_2_r3l9w1'>omniciye</w>
+					<w facs='#facs_2_r3l9w2'>wan</w>
+					<w facs='#facs_2_r3l9w3'>yuhapi</w>
+					<w facs='#facs_2_r3l9w4'>śni.</w>
+				
+			</p>
+		</body>
+	</text>
+</TEI>

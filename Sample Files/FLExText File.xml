@@ -1,0 +1,2867 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document version="2">
+  <interlinear-text guid="f1c657fd-33b1-4262-98b0-25bb59914a1b">
+    <item type="title" lang="en">D_DD_IO_19170401_p01_02</item>
+    <item type="comment" lang="en">QB</item>
+    <paragraphs>
+      <paragraph guid="34be69fb-98fa-4708-a278-0d3cd479dbc8">
+        <phrases>
+          <phrase guid="8e396d22-0e6a-46b8-bd31-d97ea5c4c9e0">
+            <item type="segnum" lang="en">1</item>
+            <words>
+              <word guid="aa519ddc-391a-4a9d-a571-a1ca2d77a745">
+                <item type="txt" lang="qaa-x-lak">Aŋpétu</item>
+                <item type="gls" lang="en">day</item>
+              </word>
+              <word guid="9a94ab3e-888f-4f4f-8c49-01973606c35d">
+                <item type="txt" lang="qaa-x-lak">Oyákapi</item>
+                <item type="gls" lang="en">they report it</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">Daily News</item>
+          </phrase>
+        </phrases>
+      </paragraph>
+      <paragraph guid="0c068f74-61e8-44ae-921e-dbbe5bce934e">
+        <phrases>
+          <phrase guid="7d6f2915-57a8-407d-8b32-575c4e132dd2">
+            <item type="segnum" lang="en">2.1</item>
+            <words>
+              <word guid="ef5738c9-a7e3-496b-ab0a-0eadf62cff03">
+                <item type="txt" lang="qaa-x-lak">Mar_ 15</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">,</item>
+              </word>
+              <word guid="e1fb4a26-5718-4586-bee9-540102431066">
+                <item type="txt" lang="qaa-x-lak">Russia</item>
+              </word>
+              <word guid="d1605022-cd91-4de3-b65b-fca7752611f2">
+                <item type="txt" lang="qaa-x-lak">oyáte</item>
+                <item type="gls" lang="en">nation</item>
+              </word>
+              <word guid="54c5e4fd-86c2-49d0-9a63-195356ed692c">
+                <item type="txt" lang="qaa-x-lak">kiŋ</item>
+                <item type="gls" lang="en">the</item>
+              </word>
+              <word guid="5c155f73-dbd3-44ea-b4e0-c0181cc6defa">
+                <item type="txt" lang="qaa-x-lak">eháŋtaŋhaŋ</item>
+                <item type="gls" lang="en">beforehand</item>
+              </word>
+              <word guid="7b2f4dcf-84be-4c2e-b269-2bb141918fa5">
+                <item type="txt" lang="qaa-x-lak">wičháštayatapi</item>
+                <item type="gls" lang="en">ruler</item>
+              </word>
+              <word guid="81eebd4a-98fb-4672-8ff0-e5c7f9c7e124">
+                <item type="txt" lang="qaa-x-lak">yuhápi</item>
+                <item type="gls" lang="en">they had him</item>
+              </word>
+              <word guid="8821c7cd-3a79-4689-952e-f1aab0f7e574">
+                <item type="txt" lang="qaa-x-lak">k’a</item>
+                <item type="gls" lang="en">and</item>
+              </word>
+              <word guid="fae6f835-b8fa-4f36-83e6-cfabf96d054a">
+                <item type="txt" lang="qaa-x-lak">hečéedaŋ</item>
+                <item type="gls" lang="en">he alone</item>
+              </word>
+              <word guid="1c86ddcc-66c6-455c-b93e-f78dc257fe09">
+                <item type="txt" lang="qaa-x-lak">táku</item>
+                <item type="gls" lang="en">thing</item>
+              </word>
+              <word guid="f5ae797e-b4b1-4e9e-bf2f-893179b164eb">
+                <item type="txt" lang="qaa-x-lak">eyé</item>
+                <item type="gls" lang="en">he said it</item>
+              </word>
+              <word guid="a040fd68-29bf-42d7-bcee-b6107a73f002">
+                <item type="txt" lang="qaa-x-lak">čiŋ</item>
+                <item type="gls" lang="en">the</item>
+              </word>
+              <word guid="ec228e9c-9cae-440d-9c80-4aeccfd7c84c">
+                <item type="txt" lang="qaa-x-lak">hé</item>
+                <item type="gls" lang="en">that</item>
+              </word>
+              <word guid="d1605022-cd91-4de3-b65b-fca7752611f2">
+                <item type="txt" lang="qaa-x-lak">oyáte</item>
+                <item type="gls" lang="en">nation</item>
+              </word>
+              <word guid="3ba5e281-5231-4f35-8892-06f581aab3c3">
+                <item type="txt" lang="qaa-x-lak">ophápi</item>
+                <item type="gls" lang="en">they went by it</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">,</item>
+              </word>
+              <word guid="52e74252-394b-4d16-acf7-9f7af2a8d58a">
+                <item type="txt" lang="qaa-x-lak">tukhá</item>
+                <item type="gls" lang="en">but</item>
+              </word>
+              <word guid="530702e6-807e-4c95-9fc4-6d0d35d9b881">
+                <item type="txt" lang="qaa-x-lak">deháŋn</item>
+                <item type="gls" lang="en">today</item>
+              </word>
+              <word guid="7b2f4dcf-84be-4c2e-b269-2bb141918fa5">
+                <item type="txt" lang="qaa-x-lak">wičháštayatapi</item>
+                <item type="gls" lang="en">ruler</item>
+              </word>
+              <word guid="54c5e4fd-86c2-49d0-9a63-195356ed692c">
+                <item type="txt" lang="qaa-x-lak">kiŋ</item>
+                <item type="gls" lang="en">the</item>
+              </word>
+              <word guid="ec228e9c-9cae-440d-9c80-4aeccfd7c84c">
+                <item type="txt" lang="qaa-x-lak">hé</item>
+                <item type="gls" lang="en">that</item>
+              </word>
+              <word guid="233beddd-779b-4e51-8d51-b7bfb66a0e65">
+                <item type="txt" lang="qaa-x-lak">ayúštaŋkhiyapi</item>
+                <item type="gls" lang="en">they made him quit</item>
+              </word>
+              <word guid="8821c7cd-3a79-4689-952e-f1aab0f7e574">
+                <item type="txt" lang="qaa-x-lak">k’a</item>
+                <item type="gls" lang="en">and</item>
+              </word>
+              <word guid="d1605022-cd91-4de3-b65b-fca7752611f2">
+                <item type="txt" lang="qaa-x-lak">oyáte</item>
+                <item type="gls" lang="en">nation</item>
+              </word>
+              <word guid="55062d72-cfe1-407d-b269-de118a1af5c0">
+                <item type="txt" lang="qaa-x-lak">tháwaič’iyapi</item>
+                <item type="gls" lang="en">they make it their own</item>
+              </word>
+              <word guid="77175aee-b4f4-498e-87e6-ef10e35202dd">
+                <item type="txt" lang="qaa-x-lak">héčhapi</item>
+                <item type="gls" lang="en">they are of that kind</item>
+              </word>
+              <word guid="ddd3d160-cf16-43e2-bfdd-b0ee644b76bb">
+                <item type="txt" lang="qaa-x-lak">kta</item>
+                <item type="gls" lang="en">will</item>
+              </word>
+              <word guid="927aa057-81a6-432e-90dd-3d5474e69d1d">
+                <item type="txt" lang="qaa-x-lak">héuŋ</item>
+                <item type="gls" lang="en">that is why</item>
+              </word>
+              <word guid="bff9866e-852c-4da6-b0ff-2bed08aded39">
+                <item type="txt" lang="qaa-x-lak">héčhuŋpi</item>
+                <item type="gls" lang="en">they did that</item>
+              </word>
+              <word guid="8821c7cd-3a79-4689-952e-f1aab0f7e574">
+                <item type="txt" lang="qaa-x-lak">k’a</item>
+                <item type="gls" lang="en">and</item>
+              </word>
+              <word guid="927aa057-81a6-432e-90dd-3d5474e69d1d">
+                <item type="txt" lang="qaa-x-lak">héuŋ</item>
+                <item type="gls" lang="en">that is why</item>
+              </word>
+              <word guid="ae56f8b8-a02b-47a4-8800-47acf4e8d764">
+                <item type="txt" lang="qaa-x-lak">iyé</item>
+                <item type="gls" lang="en">he</item>
+              </word>
+              <word guid="2c5cb80e-854d-4327-932c-c4dc1f34b0e3">
+                <item type="txt" lang="qaa-x-lak">éna</item>
+              </word>
+              <word guid="25a13f22-6858-4f14-bca3-19d0962b2ebb">
+                <item type="txt" lang="qaa-x-lak">kičhízapi</item>
+                <item type="gls" lang="en">they fight him</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">.</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">March 15: the Russian people have forced the abdication of their emporer, who hitherto had dictated the course of the nation, having fought him in their bid to become a republic.</item>
+          </phrase>
+          <phrase guid="ab27bc01-f2a9-4d58-a5ad-27865939eafe">
+            <item type="segnum" lang="en">2.2</item>
+            <words>
+              <word guid="399fe5fb-7714-45bd-b325-0ad00c700fd5">
+                <item type="txt" lang="qaa-x-lak">Tkhá</item>
+                <item type="gls" lang="en">but</item>
+              </word>
+              <word guid="d0096561-a110-4568-b241-36ffae2b875e">
+                <item type="txt" lang="qaa-x-lak">ék’eš</item>
+                <item type="gls" lang="en">as for that</item>
+              </word>
+              <word guid="596ed2e1-b345-4040-8baa-3cd4ac007d16">
+                <item type="txt" lang="qaa-x-lak">sáŋpha</item>
+                <item type="gls" lang="en">more</item>
+              </word>
+              <word guid="25a13f22-6858-4f14-bca3-19d0962b2ebb">
+                <item type="txt" lang="qaa-x-lak">kičhízapi</item>
+                <item type="gls" lang="en">they fight him</item>
+              </word>
+              <word guid="521928ec-7224-4444-8064-d4c3c41b9eea">
+                <item type="txt" lang="qaa-x-lak">šni</item>
+                <item type="gls" lang="en">not</item>
+              </word>
+              <word guid="8821c7cd-3a79-4689-952e-f1aab0f7e574">
+                <item type="txt" lang="qaa-x-lak">k’a</item>
+                <item type="gls" lang="en">and</item>
+              </word>
+              <word guid="4a64d5a1-108e-4237-abdc-cafb39373e83">
+                <item type="txt" lang="qaa-x-lak">waŋná</item>
+                <item type="gls" lang="en">now</item>
+              </word>
+              <word guid="972b4dc4-e19c-40e6-abff-a0701dfeb174">
+                <item type="txt" lang="qaa-x-lak">detáŋhaŋ</item>
+                <item type="gls" lang="en">from now on</item>
+              </word>
+              <word guid="d1605022-cd91-4de3-b65b-fca7752611f2">
+                <item type="txt" lang="qaa-x-lak">oyáte</item>
+                <item type="gls" lang="en">nation</item>
+              </word>
+              <word guid="55062d72-cfe1-407d-b269-de118a1af5c0">
+                <item type="txt" lang="qaa-x-lak">tháwaič’iyapi</item>
+                <item type="gls" lang="en">they make it their own</item>
+              </word>
+              <word guid="77175aee-b4f4-498e-87e6-ef10e35202dd">
+                <item type="txt" lang="qaa-x-lak">héčhapi</item>
+                <item type="gls" lang="en">they are of that kind</item>
+              </word>
+              <word guid="a671f03b-1e5a-4b75-bad2-383e008561fd">
+                <item type="txt" lang="qaa-x-lak">kta</item>
+                <item type="gls" lang="en">would</item>
+              </word>
+              <word guid="8821c7cd-3a79-4689-952e-f1aab0f7e574">
+                <item type="txt" lang="qaa-x-lak">k’a</item>
+                <item type="gls" lang="en">and</item>
+              </word>
+              <word guid="357a272a-89f5-49ee-981f-33e57b64638a">
+                <item type="txt" lang="qaa-x-lak">United States</item>
+              </word>
+              <word guid="4400798d-6fbb-43ba-b2b8-894d7f498f70">
+                <item type="txt" lang="qaa-x-lak">én</item>
+                <item type="gls" lang="en">to</item>
+              </word>
+              <word guid="54980c13-eb5a-416c-8968-7eb1b1fa6891">
+                <item type="txt" lang="qaa-x-lak">iyéčhen</item>
+                <item type="gls" lang="en">like it</item>
+              </word>
+              <word guid="d1ddd7da-eedc-44ed-b61a-2b26dafc8968">
+                <item type="txt" lang="qaa-x-lak">thuŋkáŋšidaŋyapi</item>
+                <item type="gls" lang="en">president</item>
+              </word>
+              <word guid="0cf8423f-d848-4175-921e-10a78d3bdfb8">
+                <item type="txt" lang="qaa-x-lak">waŋží</item>
+                <item type="gls" lang="en">a</item>
+              </word>
+              <word guid="37a3eff6-1d19-42b0-b1c8-24da334f1897">
+                <item type="txt" lang="qaa-x-lak">kaȟníǧapi</item>
+                <item type="gls" lang="en">they elect one</item>
+              </word>
+              <word guid="a671f03b-1e5a-4b75-bad2-383e008561fd">
+                <item type="txt" lang="qaa-x-lak">kta</item>
+                <item type="gls" lang="en">would</item>
+              </word>
+              <word guid="8821c7cd-3a79-4689-952e-f1aab0f7e574">
+                <item type="txt" lang="qaa-x-lak">k’a</item>
+                <item type="gls" lang="en">and</item>
+              </word>
+              <word guid="ec228e9c-9cae-440d-9c80-4aeccfd7c84c">
+                <item type="txt" lang="qaa-x-lak">hé</item>
+                <item type="gls" lang="en">that</item>
+              </word>
+              <word guid="d1605022-cd91-4de3-b65b-fca7752611f2">
+                <item type="txt" lang="qaa-x-lak">oyáte</item>
+                <item type="gls" lang="en">nation</item>
+              </word>
+              <word guid="47ca6623-2a0f-482f-bef8-0e1c98ca7ce9">
+                <item type="txt" lang="qaa-x-lak">thuŋkáŋšidaŋyapi</item>
+                <item type="gls" lang="en">they have them as a president</item>
+              </word>
+              <word guid="ddd3d160-cf16-43e2-bfdd-b0ee644b76bb">
+                <item type="txt" lang="qaa-x-lak">kta</item>
+                <item type="gls" lang="en">will</item>
+              </word>
+              <word guid="f9d9bdb7-a72a-47ec-9190-1e5cca54275c">
+                <item type="txt" lang="qaa-x-lak">héčhen</item>
+                <item type="gls" lang="en">like that</item>
+              </word>
+              <word guid="43f61b53-248b-4fad-93c3-a7a09a89e7bb">
+                <item type="txt" lang="qaa-x-lak">ihdúštaŋpi</item>
+                <item type="gls" lang="en">they decide it for themselves</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">.</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">The fighting at least has ceased, and the country is becoming a republic with a president, just as the United States elects their president.</item>
+          </phrase>
+        </phrases>
+      </paragraph>
+      <paragraph guid="d07b356f-f77b-4f22-a4ea-c3f1ab4870b6">
+        <phrases>
+          <phrase guid="0aed5ae9-8f61-41f5-aea2-473814a1d607">
+            <item type="segnum" lang="en">3.1</item>
+            <words>
+              <word guid="6cb24413-670a-46d2-8fd4-2577379a942d">
+                <item type="txt" lang="qaa-x-lak">Mar_ 16_</item>
+              </word>
+              <word guid="e1fb4a26-5718-4586-bee9-540102431066">
+                <item type="txt" lang="qaa-x-lak">Russia</item>
+              </word>
+              <word guid="d1605022-cd91-4de3-b65b-fca7752611f2">
+                <item type="txt" lang="qaa-x-lak">oyáte</item>
+                <item type="gls" lang="en">nation</item>
+              </word>
+              <word guid="55062d72-cfe1-407d-b269-de118a1af5c0">
+                <item type="txt" lang="qaa-x-lak">tháwaič’iyapi</item>
+                <item type="gls" lang="en">they make it their own</item>
+              </word>
+              <word guid="ddd3d160-cf16-43e2-bfdd-b0ee644b76bb">
+                <item type="txt" lang="qaa-x-lak">kta</item>
+                <item type="gls" lang="en">will</item>
+              </word>
+              <word guid="e219e1fd-d2d9-442f-8994-b971fc8229ef">
+                <item type="txt" lang="qaa-x-lak">uŋ</item>
+                <item type="gls" lang="en">by means of</item>
+              </word>
+              <word guid="7b2f4dcf-84be-4c2e-b269-2bb141918fa5">
+                <item type="txt" lang="qaa-x-lak">wičháštayatapi</item>
+                <item type="gls" lang="en">ruler</item>
+              </word>
+              <word guid="767b56a6-5a4d-4497-abf0-806bf5161eb4">
+                <item type="txt" lang="qaa-x-lak">yuhápi</item>
+                <item type="gls" lang="en">they have him</item>
+              </word>
+              <word guid="54c5e4fd-86c2-49d0-9a63-195356ed692c">
+                <item type="txt" lang="qaa-x-lak">kiŋ</item>
+                <item type="gls" lang="en">the</item>
+              </word>
+              <word guid="0db659a4-7a29-4b50-b0ab-9f0f53f0f6b7">
+                <item type="txt" lang="qaa-x-lak">ȟeyám</item>
+                <item type="gls" lang="en">away</item>
+              </word>
+              <word guid="9392d86e-595f-4d9e-b788-599e77c96203">
+                <item type="txt" lang="qaa-x-lak">iyéyapi</item>
+                <item type="gls" lang="en">they sent him</item>
+              </word>
+              <word guid="8821c7cd-3a79-4689-952e-f1aab0f7e574">
+                <item type="txt" lang="qaa-x-lak">k’a</item>
+                <item type="gls" lang="en">and</item>
+              </word>
+              <word guid="7b2f4dcf-84be-4c2e-b269-2bb141918fa5">
+                <item type="txt" lang="qaa-x-lak">wičháštayatapi</item>
+                <item type="gls" lang="en">ruler</item>
+              </word>
+              <word guid="d669c7f7-371e-439f-bbc7-e75f46cb4ac6">
+                <item type="txt" lang="qaa-x-lak">ókhihe</item>
+                <item type="gls" lang="en">next</item>
+              </word>
+              <word guid="5a22e3dc-92b3-4f3b-b54f-bbb78009b1c9">
+                <item type="txt" lang="qaa-x-lak">Grand Duke</item>
+              </word>
+              <word guid="ec228e9c-9cae-440d-9c80-4aeccfd7c84c">
+                <item type="txt" lang="qaa-x-lak">hé</item>
+                <item type="gls" lang="en">that</item>
+              </word>
+              <word guid="c7edb8bc-5ebf-44a8-b00a-f662b0269353">
+                <item type="txt" lang="qaa-x-lak">íš-eyá</item>
+                <item type="gls" lang="en">he too</item>
+              </word>
+              <word guid="d1605022-cd91-4de3-b65b-fca7752611f2">
+                <item type="txt" lang="qaa-x-lak">oyáte</item>
+                <item type="gls" lang="en">nation</item>
+              </word>
+              <word guid="c1e3c64f-303b-41d5-b1fc-ffb1f3105355">
+                <item type="txt" lang="qaa-x-lak">tȟáwaič’iye</item>
+                <item type="gls" lang="en">they make it their own</item>
+              </word>
+              <word guid="ddd3d160-cf16-43e2-bfdd-b0ee644b76bb">
+                <item type="txt" lang="qaa-x-lak">kta</item>
+                <item type="gls" lang="en">will</item>
+              </word>
+              <word guid="ec228e9c-9cae-440d-9c80-4aeccfd7c84c">
+                <item type="txt" lang="qaa-x-lak">hé</item>
+                <item type="gls" lang="en">that</item>
+              </word>
+              <word guid="24a82e7d-e803-42c3-9bd7-17aa4bbed648">
+                <item type="txt" lang="qaa-x-lak">wičáda</item>
+                <item type="gls" lang="en">he considers it right</item>
+              </word>
+              <word guid="927aa057-81a6-432e-90dd-3d5474e69d1d">
+                <item type="txt" lang="qaa-x-lak">héuŋ</item>
+                <item type="gls" lang="en">that is why</item>
+              </word>
+              <word guid="ae56f8b8-a02b-47a4-8800-47acf4e8d764">
+                <item type="txt" lang="qaa-x-lak">iyé</item>
+                <item type="gls" lang="en">he</item>
+              </word>
+              <word guid="8e9af7e6-263f-4c3b-b106-e1c567ab4a51">
+                <item type="txt" lang="qaa-x-lak">wičhóȟ’aŋ</item>
+                <item type="gls" lang="en">duties</item>
+              </word>
+              <word guid="c6db4d5c-2b67-4dbd-8abe-84b92190cfee">
+                <item type="txt" lang="qaa-x-lak">tháwa</item>
+                <item type="gls" lang="en">his</item>
+              </word>
+              <word guid="54c5e4fd-86c2-49d0-9a63-195356ed692c">
+                <item type="txt" lang="qaa-x-lak">kiŋ</item>
+                <item type="gls" lang="en">the</item>
+              </word>
+              <word guid="ec228e9c-9cae-440d-9c80-4aeccfd7c84c">
+                <item type="txt" lang="qaa-x-lak">hé</item>
+                <item type="gls" lang="en">that</item>
+              </word>
+              <word guid="4ae2ad8a-9daf-4857-a995-0cdc2631533b">
+                <item type="txt" lang="qaa-x-lak">wáŋčake</item>
+                <item type="gls" lang="en">at once</item>
+              </word>
+              <word guid="6d3c71c2-9000-4b51-8b2f-953d02f8257e">
+                <item type="txt" lang="qaa-x-lak">enákiya</item>
+                <item type="gls" lang="en">he quit</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">.</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">March 16: the emporer having been deposed by the revolution the next in line for the Russian throne, the Grand Duke, has immediately quit his duties, himself sharing the belief that the nation should become a republic. </item>
+          </phrase>
+          <phrase guid="336a8cfd-fb85-48a4-9806-8a49339fe4db">
+            <item type="segnum" lang="en">3.2</item>
+            <words>
+              <word guid="f9d9bdb7-a72a-47ec-9190-1e5cca54275c">
+                <item type="txt" lang="qaa-x-lak">Héčhen</item>
+                <item type="gls" lang="en">like that</item>
+              </word>
+              <word guid="4a64d5a1-108e-4237-abdc-cafb39373e83">
+                <item type="txt" lang="qaa-x-lak">waŋná</item>
+                <item type="gls" lang="en">now</item>
+              </word>
+              <word guid="e1fb4a26-5718-4586-bee9-540102431066">
+                <item type="txt" lang="qaa-x-lak">Russia</item>
+              </word>
+              <word guid="d1605022-cd91-4de3-b65b-fca7752611f2">
+                <item type="txt" lang="qaa-x-lak">oyáte</item>
+                <item type="gls" lang="en">nation</item>
+              </word>
+              <word guid="54c5e4fd-86c2-49d0-9a63-195356ed692c">
+                <item type="txt" lang="qaa-x-lak">kiŋ</item>
+                <item type="gls" lang="en">the</item>
+              </word>
+              <word guid="972b4dc4-e19c-40e6-abff-a0701dfeb174">
+                <item type="txt" lang="qaa-x-lak">detáŋhaŋ</item>
+                <item type="gls" lang="en">from now on</item>
+              </word>
+              <word guid="385cd445-737e-4170-9693-d28b434c4054">
+                <item type="txt" lang="qaa-x-lak">thuŋkáŋšidaŋ</item>
+                <item type="gls" lang="en">president</item>
+              </word>
+              <word guid="0cf8423f-d848-4175-921e-10a78d3bdfb8">
+                <item type="txt" lang="qaa-x-lak">waŋží</item>
+                <item type="gls" lang="en">a</item>
+              </word>
+              <word guid="dbdcdb7b-8bf4-44fc-a057-bda18a828fca">
+                <item type="txt" lang="qaa-x-lak">yuhápi</item>
+                <item type="gls" lang="en">they have one</item>
+              </word>
+              <word guid="ddd3d160-cf16-43e2-bfdd-b0ee644b76bb">
+                <item type="txt" lang="qaa-x-lak">kta</item>
+                <item type="gls" lang="en">will</item>
+              </word>
+              <word guid="8821c7cd-3a79-4689-952e-f1aab0f7e574">
+                <item type="txt" lang="qaa-x-lak">k’a</item>
+                <item type="gls" lang="en">and</item>
+              </word>
+              <word guid="d1605022-cd91-4de3-b65b-fca7752611f2">
+                <item type="txt" lang="qaa-x-lak">oyáte</item>
+                <item type="gls" lang="en">nation</item>
+              </word>
+              <word guid="55062d72-cfe1-407d-b269-de118a1af5c0">
+                <item type="txt" lang="qaa-x-lak">tháwaič’iyapi</item>
+                <item type="gls" lang="en">they make it their own</item>
+              </word>
+              <word guid="77175aee-b4f4-498e-87e6-ef10e35202dd">
+                <item type="txt" lang="qaa-x-lak">héčhapi</item>
+                <item type="gls" lang="en">they are of that kind</item>
+              </word>
+              <word guid="ddd3d160-cf16-43e2-bfdd-b0ee644b76bb">
+                <item type="txt" lang="qaa-x-lak">kta</item>
+                <item type="gls" lang="en">will</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">.</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">Therefore Russia will henceforth be a republic, and will go on to elect a president.</item>
+          </phrase>
+        </phrases>
+      </paragraph>
+      <paragraph guid="db070812-2655-4ff3-b1de-7c2d9c411408">
+        <phrases>
+          <phrase guid="7d0ae264-bf77-4251-9251-43314351c9ec">
+            <item type="segnum" lang="en">4.1</item>
+            <words>
+              <word guid="d2243869-a77e-4c12-adb0-2981016f2d38">
+                <item type="txt" lang="qaa-x-lak">Mar_ 20_</item>
+              </word>
+              <word guid="b9d22a1a-8bbb-4ea3-b98d-0420984df33a">
+                <item type="txt" lang="qaa-x-lak">Wašíčuŋ ikčéka</item>
+                <item type="gls" lang="en">French</item>
+              </word>
+              <word guid="48fb837f-f37a-479e-b802-e98e62138caf">
+                <item type="txt" lang="qaa-x-lak">akíčhita</item>
+                <item type="gls" lang="en">soldiers</item>
+              </word>
+              <word guid="54c5e4fd-86c2-49d0-9a63-195356ed692c">
+                <item type="txt" lang="qaa-x-lak">kiŋ</item>
+                <item type="gls" lang="en">the</item>
+              </word>
+              <word guid="446e61e9-b805-405f-aeda-e00f8cec7db3">
+                <item type="txt" lang="qaa-x-lak">hená</item>
+                <item type="gls" lang="en">those</item>
+              </word>
+              <word guid="4048ed6d-2c9c-498f-835e-31d90234f07d">
+                <item type="txt" lang="qaa-x-lak">é</item>
+                <item type="gls" lang="en">it is</item>
+              </word>
+              <word guid="4c9821cf-cec9-4b1b-8819-9f780b839b4f">
+                <item type="txt" lang="qaa-x-lak">waš’ákapi</item>
+                <item type="gls" lang="en">they are strong</item>
+              </word>
+              <word guid="f9d9bdb7-a72a-47ec-9190-1e5cca54275c">
+                <item type="txt" lang="qaa-x-lak">héčhen</item>
+                <item type="gls" lang="en">like that</item>
+              </word>
+              <word guid="8bc3df57-c905-482a-8ed4-b24839aeca91">
+                <item type="txt" lang="qaa-x-lak">German</item>
+              </word>
+              <word guid="48fb837f-f37a-479e-b802-e98e62138caf">
+                <item type="txt" lang="qaa-x-lak">akíčhita</item>
+                <item type="gls" lang="en">soldiers</item>
+              </word>
+              <word guid="54c5e4fd-86c2-49d0-9a63-195356ed692c">
+                <item type="txt" lang="qaa-x-lak">kiŋ</item>
+                <item type="gls" lang="en">the</item>
+              </word>
+              <word guid="4a64d5a1-108e-4237-abdc-cafb39373e83">
+                <item type="txt" lang="qaa-x-lak">waŋná</item>
+                <item type="gls" lang="en">now</item>
+              </word>
+              <word guid="e30835fd-5171-4269-a650-244948c00df4">
+                <item type="txt" lang="qaa-x-lak">héktakiya</item>
+                <item type="gls" lang="en">backwards</item>
+              </word>
+              <word guid="2a7584f0-72d9-4f8b-8c6f-4bf465b0bc1c">
+                <item type="txt" lang="qaa-x-lak">makhá iyúthapi</item>
+                <item type="gls" lang="en">miles</item>
+              </word>
+              <word guid="72c2899d-39ce-48c5-99d2-b6cef5683d5a">
+                <item type="txt" lang="qaa-x-lak">25</item>
+              </word>
+              <word guid="da22e328-d963-4df4-abf4-22f4ffe533fe">
+                <item type="txt" lang="qaa-x-lak">heháŋyaŋ</item>
+                <item type="gls" lang="en">that far</item>
+              </word>
+              <word guid="ac147e90-2ff8-4714-b6c3-ce212a439430">
+                <item type="txt" lang="qaa-x-lak">naphéwičhayapi</item>
+                <item type="gls" lang="en">they made them flee</item>
+              </word>
+              <word guid="8821c7cd-3a79-4689-952e-f1aab0f7e574">
+                <item type="txt" lang="qaa-x-lak">k’a</item>
+                <item type="gls" lang="en">and</item>
+              </word>
+              <word guid="7df8e7e7-4288-4e85-8e05-46c065917f85">
+                <item type="txt" lang="qaa-x-lak">othúŋwe</item>
+                <item type="gls" lang="en">town</item>
+              </word>
+              <word guid="a714eaeb-dcd6-47cf-a672-bad8735c7be0">
+                <item type="txt" lang="qaa-x-lak">cikčístiŋna</item>
+                <item type="gls" lang="en">tiny ones</item>
+              </word>
+              <word guid="88258c90-a0d5-40c4-b779-a2b5e3d9683c">
+                <item type="txt" lang="qaa-x-lak">40</item>
+              </word>
+              <word guid="446e61e9-b805-405f-aeda-e00f8cec7db3">
+                <item type="txt" lang="qaa-x-lak">hená</item>
+                <item type="gls" lang="en">those</item>
+              </word>
+              <word guid="c9394de7-fd75-4d4f-85a1-d95512b45f40">
+                <item type="txt" lang="qaa-x-lak">Šagdášiŋ</item>
+                <item type="gls" lang="en">British</item>
+              </word>
+              <word guid="54c5e4fd-86c2-49d0-9a63-195356ed692c">
+                <item type="txt" lang="qaa-x-lak">kiŋ</item>
+                <item type="gls" lang="en">the</item>
+              </word>
+              <word guid="2b43aa37-3c4b-4f42-9562-540ce68bd4bb">
+                <item type="txt" lang="qaa-x-lak">ičú</item>
+                <item type="gls" lang="en">it took them</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">.</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">March 20: French forces have shown their might and driven back the Germans by 25 miles, and the British have captured some 40 villages.</item>
+          </phrase>
+          <phrase guid="9f12260d-b80c-48eb-ba0d-0afdca225c5e">
+            <item type="segnum" lang="en">4.2</item>
+            <words>
+              <word guid="8bc3df57-c905-482a-8ed4-b24839aeca91">
+                <item type="txt" lang="qaa-x-lak">German</item>
+              </word>
+              <word guid="48fb837f-f37a-479e-b802-e98e62138caf">
+                <item type="txt" lang="qaa-x-lak">akíčhita</item>
+                <item type="gls" lang="en">soldiers</item>
+              </word>
+              <word guid="54c5e4fd-86c2-49d0-9a63-195356ed692c">
+                <item type="txt" lang="qaa-x-lak">kiŋ</item>
+                <item type="gls" lang="en">the</item>
+              </word>
+              <word guid="0b3c6623-90a3-47f0-9997-fee193f899b6">
+                <item type="txt" lang="qaa-x-lak">makhóčhe</item>
+                <item type="gls" lang="en">land</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">{</item>
+              </word>
+              <word guid="a06edba1-18e0-41e0-9758-eb744edcc741">
+                <item type="txt" lang="qaa-x-lak">otíŋskoya</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">}</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">[</item>
+              </word>
+              <word guid="c5cd2917-be84-460f-b6bc-b1c256585840">
+                <item type="txt" lang="qaa-x-lak">eȟpéya</item>
+                <item type="gls" lang="en">abandoning</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">]</item>
+              </word>
+              <word guid="ac147e90-2ff8-4714-b6c3-ce212a439430">
+                <item type="txt" lang="qaa-x-lak">naphéwičhayapi</item>
+                <item type="gls" lang="en">they made them flee</item>
+              </word>
+              <word guid="54c5e4fd-86c2-49d0-9a63-195356ed692c">
+                <item type="txt" lang="qaa-x-lak">kiŋ</item>
+                <item type="gls" lang="en">the</item>
+              </word>
+              <word guid="446e61e9-b805-405f-aeda-e00f8cec7db3">
+                <item type="txt" lang="qaa-x-lak">hená</item>
+                <item type="gls" lang="en">those</item>
+              </word>
+              <word guid="4400798d-6fbb-43ba-b2b8-894d7f498f70">
+                <item type="txt" lang="qaa-x-lak">én</item>
+                <item type="gls" lang="en">to</item>
+              </word>
+              <word guid="abd185c9-302e-4cf8-b29c-87a433f2a35f">
+                <item type="txt" lang="qaa-x-lak">čhaŋkáǧa</item>
+                <item type="gls" lang="en">logs</item>
+              </word>
+              <word guid="8821c7cd-3a79-4689-952e-f1aab0f7e574">
+                <item type="txt" lang="qaa-x-lak">k’a</item>
+                <item type="gls" lang="en">and</item>
+              </word>
+              <word guid="b4db07cc-e674-4503-9108-58825b6e14c0">
+                <item type="txt" lang="qaa-x-lak">thípi</item>
+                <item type="gls" lang="en">houses</item>
+              </word>
+              <word guid="8821c7cd-3a79-4689-952e-f1aab0f7e574">
+                <item type="txt" lang="qaa-x-lak">k’a</item>
+                <item type="gls" lang="en">and</item>
+              </word>
+              <word guid="51d49b2a-d83c-4f5c-8065-464988b06bd9">
+                <item type="txt" lang="qaa-x-lak">owóžu</item>
+                <item type="gls" lang="en">farms</item>
+              </word>
+              <word guid="8821c7cd-3a79-4689-952e-f1aab0f7e574">
+                <item type="txt" lang="qaa-x-lak">k’a</item>
+                <item type="gls" lang="en">and</item>
+              </word>
+              <word guid="83e082c6-c301-4d18-93c5-92f2c9488af4">
+                <item type="txt" lang="qaa-x-lak">táku</item>
+                <item type="gls" lang="en">things</item>
+              </word>
+              <word guid="de94846b-a70e-45af-a61b-584232c0b4b8">
+                <item type="txt" lang="qaa-x-lak">owás’iŋ</item>
+                <item type="gls" lang="en">all of them</item>
+              </word>
+              <word guid="72697cee-73d1-4607-9b82-e1cbd7675bba">
+                <item type="txt" lang="qaa-x-lak">iháŋgkhiyapi</item>
+                <item type="gls" lang="en">they destroyed them</item>
+              </word>
+              <word guid="38b7f968-0248-4bfc-84d0-f85a56454793">
+                <item type="txt" lang="qaa-x-lak">ečée</item>
+                <item type="gls" lang="en">usually</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">.</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">German soldiers routinely destroyed houses, fuel, and farms as they were forced to retreat.</item>
+          </phrase>
+          <phrase guid="2c97999e-6090-47d8-8747-4d50d332ac90">
+            <item type="segnum" lang="en">4.3</item>
+            <words>
+              <word guid="22e21f4d-dafa-45c7-8182-a5c10b60d31c">
+                <item type="txt" lang="qaa-x-lak">Ečhíŋ</item>
+                <item type="gls" lang="en">for you see</item>
+              </word>
+              <word guid="c075b39f-2885-4dd0-8ecd-80d76696e735">
+                <item type="txt" lang="qaa-x-lak">British</item>
+              </word>
+              <word guid="8821c7cd-3a79-4689-952e-f1aab0f7e574">
+                <item type="txt" lang="qaa-x-lak">k’a</item>
+                <item type="gls" lang="en">and</item>
+              </word>
+              <word guid="b65ff6cb-0f83-4b41-b530-6b89a47e6434">
+                <item type="txt" lang="qaa-x-lak">French</item>
+              </word>
+              <word guid="446e61e9-b805-405f-aeda-e00f8cec7db3">
+                <item type="txt" lang="qaa-x-lak">hená</item>
+                <item type="gls" lang="en">those</item>
+              </word>
+              <word guid="a31db3b7-4bc9-4185-9bf8-c8b44401623f">
+                <item type="txt" lang="qaa-x-lak">iphíwičhadapi</item>
+                <item type="gls" lang="en">they withheld it from them</item>
+              </word>
+              <word guid="927aa057-81a6-432e-90dd-3d5474e69d1d">
+                <item type="txt" lang="qaa-x-lak">héuŋ</item>
+                <item type="gls" lang="en">that is why</item>
+              </word>
+              <word guid="bff9866e-852c-4da6-b0ff-2bed08aded39">
+                <item type="txt" lang="qaa-x-lak">héčhuŋpi</item>
+                <item type="gls" lang="en">they did that</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">.</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">They do this in order to deny it to the British and French.</item>
+          </phrase>
+        </phrases>
+      </paragraph>
+      <paragraph guid="f232bb25-b8e3-4997-9d1f-f3f4771fea47">
+        <phrases>
+          <phrase guid="1483e994-35e7-445b-aff7-7cdcf825d859">
+            <item type="segnum" lang="en">5</item>
+            <words>
+              <word guid="7272e36a-e141-4385-85ed-7dd951e9c6d0">
+                <item type="txt" lang="qaa-x-lak">Mar_ 25_</item>
+              </word>
+              <word guid="357a272a-89f5-49ee-981f-33e57b64638a">
+                <item type="txt" lang="qaa-x-lak">United States</item>
+              </word>
+              <word guid="7851b15e-3e34-4406-b86f-a27eb5691643">
+                <item type="txt" lang="qaa-x-lak">ówaŋčaya</item>
+                <item type="gls" lang="en">everywhere</item>
+              </word>
+              <word guid="972b4dc4-e19c-40e6-abff-a0701dfeb174">
+                <item type="txt" lang="qaa-x-lak">detáŋhaŋ</item>
+                <item type="gls" lang="en">from now on</item>
+              </word>
+              <word guid="abd185c9-302e-4cf8-b29c-87a433f2a35f">
+                <item type="txt" lang="qaa-x-lak">čhaŋkáǧa</item>
+                <item type="gls" lang="en">logs</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">,</item>
+              </word>
+              <word guid="3597a53a-10ec-4c6e-b67c-33697661af94">
+                <item type="txt" lang="qaa-x-lak">ȟemáni čhaŋkáǧa</item>
+                <item type="gls" lang="en">railroad ties</item>
+              </word>
+              <word guid="8821c7cd-3a79-4689-952e-f1aab0f7e574">
+                <item type="txt" lang="qaa-x-lak">k’a</item>
+                <item type="gls" lang="en">and</item>
+              </word>
+              <word guid="abd185c9-302e-4cf8-b29c-87a433f2a35f">
+                <item type="txt" lang="qaa-x-lak">čhaŋkáǧa</item>
+                <item type="gls" lang="en">logs</item>
+              </word>
+              <word guid="d89d564b-0520-4d4b-bd64-f672c6ee0913">
+                <item type="txt" lang="qaa-x-lak">ikčéka</item>
+                <item type="gls" lang="en">regular</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">,</item>
+              </word>
+              <word guid="3c0a69c3-a393-4737-af48-efc33c710fce">
+                <item type="txt" lang="qaa-x-lak">thaŋkíŋkiŋyaŋ</item>
+                <item type="gls" lang="en">they are big</item>
+              </word>
+              <word guid="13c0da16-bb8f-431b-a38e-5254bd34f184">
+                <item type="txt" lang="qaa-x-lak">owás’iŋ</item>
+                <item type="gls" lang="en">every single one</item>
+              </word>
+              <word guid="c2924014-cc80-4d39-990c-44947f0ae8ff">
+                <item type="txt" lang="qaa-x-lak">wičhášta</item>
+                <item type="gls" lang="en">man</item>
+              </word>
+              <word guid="7349efd8-412a-4563-b6a5-d7e5355e89cd">
+                <item type="txt" lang="qaa-x-lak">wíphe</item>
+                <item type="gls" lang="en">weapons</item>
+              </word>
+              <word guid="fcd050d6-bbb6-4579-9f62-34498351dcea">
+                <item type="txt" lang="qaa-x-lak">yuhá</item>
+                <item type="gls" lang="en">carrying</item>
+              </word>
+              <word guid="aa519ddc-391a-4a9d-a571-a1ca2d77a745">
+                <item type="txt" lang="qaa-x-lak">aŋpétu</item>
+                <item type="gls" lang="en">day</item>
+              </word>
+              <word guid="8821c7cd-3a79-4689-952e-f1aab0f7e574">
+                <item type="txt" lang="qaa-x-lak">k’a</item>
+                <item type="gls" lang="en">and</item>
+              </word>
+              <word guid="2711330d-c44d-48f2-ade3-db03b6fd504d">
+                <item type="txt" lang="qaa-x-lak">haŋyétu</item>
+                <item type="gls" lang="en">night</item>
+              </word>
+              <word guid="06777657-9a78-4136-a581-8b3afe1d38bc">
+                <item type="txt" lang="qaa-x-lak">khóya</item>
+                <item type="gls" lang="en">including</item>
+              </word>
+              <word guid="2b94d499-84a7-47a3-834d-e264f635073e">
+                <item type="txt" lang="qaa-x-lak">awáŋyakapi</item>
+                <item type="gls" lang="en">they guard over them</item>
+              </word>
+              <word guid="ddd3d160-cf16-43e2-bfdd-b0ee644b76bb">
+                <item type="txt" lang="qaa-x-lak">kta</item>
+                <item type="gls" lang="en">will</item>
+              </word>
+              <word guid="f9d9bdb7-a72a-47ec-9190-1e5cca54275c">
+                <item type="txt" lang="qaa-x-lak">héčhen</item>
+                <item type="gls" lang="en">like that</item>
+              </word>
+              <word guid="be943de3-ca09-4020-b7dc-930fdcce76be">
+                <item type="txt" lang="qaa-x-lak">wóyuštaŋ</item>
+                <item type="gls" lang="en">it is a decision</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">.</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">March 25: a decision has been that armed men should henceforth guard fuel supplies, railroad ties, and large timber, day and night across the United States.</item>
+          </phrase>
+        </phrases>
+      </paragraph>
+      <paragraph guid="00a3ae0b-c0a4-48b5-b46f-5e212aa53d6d">
+        <phrases>
+          <phrase guid="44e8f674-56e9-4ac1-b6f7-429d561c8301">
+            <item type="segnum" lang="en">6.1</item>
+            <words>
+              <word guid="62ad43d9-30c8-45e8-8703-27a892a6588a">
+                <item type="txt" lang="qaa-x-lak">Mar_ 27_</item>
+              </word>
+              <word guid="96d3a73c-ceb3-4150-ba7e-17beb8f45b99">
+                <item type="txt" lang="qaa-x-lak">Detáŋhaŋ</item>
+                <item type="gls" lang="en">from now one</item>
+              </word>
+              <word guid="d1605022-cd91-4de3-b65b-fca7752611f2">
+                <item type="txt" lang="qaa-x-lak">oyáte</item>
+                <item type="gls" lang="en">nation</item>
+              </word>
+              <word guid="2c893759-ec24-45b4-994a-bc6e0ff8e1e7">
+                <item type="txt" lang="qaa-x-lak">obé</item>
+                <item type="gls" lang="en">kind</item>
+              </word>
+              <word guid="70faaa43-810d-4070-b56c-78ff9efdac00">
+                <item type="txt" lang="qaa-x-lak">thókeča</item>
+                <item type="gls" lang="en">different</item>
+              </word>
+              <word guid="8505e150-25a6-4c45-a748-b8b0105f44e3">
+                <item type="txt" lang="qaa-x-lak">tóna</item>
+                <item type="gls" lang="en">those who</item>
+              </word>
+              <word guid="357a272a-89f5-49ee-981f-33e57b64638a">
+                <item type="txt" lang="qaa-x-lak">United States</item>
+              </word>
+              <word guid="6952fde0-4b1e-4df6-9076-60f91290d089">
+                <item type="txt" lang="qaa-x-lak">én</item>
+                <item type="gls" lang="en">in</item>
+              </word>
+              <word guid="53f55b76-0e7d-4113-832c-c9ce47077821">
+                <item type="txt" lang="qaa-x-lak">úŋpi</item>
+                <item type="gls" lang="en">they live</item>
+              </word>
+              <word guid="ddd3d160-cf16-43e2-bfdd-b0ee644b76bb">
+                <item type="txt" lang="qaa-x-lak">kta</item>
+                <item type="gls" lang="en">will</item>
+              </word>
+              <word guid="ce50a406-4ad9-4696-a589-20ccb1c3c1ce">
+                <item type="txt" lang="qaa-x-lak">uŋ</item>
+                <item type="gls" lang="en">on account of</item>
+              </word>
+              <word guid="dd22455c-04e7-40ee-8869-0dbd177be75e">
+                <item type="txt" lang="qaa-x-lak">hípi</item>
+                <item type="gls" lang="en">they come here</item>
+              </word>
+              <word guid="fa4d544f-205f-47c2-a347-dac631b6cd41">
+                <item type="txt" lang="qaa-x-lak">kiŋháŋ</item>
+                <item type="gls" lang="en">the</item>
+              </word>
+              <word guid="446e61e9-b805-405f-aeda-e00f8cec7db3">
+                <item type="txt" lang="qaa-x-lak">hená</item>
+                <item type="gls" lang="en">those</item>
+              </word>
+              <word guid="de94846b-a70e-45af-a61b-584232c0b4b8">
+                <item type="txt" lang="qaa-x-lak">owás’iŋ</item>
+                <item type="gls" lang="en">all of them</item>
+              </word>
+              <word guid="cd8abc24-751c-46c1-81f9-54d82421f333">
+                <item type="txt" lang="qaa-x-lak">wówapi</item>
+                <item type="gls" lang="en">book</item>
+              </word>
+              <word guid="e296be04-fcfe-4103-a611-9b9aa729bfb2">
+                <item type="txt" lang="qaa-x-lak">yawá</item>
+                <item type="gls" lang="en">they read it</item>
+              </word>
+              <word guid="f8a78cad-df6a-481a-b9fb-f3e408e1f740">
+                <item type="txt" lang="qaa-x-lak">okíhipi</item>
+                <item type="gls" lang="en">they can</item>
+              </word>
+              <word guid="77175aee-b4f4-498e-87e6-ef10e35202dd">
+                <item type="txt" lang="qaa-x-lak">héčhapi</item>
+                <item type="gls" lang="en">they are of that kind</item>
+              </word>
+              <word guid="ddd3d160-cf16-43e2-bfdd-b0ee644b76bb">
+                <item type="txt" lang="qaa-x-lak">kta</item>
+                <item type="gls" lang="en">will</item>
+              </word>
+              <word guid="f9d9bdb7-a72a-47ec-9190-1e5cca54275c">
+                <item type="txt" lang="qaa-x-lak">héčhen</item>
+                <item type="gls" lang="en">like that</item>
+              </word>
+              <word guid="4462d6be-6f15-4762-bdbd-a5df080f9d16">
+                <item type="txt" lang="qaa-x-lak">wákhiya</item>
+                <item type="gls" lang="en">{Congress}</item>
+              </word>
+              <word guid="54c5e4fd-86c2-49d0-9a63-195356ed692c">
+                <item type="txt" lang="qaa-x-lak">kiŋ</item>
+                <item type="gls" lang="en">the</item>
+              </word>
+              <word guid="2af5c553-a7f5-4683-976d-329182c45ed0">
+                <item type="txt" lang="qaa-x-lak">yuštáŋpi</item>
+                <item type="gls" lang="en">they decided it</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">.</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">March 27: Congress has decreed that immigrants coming to live in the United States from different nations must be literate.</item>
+          </phrase>
+          <phrase guid="b287da5b-33ce-42b4-bc7c-a711aa8156a6">
+            <item type="segnum" lang="en">6.2</item>
+            <words>
+              <word guid="d1605022-cd91-4de3-b65b-fca7752611f2">
+                <item type="txt" lang="qaa-x-lak">Oyáte</item>
+                <item type="gls" lang="en">nation</item>
+              </word>
+              <word guid="b1f2461f-415f-4244-8466-71f959fa672d">
+                <item type="txt" lang="qaa-x-lak">owás’iŋ</item>
+                <item type="gls" lang="en">every</item>
+              </word>
+              <word guid="4400798d-6fbb-43ba-b2b8-894d7f498f70">
+                <item type="txt" lang="qaa-x-lak">én</item>
+                <item type="gls" lang="en">to</item>
+              </word>
+              <word guid="beb3a32b-b3b3-4589-8e53-75e88acc353e">
+                <item type="txt" lang="qaa-x-lak">Wówapi Wakháŋ</item>
+                <item type="gls" lang="en">Bible</item>
+              </word>
+              <word guid="54c5e4fd-86c2-49d0-9a63-195356ed692c">
+                <item type="txt" lang="qaa-x-lak">kiŋ</item>
+                <item type="gls" lang="en">the</item>
+              </word>
+              <word guid="ec228e9c-9cae-440d-9c80-4aeccfd7c84c">
+                <item type="txt" lang="qaa-x-lak">hé</item>
+                <item type="gls" lang="en">that</item>
+              </word>
+              <word guid="4a64d5a1-108e-4237-abdc-cafb39373e83">
+                <item type="txt" lang="qaa-x-lak">waŋná</item>
+                <item type="gls" lang="en">now</item>
+              </word>
+              <word guid="88b0953d-d191-48f9-a05c-acf0ddedb3e3">
+                <item type="txt" lang="qaa-x-lak">iéska</item>
+                <item type="gls" lang="en">translation</item>
+              </word>
+              <word guid="f1234d39-14e8-40bc-a770-a657bd7bd4b0">
+                <item type="txt" lang="qaa-x-lak">káǧapi</item>
+                <item type="gls" lang="en">they have made</item>
+              </word>
+              <word guid="927aa057-81a6-432e-90dd-3d5474e69d1d">
+                <item type="txt" lang="qaa-x-lak">héuŋ</item>
+                <item type="gls" lang="en">that is why</item>
+              </word>
+              <word guid="28ad91fb-ae98-4dc3-869e-598489d756ad">
+                <item type="txt" lang="qaa-x-lak">táku</item>
+                <item type="gls" lang="en">which</item>
+              </word>
+              <word guid="506bd28e-dd2a-4d97-bdb9-b377b6ecec3b">
+                <item type="txt" lang="qaa-x-lak">oyátepi</item>
+                <item type="gls" lang="en">nations</item>
+              </word>
+              <word guid="6352c54d-6635-45eb-8f3d-fa46dbab3196">
+                <item type="txt" lang="qaa-x-lak">kaštá</item>
+                <item type="gls" lang="en">no matter</item>
+              </word>
+              <word guid="13c0da16-bb8f-431b-a38e-5254bd34f184">
+                <item type="txt" lang="qaa-x-lak">owás’iŋ</item>
+                <item type="gls" lang="en">every single one</item>
+              </word>
+              <word guid="beb3a32b-b3b3-4589-8e53-75e88acc353e">
+                <item type="txt" lang="qaa-x-lak">Wówapi Wakháŋ</item>
+                <item type="gls" lang="en">Bible</item>
+              </word>
+              <word guid="ec228e9c-9cae-440d-9c80-4aeccfd7c84c">
+                <item type="txt" lang="qaa-x-lak">hé</item>
+                <item type="gls" lang="en">that</item>
+              </word>
+              <word guid="6bb78e7c-2dc7-4012-a16f-ae84b4f6e2d5">
+                <item type="txt" lang="qaa-x-lak">yawá</item>
+                <item type="gls" lang="en">read it</item>
+              </word>
+              <word guid="a671f03b-1e5a-4b75-bad2-383e008561fd">
+                <item type="txt" lang="qaa-x-lak">kta</item>
+                <item type="gls" lang="en">would</item>
+              </word>
+              <word guid="f8a78cad-df6a-481a-b9fb-f3e408e1f740">
+                <item type="txt" lang="qaa-x-lak">okíhipi</item>
+                <item type="gls" lang="en">they can</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">.</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">No matter the nation, they should be able to read the Bible, as translations have now been made in every country.</item>
+          </phrase>
+          <phrase guid="e4163735-43d7-4a7e-af10-05029936ce61">
+            <item type="segnum" lang="en">6.3</item>
+            <words>
+              <word guid="464e01da-347e-46ae-b596-fd337444db5f">
+                <item type="txt" lang="qaa-x-lak">Héuŋ</item>
+                <item type="gls" lang="en">therefore</item>
+              </word>
+              <word guid="83ff123b-a7ac-420b-9f8c-b9dd39490bca">
+                <item type="txt" lang="qaa-x-lak">oyáte</item>
+                <item type="gls" lang="en">people</item>
+              </word>
+              <word guid="2c893759-ec24-45b4-994a-bc6e0ff8e1e7">
+                <item type="txt" lang="qaa-x-lak">obé</item>
+                <item type="gls" lang="en">kind</item>
+              </word>
+              <word guid="70faaa43-810d-4070-b56c-78ff9efdac00">
+                <item type="txt" lang="qaa-x-lak">thókeča</item>
+                <item type="gls" lang="en">different</item>
+              </word>
+              <word guid="d12298a6-bf11-44aa-a065-4a0a7f997817">
+                <item type="txt" lang="qaa-x-lak">waŋ</item>
+                <item type="gls" lang="en">a</item>
+              </word>
+              <word guid="357a272a-89f5-49ee-981f-33e57b64638a">
+                <item type="txt" lang="qaa-x-lak">United States</item>
+              </word>
+              <word guid="4400798d-6fbb-43ba-b2b8-894d7f498f70">
+                <item type="txt" lang="qaa-x-lak">én</item>
+                <item type="gls" lang="en">to</item>
+              </word>
+              <word guid="92fe8961-a3a5-4bd9-b875-0bf58033165f">
+                <item type="txt" lang="qaa-x-lak">úŋ</item>
+                <item type="gls" lang="en">lives</item>
+              </word>
+              <word guid="a671f03b-1e5a-4b75-bad2-383e008561fd">
+                <item type="txt" lang="qaa-x-lak">kta</item>
+                <item type="gls" lang="en">would</item>
+              </word>
+              <word guid="ce50a406-4ad9-4696-a589-20ccb1c3c1ce">
+                <item type="txt" lang="qaa-x-lak">uŋ</item>
+                <item type="gls" lang="en">on account of</item>
+              </word>
+              <word guid="b7e6aa3d-a93a-4503-8359-67bbb21735cb">
+                <item type="txt" lang="qaa-x-lak">hí</item>
+                <item type="gls" lang="en">arrives here</item>
+              </word>
+              <word guid="f476b9a1-1b54-4d82-87d6-5b55739bfa5f">
+                <item type="txt" lang="qaa-x-lak">kiŋháŋ</item>
+                <item type="gls" lang="en">when</item>
+              </word>
+              <word guid="ec228e9c-9cae-440d-9c80-4aeccfd7c84c">
+                <item type="txt" lang="qaa-x-lak">hé</item>
+                <item type="gls" lang="en">that</item>
+              </word>
+              <word guid="beb3a32b-b3b3-4589-8e53-75e88acc353e">
+                <item type="txt" lang="qaa-x-lak">Wówapi Wakháŋ</item>
+                <item type="gls" lang="en">Bible</item>
+              </word>
+              <word guid="54c5e4fd-86c2-49d0-9a63-195356ed692c">
+                <item type="txt" lang="qaa-x-lak">kiŋ</item>
+                <item type="gls" lang="en">the</item>
+              </word>
+              <word guid="ec228e9c-9cae-440d-9c80-4aeccfd7c84c">
+                <item type="txt" lang="qaa-x-lak">hé</item>
+                <item type="gls" lang="en">that</item>
+              </word>
+              <word guid="882f199b-3160-44fe-aa1c-71e7bdea1003">
+                <item type="txt" lang="qaa-x-lak">yawákhiyapi</item>
+                <item type="gls" lang="en">they make them read it</item>
+              </word>
+              <word guid="8821c7cd-3a79-4689-952e-f1aab0f7e574">
+                <item type="txt" lang="qaa-x-lak">k’a</item>
+                <item type="gls" lang="en">and</item>
+              </word>
+              <word guid="e296be04-fcfe-4103-a611-9b9aa729bfb2">
+                <item type="txt" lang="qaa-x-lak">yawá</item>
+                <item type="gls" lang="en">they read it</item>
+              </word>
+              <word guid="3912be40-c8e8-445b-8383-129a36bd4c4b">
+                <item type="txt" lang="qaa-x-lak">okíhi</item>
+                <item type="gls" lang="en">they can</item>
+              </word>
+              <word guid="f476b9a1-1b54-4d82-87d6-5b55739bfa5f">
+                <item type="txt" lang="qaa-x-lak">kiŋháŋ</item>
+                <item type="gls" lang="en">when</item>
+              </word>
+              <word guid="ec228e9c-9cae-440d-9c80-4aeccfd7c84c">
+                <item type="txt" lang="qaa-x-lak">hé</item>
+                <item type="gls" lang="en">that</item>
+              </word>
+              <word guid="ef5cd429-24d3-476e-b62d-db098818245d">
+                <item type="txt" lang="qaa-x-lak">ečhíyataŋhaŋ</item>
+                <item type="gls" lang="en">according to</item>
+              </word>
+              <word guid="f5bf4a47-2184-47d9-893d-50550421fe4e">
+                <item type="txt" lang="qaa-x-lak">sdonyápi</item>
+                <item type="gls" lang="en">they know it</item>
+              </word>
+              <word guid="ddd3d160-cf16-43e2-bfdd-b0ee644b76bb">
+                <item type="txt" lang="qaa-x-lak">kta</item>
+                <item type="gls" lang="en">will</item>
+              </word>
+              <word guid="a06793dc-f697-4b92-af15-0eab433d0baf">
+                <item type="txt" lang="qaa-x-lak">héčhen</item>
+                <item type="gls" lang="en">that way</item>
+              </word>
+              <word guid="4462d6be-6f15-4762-bdbd-a5df080f9d16">
+                <item type="txt" lang="qaa-x-lak">wákhiya</item>
+                <item type="gls" lang="en">{Congress}</item>
+              </word>
+              <word guid="6952fde0-4b1e-4df6-9076-60f91290d089">
+                <item type="txt" lang="qaa-x-lak">én</item>
+                <item type="gls" lang="en">in</item>
+              </word>
+              <word guid="a2680568-a012-478b-b108-e88ab8ca8e7d">
+                <item type="txt" lang="qaa-x-lak">wóyuštaŋ</item>
+                <item type="gls" lang="en">decision</item>
+              </word>
+              <word guid="8b875648-1818-4f8a-9031-3cfea3170773">
+                <item type="txt" lang="qaa-x-lak">káǧapi</item>
+                <item type="gls" lang="en">they made it</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">.</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">Therefore, the decision was made in Congress to test immigrants arriving from other countries to live in the United States on their ability to read the Bible, in order to know if they are literate. </item>
+          </phrase>
+        </phrases>
+      </paragraph>
+      <paragraph guid="75fe7be3-f7ae-4694-8325-0a4b69460cfa">
+        <phrases>
+          <phrase guid="0dc96d59-43c3-44ad-a9ca-0849739adc3f">
+            <item type="segnum" lang="en">7.1</item>
+            <words>
+              <word guid="3e46c803-d524-4454-9754-69828419be50">
+                <item type="txt" lang="qaa-x-lak">Mar_ 29</item>
+              </word>
+              <word guid="c9394de7-fd75-4d4f-85a1-d95512b45f40">
+                <item type="txt" lang="qaa-x-lak">Šagdášiŋ</item>
+                <item type="gls" lang="en">British</item>
+              </word>
+              <word guid="48fb837f-f37a-479e-b802-e98e62138caf">
+                <item type="txt" lang="qaa-x-lak">akíčhita</item>
+                <item type="gls" lang="en">soldiers</item>
+              </word>
+              <word guid="54c5e4fd-86c2-49d0-9a63-195356ed692c">
+                <item type="txt" lang="qaa-x-lak">kiŋ</item>
+                <item type="gls" lang="en">the</item>
+              </word>
+              <word guid="1c3e41ec-db8a-4e87-940c-ae59e31fc3b3">
+                <item type="txt" lang="qaa-x-lak">Turkey</item>
+              </word>
+              <word guid="48fb837f-f37a-479e-b802-e98e62138caf">
+                <item type="txt" lang="qaa-x-lak">akíčhita</item>
+                <item type="gls" lang="en">soldiers</item>
+              </word>
+              <word guid="54c5e4fd-86c2-49d0-9a63-195356ed692c">
+                <item type="txt" lang="qaa-x-lak">kiŋ</item>
+                <item type="gls" lang="en">the</item>
+              </word>
+              <word guid="648b8a48-9d83-4a0a-b9b4-73dfc59fa7bd">
+                <item type="txt" lang="qaa-x-lak">óm</item>
+                <item type="gls" lang="en">with them</item>
+              </word>
+              <word guid="aa519ddc-391a-4a9d-a571-a1ca2d77a745">
+                <item type="txt" lang="qaa-x-lak">aŋpétu</item>
+                <item type="gls" lang="en">day</item>
+              </word>
+              <word guid="54c5e4fd-86c2-49d0-9a63-195356ed692c">
+                <item type="txt" lang="qaa-x-lak">kiŋ</item>
+                <item type="gls" lang="en">the</item>
+              </word>
+              <word guid="ec228e9c-9cae-440d-9c80-4aeccfd7c84c">
+                <item type="txt" lang="qaa-x-lak">hé</item>
+                <item type="gls" lang="en">that</item>
+              </word>
+              <word guid="6952fde0-4b1e-4df6-9076-60f91290d089">
+                <item type="txt" lang="qaa-x-lak">én</item>
+                <item type="gls" lang="en">in</item>
+              </word>
+              <word guid="da494423-b82e-42d2-8ee8-2dc4c63f9ba3">
+                <item type="txt" lang="qaa-x-lak">nína</item>
+                <item type="gls" lang="en">really</item>
+              </word>
+              <word guid="e06599b8-b669-4b95-8c9f-9b9548063a55">
+                <item type="txt" lang="qaa-x-lak">kičhízapi</item>
+                <item type="gls" lang="en">they fought each other</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">.</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">March 26: on this day British soldiers engaged in a mighty battle with Turkish forces.</item>
+          </phrase>
+          <phrase guid="dfd8a26a-8000-4269-a942-22692b9a57c0">
+            <item type="segnum" lang="en">7.2</item>
+            <words>
+              <word guid="612c67e0-c689-4554-b39e-cce6e0665005">
+                <item type="txt" lang="qaa-x-lak">Makhóčhe</item>
+                <item type="gls" lang="en">country</item>
+              </word>
+              <word guid="cb3f70b1-41bd-4bd4-844a-7efea1b35a49">
+                <item type="txt" lang="qaa-x-lak">én</item>
+                <item type="gls" lang="en">in it</item>
+              </word>
+              <word guid="e06599b8-b669-4b95-8c9f-9b9548063a55">
+                <item type="txt" lang="qaa-x-lak">kičhízapi</item>
+                <item type="gls" lang="en">they fought each other</item>
+              </word>
+              <word guid="54c5e4fd-86c2-49d0-9a63-195356ed692c">
+                <item type="txt" lang="qaa-x-lak">kiŋ</item>
+                <item type="gls" lang="en">the</item>
+              </word>
+              <word guid="30c0e8bb-d369-4629-ba07-cc28218d5c15">
+                <item type="txt" lang="qaa-x-lak">dé</item>
+                <item type="gls" lang="en">this</item>
+              </word>
+              <word guid="559c3ce9-e385-4191-8c12-04bc182d45e9">
+                <item type="txt" lang="qaa-x-lak">Palestine</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">,</item>
+              </word>
+              <word guid="0b3c6623-90a3-47f0-9997-fee193f899b6">
+                <item type="txt" lang="qaa-x-lak">makhóčhe</item>
+                <item type="gls" lang="en">land</item>
+              </word>
+              <word guid="c289b5ab-1355-4f4f-851c-2f6cdd0ab079">
+                <item type="txt" lang="qaa-x-lak">wakháŋ</item>
+                <item type="gls" lang="en">holy</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">,</item>
+              </word>
+              <word guid="54c5e4fd-86c2-49d0-9a63-195356ed692c">
+                <item type="txt" lang="qaa-x-lak">kiŋ</item>
+                <item type="gls" lang="en">the</item>
+              </word>
+              <word guid="d635e2aa-53e4-4ffb-b4e5-6de5aea5e3ca">
+                <item type="txt" lang="qaa-x-lak">étu</item>
+                <item type="gls" lang="en">it is there</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">,</item>
+              </word>
+              <word guid="c9394de7-fd75-4d4f-85a1-d95512b45f40">
+                <item type="txt" lang="qaa-x-lak">Šagdášiŋ</item>
+                <item type="gls" lang="en">British</item>
+              </word>
+              <word guid="54c5e4fd-86c2-49d0-9a63-195356ed692c">
+                <item type="txt" lang="qaa-x-lak">kiŋ</item>
+                <item type="gls" lang="en">the</item>
+              </word>
+              <word guid="adaccb86-4943-4945-b434-5a5abcc4f2bb">
+                <item type="txt" lang="qaa-x-lak">Egypt</item>
+              </word>
+              <word guid="0b3c6623-90a3-47f0-9997-fee193f899b6">
+                <item type="txt" lang="qaa-x-lak">makhóčhe</item>
+                <item type="gls" lang="en">land</item>
+              </word>
+              <word guid="54c5e4fd-86c2-49d0-9a63-195356ed692c">
+                <item type="txt" lang="qaa-x-lak">kiŋ</item>
+                <item type="gls" lang="en">the</item>
+              </word>
+              <word guid="f9d92dee-9f0c-4943-8c36-b668ab56c6c5">
+                <item type="txt" lang="qaa-x-lak">hetáŋhaŋ</item>
+                <item type="gls" lang="en">from there</item>
+              </word>
+              <word guid="0b3c6623-90a3-47f0-9997-fee193f899b6">
+                <item type="txt" lang="qaa-x-lak">makhóčhe</item>
+                <item type="gls" lang="en">land</item>
+              </word>
+              <word guid="c289b5ab-1355-4f4f-851c-2f6cdd0ab079">
+                <item type="txt" lang="qaa-x-lak">wakháŋ</item>
+                <item type="gls" lang="en">holy</item>
+              </word>
+              <word guid="54c5e4fd-86c2-49d0-9a63-195356ed692c">
+                <item type="txt" lang="qaa-x-lak">kiŋ</item>
+                <item type="gls" lang="en">the</item>
+              </word>
+              <word guid="2feca1b0-87a6-4d13-b885-5b31975fcdb5">
+                <item type="txt" lang="qaa-x-lak">étkiya</item>
+                <item type="gls" lang="en">towards it</item>
+              </word>
+              <word guid="09ca2e3e-50ae-4976-9579-1b3b9393720e">
+                <item type="txt" lang="qaa-x-lak">yápi</item>
+                <item type="gls" lang="en">they went there</item>
+              </word>
+              <word guid="ffbb9682-e002-41c3-b518-c0ab7f517096">
+                <item type="txt" lang="qaa-x-lak">tókhen</item>
+                <item type="gls" lang="en">how</item>
+              </word>
+              <word guid="09ca2e3e-50ae-4976-9579-1b3b9393720e">
+                <item type="txt" lang="qaa-x-lak">yápi</item>
+                <item type="gls" lang="en">they went there</item>
+              </word>
+              <word guid="54c5e4fd-86c2-49d0-9a63-195356ed692c">
+                <item type="txt" lang="qaa-x-lak">kiŋ</item>
+                <item type="gls" lang="en">the</item>
+              </word>
+              <word guid="17b5e33b-ae17-4a5c-be09-1edde6e9214d">
+                <item type="txt" lang="qaa-x-lak">ečhén</item>
+                <item type="gls" lang="en">as</item>
+              </word>
+              <word guid="7eb87b20-2198-4a26-b2f9-93d76b378c81">
+                <item type="txt" lang="qaa-x-lak">ȟemáni čhaŋkú</item>
+                <item type="gls" lang="en">railroad</item>
+              </word>
+              <word guid="052dc515-0c65-4881-83c7-9b1dad135576">
+                <item type="txt" lang="qaa-x-lak">nakúŋ</item>
+                <item type="gls" lang="en">also</item>
+              </word>
+              <word guid="0ee82de2-f40b-4d27-902d-6b1aac55d065">
+                <item type="txt" lang="qaa-x-lak">káȟ</item>
+                <item type="gls" lang="en">making</item>
+              </word>
+              <word guid="e27533fc-34d1-438a-b583-4c90bce3200e">
+                <item type="txt" lang="qaa-x-lak">áyapi</item>
+                <item type="gls" lang="en">they are gradually</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">.</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">The fighting took place in the Holy Land, Palestine. The British have been laying railroad as they make their way from Egypt to the Holy Land. </item>
+          </phrase>
+          <phrase guid="3df4e72b-8873-4c40-b3ca-518f2c422172">
+            <item type="segnum" lang="en">7.3</item>
+            <words>
+              <word guid="1c3e41ec-db8a-4e87-940c-ae59e31fc3b3">
+                <item type="txt" lang="qaa-x-lak">Turkey</item>
+              </word>
+              <word guid="48fb837f-f37a-479e-b802-e98e62138caf">
+                <item type="txt" lang="qaa-x-lak">akíčhita</item>
+                <item type="gls" lang="en">soldiers</item>
+              </word>
+              <word guid="54c5e4fd-86c2-49d0-9a63-195356ed692c">
+                <item type="txt" lang="qaa-x-lak">kiŋ</item>
+                <item type="gls" lang="en">the</item>
+              </word>
+              <word guid="2eee5dad-a6cb-474e-bb15-b524e61971f8">
+                <item type="txt" lang="qaa-x-lak">20000</item>
+              </word>
+              <word guid="52e74252-394b-4d16-acf7-9f7af2a8d58a">
+                <item type="txt" lang="qaa-x-lak">tukhá</item>
+                <item type="gls" lang="en">but</item>
+              </word>
+              <word guid="ac147e90-2ff8-4714-b6c3-ce212a439430">
+                <item type="txt" lang="qaa-x-lak">naphéwičhayapi</item>
+                <item type="gls" lang="en">they made them flee</item>
+              </word>
+              <word guid="8821c7cd-3a79-4689-952e-f1aab0f7e574">
+                <item type="txt" lang="qaa-x-lak">k’a</item>
+                <item type="gls" lang="en">and</item>
+              </word>
+              <word guid="c0887bcc-dd7e-40e1-bc44-423f581c8f30">
+                <item type="txt" lang="qaa-x-lak">etáŋhaŋ</item>
+                <item type="gls" lang="en">from</item>
+              </word>
+              <word guid="893123f6-95c0-49e0-8a31-6b283d0c9a0e">
+                <item type="txt" lang="qaa-x-lak">900</item>
+              </word>
+              <word guid="486dec02-7ca8-4489-8e89-9aef0175af15">
+                <item type="txt" lang="qaa-x-lak">wayáka</item>
+                <item type="gls" lang="en">captive</item>
+              </word>
+              <word guid="01294cda-6587-479f-b50d-5fac1118bfdf">
+                <item type="txt" lang="qaa-x-lak">wičháyuzapi</item>
+                <item type="gls" lang="en">they took them</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">.</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">Turkish soldiers numbered 20,000 but they were driven back, and 900 were taken captive.</item>
+          </phrase>
+          <phrase guid="4a0e27c3-e3c7-422f-8fb9-73c994de9aba">
+            <item type="segnum" lang="en">7.4</item>
+            <words>
+              <word guid="885e9701-0112-427e-8323-fdea9c068539">
+                <item type="txt" lang="qaa-x-lak">Akíčhita</item>
+                <item type="gls" lang="en">soldier</item>
+              </word>
+              <word guid="73fe77f1-d2b9-4e3b-adae-99cb91945085">
+                <item type="txt" lang="qaa-x-lak">itháŋčhaŋ</item>
+                <item type="gls" lang="en">leader</item>
+              </word>
+              <word guid="7417f5d6-83ba-4ea7-8b2e-c4bb4979abed">
+                <item type="txt" lang="qaa-x-lak">tháŋka</item>
+                <item type="gls" lang="en">he is great</item>
+              </word>
+              <word guid="d12298a6-bf11-44aa-a065-4a0a7f997817">
+                <item type="txt" lang="qaa-x-lak">waŋ</item>
+                <item type="gls" lang="en">a</item>
+              </word>
+              <word guid="052dc515-0c65-4881-83c7-9b1dad135576">
+                <item type="txt" lang="qaa-x-lak">nakúŋ</item>
+                <item type="gls" lang="en">also</item>
+              </word>
+              <word guid="486dec02-7ca8-4489-8e89-9aef0175af15">
+                <item type="txt" lang="qaa-x-lak">wayáka</item>
+                <item type="gls" lang="en">captive</item>
+              </word>
+              <word guid="ab95ea9d-a3dd-4547-ad8c-3361aad1f13f">
+                <item type="txt" lang="qaa-x-lak">yúzapi</item>
+                <item type="gls" lang="en">they took him</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">.</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">A great military leader was among those taken captive.</item>
+          </phrase>
+          <phrase guid="979ce767-9242-4341-97ca-3843644976bf">
+            <item type="segnum" lang="en">7.5</item>
+            <words>
+              <word guid="f9d9bdb7-a72a-47ec-9190-1e5cca54275c">
+                <item type="txt" lang="qaa-x-lak">Héčhen</item>
+                <item type="gls" lang="en">like that</item>
+              </word>
+              <word guid="c9394de7-fd75-4d4f-85a1-d95512b45f40">
+                <item type="txt" lang="qaa-x-lak">Šagdášiŋ</item>
+                <item type="gls" lang="en">British</item>
+              </word>
+              <word guid="54c5e4fd-86c2-49d0-9a63-195356ed692c">
+                <item type="txt" lang="qaa-x-lak">kiŋ</item>
+                <item type="gls" lang="en">the</item>
+              </word>
+              <word guid="4048ed6d-2c9c-498f-835e-31d90234f07d">
+                <item type="txt" lang="qaa-x-lak">é</item>
+                <item type="gls" lang="en">it is</item>
+              </word>
+              <word guid="89a639d0-036a-499b-91bc-a8623b5886c0">
+                <item type="txt" lang="qaa-x-lak">ohíyapi</item>
+                <item type="gls" lang="en">they won</item>
+              </word>
+              <word guid="f9d9bdb7-a72a-47ec-9190-1e5cca54275c">
+                <item type="txt" lang="qaa-x-lak">héčhen</item>
+                <item type="gls" lang="en">like that</item>
+              </word>
+              <word guid="7b97a3e3-0d83-49e3-8b71-7af5088bed3a">
+                <item type="txt" lang="qaa-x-lak">yuóthaŋiŋpi</item>
+                <item type="gls" lang="en">they announced it</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">.</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">Therefore the British declared victory.</item>
+          </phrase>
+        </phrases>
+      </paragraph>
+      <paragraph guid="32781024-9d8a-4bf6-aee1-9cd2a2764249">
+        <phrases>
+          <phrase guid="ecfbbc13-6359-49a3-8ed5-f37467c5265e">
+            <item type="segnum" lang="en">8</item>
+            <words>
+              <word guid="920ab83c-f692-4e28-a80c-bf9e45e765f6">
+                <item type="txt" lang="qaa-x-lak">Apr_ 5_</item>
+              </word>
+              <word guid="d6e06aef-9195-47c9-9f7e-1ce12efa8598">
+                <item type="txt" lang="qaa-x-lak">Redding California</item>
+              </word>
+              <word guid="0339124b-0cfa-4fee-86de-bd7819ed7c04">
+                <item type="txt" lang="qaa-x-lak">pahá</item>
+                <item type="gls" lang="en">hill</item>
+              </word>
+              <word guid="d12298a6-bf11-44aa-a065-4a0a7f997817">
+                <item type="txt" lang="qaa-x-lak">waŋ</item>
+                <item type="gls" lang="en">a</item>
+              </word>
+              <word guid="7ecb8675-1061-44d8-91ad-c3152ef692be">
+                <item type="txt" lang="qaa-x-lak">Lassen</item>
+              </word>
+              <word guid="f688f22c-f3a3-4db9-b4f2-503e838e1164">
+                <item type="txt" lang="qaa-x-lak">ečíyapi</item>
+                <item type="gls" lang="en">it is called</item>
+              </word>
+              <word guid="ec228e9c-9cae-440d-9c80-4aeccfd7c84c">
+                <item type="txt" lang="qaa-x-lak">hé</item>
+                <item type="gls" lang="en">that</item>
+              </word>
+              <word guid="cac2ff80-dad7-4c7a-bb30-fab0acb61626">
+                <item type="txt" lang="qaa-x-lak">naphópa</item>
+                <item type="gls" lang="en">it erupted</item>
+              </word>
+              <word guid="8821c7cd-3a79-4689-952e-f1aab0f7e574">
+                <item type="txt" lang="qaa-x-lak">k’a</item>
+                <item type="gls" lang="en">and</item>
+              </word>
+              <word guid="24c478d1-7f60-4b8f-8d93-3ddbae0c8dff">
+                <item type="txt" lang="qaa-x-lak">oíde</item>
+                <item type="gls" lang="en">it is burning inside</item>
+              </word>
+              <word guid="8821c7cd-3a79-4689-952e-f1aab0f7e574">
+                <item type="txt" lang="qaa-x-lak">k’a</item>
+                <item type="gls" lang="en">and</item>
+              </word>
+              <word guid="c0887bcc-dd7e-40e1-bc44-423f581c8f30">
+                <item type="txt" lang="qaa-x-lak">etáŋhaŋ</item>
+                <item type="gls" lang="en">from</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">[</item>
+              </word>
+              <word guid="ea6b31ea-a548-4419-941e-4cde37b3c218">
+                <item type="txt" lang="qaa-x-lak">ohná</item>
+                <item type="gls" lang="en">inside</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">]</item>
+              </word>
+              <word guid="dfbd991a-a361-4001-ab66-19a9b00e6c3e">
+                <item type="txt" lang="qaa-x-lak">šóta</item>
+                <item type="gls" lang="en">smoke</item>
+              </word>
+              <word guid="f27f4f05-6a71-4b20-a6b9-11ba167cbb91">
+                <item type="txt" lang="qaa-x-lak">hiyú</item>
+                <item type="gls" lang="en">it comes here</item>
+              </word>
+              <word guid="4a0d795f-d75d-42cd-bef4-66e6179dc41e">
+                <item type="txt" lang="qaa-x-lak">ečée</item>
+                <item type="gls" lang="en">always</item>
+              </word>
+              <word guid="9a94ab3e-888f-4f4f-8c49-01973606c35d">
+                <item type="txt" lang="qaa-x-lak">oyákapi</item>
+                <item type="gls" lang="en">they report it</item>
+              </word>
+              <word guid="d89517cf-3ab9-4467-a4b5-2b1a851219a8">
+                <item type="txt" lang="qaa-x-lak">k’uŋ</item>
+                <item type="gls" lang="en">on account of</item>
+              </word>
+              <word guid="4e0f5cd9-3ebc-4398-b737-30c5ba0e7418">
+                <item type="txt" lang="qaa-x-lak">deháŋn</item>
+                <item type="gls" lang="en">after</item>
+              </word>
+              <word guid="0d78f0d6-506e-4bb3-8c60-0dd35e164199">
+                <item type="txt" lang="qaa-x-lak">iyótaŋ</item>
+                <item type="gls" lang="en">the most </item>
+              </word>
+              <word guid="c0887bcc-dd7e-40e1-bc44-423f581c8f30">
+                <item type="txt" lang="qaa-x-lak">etáŋhaŋ</item>
+                <item type="gls" lang="en">from</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">[</item>
+              </word>
+              <word guid="d1c6879c-731a-4604-a33d-27e1e5872c47">
+                <item type="txt" lang="qaa-x-lak">nína</item>
+                <item type="gls" lang="en">very</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">]</item>
+              </word>
+              <word guid="c10451f3-c391-424e-8ca1-7c50b6ef7eec">
+                <item type="txt" lang="qaa-x-lak">ošóta</item>
+                <item type="gls" lang="en">it is full of smoke</item>
+              </word>
+              <word guid="8821c7cd-3a79-4689-952e-f1aab0f7e574">
+                <item type="txt" lang="qaa-x-lak">k’a</item>
+                <item type="gls" lang="en">and</item>
+              </word>
+              <word guid="c0887bcc-dd7e-40e1-bc44-423f581c8f30">
+                <item type="txt" lang="qaa-x-lak">etáŋhaŋ</item>
+                <item type="gls" lang="en">from</item>
+              </word>
+              <word guid="24f87bca-8d88-4d50-aa9b-b4b972e815e9">
+                <item type="txt" lang="qaa-x-lak">čhaȟóta</item>
+                <item type="gls" lang="en">ash</item>
+              </word>
+              <word guid="54c5e4fd-86c2-49d0-9a63-195356ed692c">
+                <item type="txt" lang="qaa-x-lak">kiŋ</item>
+                <item type="gls" lang="en">the</item>
+              </word>
+              <word guid="954e0b9e-89e9-4fed-a989-faf54f069b65">
+                <item type="txt" lang="qaa-x-lak">okhókhipheya</item>
+                <item type="gls" lang="en">dangerously</item>
+              </word>
+              <word guid="a6bdf79b-1931-4b93-8dc4-10eb089beeca">
+                <item type="txt" lang="qaa-x-lak">bomdú</item>
+                <item type="gls" lang="en">the wind is blowing ash</item>
+              </word>
+              <word guid="89b9605e-9a5b-42cf-9700-f7818e0698be">
+                <item type="txt" lang="qaa-x-lak">kéyapi</item>
+                <item type="gls" lang="en">they say</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">.</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">April 5: in Redding, California, Lassen Peak has erupted and dangerous storms of ash are reported on account of the smoke that is said to be discharging from the blaze inside.</item>
+          </phrase>
+        </phrases>
+      </paragraph>
+      <paragraph guid="98ae0b29-a9c3-4b08-aba9-d3073d99936a">
+        <phrases>
+          <phrase guid="cbe0ac69-8bcb-4f93-b41f-01527ba3a653">
+            <item type="segnum" lang="en">9.1</item>
+            <words>
+              <word guid="8c68817a-9b22-412a-a732-80bec850d0d2">
+                <item type="txt" lang="qaa-x-lak">Apr_ 6_</item>
+              </word>
+              <word guid="df14bd7b-2700-4d1a-8aeb-2d67cf3b3c95">
+                <item type="txt" lang="qaa-x-lak">Washington</item>
+              </word>
+              <word guid="6952fde0-4b1e-4df6-9076-60f91290d089">
+                <item type="txt" lang="qaa-x-lak">én</item>
+                <item type="gls" lang="en">in</item>
+              </word>
+              <word guid="568f863b-6a90-485b-8ef3-9d2c7306d453">
+                <item type="txt" lang="qaa-x-lak">wákhiya wičhášta</item>
+                <item type="gls" lang="en">members of Congress</item>
+              </word>
+              <word guid="446e61e9-b805-405f-aeda-e00f8cec7db3">
+                <item type="txt" lang="qaa-x-lak">hená</item>
+                <item type="gls" lang="en">those</item>
+              </word>
+              <word guid="4006ba0e-956b-4d4f-9923-b33bfc58073a">
+                <item type="txt" lang="qaa-x-lak">thuŋkháŋšidaŋ</item>
+                <item type="gls" lang="en">president</item>
+              </word>
+              <word guid="8fd523bf-4c3e-4583-8924-a56c1b569427">
+                <item type="txt" lang="qaa-x-lak">Pres_ Wilson</item>
+              </word>
+              <word guid="66bc344f-910c-4a70-8491-862aa83618ba">
+                <item type="txt" lang="qaa-x-lak">okíčhize</item>
+                <item type="gls" lang="en">war</item>
+              </word>
+              <word guid="0ff72b4c-11f7-459a-8367-15c66c473837">
+                <item type="txt" lang="qaa-x-lak">kte</item>
+                <item type="gls" lang="en">will</item>
+              </word>
+              <word guid="52b5e237-9069-420a-8f52-e70f8c4750fe">
+                <item type="txt" lang="qaa-x-lak">k’aíš</item>
+                <item type="gls" lang="en">or</item>
+              </word>
+              <word guid="66bc344f-910c-4a70-8491-862aa83618ba">
+                <item type="txt" lang="qaa-x-lak">okíčhize</item>
+                <item type="gls" lang="en">war</item>
+              </word>
+              <word guid="0ff72b4c-11f7-459a-8367-15c66c473837">
+                <item type="txt" lang="qaa-x-lak">kte</item>
+                <item type="gls" lang="en">will</item>
+              </word>
+              <word guid="521928ec-7224-4444-8064-d4c3c41b9eea">
+                <item type="txt" lang="qaa-x-lak">šni</item>
+                <item type="gls" lang="en">not</item>
+              </word>
+              <word guid="ec228e9c-9cae-440d-9c80-4aeccfd7c84c">
+                <item type="txt" lang="qaa-x-lak">hé</item>
+                <item type="gls" lang="en">that</item>
+              </word>
+              <word guid="847726df-4ac2-4a00-897e-e02227e7f052">
+                <item type="txt" lang="qaa-x-lak">iyúkčaŋ-wičháši</item>
+                <item type="gls" lang="en">he told them to think about it</item>
+              </word>
+              <word guid="8821c7cd-3a79-4689-952e-f1aab0f7e574">
+                <item type="txt" lang="qaa-x-lak">k’a</item>
+                <item type="gls" lang="en">and</item>
+              </word>
+              <word guid="ec228e9c-9cae-440d-9c80-4aeccfd7c84c">
+                <item type="txt" lang="qaa-x-lak">hé</item>
+                <item type="gls" lang="en">that</item>
+              </word>
+              <word guid="cfb36243-5330-4a4d-bf6d-a941b6e20ad8">
+                <item type="txt" lang="qaa-x-lak">nína</item>
+                <item type="gls" lang="en">a lot</item>
+              </word>
+              <word guid="f555ba88-a172-4184-9c4a-12e96229c35e">
+                <item type="txt" lang="qaa-x-lak">iwóhdakapi</item>
+                <item type="gls" lang="en">they discussed it</item>
+              </word>
+              <word guid="312202a6-abd9-4ebd-b130-37f5dea24cb4">
+                <item type="txt" lang="qaa-x-lak">heháŋn</item>
+                <item type="gls" lang="en">then</item>
+              </word>
+              <word guid="e219e1fd-d2d9-442f-8994-b971fc8229ef">
+                <item type="txt" lang="qaa-x-lak">uŋ</item>
+                <item type="gls" lang="en">by means of</item>
+              </word>
+              <word guid="90a3a834-4438-4db8-87b1-37d88fd5f0e1">
+                <item type="txt" lang="qaa-x-lak">wówapi</item>
+                <item type="gls" lang="en">ballots</item>
+              </word>
+              <word guid="e7ef13be-64b2-45d7-9864-9fc950cb58f7">
+                <item type="txt" lang="qaa-x-lak">oíyoȟpeyapi</item>
+                <item type="gls" lang="en">they cast them in</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">.</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">April 6: in Washington, members of Congress have debated and cast their ballots after President Wilson asked them to consider whether or not to join the war.</item>
+          </phrase>
+          <phrase guid="7a19fce3-9086-4b88-895b-605cda3e2a3e">
+            <item type="segnum" lang="en">9.2</item>
+            <words>
+              <word guid="357a272a-89f5-49ee-981f-33e57b64638a">
+                <item type="txt" lang="qaa-x-lak">United States</item>
+              </word>
+              <word guid="54c5e4fd-86c2-49d0-9a63-195356ed692c">
+                <item type="txt" lang="qaa-x-lak">kiŋ</item>
+                <item type="gls" lang="en">the</item>
+              </word>
+              <word guid="8bc3df57-c905-482a-8ed4-b24839aeca91">
+                <item type="txt" lang="qaa-x-lak">German</item>
+              </word>
+              <word guid="041fd876-cc07-47e8-89bc-84c510dbc37b">
+                <item type="txt" lang="qaa-x-lak">khíze</item>
+                <item type="gls" lang="en">fight it</item>
+              </word>
+              <word guid="ddd3d160-cf16-43e2-bfdd-b0ee644b76bb">
+                <item type="txt" lang="qaa-x-lak">kta</item>
+                <item type="gls" lang="en">will</item>
+              </word>
+              <word guid="f0dee7c7-8a58-4683-be12-4b2e2f82c424">
+                <item type="txt" lang="qaa-x-lak">čhíŋpi</item>
+                <item type="gls" lang="en">they want</item>
+              </word>
+              <word guid="0d1ea678-39bb-439c-a7b8-0c91560dee0e">
+                <item type="txt" lang="qaa-x-lak">uŋ</item>
+                <item type="gls" lang="en">for</item>
+              </word>
+              <word guid="90a3a834-4438-4db8-87b1-37d88fd5f0e1">
+                <item type="txt" lang="qaa-x-lak">wówapi</item>
+                <item type="gls" lang="en">ballots</item>
+              </word>
+              <word guid="3c240cc1-b6fe-481b-8326-88ebc855e20f">
+                <item type="txt" lang="qaa-x-lak">iyóȟpeyapi</item>
+                <item type="gls" lang="en">they cast them in</item>
+              </word>
+              <word guid="54c5e4fd-86c2-49d0-9a63-195356ed692c">
+                <item type="txt" lang="qaa-x-lak">kiŋ</item>
+                <item type="gls" lang="en">the</item>
+              </word>
+              <word guid="95f241c2-9503-4ec7-ae68-f0426de95d2a">
+                <item type="txt" lang="qaa-x-lak">373</item>
+              </word>
+              <word guid="8821c7cd-3a79-4689-952e-f1aab0f7e574">
+                <item type="txt" lang="qaa-x-lak">k’a</item>
+                <item type="gls" lang="en">and</item>
+              </word>
+              <word guid="5b50dc20-a416-426e-978b-793391e47e6c">
+                <item type="txt" lang="qaa-x-lak">čhíŋpi</item>
+                <item type="gls" lang="en">they want it</item>
+              </word>
+              <word guid="521928ec-7224-4444-8064-d4c3c41b9eea">
+                <item type="txt" lang="qaa-x-lak">šni</item>
+                <item type="gls" lang="en">not</item>
+              </word>
+              <word guid="54c5e4fd-86c2-49d0-9a63-195356ed692c">
+                <item type="txt" lang="qaa-x-lak">kiŋ</item>
+                <item type="gls" lang="en">the</item>
+              </word>
+              <word guid="82efb3de-8be8-4992-814e-1bc33763b617">
+                <item type="txt" lang="qaa-x-lak">50</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">,</item>
+              </word>
+              <word guid="f9d9bdb7-a72a-47ec-9190-1e5cca54275c">
+                <item type="txt" lang="qaa-x-lak">héčhen</item>
+                <item type="gls" lang="en">like that</item>
+              </word>
+              <word guid="4a64d5a1-108e-4237-abdc-cafb39373e83">
+                <item type="txt" lang="qaa-x-lak">waŋná</item>
+                <item type="gls" lang="en">now</item>
+              </word>
+              <word guid="357a272a-89f5-49ee-981f-33e57b64638a">
+                <item type="txt" lang="qaa-x-lak">United States</item>
+              </word>
+              <word guid="8bc3df57-c905-482a-8ed4-b24839aeca91">
+                <item type="txt" lang="qaa-x-lak">German</item>
+              </word>
+              <word guid="396186fc-0569-46d0-a448-4cbc8b1a849d">
+                <item type="txt" lang="qaa-x-lak">kičhí</item>
+                <item type="gls" lang="en">with</item>
+              </word>
+              <word guid="ccb39ad1-9641-4774-933c-20e81e7ea8c9">
+                <item type="txt" lang="qaa-x-lak">kičhíze</item>
+                <item type="gls" lang="en">it fights</item>
+              </word>
+              <word guid="ddd3d160-cf16-43e2-bfdd-b0ee644b76bb">
+                <item type="txt" lang="qaa-x-lak">kta</item>
+                <item type="gls" lang="en">will</item>
+              </word>
+              <word guid="692f9531-61c7-4621-a08a-21a5c78b9231">
+                <item type="txt" lang="qaa-x-lak">hée</item>
+                <item type="gls" lang="en">it is that</item>
+              </word>
+              <word guid="2af5c553-a7f5-4683-976d-329182c45ed0">
+                <item type="txt" lang="qaa-x-lak">yuštáŋpi</item>
+                <item type="gls" lang="en">they decided it</item>
+              </word>
+              <word guid="8821c7cd-3a79-4689-952e-f1aab0f7e574">
+                <item type="txt" lang="qaa-x-lak">k’a</item>
+                <item type="gls" lang="en">and</item>
+              </word>
+              <word guid="5a1b18af-2654-4d27-b3ef-75329c5d0479">
+                <item type="txt" lang="qaa-x-lak">President Wilson</item>
+              </word>
+              <word guid="4a64d5a1-108e-4237-abdc-cafb39373e83">
+                <item type="txt" lang="qaa-x-lak">waŋná</item>
+                <item type="gls" lang="en">now</item>
+              </word>
+              <word guid="cd8abc24-751c-46c1-81f9-54d82421f333">
+                <item type="txt" lang="qaa-x-lak">wówapi</item>
+                <item type="gls" lang="en">book</item>
+              </word>
+              <word guid="54c5e4fd-86c2-49d0-9a63-195356ed692c">
+                <item type="txt" lang="qaa-x-lak">kiŋ</item>
+                <item type="gls" lang="en">the</item>
+              </word>
+              <word guid="650f9798-70f4-4860-8edb-2b9635504969">
+                <item type="txt" lang="qaa-x-lak">yutháŋ</item>
+                <item type="gls" lang="en">he touched it</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">.</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">There were 373 yeas for 50 nays, and therefore the United States has decided to go to war against Germany, and President WIlson has now signed the resolution.</item>
+          </phrase>
+        </phrases>
+      </paragraph>
+      <paragraph guid="1075639e-7850-4fec-a318-15013eee95f5">
+        <phrases>
+          <phrase guid="7762da85-9d9a-43af-ba77-d35a97d4459c">
+            <item type="segnum" lang="en">10.1</item>
+            <words>
+              <word guid="2ba196d2-48e7-41e0-bb33-0112a0332e4d">
+                <item type="txt" lang="qaa-x-lak">Apr_ 9_</item>
+              </word>
+              <word guid="889d49e8-bca9-4109-835e-88abd707333f">
+                <item type="txt" lang="qaa-x-lak">St_ Louis</item>
+              </word>
+              <word guid="7df8e7e7-4288-4e85-8e05-46c065917f85">
+                <item type="txt" lang="qaa-x-lak">othúŋwe</item>
+                <item type="gls" lang="en">town</item>
+              </word>
+              <word guid="6952fde0-4b1e-4df6-9076-60f91290d089">
+                <item type="txt" lang="qaa-x-lak">én</item>
+                <item type="gls" lang="en">in</item>
+              </word>
+              <word guid="aa519ddc-391a-4a9d-a571-a1ca2d77a745">
+                <item type="txt" lang="qaa-x-lak">aŋpétu</item>
+                <item type="gls" lang="en">day</item>
+              </word>
+              <word guid="54c5e4fd-86c2-49d0-9a63-195356ed692c">
+                <item type="txt" lang="qaa-x-lak">kiŋ</item>
+                <item type="gls" lang="en">the</item>
+              </word>
+              <word guid="ec228e9c-9cae-440d-9c80-4aeccfd7c84c">
+                <item type="txt" lang="qaa-x-lak">hé</item>
+                <item type="gls" lang="en">that</item>
+              </word>
+              <word guid="c4f06a10-dda3-4ae1-943b-6caafb5af23b">
+                <item type="txt" lang="qaa-x-lak">minutes</item>
+              </word>
+              <word guid="220aae03-3f72-45c8-8d34-945dd12b02fc">
+                <item type="txt" lang="qaa-x-lak">šahdóǧaŋ</item>
+                <item type="gls" lang="en">eight</item>
+              </word>
+              <word guid="eabc6cdf-854c-49bc-8cfd-0ce97f08f684">
+                <item type="txt" lang="qaa-x-lak">heháŋyaŋ</item>
+                <item type="gls" lang="en">that long</item>
+              </word>
+              <word guid="5664a330-eeee-4011-bdc8-2fba22542ced">
+                <item type="txt" lang="qaa-x-lak">makhá</item>
+                <item type="gls" lang="en">earth</item>
+              </word>
+              <word guid="ac761bbd-4ba1-44aa-9af3-53df528bd4df">
+                <item type="txt" lang="qaa-x-lak">škaŋškáŋ</item>
+                <item type="gls" lang="en">it moved about</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">,</item>
+              </word>
+              <word guid="52e74252-394b-4d16-acf7-9f7af2a8d58a">
+                <item type="txt" lang="qaa-x-lak">tukhá</item>
+                <item type="gls" lang="en">but</item>
+              </word>
+              <word guid="cfb36243-5330-4a4d-bf6d-a941b6e20ad8">
+                <item type="txt" lang="qaa-x-lak">nína</item>
+                <item type="gls" lang="en">a lot</item>
+              </word>
+              <word guid="e36e7036-6d87-47e5-94c9-43110f66d21f">
+                <item type="txt" lang="qaa-x-lak">ȟče</item>
+                <item type="gls" lang="en">really</item>
+              </word>
+              <word guid="521928ec-7224-4444-8064-d4c3c41b9eea">
+                <item type="txt" lang="qaa-x-lak">šni</item>
+                <item type="gls" lang="en">not</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">.</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">April 9: on this day an earthquake struck St. Louis for eight minutes, though it was not very strong.</item>
+          </phrase>
+          <phrase guid="6d29decc-668e-4532-b694-09359e756aaa">
+            <item type="segnum" lang="en">10.2</item>
+            <words>
+              <word guid="52620f6d-32a1-4098-a323-9c320bb9af53">
+                <item type="txt" lang="qaa-x-lak">Owáŋye</item>
+              </word>
+              <word guid="dc891475-d2a5-4c5c-9c4c-8261227ece24">
+                <item type="txt" lang="qaa-x-lak">waŋžígži</item>
+                <item type="gls" lang="en">some</item>
+              </word>
+              <word guid="8821c7cd-3a79-4689-952e-f1aab0f7e574">
+                <item type="txt" lang="qaa-x-lak">k’a</item>
+                <item type="gls" lang="en">and</item>
+              </word>
+              <word guid="527d143b-0ece-4a43-a2f4-3c6641487312">
+                <item type="txt" lang="qaa-x-lak">íŋyaŋ očhéthi</item>
+              </word>
+              <word guid="dc891475-d2a5-4c5c-9c4c-8261227ece24">
+                <item type="txt" lang="qaa-x-lak">waŋžígži</item>
+                <item type="gls" lang="en">some</item>
+              </word>
+              <word guid="3fe11b2e-8516-43d6-90c8-121d33eecf00">
+                <item type="txt" lang="qaa-x-lak">yumdéča</item>
+                <item type="gls" lang="en">they opened up</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">.</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">Some {watch towers} and {fireplaces} were torn apart.</item>
+          </phrase>
+          <phrase guid="0719ccb7-ef47-4dab-b8cf-c7992db72a55">
+            <item type="segnum" lang="en">10.3</item>
+            <words>
+              <word guid="140528b1-c587-43f6-905d-ba9efa1d670a">
+                <item type="txt" lang="qaa-x-lak">Oyáŋke</item>
+                <item type="gls" lang="en">community</item>
+              </word>
+              <word guid="30c0e8bb-d369-4629-ba07-cc28218d5c15">
+                <item type="txt" lang="qaa-x-lak">dé</item>
+                <item type="gls" lang="en">this</item>
+              </word>
+              <word guid="4400798d-6fbb-43ba-b2b8-894d7f498f70">
+                <item type="txt" lang="qaa-x-lak">én</item>
+                <item type="gls" lang="en">to</item>
+              </word>
+              <word guid="4a64d5a1-108e-4237-abdc-cafb39373e83">
+                <item type="txt" lang="qaa-x-lak">waŋná</item>
+                <item type="gls" lang="en">now</item>
+              </word>
+              <word guid="30c0e8bb-d369-4629-ba07-cc28218d5c15">
+                <item type="txt" lang="qaa-x-lak">dé</item>
+                <item type="gls" lang="en">this</item>
+              </word>
+              <word guid="44356279-004b-4a0d-82f8-5aaa9afc0d29">
+                <item type="txt" lang="qaa-x-lak">iyámni</item>
+                <item type="gls" lang="en">third</item>
+              </word>
+              <word guid="5664a330-eeee-4011-bdc8-2fba22542ced">
+                <item type="txt" lang="qaa-x-lak">makhá</item>
+                <item type="gls" lang="en">earth</item>
+              </word>
+              <word guid="ac761bbd-4ba1-44aa-9af3-53df528bd4df">
+                <item type="txt" lang="qaa-x-lak">škaŋškáŋ</item>
+                <item type="gls" lang="en">it moved about</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">,</item>
+              </word>
+              <word guid="aee5f3ae-40a1-46f9-b5ea-e184f1adcbb4">
+                <item type="txt" lang="qaa-x-lak">eháŋna</item>
+                <item type="gls" lang="en">long ago</item>
+              </word>
+              <word guid="59b7454f-a94c-418f-8222-0c6a8b394145">
+                <item type="txt" lang="qaa-x-lak">ómakha</item>
+                <item type="gls" lang="en">year</item>
+              </word>
+              <word guid="aa5cf03d-133f-4967-968c-ef799b9306dd">
+                <item type="txt" lang="qaa-x-lak">1811</item>
+              </word>
+              <word guid="4400798d-6fbb-43ba-b2b8-894d7f498f70">
+                <item type="txt" lang="qaa-x-lak">én</item>
+                <item type="gls" lang="en">to</item>
+              </word>
+              <word guid="53885e52-9ec6-430d-975e-4cf3a946e105">
+                <item type="txt" lang="qaa-x-lak">héčheča</item>
+                <item type="gls" lang="en">it was like that</item>
+              </word>
+              <word guid="8821c7cd-3a79-4689-952e-f1aab0f7e574">
+                <item type="txt" lang="qaa-x-lak">k’a</item>
+                <item type="gls" lang="en">and</item>
+              </word>
+              <word guid="5eb269d2-701c-4d31-91ef-a6d42491b89b">
+                <item type="txt" lang="qaa-x-lak">akhé</item>
+                <item type="gls" lang="en">again</item>
+              </word>
+              <word guid="59b7454f-a94c-418f-8222-0c6a8b394145">
+                <item type="txt" lang="qaa-x-lak">ómakha</item>
+                <item type="gls" lang="en">year</item>
+              </word>
+              <word guid="afae0567-fd4c-4cd8-9201-df65de659168">
+                <item type="txt" lang="qaa-x-lak">1812</item>
+              </word>
+              <word guid="4400798d-6fbb-43ba-b2b8-894d7f498f70">
+                <item type="txt" lang="qaa-x-lak">én</item>
+                <item type="gls" lang="en">to</item>
+              </word>
+              <word guid="53885e52-9ec6-430d-975e-4cf3a946e105">
+                <item type="txt" lang="qaa-x-lak">héčheča</item>
+                <item type="gls" lang="en">it was like that</item>
+              </word>
+              <word guid="8821c7cd-3a79-4689-952e-f1aab0f7e574">
+                <item type="txt" lang="qaa-x-lak">k’a</item>
+                <item type="gls" lang="en">and</item>
+              </word>
+              <word guid="30c0e8bb-d369-4629-ba07-cc28218d5c15">
+                <item type="txt" lang="qaa-x-lak">dé</item>
+                <item type="gls" lang="en">this</item>
+              </word>
+              <word guid="c90dc54a-3912-4549-b5de-def5669f7963">
+                <item type="txt" lang="qaa-x-lak">nakáha</item>
+                <item type="gls" lang="en">now</item>
+              </word>
+              <word guid="5eb269d2-701c-4d31-91ef-a6d42491b89b">
+                <item type="txt" lang="qaa-x-lak">akhé</item>
+                <item type="gls" lang="en">again</item>
+              </word>
+              <word guid="53885e52-9ec6-430d-975e-4cf3a946e105">
+                <item type="txt" lang="qaa-x-lak">héčheča</item>
+                <item type="gls" lang="en">it was like that</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">.</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">This is now the third earthquake to strike the community; there was one long ago in 1811, and again in 1812, and finally it has happened again.</item>
+          </phrase>
+        </phrases>
+      </paragraph>
+      <paragraph guid="db28aff0-4663-4085-a688-dc180440e6df">
+        <phrases>
+          <phrase guid="dab3c046-4d78-408e-aabd-e68e59a09d88">
+            <item type="segnum" lang="en">11.1</item>
+            <words>
+              <word guid="039db5a9-22c6-4f5c-9334-79c5d8e84674">
+                <item type="txt" lang="qaa-x-lak">Apr_ 11_</item>
+              </word>
+              <word guid="df14bd7b-2700-4d1a-8aeb-2d67cf3b3c95">
+                <item type="txt" lang="qaa-x-lak">Washington</item>
+              </word>
+              <word guid="11bd11c5-cbeb-4799-a5b3-4511b05dd508">
+                <item type="txt" lang="qaa-x-lak">othúŋwe</item>
+                <item type="gls" lang="en">city</item>
+              </word>
+              <word guid="4400798d-6fbb-43ba-b2b8-894d7f498f70">
+                <item type="txt" lang="qaa-x-lak">én</item>
+                <item type="gls" lang="en">to</item>
+              </word>
+              <word guid="4a64d5a1-108e-4237-abdc-cafb39373e83">
+                <item type="txt" lang="qaa-x-lak">waŋná</item>
+                <item type="gls" lang="en">now</item>
+              </word>
+              <word guid="9dc5e8bb-6abe-4827-af29-0e0169dd6102">
+                <item type="txt" lang="qaa-x-lak">ečhádaŋ</item>
+                <item type="gls" lang="en">soon</item>
+              </word>
+              <word guid="66bc344f-910c-4a70-8491-862aa83618ba">
+                <item type="txt" lang="qaa-x-lak">okíčhize</item>
+                <item type="gls" lang="en">war</item>
+              </word>
+              <word guid="7b468cf5-c9d0-4205-a523-c8d7e63a9a6e">
+                <item type="txt" lang="qaa-x-lak">tháŋka</item>
+                <item type="gls" lang="en">great</item>
+              </word>
+              <word guid="54c5e4fd-86c2-49d0-9a63-195356ed692c">
+                <item type="txt" lang="qaa-x-lak">kiŋ</item>
+                <item type="gls" lang="en">the</item>
+              </word>
+              <word guid="927aa057-81a6-432e-90dd-3d5474e69d1d">
+                <item type="txt" lang="qaa-x-lak">héuŋ</item>
+                <item type="gls" lang="en">that is why</item>
+              </word>
+              <word guid="d1605022-cd91-4de3-b65b-fca7752611f2">
+                <item type="txt" lang="qaa-x-lak">oyáte</item>
+                <item type="gls" lang="en">nation</item>
+              </word>
+              <word guid="c7d48a27-50d1-4267-8a24-09a40789633c">
+                <item type="txt" lang="qaa-x-lak">etáŋhaŋhaŋ</item>
+                <item type="gls" lang="en">from various</item>
+              </word>
+              <word guid="50f05a05-a548-41d1-ba47-6ddd8300033c">
+                <item type="txt" lang="qaa-x-lak">wičhášta</item>
+                <item type="gls" lang="en">men</item>
+              </word>
+              <word guid="0d78f0d6-506e-4bb3-8c60-0dd35e164199">
+                <item type="txt" lang="qaa-x-lak">iyótaŋ</item>
+                <item type="gls" lang="en">the most </item>
+              </word>
+              <word guid="402755ba-b750-44e3-aa50-8a2a5d691402">
+                <item type="txt" lang="qaa-x-lak">ksápa</item>
+                <item type="gls" lang="en">wise</item>
+              </word>
+              <word guid="446e61e9-b805-405f-aeda-e00f8cec7db3">
+                <item type="txt" lang="qaa-x-lak">hená</item>
+                <item type="gls" lang="en">those</item>
+              </word>
+              <word guid="199cad91-fb2a-4ed6-8a6a-8db887fd1cec">
+                <item type="txt" lang="qaa-x-lak">omníčiye</item>
+                <item type="gls" lang="en">meeting</item>
+              </word>
+              <word guid="d12298a6-bf11-44aa-a065-4a0a7f997817">
+                <item type="txt" lang="qaa-x-lak">waŋ</item>
+                <item type="gls" lang="en">a</item>
+              </word>
+              <word guid="ca437f73-cafd-45c8-8c28-180aa8f7ddc1">
+                <item type="txt" lang="qaa-x-lak">yuhápi</item>
+                <item type="gls" lang="en">they have it</item>
+              </word>
+              <word guid="ddd3d160-cf16-43e2-bfdd-b0ee644b76bb">
+                <item type="txt" lang="qaa-x-lak">kta</item>
+                <item type="gls" lang="en">will</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">.</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">April 11: the brightest minds from will be meeting in Washington presently on account of the the Great War.</item>
+          </phrase>
+          <phrase guid="83bac90a-9228-40ab-92db-b83e3f4eb384">
+            <item type="segnum" lang="en">11.2</item>
+            <words>
+              <word guid="c9394de7-fd75-4d4f-85a1-d95512b45f40">
+                <item type="txt" lang="qaa-x-lak">Šagdášiŋ</item>
+                <item type="gls" lang="en">British</item>
+              </word>
+              <word guid="d1605022-cd91-4de3-b65b-fca7752611f2">
+                <item type="txt" lang="qaa-x-lak">oyáte</item>
+                <item type="gls" lang="en">nation</item>
+              </word>
+              <word guid="c0887bcc-dd7e-40e1-bc44-423f581c8f30">
+                <item type="txt" lang="qaa-x-lak">etáŋhaŋ</item>
+                <item type="gls" lang="en">from</item>
+              </word>
+              <word guid="d12d99e1-46ef-4313-8b15-b15993295935">
+                <item type="txt" lang="qaa-x-lak">Arthur J_ Balfour</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">,</item>
+              </word>
+              <word guid="ec228e9c-9cae-440d-9c80-4aeccfd7c84c">
+                <item type="txt" lang="qaa-x-lak">hé</item>
+                <item type="gls" lang="en">that</item>
+              </word>
+              <word guid="c9394de7-fd75-4d4f-85a1-d95512b45f40">
+                <item type="txt" lang="qaa-x-lak">Šagdášiŋ</item>
+                <item type="gls" lang="en">British</item>
+              </word>
+              <word guid="d1605022-cd91-4de3-b65b-fca7752611f2">
+                <item type="txt" lang="qaa-x-lak">oyáte</item>
+                <item type="gls" lang="en">nation</item>
+              </word>
+              <word guid="6dc607f7-bc94-43c2-aac3-0862ed7ef617">
+                <item type="txt" lang="qaa-x-lak">thókičhuŋzepi</item>
+                <item type="gls" lang="en">their government</item>
+              </word>
+              <word guid="4400798d-6fbb-43ba-b2b8-894d7f498f70">
+                <item type="txt" lang="qaa-x-lak">én</item>
+                <item type="gls" lang="en">to</item>
+              </word>
+              <word guid="c2924014-cc80-4d39-990c-44947f0ae8ff">
+                <item type="txt" lang="qaa-x-lak">wičhášta</item>
+                <item type="gls" lang="en">man</item>
+              </word>
+              <word guid="1ac02e51-85a7-4377-b335-ea0f92a177c0">
+                <item type="txt" lang="qaa-x-lak">ksápa</item>
+                <item type="gls" lang="en">he is wise</item>
+              </word>
+              <word guid="8821c7cd-3a79-4689-952e-f1aab0f7e574">
+                <item type="txt" lang="qaa-x-lak">k’a</item>
+                <item type="gls" lang="en">and</item>
+              </word>
+              <word guid="cfb36243-5330-4a4d-bf6d-a941b6e20ad8">
+                <item type="txt" lang="qaa-x-lak">nína</item>
+                <item type="gls" lang="en">a lot</item>
+              </word>
+              <word guid="353a9051-50bd-48ed-9043-bb1c3f6a22dd">
+                <item type="txt" lang="qaa-x-lak">okhíthaŋiŋ</item>
+                <item type="gls" lang="en">prominent</item>
+              </word>
+              <word guid="e62d5b57-3a2f-4a23-ac90-1b6907ea8bb8">
+                <item type="txt" lang="qaa-x-lak">héčha</item>
+                <item type="gls" lang="en">he is of that kind</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">,</item>
+              </word>
+              <word guid="fa0b0616-dde5-4b80-8d11-0050ea1eefb0">
+                <item type="txt" lang="qaa-x-lak">hée</item>
+                <item type="gls" lang="en">it is him</item>
+              </word>
+              <word guid="8821c7cd-3a79-4689-952e-f1aab0f7e574">
+                <item type="txt" lang="qaa-x-lak">k’a</item>
+                <item type="gls" lang="en">and</item>
+              </word>
+              <word guid="d971649c-f6f8-4962-b6cc-044b825f2088">
+                <item type="txt" lang="qaa-x-lak">France</item>
+              </word>
+              <word guid="b9d22a1a-8bbb-4ea3-b98d-0420984df33a">
+                <item type="txt" lang="qaa-x-lak">Wašíčuŋ ikčéka</item>
+                <item type="gls" lang="en">French</item>
+              </word>
+              <word guid="d1605022-cd91-4de3-b65b-fca7752611f2">
+                <item type="txt" lang="qaa-x-lak">oyáte</item>
+                <item type="gls" lang="en">nation</item>
+              </word>
+              <word guid="c0887bcc-dd7e-40e1-bc44-423f581c8f30">
+                <item type="txt" lang="qaa-x-lak">etáŋhaŋ</item>
+                <item type="gls" lang="en">from</item>
+              </word>
+              <word guid="571eee98-d4c2-4f72-b650-f67d010dedf6">
+                <item type="txt" lang="qaa-x-lak">M_ Viviani</item>
+              </word>
+              <word guid="ec228e9c-9cae-440d-9c80-4aeccfd7c84c">
+                <item type="txt" lang="qaa-x-lak">hé</item>
+                <item type="gls" lang="en">that</item>
+              </word>
+              <word guid="c2924014-cc80-4d39-990c-44947f0ae8ff">
+                <item type="txt" lang="qaa-x-lak">wičhášta</item>
+                <item type="gls" lang="en">man</item>
+              </word>
+              <word guid="1ac02e51-85a7-4377-b335-ea0f92a177c0">
+                <item type="txt" lang="qaa-x-lak">ksápa</item>
+                <item type="gls" lang="en">he is wise</item>
+              </word>
+              <word guid="8821c7cd-3a79-4689-952e-f1aab0f7e574">
+                <item type="txt" lang="qaa-x-lak">k’a</item>
+                <item type="gls" lang="en">and</item>
+              </word>
+              <word guid="353a9051-50bd-48ed-9043-bb1c3f6a22dd">
+                <item type="txt" lang="qaa-x-lak">okhíthaŋiŋ</item>
+                <item type="gls" lang="en">prominent</item>
+              </word>
+              <word guid="ec228e9c-9cae-440d-9c80-4aeccfd7c84c">
+                <item type="txt" lang="qaa-x-lak">hé</item>
+                <item type="gls" lang="en">that</item>
+              </word>
+              <word guid="052dc515-0c65-4881-83c7-9b1dad135576">
+                <item type="txt" lang="qaa-x-lak">nakúŋ</item>
+                <item type="gls" lang="en">also</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">,</item>
+              </word>
+              <word guid="a06793dc-f697-4b92-af15-0eab433d0baf">
+                <item type="txt" lang="qaa-x-lak">héčhen</item>
+                <item type="gls" lang="en">that way</item>
+              </word>
+              <word guid="446e61e9-b805-405f-aeda-e00f8cec7db3">
+                <item type="txt" lang="qaa-x-lak">hená</item>
+                <item type="gls" lang="en">those</item>
+              </word>
+              <word guid="4006ba0e-956b-4d4f-9923-b33bfc58073a">
+                <item type="txt" lang="qaa-x-lak">thuŋkháŋšidaŋ</item>
+                <item type="gls" lang="en">president</item>
+              </word>
+              <word guid="8fd523bf-4c3e-4583-8924-a56c1b569427">
+                <item type="txt" lang="qaa-x-lak">Pres_ Wilson</item>
+              </word>
+              <word guid="648b8a48-9d83-4a0a-b9b4-73dfc59fa7bd">
+                <item type="txt" lang="qaa-x-lak">óm</item>
+                <item type="gls" lang="en">with them</item>
+              </word>
+              <word guid="83e082c6-c301-4d18-93c5-92f2c9488af4">
+                <item type="txt" lang="qaa-x-lak">táku</item>
+                <item type="gls" lang="en">things</item>
+              </word>
+              <word guid="a841fc13-ca0f-47b4-a76c-a601bf04b9bd">
+                <item type="txt" lang="qaa-x-lak">óta</item>
+                <item type="gls" lang="en">many</item>
+              </word>
+              <word guid="9997bd7c-a8e9-44ed-aecb-a668263edaf1">
+                <item type="txt" lang="qaa-x-lak">iwóhdakapi</item>
+                <item type="gls" lang="en">they talk about them</item>
+              </word>
+              <word guid="ddd3d160-cf16-43e2-bfdd-b0ee644b76bb">
+                <item type="txt" lang="qaa-x-lak">kta</item>
+                <item type="gls" lang="en">will</item>
+              </word>
+              <word guid="66bc344f-910c-4a70-8491-862aa83618ba">
+                <item type="txt" lang="qaa-x-lak">okíčhize</item>
+                <item type="gls" lang="en">war</item>
+              </word>
+              <word guid="54c5e4fd-86c2-49d0-9a63-195356ed692c">
+                <item type="txt" lang="qaa-x-lak">kiŋ</item>
+                <item type="gls" lang="en">the</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">{</item>
+              </word>
+              <word guid="92b3be4c-346b-4e40-8562-a2f9a2b259a9">
+                <item type="txt" lang="qaa-x-lak">hetáŋtaŋhaŋ</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">},</item>
+              </word>
+              <word guid="464e01da-347e-46ae-b596-fd337444db5f">
+                <item type="txt" lang="qaa-x-lak">héuŋ</item>
+                <item type="gls" lang="en">therefore</item>
+              </word>
+              <word guid="357a272a-89f5-49ee-981f-33e57b64638a">
+                <item type="txt" lang="qaa-x-lak">United States</item>
+              </word>
+              <word guid="1075604c-1bb1-4f26-884b-66563f314124">
+                <item type="txt" lang="qaa-x-lak">ektá</item>
+                <item type="gls" lang="en">to it</item>
+              </word>
+              <word guid="dd22455c-04e7-40ee-8869-0dbd177be75e">
+                <item type="txt" lang="qaa-x-lak">hípi</item>
+                <item type="gls" lang="en">they come here</item>
+              </word>
+              <word guid="ddd3d160-cf16-43e2-bfdd-b0ee644b76bb">
+                <item type="txt" lang="qaa-x-lak">kta</item>
+                <item type="gls" lang="en">will</item>
+              </word>
+              <word guid="8821c7cd-3a79-4689-952e-f1aab0f7e574">
+                <item type="txt" lang="qaa-x-lak">k’a</item>
+                <item type="gls" lang="en">and</item>
+              </word>
+              <word guid="cb62bfdd-b0fc-4327-afa0-236e2b58e995">
+                <item type="txt" lang="qaa-x-lak">Washington D_ C_</item>
+              </word>
+              <word guid="6952fde0-4b1e-4df6-9076-60f91290d089">
+                <item type="txt" lang="qaa-x-lak">én</item>
+                <item type="gls" lang="en">in</item>
+              </word>
+              <word guid="32996a87-74ce-4021-9674-2d763c07348b">
+                <item type="txt" lang="qaa-x-lak">mníčiyapi</item>
+                <item type="gls" lang="en">they have a meeting</item>
+              </word>
+              <word guid="0ff72b4c-11f7-459a-8367-15c66c473837">
+                <item type="txt" lang="qaa-x-lak">kte</item>
+                <item type="gls" lang="en">will</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">.</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">President Wilson will be discussing many things concerning the war with Arthur J. Balfour, a prominent and wise man from the British government, and M. Viviani, likewise a notable wise man from France, who will arrive in Washington D.C. for the meeting. </item>
+          </phrase>
+        </phrases>
+      </paragraph>
+      <paragraph guid="7d7a5b75-cf3e-4f67-96d1-ac57dce4a319">
+        <phrases>
+          <phrase guid="de98076d-1ffa-4e36-96f3-a01de3629e27">
+            <item type="segnum" lang="en">12.1</item>
+            <words>
+              <word guid="434223ab-ecd0-4858-b033-1be03eadcf42">
+                <item type="txt" lang="qaa-x-lak">Apr_ 22_</item>
+              </word>
+              <word guid="df14bd7b-2700-4d1a-8aeb-2d67cf3b3c95">
+                <item type="txt" lang="qaa-x-lak">Washington</item>
+              </word>
+              <word guid="11bd11c5-cbeb-4799-a5b3-4511b05dd508">
+                <item type="txt" lang="qaa-x-lak">othúŋwe</item>
+                <item type="gls" lang="en">city</item>
+              </word>
+              <word guid="54c5e4fd-86c2-49d0-9a63-195356ed692c">
+                <item type="txt" lang="qaa-x-lak">kiŋ</item>
+                <item type="gls" lang="en">the</item>
+              </word>
+              <word guid="6952fde0-4b1e-4df6-9076-60f91290d089">
+                <item type="txt" lang="qaa-x-lak">én</item>
+                <item type="gls" lang="en">in</item>
+              </word>
+              <word guid="aa519ddc-391a-4a9d-a571-a1ca2d77a745">
+                <item type="txt" lang="qaa-x-lak">aŋpétu</item>
+                <item type="gls" lang="en">day</item>
+              </word>
+              <word guid="54c5e4fd-86c2-49d0-9a63-195356ed692c">
+                <item type="txt" lang="qaa-x-lak">kiŋ</item>
+                <item type="gls" lang="en">the</item>
+              </word>
+              <word guid="ec228e9c-9cae-440d-9c80-4aeccfd7c84c">
+                <item type="txt" lang="qaa-x-lak">hé</item>
+                <item type="gls" lang="en">that</item>
+              </word>
+              <word guid="d12d99e1-46ef-4313-8b15-b15993295935">
+                <item type="txt" lang="qaa-x-lak">Arthur J_ Balfour</item>
+              </word>
+              <word guid="c9394de7-fd75-4d4f-85a1-d95512b45f40">
+                <item type="txt" lang="qaa-x-lak">Šagdášiŋ</item>
+                <item type="gls" lang="en">British</item>
+              </word>
+              <word guid="d1605022-cd91-4de3-b65b-fca7752611f2">
+                <item type="txt" lang="qaa-x-lak">oyáte</item>
+                <item type="gls" lang="en">nation</item>
+              </word>
+              <word guid="6952fde0-4b1e-4df6-9076-60f91290d089">
+                <item type="txt" lang="qaa-x-lak">én</item>
+                <item type="gls" lang="en">in</item>
+              </word>
+              <word guid="c2924014-cc80-4d39-990c-44947f0ae8ff">
+                <item type="txt" lang="qaa-x-lak">wičhášta</item>
+                <item type="gls" lang="en">man</item>
+              </word>
+              <word guid="0d78f0d6-506e-4bb3-8c60-0dd35e164199">
+                <item type="txt" lang="qaa-x-lak">iyótaŋ</item>
+                <item type="gls" lang="en">the most </item>
+              </word>
+              <word guid="20e6607e-38cb-461d-8523-bba78e1b9bde">
+                <item type="txt" lang="qaa-x-lak">okínihaŋ</item>
+                <item type="gls" lang="en">he is respected</item>
+              </word>
+              <word guid="54c5e4fd-86c2-49d0-9a63-195356ed692c">
+                <item type="txt" lang="qaa-x-lak">kiŋ</item>
+                <item type="gls" lang="en">the</item>
+              </word>
+              <word guid="a395a13a-eb47-41ea-a462-7175a2b07ac0">
+                <item type="txt" lang="qaa-x-lak">hée</item>
+                <item type="gls" lang="en">he is that</item>
+              </word>
+              <word guid="5ed68faa-5f8f-41ae-b7fe-dd91e156b13c">
+                <item type="txt" lang="qaa-x-lak">hén</item>
+                <item type="gls" lang="en">there</item>
+              </word>
+              <word guid="1a804bbd-8666-4209-b9b9-1b4ef9569708">
+                <item type="txt" lang="qaa-x-lak">hí</item>
+                <item type="gls" lang="en">he arrived here</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">.</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">April 22: Arthur J. Balfour, one of the most respected men in Britain, arrived on this day in Washington.</item>
+          </phrase>
+          <phrase guid="6badacec-be0a-4abd-aaba-a278ce2efa70">
+            <item type="segnum" lang="en">12.2</item>
+            <words>
+              <word guid="446e61e9-b805-405f-aeda-e00f8cec7db3">
+                <item type="txt" lang="qaa-x-lak">Hená</item>
+                <item type="gls" lang="en">those</item>
+              </word>
+              <word guid="385cd445-737e-4170-9693-d28b434c4054">
+                <item type="txt" lang="qaa-x-lak">thuŋkáŋšidaŋ</item>
+                <item type="gls" lang="en">president</item>
+              </word>
+              <word guid="8fd523bf-4c3e-4583-8924-a56c1b569427">
+                <item type="txt" lang="qaa-x-lak">Pres_ Wilson</item>
+              </word>
+              <word guid="8821c7cd-3a79-4689-952e-f1aab0f7e574">
+                <item type="txt" lang="qaa-x-lak">k’a</item>
+                <item type="gls" lang="en">and</item>
+              </word>
+              <word guid="a4696b52-0070-4e61-97ff-7c2ee905399c">
+                <item type="txt" lang="qaa-x-lak">oíthaŋčhaŋpi</item>
+                <item type="gls" lang="en">they are leaders</item>
+              </word>
+              <word guid="54c5e4fd-86c2-49d0-9a63-195356ed692c">
+                <item type="txt" lang="qaa-x-lak">kiŋ</item>
+                <item type="gls" lang="en">the</item>
+              </word>
+              <word guid="ce50a406-4ad9-4696-a589-20ccb1c3c1ce">
+                <item type="txt" lang="qaa-x-lak">uŋ</item>
+                <item type="gls" lang="en">on account of</item>
+              </word>
+              <word guid="66bc344f-910c-4a70-8491-862aa83618ba">
+                <item type="txt" lang="qaa-x-lak">okíčhize</item>
+                <item type="gls" lang="en">war</item>
+              </word>
+              <word guid="54c5e4fd-86c2-49d0-9a63-195356ed692c">
+                <item type="txt" lang="qaa-x-lak">kiŋ</item>
+                <item type="gls" lang="en">the</item>
+              </word>
+              <word guid="927aa057-81a6-432e-90dd-3d5474e69d1d">
+                <item type="txt" lang="qaa-x-lak">héuŋ</item>
+                <item type="gls" lang="en">that is why</item>
+              </word>
+              <word guid="199cad91-fb2a-4ed6-8a6a-8db887fd1cec">
+                <item type="txt" lang="qaa-x-lak">omníčiye</item>
+                <item type="gls" lang="en">meeting</item>
+              </word>
+              <word guid="d12298a6-bf11-44aa-a065-4a0a7f997817">
+                <item type="txt" lang="qaa-x-lak">waŋ</item>
+                <item type="gls" lang="en">a</item>
+              </word>
+              <word guid="ca437f73-cafd-45c8-8c28-180aa8f7ddc1">
+                <item type="txt" lang="qaa-x-lak">yuhápi</item>
+                <item type="gls" lang="en">they have it</item>
+              </word>
+              <word guid="ddd3d160-cf16-43e2-bfdd-b0ee644b76bb">
+                <item type="txt" lang="qaa-x-lak">kta</item>
+                <item type="gls" lang="en">will</item>
+              </word>
+              <word guid="8821c7cd-3a79-4689-952e-f1aab0f7e574">
+                <item type="txt" lang="qaa-x-lak">k’a</item>
+                <item type="gls" lang="en">and</item>
+              </word>
+              <word guid="6f5a13c5-f530-4b29-b7b0-91ac2f4d0097">
+                <item type="txt" lang="qaa-x-lak">taŋyáŋ</item>
+                <item type="gls" lang="en">well</item>
+              </word>
+              <word guid="fc26ee8c-d9ed-4e39-8f5a-f127e90ce161">
+                <item type="txt" lang="qaa-x-lak">iwáŋyakapi</item>
+                <item type="gls" lang="en">they examine it</item>
+              </word>
+              <word guid="ddd3d160-cf16-43e2-bfdd-b0ee644b76bb">
+                <item type="txt" lang="qaa-x-lak">kta</item>
+                <item type="gls" lang="en">will</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">,</item>
+              </word>
+              <word guid="ffbb9682-e002-41c3-b518-c0ab7f517096">
+                <item type="txt" lang="qaa-x-lak">tókhen</item>
+                <item type="gls" lang="en">how</item>
+              </word>
+              <word guid="7af85236-e8c1-42be-bf00-a9adc2e25462">
+                <item type="txt" lang="qaa-x-lak">ečhúŋpi</item>
+                <item type="gls" lang="en">they do it</item>
+              </word>
+              <word guid="8821c7cd-3a79-4689-952e-f1aab0f7e574">
+                <item type="txt" lang="qaa-x-lak">k’a</item>
+                <item type="gls" lang="en">and</item>
+              </word>
+              <word guid="66bc344f-910c-4a70-8491-862aa83618ba">
+                <item type="txt" lang="qaa-x-lak">okíčhize</item>
+                <item type="gls" lang="en">war</item>
+              </word>
+              <word guid="7b468cf5-c9d0-4205-a523-c8d7e63a9a6e">
+                <item type="txt" lang="qaa-x-lak">tháŋka</item>
+                <item type="gls" lang="en">great</item>
+              </word>
+              <word guid="54c5e4fd-86c2-49d0-9a63-195356ed692c">
+                <item type="txt" lang="qaa-x-lak">kiŋ</item>
+                <item type="gls" lang="en">the</item>
+              </word>
+              <word guid="30c0e8bb-d369-4629-ba07-cc28218d5c15">
+                <item type="txt" lang="qaa-x-lak">dé</item>
+                <item type="gls" lang="en">this</item>
+              </word>
+              <word guid="37228efd-b0a1-4bae-a30a-74b1c8d8da1c">
+                <item type="txt" lang="qaa-x-lak">ečhádaŋ</item>
+                <item type="gls" lang="en">presently</item>
+              </word>
+              <word guid="6cf289e0-b842-4afc-b3a6-290a665e8214">
+                <item type="txt" lang="qaa-x-lak">ayúštaŋpi</item>
+                <item type="gls" lang="en">they finish doing it</item>
+              </word>
+              <word guid="8821c7cd-3a79-4689-952e-f1aab0f7e574">
+                <item type="txt" lang="qaa-x-lak">k’a</item>
+                <item type="gls" lang="en">and</item>
+              </word>
+              <word guid="5eb269d2-701c-4d31-91ef-a6d42491b89b">
+                <item type="txt" lang="qaa-x-lak">akhé</item>
+                <item type="gls" lang="en">again</item>
+              </word>
+              <word guid="7bcf94db-f36a-4c4b-b5b0-bb2563902136">
+                <item type="txt" lang="qaa-x-lak">oyáte</item>
+                <item type="gls" lang="en">nations</item>
+              </word>
+              <word guid="de94846b-a70e-45af-a61b-584232c0b4b8">
+                <item type="txt" lang="qaa-x-lak">owás’iŋ</item>
+                <item type="gls" lang="en">all of them</item>
+              </word>
+              <word guid="fc9049a8-a446-4aa4-b6a8-6a5f2b510a6b">
+                <item type="txt" lang="qaa-x-lak">wóokhiye</item>
+                <item type="gls" lang="en">peace</item>
+              </word>
+              <word guid="4b56b011-d398-4a10-8b85-f7dd84e03ba2">
+                <item type="txt" lang="qaa-x-lak">waŋké</item>
+                <item type="gls" lang="en">it lies</item>
+              </word>
+              <word guid="ddd3d160-cf16-43e2-bfdd-b0ee644b76bb">
+                <item type="txt" lang="qaa-x-lak">kta</item>
+                <item type="gls" lang="en">will</item>
+              </word>
+              <word guid="da5485a9-356e-42fd-9977-8c57f46c2331">
+                <item type="txt" lang="qaa-x-lak">táku</item>
+                <item type="gls" lang="en">something</item>
+              </word>
+              <word guid="99eb4b53-b466-44a3-b509-5a8df1d778e2">
+                <item type="txt" lang="qaa-x-lak">héčheča</item>
+                <item type="gls" lang="en">it is like that</item>
+              </word>
+              <word guid="0d1ea678-39bb-439c-a7b8-0c91560dee0e">
+                <item type="txt" lang="qaa-x-lak">uŋ</item>
+                <item type="gls" lang="en">for</item>
+              </word>
+              <word guid="199cad91-fb2a-4ed6-8a6a-8db887fd1cec">
+                <item type="txt" lang="qaa-x-lak">omníčiye</item>
+                <item type="gls" lang="en">meeting</item>
+              </word>
+              <word guid="30c0e8bb-d369-4629-ba07-cc28218d5c15">
+                <item type="txt" lang="qaa-x-lak">dé</item>
+                <item type="gls" lang="en">this</item>
+              </word>
+              <word guid="ca437f73-cafd-45c8-8c28-180aa8f7ddc1">
+                <item type="txt" lang="qaa-x-lak">yuhápi</item>
+                <item type="gls" lang="en">they have it</item>
+              </word>
+              <word guid="ddd3d160-cf16-43e2-bfdd-b0ee644b76bb">
+                <item type="txt" lang="qaa-x-lak">kta</item>
+                <item type="gls" lang="en">will</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">.</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">They will be meeting with President Wilson and other leaders on account of the war. They will be exploring how to bring the Great War to a close and restore peace among nations. </item>
+          </phrase>
+        </phrases>
+      </paragraph>
+      <paragraph guid="65260066-31ec-49bd-a450-9d1e8bd2c0c3">
+        <phrases>
+          <phrase guid="20f15c55-71a6-43c8-9043-f89d6d54d4c1">
+            <item type="segnum" lang="en">13.1</item>
+            <words>
+              <word guid="3063ecfc-4b0e-48fb-8470-679314a6a5d9">
+                <item type="txt" lang="qaa-x-lak">Apr_ 24_</item>
+              </word>
+              <word guid="4fa26ef5-fe07-4c88-9d27-a002c6203d35">
+                <item type="txt" lang="qaa-x-lak">Fortress Monroe+ Va_</item>
+              </word>
+              <word guid="4400798d-6fbb-43ba-b2b8-894d7f498f70">
+                <item type="txt" lang="qaa-x-lak">én</item>
+                <item type="gls" lang="en">to</item>
+              </word>
+              <word guid="d971649c-f6f8-4962-b6cc-044b825f2088">
+                <item type="txt" lang="qaa-x-lak">France</item>
+              </word>
+              <word guid="b9d22a1a-8bbb-4ea3-b98d-0420984df33a">
+                <item type="txt" lang="qaa-x-lak">wašíčuŋ ikčéka</item>
+                <item type="gls" lang="en">French</item>
+              </word>
+              <word guid="31e368dd-2513-4201-9439-e881dd462954">
+                <item type="txt" lang="qaa-x-lak">thamákhočhepi</item>
+                <item type="gls" lang="en">their country</item>
+              </word>
+              <word guid="c0887bcc-dd7e-40e1-bc44-423f581c8f30">
+                <item type="txt" lang="qaa-x-lak">etáŋhaŋ</item>
+                <item type="gls" lang="en">from</item>
+              </word>
+              <word guid="c2924014-cc80-4d39-990c-44947f0ae8ff">
+                <item type="txt" lang="qaa-x-lak">wičhášta</item>
+                <item type="gls" lang="en">man</item>
+              </word>
+              <word guid="0d78f0d6-506e-4bb3-8c60-0dd35e164199">
+                <item type="txt" lang="qaa-x-lak">iyótaŋ</item>
+                <item type="gls" lang="en">the most </item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">[</item>
+              </word>
+              <word guid="cdfeb8a4-4932-4922-8ece-d2793c93353e">
+                <item type="txt" lang="qaa-x-lak">okhíthaŋiŋpi</item>
+                <item type="gls" lang="en">they are prominent</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">]</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">[</item>
+              </word>
+              <word guid="2fc650de-9a31-425f-b709-e8a929134c7c">
+                <item type="txt" lang="qaa-x-lak">Rene Viviani</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">],</item>
+              </word>
+              <word guid="3816709a-fafd-480b-a44c-00da47c3ac6e">
+                <item type="txt" lang="qaa-x-lak">Marshal Joffre</item>
+              </word>
+              <word guid="446e61e9-b805-405f-aeda-e00f8cec7db3">
+                <item type="txt" lang="qaa-x-lak">hená</item>
+                <item type="gls" lang="en">those</item>
+              </word>
+              <word guid="5ed68faa-5f8f-41ae-b7fe-dd91e156b13c">
+                <item type="txt" lang="qaa-x-lak">hén</item>
+                <item type="gls" lang="en">there</item>
+              </word>
+              <word guid="756eb3f2-2956-4576-977e-1750ebfbe54a">
+                <item type="txt" lang="qaa-x-lak">hihúŋnipi</item>
+                <item type="gls" lang="en">they arrived here</item>
+              </word>
+              <word guid="8821c7cd-3a79-4689-952e-f1aab0f7e574">
+                <item type="txt" lang="qaa-x-lak">k’a</item>
+                <item type="gls" lang="en">and</item>
+              </word>
+              <word guid="f9d92dee-9f0c-4943-8c36-b668ab56c6c5">
+                <item type="txt" lang="qaa-x-lak">hetáŋhaŋ</item>
+                <item type="gls" lang="en">from there</item>
+              </word>
+              <word guid="df14bd7b-2700-4d1a-8aeb-2d67cf3b3c95">
+                <item type="txt" lang="qaa-x-lak">Washington</item>
+              </word>
+              <word guid="11bd11c5-cbeb-4799-a5b3-4511b05dd508">
+                <item type="txt" lang="qaa-x-lak">othúŋwe</item>
+                <item type="gls" lang="en">city</item>
+              </word>
+              <word guid="1075604c-1bb1-4f26-884b-66563f314124">
+                <item type="txt" lang="qaa-x-lak">ektá</item>
+                <item type="gls" lang="en">to it</item>
+              </word>
+              <word guid="f3a13736-eb09-4df8-8329-10ed296129d1">
+                <item type="txt" lang="qaa-x-lak">iyáyapi</item>
+                <item type="gls" lang="en">they departed heading there</item>
+              </word>
+              <word guid="8821c7cd-3a79-4689-952e-f1aab0f7e574">
+                <item type="txt" lang="qaa-x-lak">k’a</item>
+                <item type="gls" lang="en">and</item>
+              </word>
+              <word guid="4006ba0e-956b-4d4f-9923-b33bfc58073a">
+                <item type="txt" lang="qaa-x-lak">thuŋkháŋšidaŋ</item>
+                <item type="gls" lang="en">president</item>
+              </word>
+              <word guid="8fd523bf-4c3e-4583-8924-a56c1b569427">
+                <item type="txt" lang="qaa-x-lak">Pres_ Wilson</item>
+              </word>
+              <word guid="446e61e9-b805-405f-aeda-e00f8cec7db3">
+                <item type="txt" lang="qaa-x-lak">hená</item>
+                <item type="gls" lang="en">those</item>
+              </word>
+              <word guid="648b8a48-9d83-4a0a-b9b4-73dfc59fa7bd">
+                <item type="txt" lang="qaa-x-lak">óm</item>
+                <item type="gls" lang="en">with them</item>
+              </word>
+              <word guid="199cad91-fb2a-4ed6-8a6a-8db887fd1cec">
+                <item type="txt" lang="qaa-x-lak">omníčiye</item>
+                <item type="gls" lang="en">meeting</item>
+              </word>
+              <word guid="0cf8423f-d848-4175-921e-10a78d3bdfb8">
+                <item type="txt" lang="qaa-x-lak">waŋží</item>
+                <item type="gls" lang="en">a</item>
+              </word>
+              <word guid="0d78f0d6-506e-4bb3-8c60-0dd35e164199">
+                <item type="txt" lang="qaa-x-lak">iyótaŋ</item>
+                <item type="gls" lang="en">the most </item>
+              </word>
+              <word guid="7b468cf5-c9d0-4205-a523-c8d7e63a9a6e">
+                <item type="txt" lang="qaa-x-lak">tháŋka</item>
+                <item type="gls" lang="en">great</item>
+              </word>
+              <word guid="ca437f73-cafd-45c8-8c28-180aa8f7ddc1">
+                <item type="txt" lang="qaa-x-lak">yuhápi</item>
+                <item type="gls" lang="en">they have it</item>
+              </word>
+              <word guid="ddd3d160-cf16-43e2-bfdd-b0ee644b76bb">
+                <item type="txt" lang="qaa-x-lak">kta</item>
+                <item type="gls" lang="en">will</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">.</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">April 24: René Viviani and Marshal Joffre, some of the most prominent men in France, have arrived in Fortress Monroe, VA from their country and are heading for Washington where President Wilson will meet them for a most important meeting.</item>
+          </phrase>
+          <phrase guid="f88f1811-4066-4d6f-9196-6266b2e59cc7">
+            <item type="segnum" lang="en">13.2</item>
+            <words>
+              <word guid="30c0e8bb-d369-4629-ba07-cc28218d5c15">
+                <item type="txt" lang="qaa-x-lak">Dé</item>
+                <item type="gls" lang="en">this</item>
+              </word>
+              <word guid="eebb2787-960a-43ea-9147-e3382d3a4651">
+                <item type="txt" lang="qaa-x-lak">ithókam</item>
+                <item type="gls" lang="en">before</item>
+              </word>
+              <word guid="a5575909-f9ba-4415-9b71-f6ed50741aa9">
+                <item type="txt" lang="qaa-x-lak">tóhiŋna</item>
+                <item type="gls" lang="en">never</item>
+              </word>
+              <word guid="c2924014-cc80-4d39-990c-44947f0ae8ff">
+                <item type="txt" lang="qaa-x-lak">wičhášta</item>
+                <item type="gls" lang="en">man</item>
+              </word>
+              <word guid="0d78f0d6-506e-4bb3-8c60-0dd35e164199">
+                <item type="txt" lang="qaa-x-lak">iyótaŋ</item>
+                <item type="gls" lang="en">the most </item>
+              </word>
+              <word guid="7bcf94db-f36a-4c4b-b5b0-bb2563902136">
+                <item type="txt" lang="qaa-x-lak">oyáte</item>
+                <item type="gls" lang="en">nations</item>
+              </word>
+              <word guid="6952fde0-4b1e-4df6-9076-60f91290d089">
+                <item type="txt" lang="qaa-x-lak">én</item>
+                <item type="gls" lang="en">in</item>
+              </word>
+              <word guid="cdfeb8a4-4932-4922-8ece-d2793c93353e">
+                <item type="txt" lang="qaa-x-lak">okhíthaŋiŋpi</item>
+                <item type="gls" lang="en">they are prominent</item>
+              </word>
+              <word guid="af230088-7c34-4492-8910-8e2852833a04">
+                <item type="txt" lang="qaa-x-lak">ȟča</item>
+                <item type="gls" lang="en">very</item>
+              </word>
+              <word guid="446e61e9-b805-405f-aeda-e00f8cec7db3">
+                <item type="txt" lang="qaa-x-lak">hená</item>
+                <item type="gls" lang="en">those</item>
+              </word>
+              <word guid="f0a5b452-936a-46b0-a097-af6d9968cd32">
+                <item type="txt" lang="qaa-x-lak">wítaya</item>
+                <item type="gls" lang="en">together</item>
+              </word>
+              <word guid="a06793dc-f697-4b92-af15-0eab433d0baf">
+                <item type="txt" lang="qaa-x-lak">héčhen</item>
+                <item type="gls" lang="en">that way</item>
+              </word>
+              <word guid="199cad91-fb2a-4ed6-8a6a-8db887fd1cec">
+                <item type="txt" lang="qaa-x-lak">omníčiye</item>
+                <item type="gls" lang="en">meeting</item>
+              </word>
+              <word guid="d12298a6-bf11-44aa-a065-4a0a7f997817">
+                <item type="txt" lang="qaa-x-lak">waŋ</item>
+                <item type="gls" lang="en">a</item>
+              </word>
+              <word guid="ca437f73-cafd-45c8-8c28-180aa8f7ddc1">
+                <item type="txt" lang="qaa-x-lak">yuhápi</item>
+                <item type="gls" lang="en">they have it</item>
+              </word>
+              <word guid="521928ec-7224-4444-8064-d4c3c41b9eea">
+                <item type="txt" lang="qaa-x-lak">šni</item>
+                <item type="gls" lang="en">not</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa-x-lak">.</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">Never before has such a meeting been held between such prominent leaders of nations.</item>
+          </phrase>
+        </phrases>
+      </paragraph>
+    </paragraphs>
+    <languages>
+      <language lang="en" font="Arial" />
+      <language lang="qaa-x-lak" font="Charis SIL" vernacular="true" />
+    </languages>
+  </interlinear-text>
+</document>

@@ -1,0 +1,2031 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wordLinks>
+	<wordLink guid="aa519ddc-391a-4a9d-a571-a1ca2d77a745" groundtruth="Aŋpétu">
+		<facs>#facs_1_r1l1w1</facs>
+	</wordLink>
+	<wordLink guid="9a94ab3e-888f-4f4f-8c49-01973606c35d" groundtruth="Oyákapi">
+		<facs>#facs_1_r1l1w2</facs>
+	</wordLink>
+	<wordLink guid="ef5738c9-a7e3-496b-ab0a-0eadf62cff03" groundtruth="Mar_ 15">
+		<facs>#facs_1_r2l1w1</facs>
+		<facs>#facs_1_r2l1w2</facs>
+	</wordLink>
+	<wordLink groundtruth=","/>
+	<wordLink guid="e1fb4a26-5718-4586-bee9-540102431066" groundtruth="Russia">
+		<facs>#facs_1_r2l1w3</facs>
+	</wordLink>
+	<wordLink guid="d1605022-cd91-4de3-b65b-fca7752611f2" groundtruth="oyáte">
+		<facs>#facs_1_r2l1w4</facs>
+	</wordLink>
+	<wordLink guid="54c5e4fd-86c2-49d0-9a63-195356ed692c" groundtruth="kiŋ">
+		<facs>#facs_1_r2l1w5</facs>
+	</wordLink>
+	<wordLink guid="5c155f73-dbd3-44ea-b4e0-c0181cc6defa" groundtruth="eháŋtaŋhaŋ">
+		<facs>#facs_1_r2l1w6</facs>
+	</wordLink>
+	<wordLink guid="7b2f4dcf-84be-4c2e-b269-2bb141918fa5" groundtruth="wičháštayatapi">
+		<facs>#facs_1_r2l1w7</facs>
+		<facs>#facs_1_r2l2w1</facs>
+	</wordLink>
+	<wordLink guid="81eebd4a-98fb-4672-8ff0-e5c7f9c7e124" groundtruth="yuhápi">
+		<facs>#facs_1_r2l2w2</facs>
+	</wordLink>
+	<wordLink guid="8821c7cd-3a79-4689-952e-f1aab0f7e574" groundtruth="k’a">
+		<facs>#facs_1_r2l2w3</facs>
+	</wordLink>
+	<wordLink guid="fae6f835-b8fa-4f36-83e6-cfabf96d054a" groundtruth="hečéedaŋ">
+		<facs>#facs_1_r2l2w4</facs>
+	</wordLink>
+	<wordLink guid="1c86ddcc-66c6-455c-b93e-f78dc257fe09" groundtruth="táku">
+		<facs>#facs_1_r2l2w5</facs>
+	</wordLink>
+	<wordLink guid="f5ae797e-b4b1-4e9e-bf2f-893179b164eb" groundtruth="eyé">
+		<facs>#facs_1_r2l2w6</facs>
+	</wordLink>
+	<wordLink guid="a040fd68-29bf-42d7-bcee-b6107a73f002" groundtruth="čiŋ">
+		<facs>#facs_1_r2l2w7</facs>
+	</wordLink>
+	<wordLink guid="ec228e9c-9cae-440d-9c80-4aeccfd7c84c" groundtruth="hé">
+		<facs>#facs_1_r2l2w8</facs>
+	</wordLink>
+	<wordLink guid="d1605022-cd91-4de3-b65b-fca7752611f2" groundtruth="oyáte">
+		<facs>#facs_1_r2l3w1</facs>
+	</wordLink>
+	<wordLink guid="3ba5e281-5231-4f35-8892-06f581aab3c3" groundtruth="ophápi">
+		<facs>#facs_1_r2l3w2</facs>
+	</wordLink>
+	<wordLink groundtruth=","/>
+	<wordLink guid="52e74252-394b-4d16-acf7-9f7af2a8d58a" groundtruth="tukhá">
+		<facs>#facs_1_r2l3w3</facs>
+	</wordLink>
+	<wordLink guid="530702e6-807e-4c95-9fc4-6d0d35d9b881" groundtruth="deháŋn">
+		<facs>#facs_1_r2l3w4</facs>
+	</wordLink>
+	<wordLink guid="7b2f4dcf-84be-4c2e-b269-2bb141918fa5" groundtruth="wičháštayatapi">
+		<facs>#facs_1_r2l3w5</facs>
+	</wordLink>
+	<wordLink guid="54c5e4fd-86c2-49d0-9a63-195356ed692c" groundtruth="kiŋ">
+		<facs>#facs_1_r2l3w6</facs>
+	</wordLink>
+	<wordLink guid="ec228e9c-9cae-440d-9c80-4aeccfd7c84c" groundtruth="hé">
+		<facs>#facs_1_r2l3w7</facs>
+	</wordLink>
+	<wordLink guid="233beddd-779b-4e51-8d51-b7bfb66a0e65" groundtruth="ayúštaŋkhiyapi">
+		<facs>#facs_1_r2l4w1</facs>
+		<facs>#facs_1_r2l4w2</facs>
+	</wordLink>
+	<wordLink guid="8821c7cd-3a79-4689-952e-f1aab0f7e574" groundtruth="k’a">
+		<facs>#facs_1_r2l4w3</facs>
+	</wordLink>
+	<wordLink guid="d1605022-cd91-4de3-b65b-fca7752611f2" groundtruth="oyáte">
+		<facs>#facs_1_r2l4w4</facs>
+	</wordLink>
+	<wordLink guid="55062d72-cfe1-407d-b269-de118a1af5c0" groundtruth="tháwaič’iyapi">
+		<facs>#facs_1_r2l4w5</facs>
+	</wordLink>
+	<wordLink guid="77175aee-b4f4-498e-87e6-ef10e35202dd" groundtruth="héčhapi">
+		<facs>#facs_1_r2l4w6</facs>
+	</wordLink>
+	<wordLink guid="ddd3d160-cf16-43e2-bfdd-b0ee644b76bb" groundtruth="kta">
+		<facs>#facs_1_r2l4w7</facs>
+	</wordLink>
+	<wordLink guid="927aa057-81a6-432e-90dd-3d5474e69d1d" groundtruth="héuŋ">
+		<facs>#facs_1_r2l5w1</facs>
+	</wordLink>
+	<wordLink guid="bff9866e-852c-4da6-b0ff-2bed08aded39" groundtruth="héčhuŋpi">
+		<facs>#facs_1_r2l5w2</facs>
+	</wordLink>
+	<wordLink guid="8821c7cd-3a79-4689-952e-f1aab0f7e574" groundtruth="k’a">
+		<facs>#facs_1_r2l5w3</facs>
+	</wordLink>
+	<wordLink guid="927aa057-81a6-432e-90dd-3d5474e69d1d" groundtruth="héuŋ">
+		<facs>#facs_1_r2l5w4</facs>
+	</wordLink>
+	<wordLink guid="ae56f8b8-a02b-47a4-8800-47acf4e8d764" groundtruth="iyé">
+		<facs>#facs_1_r2l5w5</facs>
+	</wordLink>
+	<wordLink guid="2c5cb80e-854d-4327-932c-c4dc1f34b0e3" groundtruth="éna">
+		<facs>#facs_1_r2l5w6</facs>
+	</wordLink>
+	<wordLink guid="25a13f22-6858-4f14-bca3-19d0962b2ebb" groundtruth="kičhízapi">
+		<facs>#facs_1_r2l5w7</facs>
+	</wordLink>
+	<wordLink groundtruth="."/>
+	<wordLink guid="399fe5fb-7714-45bd-b325-0ad00c700fd5" groundtruth="Tkhá">
+		<facs>#facs_1_r2l5w8</facs>
+	</wordLink>
+	<wordLink guid="d0096561-a110-4568-b241-36ffae2b875e" groundtruth="ék’eš">
+		<facs>#facs_1_r2l6w1</facs>
+	</wordLink>
+	<wordLink guid="596ed2e1-b345-4040-8baa-3cd4ac007d16" groundtruth="sáŋpha">
+		<facs>#facs_1_r2l6w2</facs>
+	</wordLink>
+	<wordLink guid="25a13f22-6858-4f14-bca3-19d0962b2ebb" groundtruth="kičhízapi">
+		<facs>#facs_1_r2l6w3</facs>
+	</wordLink>
+	<wordLink guid="521928ec-7224-4444-8064-d4c3c41b9eea" groundtruth="šni">
+		<facs>#facs_1_r2l6w4</facs>
+	</wordLink>
+	<wordLink guid="8821c7cd-3a79-4689-952e-f1aab0f7e574" groundtruth="k’a">
+		<facs>#facs_1_r2l6w5</facs>
+	</wordLink>
+	<wordLink guid="4a64d5a1-108e-4237-abdc-cafb39373e83" groundtruth="waŋná">
+		<facs>#facs_1_r2l6w6</facs>
+	</wordLink>
+	<wordLink guid="972b4dc4-e19c-40e6-abff-a0701dfeb174" groundtruth="detáŋhaŋ">
+		<facs>#facs_1_r2l6w7</facs>
+	</wordLink>
+	<wordLink guid="d1605022-cd91-4de3-b65b-fca7752611f2" groundtruth="oyáte">
+		<facs>#facs_1_r2l7w1</facs>
+	</wordLink>
+	<wordLink guid="55062d72-cfe1-407d-b269-de118a1af5c0" groundtruth="tháwaič’iyapi">
+		<facs>#facs_1_r2l7w2</facs>
+	</wordLink>
+	<wordLink guid="77175aee-b4f4-498e-87e6-ef10e35202dd" groundtruth="héčhapi">
+		<facs>#facs_1_r2l7w3</facs>
+	</wordLink>
+	<wordLink guid="a671f03b-1e5a-4b75-bad2-383e008561fd" groundtruth="kta">
+		<facs>#facs_1_r2l7w4</facs>
+	</wordLink>
+	<wordLink guid="8821c7cd-3a79-4689-952e-f1aab0f7e574" groundtruth="k’a">
+		<facs>#facs_1_r2l7w5</facs>
+	</wordLink>
+	<wordLink guid="357a272a-89f5-49ee-981f-33e57b64638a" groundtruth="United States">
+		<facs>#facs_1_r2l7w6</facs>
+		<facs>#facs_1_r2l7w7</facs>
+	</wordLink>
+	<wordLink guid="4400798d-6fbb-43ba-b2b8-894d7f498f70" groundtruth="én">
+		<facs>#facs_1_r2l8w1</facs>
+	</wordLink>
+	<wordLink guid="54980c13-eb5a-416c-8968-7eb1b1fa6891" groundtruth="iyéčhen">
+		<facs>#facs_1_r2l8w2</facs>
+	</wordLink>
+	<wordLink guid="d1ddd7da-eedc-44ed-b61a-2b26dafc8968" groundtruth="thuŋkáŋšidaŋyapi">
+		<facs>#facs_1_r2l8w3</facs>
+		<facs>#facs_1_r2l8w4</facs>
+	</wordLink>
+	<wordLink guid="0cf8423f-d848-4175-921e-10a78d3bdfb8" groundtruth="waŋží">
+		<facs>#facs_1_r2l8w5</facs>
+	</wordLink>
+	<wordLink guid="37a3eff6-1d19-42b0-b1c8-24da334f1897" groundtruth="kaȟníǧapi">
+		<facs>#facs_1_r2l8w6</facs>
+	</wordLink>
+	<wordLink guid="a671f03b-1e5a-4b75-bad2-383e008561fd" groundtruth="kta">
+		<facs>#facs_1_r2l9w1</facs>
+	</wordLink>
+	<wordLink guid="8821c7cd-3a79-4689-952e-f1aab0f7e574" groundtruth="k’a">
+		<facs>#facs_1_r2l9w2</facs>
+	</wordLink>
+	<wordLink guid="ec228e9c-9cae-440d-9c80-4aeccfd7c84c" groundtruth="hé">
+		<facs>#facs_1_r2l9w3</facs>
+	</wordLink>
+	<wordLink guid="d1605022-cd91-4de3-b65b-fca7752611f2" groundtruth="oyáte">
+		<facs>#facs_1_r2l9w4</facs>
+	</wordLink>
+	<wordLink guid="47ca6623-2a0f-482f-bef8-0e1c98ca7ce9" groundtruth="thuŋkáŋšidaŋyapi">
+		<facs>#facs_1_r2l9w5</facs>
+	</wordLink>
+	<wordLink guid="ddd3d160-cf16-43e2-bfdd-b0ee644b76bb" groundtruth="kta">
+		<facs>#facs_1_r2l9w6</facs>
+	</wordLink>
+	<wordLink guid="f9d9bdb7-a72a-47ec-9190-1e5cca54275c" groundtruth="héčhen">
+		<facs>#facs_1_r2l9w7</facs>
+	</wordLink>
+	<wordLink guid="43f61b53-248b-4fad-93c3-a7a09a89e7bb" groundtruth="ihdúštaŋpi">
+		<facs>#facs_1_r2l10w1</facs>
+	</wordLink>
+	<wordLink groundtruth="."/>
+	<wordLink guid="6cb24413-670a-46d2-8fd4-2577379a942d" groundtruth="Mar_ 16_">
+		<facs>#facs_1_r3l1w1</facs>
+		<facs>#facs_1_r3l1w2</facs>
+	</wordLink>
+	<wordLink guid="e1fb4a26-5718-4586-bee9-540102431066" groundtruth="Russia">
+		<facs>#facs_1_r3l1w3</facs>
+	</wordLink>
+	<wordLink guid="d1605022-cd91-4de3-b65b-fca7752611f2" groundtruth="oyáte">
+		<facs>#facs_1_r3l1w4</facs>
+	</wordLink>
+	<wordLink guid="55062d72-cfe1-407d-b269-de118a1af5c0" groundtruth="tháwaič’iyapi">
+		<facs>#facs_1_r3l1w5</facs>
+	</wordLink>
+	<wordLink guid="ddd3d160-cf16-43e2-bfdd-b0ee644b76bb" groundtruth="kta">
+		<facs>#facs_1_r3l1w6</facs>
+	</wordLink>
+	<wordLink guid="e219e1fd-d2d9-442f-8994-b971fc8229ef" groundtruth="uŋ">
+		<facs>#facs_1_r3l1w7</facs>
+	</wordLink>
+	<wordLink guid="7b2f4dcf-84be-4c2e-b269-2bb141918fa5" groundtruth="wičháštayatapi">
+		<facs>#facs_1_r3l2w1</facs>
+	</wordLink>
+	<wordLink guid="767b56a6-5a4d-4497-abf0-806bf5161eb4" groundtruth="yuhápi">
+		<facs>#facs_1_r3l2w2</facs>
+	</wordLink>
+	<wordLink guid="54c5e4fd-86c2-49d0-9a63-195356ed692c" groundtruth="kiŋ">
+		<facs>#facs_1_r3l2w3</facs>
+	</wordLink>
+	<wordLink guid="0db659a4-7a29-4b50-b0ab-9f0f53f0f6b7" groundtruth="ȟeyám">
+		<facs>#facs_1_r3l2w4</facs>
+	</wordLink>
+	<wordLink guid="9392d86e-595f-4d9e-b788-599e77c96203" groundtruth="iyéyapi">
+		<facs>#facs_1_r3l2w5</facs>
+	</wordLink>
+	<wordLink guid="8821c7cd-3a79-4689-952e-f1aab0f7e574" groundtruth="k’a">
+		<facs>#facs_1_r3l2w6</facs>
+	</wordLink>
+	<wordLink guid="7b2f4dcf-84be-4c2e-b269-2bb141918fa5" groundtruth="wičháštayatapi">
+		<facs>#facs_1_r3l2w7</facs>
+		<facs>#facs_1_r3l3w1</facs>
+	</wordLink>
+	<wordLink guid="d669c7f7-371e-439f-bbc7-e75f46cb4ac6" groundtruth="ókhihe">
+		<facs>#facs_1_r3l3w2</facs>
+	</wordLink>
+	<wordLink guid="5a22e3dc-92b3-4f3b-b54f-bbb78009b1c9" groundtruth="Grand Duke">
+		<facs>#facs_1_r3l3w3</facs>
+		<facs>#facs_1_r3l3w4</facs>
+	</wordLink>
+	<wordLink guid="ec228e9c-9cae-440d-9c80-4aeccfd7c84c" groundtruth="hé">
+		<facs>#facs_1_r3l3w5</facs>
+	</wordLink>
+	<wordLink guid="c7edb8bc-5ebf-44a8-b00a-f662b0269353" groundtruth="íš-eyá">
+		<facs>#facs_1_r3l3w6</facs>
+		<facs>#facs_1_r3l3w7</facs>
+	</wordLink>
+	<wordLink guid="d1605022-cd91-4de3-b65b-fca7752611f2" groundtruth="oyáte">
+		<facs>#facs_1_r3l3w8</facs>
+	</wordLink>
+	<wordLink guid="c1e3c64f-303b-41d5-b1fc-ffb1f3105355" groundtruth="tȟáwaič’iye">
+		<facs>#facs_1_r3l4w1</facs>
+	</wordLink>
+	<wordLink guid="ddd3d160-cf16-43e2-bfdd-b0ee644b76bb" groundtruth="kta">
+		<facs>#facs_1_r3l4w2</facs>
+	</wordLink>
+	<wordLink guid="ec228e9c-9cae-440d-9c80-4aeccfd7c84c" groundtruth="hé">
+		<facs>#facs_1_r3l4w3</facs>
+	</wordLink>
+	<wordLink guid="24a82e7d-e803-42c3-9bd7-17aa4bbed648" groundtruth="wičáda">
+		<facs>#facs_1_r3l4w4</facs>
+	</wordLink>
+	<wordLink guid="927aa057-81a6-432e-90dd-3d5474e69d1d" groundtruth="héuŋ">
+		<facs>#facs_1_r3l4w5</facs>
+	</wordLink>
+	<wordLink guid="ae56f8b8-a02b-47a4-8800-47acf4e8d764" groundtruth="iyé">
+		<facs>#facs_1_r3l4w6</facs>
+	</wordLink>
+	<wordLink guid="8e9af7e6-263f-4c3b-b106-e1c567ab4a51" groundtruth="wičhóȟ’aŋ">
+		<facs>#facs_1_r3l4w7</facs>
+	</wordLink>
+	<wordLink guid="c6db4d5c-2b67-4dbd-8abe-84b92190cfee" groundtruth="tháwa">
+		<facs>#facs_1_r3l4w8</facs>
+	</wordLink>
+	<wordLink guid="54c5e4fd-86c2-49d0-9a63-195356ed692c" groundtruth="kiŋ">
+		<facs>#facs_1_r3l5w1</facs>
+	</wordLink>
+	<wordLink guid="ec228e9c-9cae-440d-9c80-4aeccfd7c84c" groundtruth="hé">
+		<facs>#facs_1_r3l5w2</facs>
+	</wordLink>
+	<wordLink guid="4ae2ad8a-9daf-4857-a995-0cdc2631533b" groundtruth="wáŋčake">
+		<facs>#facs_1_r3l5w3</facs>
+	</wordLink>
+	<wordLink guid="6d3c71c2-9000-4b51-8b2f-953d02f8257e" groundtruth="enákiya">
+		<facs>#facs_1_r3l5w4</facs>
+	</wordLink>
+	<wordLink groundtruth="."/>
+	<wordLink guid="f9d9bdb7-a72a-47ec-9190-1e5cca54275c" groundtruth="Héčhen">
+		<facs>#facs_1_r3l5w5</facs>
+	</wordLink>
+	<wordLink guid="4a64d5a1-108e-4237-abdc-cafb39373e83" groundtruth="waŋná">
+		<facs>#facs_1_r3l5w6</facs>
+	</wordLink>
+	<wordLink guid="e1fb4a26-5718-4586-bee9-540102431066" groundtruth="Russia">
+		<facs>#facs_1_r3l5w7</facs>
+	</wordLink>
+	<wordLink guid="d1605022-cd91-4de3-b65b-fca7752611f2" groundtruth="oyáte">
+		<facs>#facs_1_r3l6w1</facs>
+	</wordLink>
+	<wordLink guid="54c5e4fd-86c2-49d0-9a63-195356ed692c" groundtruth="kiŋ">
+		<facs>#facs_1_r3l6w2</facs>
+	</wordLink>
+	<wordLink guid="972b4dc4-e19c-40e6-abff-a0701dfeb174" groundtruth="detáŋhaŋ">
+		<facs>#facs_1_r3l6w3</facs>
+	</wordLink>
+	<wordLink guid="385cd445-737e-4170-9693-d28b434c4054" groundtruth="thuŋkáŋšidaŋ">
+		<facs>#facs_1_r3l6w4</facs>
+	</wordLink>
+	<wordLink guid="0cf8423f-d848-4175-921e-10a78d3bdfb8" groundtruth="waŋží">
+		<facs>#facs_1_r3l6w5</facs>
+	</wordLink>
+	<wordLink guid="dbdcdb7b-8bf4-44fc-a057-bda18a828fca" groundtruth="yuhápi">
+		<facs>#facs_1_r3l6w6</facs>
+	</wordLink>
+	<wordLink guid="ddd3d160-cf16-43e2-bfdd-b0ee644b76bb" groundtruth="kta">
+		<facs>#facs_1_r3l7w1</facs>
+	</wordLink>
+	<wordLink guid="8821c7cd-3a79-4689-952e-f1aab0f7e574" groundtruth="k’a">
+		<facs>#facs_1_r3l7w2</facs>
+	</wordLink>
+	<wordLink guid="d1605022-cd91-4de3-b65b-fca7752611f2" groundtruth="oyáte">
+		<facs>#facs_1_r3l7w3</facs>
+	</wordLink>
+	<wordLink guid="55062d72-cfe1-407d-b269-de118a1af5c0" groundtruth="tháwaič’iyapi">
+		<facs>#facs_1_r3l7w4</facs>
+	</wordLink>
+	<wordLink guid="77175aee-b4f4-498e-87e6-ef10e35202dd" groundtruth="héčhapi">
+		<facs>#facs_1_r3l7w5</facs>
+	</wordLink>
+	<wordLink guid="ddd3d160-cf16-43e2-bfdd-b0ee644b76bb" groundtruth="kta">
+		<facs>#facs_1_r3l7w6</facs>
+	</wordLink>
+	<wordLink groundtruth="."/>
+	<wordLink guid="d2243869-a77e-4c12-adb0-2981016f2d38" groundtruth="Mar_ 20_">
+		<facs>#facs_1_r4l1w1</facs>
+		<facs>#facs_1_r4l1w2</facs>
+	</wordLink>
+	<wordLink guid="b9d22a1a-8bbb-4ea3-b98d-0420984df33a" groundtruth="Wašíčuŋ ikčéka">
+		<facs>#facs_1_r4l1w3</facs>
+		<facs>#facs_1_r4l1w4</facs>
+	</wordLink>
+	<wordLink guid="48fb837f-f37a-479e-b802-e98e62138caf" groundtruth="akíčhita">
+		<facs>#facs_1_r4l1w5</facs>
+	</wordLink>
+	<wordLink guid="54c5e4fd-86c2-49d0-9a63-195356ed692c" groundtruth="kiŋ">
+		<facs>#facs_1_r4l1w6</facs>
+	</wordLink>
+	<wordLink guid="446e61e9-b805-405f-aeda-e00f8cec7db3" groundtruth="hená">
+		<facs>#facs_1_r4l1w7</facs>
+	</wordLink>
+	<wordLink guid="4048ed6d-2c9c-498f-835e-31d90234f07d" groundtruth="é">
+		<facs>#facs_1_r4l2w1</facs>
+	</wordLink>
+	<wordLink guid="4c9821cf-cec9-4b1b-8819-9f780b839b4f" groundtruth="waš’ákapi">
+		<facs>#facs_1_r4l2w2</facs>
+	</wordLink>
+	<wordLink guid="f9d9bdb7-a72a-47ec-9190-1e5cca54275c" groundtruth="héčhen">
+		<facs>#facs_1_r4l2w3</facs>
+	</wordLink>
+	<wordLink guid="8bc3df57-c905-482a-8ed4-b24839aeca91" groundtruth="German">
+		<facs>#facs_1_r4l2w4</facs>
+	</wordLink>
+	<wordLink guid="48fb837f-f37a-479e-b802-e98e62138caf" groundtruth="akíčhita">
+		<facs>#facs_1_r4l2w5</facs>
+	</wordLink>
+	<wordLink guid="54c5e4fd-86c2-49d0-9a63-195356ed692c" groundtruth="kiŋ">
+		<facs>#facs_1_r4l2w6</facs>
+	</wordLink>
+	<wordLink guid="4a64d5a1-108e-4237-abdc-cafb39373e83" groundtruth="waŋná">
+		<facs>#facs_1_r4l2w7</facs>
+	</wordLink>
+	<wordLink guid="e30835fd-5171-4269-a650-244948c00df4" groundtruth="héktakiya">
+		<facs>#facs_1_r4l2w8</facs>
+		<facs>#facs_1_r4l3w1</facs>
+	</wordLink>
+	<wordLink guid="2a7584f0-72d9-4f8b-8c6f-4bf465b0bc1c" groundtruth="makhá iyúthapi">
+		<facs>#facs_1_r4l3w2</facs>
+		<facs>#facs_1_r4l3w3</facs>
+	</wordLink>
+	<wordLink guid="72c2899d-39ce-48c5-99d2-b6cef5683d5a" groundtruth="25">
+		<facs>#facs_1_r4l3w4</facs>
+	</wordLink>
+	<wordLink guid="da22e328-d963-4df4-abf4-22f4ffe533fe" groundtruth="heháŋyaŋ">
+		<facs>#facs_1_r4l3w5</facs>
+	</wordLink>
+	<wordLink guid="ac147e90-2ff8-4714-b6c3-ce212a439430" groundtruth="naphéwičhayapi">
+		<facs>#facs_1_r4l3w6</facs>
+		<facs>#facs_1_r4l4w1</facs>
+	</wordLink>
+	<wordLink guid="8821c7cd-3a79-4689-952e-f1aab0f7e574" groundtruth="k’a">
+		<facs>#facs_1_r4l4w2</facs>
+	</wordLink>
+	<wordLink guid="7df8e7e7-4288-4e85-8e05-46c065917f85" groundtruth="othúŋwe">
+		<facs>#facs_1_r4l4w3</facs>
+	</wordLink>
+	<wordLink guid="a714eaeb-dcd6-47cf-a672-bad8735c7be0" groundtruth="cikčístiŋna">
+		<facs>#facs_1_r4l4w4</facs>
+	</wordLink>
+	<wordLink guid="88258c90-a0d5-40c4-b779-a2b5e3d9683c" groundtruth="40">
+		<facs>#facs_1_r4l4w5</facs>
+	</wordLink>
+	<wordLink guid="446e61e9-b805-405f-aeda-e00f8cec7db3" groundtruth="hená">
+		<facs>#facs_1_r4l4w6</facs>
+	</wordLink>
+	<wordLink guid="c9394de7-fd75-4d4f-85a1-d95512b45f40" groundtruth="Šagdášiŋ">
+		<facs>#facs_1_r4l4w7</facs>
+	</wordLink>
+	<wordLink guid="54c5e4fd-86c2-49d0-9a63-195356ed692c" groundtruth="kiŋ">
+		<facs>#facs_1_r4l4w8</facs>
+	</wordLink>
+	<wordLink guid="2b43aa37-3c4b-4f42-9562-540ce68bd4bb" groundtruth="ičú">
+		<facs>#facs_1_r4l5w1</facs>
+	</wordLink>
+	<wordLink groundtruth="."/>
+	<wordLink guid="8bc3df57-c905-482a-8ed4-b24839aeca91" groundtruth="German">
+		<facs>#facs_1_r4l5w2</facs>
+	</wordLink>
+	<wordLink guid="48fb837f-f37a-479e-b802-e98e62138caf" groundtruth="akíčhita">
+		<facs>#facs_1_r4l5w3</facs>
+	</wordLink>
+	<wordLink guid="54c5e4fd-86c2-49d0-9a63-195356ed692c" groundtruth="kiŋ">
+		<facs>#facs_1_r4l5w4</facs>
+	</wordLink>
+	<wordLink guid="0b3c6623-90a3-47f0-9997-fee193f899b6" groundtruth="makhóčhe">
+		<facs>#facs_1_r4l5w5</facs>
+	</wordLink>
+	<wordLink groundtruth="{"/>
+	<wordLink guid="a06edba1-18e0-41e0-9758-eb744edcc741" groundtruth="otíŋskoya">
+		<facs>#facs_1_r4l5w6</facs>
+	</wordLink>
+	<wordLink groundtruth="}"/>
+	<wordLink groundtruth="["/>
+	<wordLink guid="c5cd2917-be84-460f-b6bc-b1c256585840" groundtruth="eȟpéya">
+		<facs>#facs_1_r4l6w1</facs>
+	</wordLink>
+	<wordLink groundtruth="]"/>
+	<wordLink guid="ac147e90-2ff8-4714-b6c3-ce212a439430" groundtruth="naphéwičhayapi">
+		<facs>#facs_1_r4l6w2</facs>
+	</wordLink>
+	<wordLink guid="54c5e4fd-86c2-49d0-9a63-195356ed692c" groundtruth="kiŋ">
+		<facs>#facs_1_r4l6w3</facs>
+	</wordLink>
+	<wordLink guid="446e61e9-b805-405f-aeda-e00f8cec7db3" groundtruth="hená">
+		<facs>#facs_1_r4l6w4</facs>
+	</wordLink>
+	<wordLink guid="4400798d-6fbb-43ba-b2b8-894d7f498f70" groundtruth="én">
+		<facs>#facs_1_r4l6w5</facs>
+	</wordLink>
+	<wordLink guid="abd185c9-302e-4cf8-b29c-87a433f2a35f" groundtruth="čhaŋkáǧa">
+		<facs>#facs_1_r4l6w6</facs>
+	</wordLink>
+	<wordLink guid="8821c7cd-3a79-4689-952e-f1aab0f7e574" groundtruth="k’a">
+		<facs>#facs_1_r4l6w7</facs>
+	</wordLink>
+	<wordLink guid="b4db07cc-e674-4503-9108-58825b6e14c0" groundtruth="thípi">
+		<facs>#facs_1_r4l7w1</facs>
+	</wordLink>
+	<wordLink guid="8821c7cd-3a79-4689-952e-f1aab0f7e574" groundtruth="k’a">
+		<facs>#facs_1_r4l7w2</facs>
+	</wordLink>
+	<wordLink guid="51d49b2a-d83c-4f5c-8065-464988b06bd9" groundtruth="owóžu">
+		<facs>#facs_1_r4l7w3</facs>
+	</wordLink>
+	<wordLink guid="8821c7cd-3a79-4689-952e-f1aab0f7e574" groundtruth="k’a">
+		<facs>#facs_1_r4l7w4</facs>
+	</wordLink>
+	<wordLink guid="83e082c6-c301-4d18-93c5-92f2c9488af4" groundtruth="táku">
+		<facs>#facs_1_r4l7w5</facs>
+	</wordLink>
+	<wordLink guid="de94846b-a70e-45af-a61b-584232c0b4b8" groundtruth="owás’iŋ">
+		<facs>#facs_1_r4l7w6</facs>
+	</wordLink>
+	<wordLink guid="72697cee-73d1-4607-9b82-e1cbd7675bba" groundtruth="iháŋgkhiyapi">
+		<facs>#facs_1_r4l7w7</facs>
+	</wordLink>
+	<wordLink guid="38b7f968-0248-4bfc-84d0-f85a56454793" groundtruth="ečée">
+		<facs>#facs_1_r4l7w8</facs>
+	</wordLink>
+	<wordLink groundtruth="."/>
+	<wordLink guid="22e21f4d-dafa-45c7-8182-a5c10b60d31c" groundtruth="Ečhíŋ">
+		<facs>#facs_1_r4l8w1</facs>
+	</wordLink>
+	<wordLink guid="c075b39f-2885-4dd0-8ecd-80d76696e735" groundtruth="British">
+		<facs>#facs_1_r4l8w2</facs>
+	</wordLink>
+	<wordLink guid="8821c7cd-3a79-4689-952e-f1aab0f7e574" groundtruth="k’a">
+		<facs>#facs_1_r4l8w3</facs>
+	</wordLink>
+	<wordLink guid="b65ff6cb-0f83-4b41-b530-6b89a47e6434" groundtruth="French">
+		<facs>#facs_1_r4l8w4</facs>
+	</wordLink>
+	<wordLink guid="446e61e9-b805-405f-aeda-e00f8cec7db3" groundtruth="hená">
+		<facs>#facs_1_r4l8w5</facs>
+	</wordLink>
+	<wordLink guid="a31db3b7-4bc9-4185-9bf8-c8b44401623f" groundtruth="iphíwičhadapi">
+		<facs>#facs_1_r4l8w6</facs>
+	</wordLink>
+	<wordLink guid="927aa057-81a6-432e-90dd-3d5474e69d1d" groundtruth="héuŋ">
+		<facs>#facs_1_r4l8w7</facs>
+	</wordLink>
+	<wordLink guid="bff9866e-852c-4da6-b0ff-2bed08aded39" groundtruth="héčhuŋpi">
+		<facs>#facs_1_r4l9w1</facs>
+	</wordLink>
+	<wordLink groundtruth="."/>
+	<wordLink guid="7272e36a-e141-4385-85ed-7dd951e9c6d0" groundtruth="Mar_ 25_">
+		<facs>#facs_1_r5l1w1</facs>
+		<facs>#facs_1_r5l1w2</facs>
+	</wordLink>
+	<wordLink guid="357a272a-89f5-49ee-981f-33e57b64638a" groundtruth="United States">
+		<facs>#facs_1_r5l1w3</facs>
+		<facs>#facs_1_r5l1w4</facs>
+	</wordLink>
+	<wordLink guid="7851b15e-3e34-4406-b86f-a27eb5691643" groundtruth="ówaŋčaya">
+		<facs>#facs_1_r5l1w5</facs>
+	</wordLink>
+	<wordLink guid="972b4dc4-e19c-40e6-abff-a0701dfeb174" groundtruth="detáŋhaŋ">
+		<facs>#facs_1_r5l1w6</facs>
+	</wordLink>
+	<wordLink guid="abd185c9-302e-4cf8-b29c-87a433f2a35f" groundtruth="čhaŋkáǧa">
+		<facs>#facs_1_r5l2w1</facs>
+	</wordLink>
+	<wordLink groundtruth=","/>
+	<wordLink guid="3597a53a-10ec-4c6e-b67c-33697661af94" groundtruth="ȟemáni čhaŋkáǧa">
+		<facs>#facs_1_r5l2w2</facs>
+		<facs>#facs_1_r5l2w3</facs>
+	</wordLink>
+	<wordLink guid="8821c7cd-3a79-4689-952e-f1aab0f7e574" groundtruth="k’a">
+		<facs>#facs_1_r5l2w4</facs>
+	</wordLink>
+	<wordLink guid="abd185c9-302e-4cf8-b29c-87a433f2a35f" groundtruth="čhaŋkáǧa">
+		<facs>#facs_1_r5l2w5</facs>
+	</wordLink>
+	<wordLink guid="d89d564b-0520-4d4b-bd64-f672c6ee0913" groundtruth="ikčéka">
+		<facs>#facs_1_r5l2w6</facs>
+	</wordLink>
+	<wordLink groundtruth=","/>
+	<wordLink guid="3c0a69c3-a393-4737-af48-efc33c710fce" groundtruth="thaŋkíŋkiŋyaŋ">
+		<facs>#facs_1_r5l3w1</facs>
+	</wordLink>
+	<wordLink guid="13c0da16-bb8f-431b-a38e-5254bd34f184" groundtruth="owás’iŋ">
+		<facs>#facs_1_r5l3w2</facs>
+	</wordLink>
+	<wordLink guid="c2924014-cc80-4d39-990c-44947f0ae8ff" groundtruth="wičhášta">
+		<facs>#facs_1_r5l3w3</facs>
+	</wordLink>
+	<wordLink guid="7349efd8-412a-4563-b6a5-d7e5355e89cd" groundtruth="wíphe">
+		<facs>#facs_1_r5l3w4</facs>
+	</wordLink>
+	<wordLink guid="fcd050d6-bbb6-4579-9f62-34498351dcea" groundtruth="yuhá">
+		<facs>#facs_1_r5l3w5</facs>
+	</wordLink>
+	<wordLink guid="aa519ddc-391a-4a9d-a571-a1ca2d77a745" groundtruth="aŋpétu">
+		<facs>#facs_1_r5l3w6</facs>
+		<facs>#facs_1_r5l4w1</facs>
+	</wordLink>
+	<wordLink guid="8821c7cd-3a79-4689-952e-f1aab0f7e574" groundtruth="k’a">
+		<facs>#facs_1_r5l4w2</facs>
+	</wordLink>
+	<wordLink guid="2711330d-c44d-48f2-ade3-db03b6fd504d" groundtruth="haŋyétu">
+		<facs>#facs_1_r5l4w3</facs>
+	</wordLink>
+	<wordLink guid="06777657-9a78-4136-a581-8b3afe1d38bc" groundtruth="khóya">
+		<facs>#facs_1_r5l4w4</facs>
+	</wordLink>
+	<wordLink guid="2b94d499-84a7-47a3-834d-e264f635073e" groundtruth="awáŋyakapi">
+		<facs>#facs_1_r5l4w5</facs>
+	</wordLink>
+	<wordLink guid="ddd3d160-cf16-43e2-bfdd-b0ee644b76bb" groundtruth="kta">
+		<facs>#facs_1_r5l4w6</facs>
+	</wordLink>
+	<wordLink guid="f9d9bdb7-a72a-47ec-9190-1e5cca54275c" groundtruth="héčhen">
+		<facs>#facs_1_r5l4w7</facs>
+	</wordLink>
+	<wordLink guid="be943de3-ca09-4020-b7dc-930fdcce76be" groundtruth="wóyuštaŋ">
+		<facs>#facs_1_r5l4w8</facs>
+		<facs>#facs_1_r5l5w1</facs>
+	</wordLink>
+	<wordLink groundtruth="."/>
+	<wordLink guid="62ad43d9-30c8-45e8-8703-27a892a6588a" groundtruth="Mar_ 27_">
+		<facs>#facs_1_r6l1w1</facs>
+		<facs>#facs_1_r6l1w2</facs>
+	</wordLink>
+	<wordLink guid="96d3a73c-ceb3-4150-ba7e-17beb8f45b99" groundtruth="Detáŋhaŋ">
+		<facs>#facs_1_r6l1w3</facs>
+	</wordLink>
+	<wordLink guid="d1605022-cd91-4de3-b65b-fca7752611f2" groundtruth="oyáte">
+		<facs>#facs_1_r6l1w4</facs>
+	</wordLink>
+	<wordLink guid="2c893759-ec24-45b4-994a-bc6e0ff8e1e7" groundtruth="obé">
+		<facs>#facs_1_r6l1w5</facs>
+	</wordLink>
+	<wordLink guid="70faaa43-810d-4070-b56c-78ff9efdac00" groundtruth="thókeča">
+		<facs>#facs_1_r6l1w6</facs>
+	</wordLink>
+	<wordLink guid="8505e150-25a6-4c45-a748-b8b0105f44e3" groundtruth="tóna">
+		<facs>#facs_1_r6l1w7</facs>
+	</wordLink>
+	<wordLink guid="357a272a-89f5-49ee-981f-33e57b64638a" groundtruth="United States">
+		<facs>#facs_1_r6l2w1</facs>
+		<facs>#facs_1_r6l2w2</facs>
+	</wordLink>
+	<wordLink guid="6952fde0-4b1e-4df6-9076-60f91290d089" groundtruth="én">
+		<facs>#facs_1_r6l2w3</facs>
+	</wordLink>
+	<wordLink guid="53f55b76-0e7d-4113-832c-c9ce47077821" groundtruth="úŋpi">
+		<facs>#facs_1_r6l2w4</facs>
+	</wordLink>
+	<wordLink guid="ddd3d160-cf16-43e2-bfdd-b0ee644b76bb" groundtruth="kta">
+		<facs>#facs_1_r6l2w5</facs>
+	</wordLink>
+	<wordLink guid="ce50a406-4ad9-4696-a589-20ccb1c3c1ce" groundtruth="uŋ">
+		<facs>#facs_1_r6l2w6</facs>
+	</wordLink>
+	<wordLink guid="dd22455c-04e7-40ee-8869-0dbd177be75e" groundtruth="hípi">
+		<facs>#facs_1_r6l2w7</facs>
+	</wordLink>
+	<wordLink guid="fa4d544f-205f-47c2-a347-dac631b6cd41" groundtruth="kiŋháŋ">
+		<facs>#facs_1_r6l2w8</facs>
+	</wordLink>
+	<wordLink guid="446e61e9-b805-405f-aeda-e00f8cec7db3" groundtruth="hená">
+		<facs>#facs_1_r6l2w9</facs>
+	</wordLink>
+	<wordLink guid="de94846b-a70e-45af-a61b-584232c0b4b8" groundtruth="owás’iŋ">
+		<facs>#facs_1_r6l3w1</facs>
+	</wordLink>
+	<wordLink guid="cd8abc24-751c-46c1-81f9-54d82421f333" groundtruth="wówapi">
+		<facs>#facs_1_r6l3w2</facs>
+	</wordLink>
+	<wordLink guid="e296be04-fcfe-4103-a611-9b9aa729bfb2" groundtruth="yawá">
+		<facs>#facs_1_r6l3w3</facs>
+	</wordLink>
+	<wordLink guid="f8a78cad-df6a-481a-b9fb-f3e408e1f740" groundtruth="okíhipi">
+		<facs>#facs_1_r6l3w4</facs>
+	</wordLink>
+	<wordLink guid="77175aee-b4f4-498e-87e6-ef10e35202dd" groundtruth="héčhapi">
+		<facs>#facs_1_r6l3w5</facs>
+	</wordLink>
+	<wordLink guid="ddd3d160-cf16-43e2-bfdd-b0ee644b76bb" groundtruth="kta">
+		<facs>#facs_1_r6l3w6</facs>
+	</wordLink>
+	<wordLink guid="f9d9bdb7-a72a-47ec-9190-1e5cca54275c" groundtruth="héčhen">
+		<facs>#facs_1_r6l3w7</facs>
+	</wordLink>
+	<wordLink guid="4462d6be-6f15-4762-bdbd-a5df080f9d16" groundtruth="wákhiya">
+		<facs>#facs_1_r6l4w1</facs>
+	</wordLink>
+	<wordLink guid="54c5e4fd-86c2-49d0-9a63-195356ed692c" groundtruth="kiŋ">
+		<facs>#facs_1_r6l4w2</facs>
+	</wordLink>
+	<wordLink guid="2af5c553-a7f5-4683-976d-329182c45ed0" groundtruth="yuštáŋpi">
+		<facs>#facs_1_r6l4w3</facs>
+	</wordLink>
+	<wordLink groundtruth="."/>
+	<wordLink guid="d1605022-cd91-4de3-b65b-fca7752611f2" groundtruth="Oyáte">
+		<facs>#facs_1_r6l4w4</facs>
+	</wordLink>
+	<wordLink guid="b1f2461f-415f-4244-8466-71f959fa672d" groundtruth="owás’iŋ">
+		<facs>#facs_1_r6l4w5</facs>
+	</wordLink>
+	<wordLink guid="4400798d-6fbb-43ba-b2b8-894d7f498f70" groundtruth="én">
+		<facs>#facs_1_r6l4w6</facs>
+	</wordLink>
+	<wordLink guid="beb3a32b-b3b3-4589-8e53-75e88acc353e" groundtruth="Wówapi Wakháŋ">
+		<facs>#facs_1_r6l4w7</facs>
+		<facs>#facs_1_r6l5w1</facs>
+		<facs>#facs_1_r6l5w2</facs>
+	</wordLink>
+	<wordLink guid="54c5e4fd-86c2-49d0-9a63-195356ed692c" groundtruth="kiŋ">
+		<facs>#facs_1_r6l5w3</facs>
+	</wordLink>
+	<wordLink guid="ec228e9c-9cae-440d-9c80-4aeccfd7c84c" groundtruth="hé">
+		<facs>#facs_1_r6l5w4</facs>
+	</wordLink>
+	<wordLink guid="4a64d5a1-108e-4237-abdc-cafb39373e83" groundtruth="waŋná">
+		<facs>#facs_1_r6l5w5</facs>
+	</wordLink>
+	<wordLink guid="88b0953d-d191-48f9-a05c-acf0ddedb3e3" groundtruth="iéska">
+		<facs>#facs_1_r6l5w6</facs>
+	</wordLink>
+	<wordLink guid="f1234d39-14e8-40bc-a770-a657bd7bd4b0" groundtruth="káǧapi">
+		<facs>#facs_1_r6l5w7</facs>
+	</wordLink>
+	<wordLink guid="927aa057-81a6-432e-90dd-3d5474e69d1d" groundtruth="héuŋ">
+		<facs>#facs_1_r6l5w8</facs>
+	</wordLink>
+	<wordLink guid="28ad91fb-ae98-4dc3-869e-598489d756ad" groundtruth="táku">
+		<facs>#facs_1_r6l5w9</facs>
+	</wordLink>
+	<wordLink guid="506bd28e-dd2a-4d97-bdb9-b377b6ecec3b" groundtruth="oyátepi">
+		<facs>#facs_1_r6l6w1</facs>
+	</wordLink>
+	<wordLink guid="6352c54d-6635-45eb-8f3d-fa46dbab3196" groundtruth="kaštá">
+		<facs>#facs_1_r6l6w2</facs>
+	</wordLink>
+	<wordLink guid="13c0da16-bb8f-431b-a38e-5254bd34f184" groundtruth="owás’iŋ">
+		<facs>#facs_1_r6l6w3</facs>
+	</wordLink>
+	<wordLink guid="beb3a32b-b3b3-4589-8e53-75e88acc353e" groundtruth="Wówapi Wakháŋ">
+		<facs>#facs_1_r6l6w4</facs>
+		<facs>#facs_1_r6l6w5</facs>
+	</wordLink>
+	<wordLink guid="ec228e9c-9cae-440d-9c80-4aeccfd7c84c" groundtruth="hé">
+		<facs>#facs_1_r6l6w6</facs>
+	</wordLink>
+	<wordLink guid="6bb78e7c-2dc7-4012-a16f-ae84b4f6e2d5" groundtruth="yawá">
+		<facs>#facs_1_r6l6w7</facs>
+	</wordLink>
+	<wordLink guid="a671f03b-1e5a-4b75-bad2-383e008561fd" groundtruth="kta">
+		<facs>#facs_1_r6l7w1</facs>
+	</wordLink>
+	<wordLink guid="f8a78cad-df6a-481a-b9fb-f3e408e1f740" groundtruth="okíhipi">
+		<facs>#facs_1_r6l7w2</facs>
+	</wordLink>
+	<wordLink groundtruth="."/>
+	<wordLink guid="464e01da-347e-46ae-b596-fd337444db5f" groundtruth="Héuŋ">
+		<facs>#facs_1_r6l7w3</facs>
+	</wordLink>
+	<wordLink guid="83ff123b-a7ac-420b-9f8c-b9dd39490bca" groundtruth="oyáte">
+		<facs>#facs_1_r6l7w4</facs>
+	</wordLink>
+	<wordLink guid="2c893759-ec24-45b4-994a-bc6e0ff8e1e7" groundtruth="obé">
+		<facs>#facs_1_r6l7w5</facs>
+	</wordLink>
+	<wordLink guid="70faaa43-810d-4070-b56c-78ff9efdac00" groundtruth="thókeča">
+		<facs>#facs_1_r6l7w6</facs>
+	</wordLink>
+	<wordLink guid="d12298a6-bf11-44aa-a065-4a0a7f997817" groundtruth="waŋ">
+		<facs>#facs_1_r6l7w7</facs>
+	</wordLink>
+	<wordLink guid="357a272a-89f5-49ee-981f-33e57b64638a" groundtruth="United States">
+		<facs>#facs_1_r6l7w8</facs>
+		<facs>#facs_1_r6l8w1</facs>
+	</wordLink>
+	<wordLink guid="4400798d-6fbb-43ba-b2b8-894d7f498f70" groundtruth="én">
+		<facs>#facs_1_r6l8w2</facs>
+	</wordLink>
+	<wordLink guid="92fe8961-a3a5-4bd9-b875-0bf58033165f" groundtruth="úŋ">
+		<facs>#facs_1_r6l8w3</facs>
+	</wordLink>
+	<wordLink guid="a671f03b-1e5a-4b75-bad2-383e008561fd" groundtruth="kta">
+		<facs>#facs_1_r6l8w4</facs>
+	</wordLink>
+	<wordLink guid="ce50a406-4ad9-4696-a589-20ccb1c3c1ce" groundtruth="uŋ">
+		<facs>#facs_1_r6l8w5</facs>
+	</wordLink>
+	<wordLink guid="b7e6aa3d-a93a-4503-8359-67bbb21735cb" groundtruth="hí">
+		<facs>#facs_1_r6l8w6</facs>
+	</wordLink>
+	<wordLink guid="f476b9a1-1b54-4d82-87d6-5b55739bfa5f" groundtruth="kiŋháŋ">
+		<facs>#facs_1_r6l8w7</facs>
+	</wordLink>
+	<wordLink guid="ec228e9c-9cae-440d-9c80-4aeccfd7c84c" groundtruth="hé">
+		<facs>#facs_1_r6l8w8</facs>
+	</wordLink>
+	<wordLink guid="beb3a32b-b3b3-4589-8e53-75e88acc353e" groundtruth="Wówapi Wakháŋ">
+		<facs>#facs_1_r6l8w9</facs>
+		<facs>#facs_1_r6l8w10</facs>
+		<facs>#facs_1_r6l9w1</facs>
+	</wordLink>
+	<wordLink guid="54c5e4fd-86c2-49d0-9a63-195356ed692c" groundtruth="kiŋ">
+		<facs>#facs_1_r6l9w2</facs>
+	</wordLink>
+	<wordLink guid="ec228e9c-9cae-440d-9c80-4aeccfd7c84c" groundtruth="hé">
+		<facs>#facs_1_r6l9w3</facs>
+	</wordLink>
+	<wordLink guid="882f199b-3160-44fe-aa1c-71e7bdea1003" groundtruth="yawákhiyapi">
+		<facs>#facs_1_r6l9w4</facs>
+		<facs>#facs_1_r6l9w5</facs>
+	</wordLink>
+	<wordLink guid="8821c7cd-3a79-4689-952e-f1aab0f7e574" groundtruth="k’a">
+		<facs>#facs_1_r6l9w6</facs>
+	</wordLink>
+	<wordLink guid="e296be04-fcfe-4103-a611-9b9aa729bfb2" groundtruth="yawá">
+		<facs>#facs_1_r6l9w7</facs>
+	</wordLink>
+	<wordLink guid="3912be40-c8e8-445b-8383-129a36bd4c4b" groundtruth="okíhi">
+		<facs>#facs_1_r6l9w8</facs>
+	</wordLink>
+	<wordLink guid="f476b9a1-1b54-4d82-87d6-5b55739bfa5f" groundtruth="kiŋháŋ">
+		<facs>#facs_1_r6l9w9</facs>
+	</wordLink>
+	<wordLink guid="ec228e9c-9cae-440d-9c80-4aeccfd7c84c" groundtruth="hé">
+		<facs>#facs_1_r6l10w1</facs>
+	</wordLink>
+	<wordLink guid="ef5cd429-24d3-476e-b62d-db098818245d" groundtruth="ečhíyataŋhaŋ">
+		<facs>#facs_1_r6l10w2</facs>
+	</wordLink>
+	<wordLink guid="f5bf4a47-2184-47d9-893d-50550421fe4e" groundtruth="sdonyápi">
+		<facs>#facs_1_r6l10w3</facs>
+	</wordLink>
+	<wordLink guid="ddd3d160-cf16-43e2-bfdd-b0ee644b76bb" groundtruth="kta">
+		<facs>#facs_1_r6l10w4</facs>
+	</wordLink>
+	<wordLink guid="a06793dc-f697-4b92-af15-0eab433d0baf" groundtruth="héčhen">
+		<facs>#facs_1_r6l10w5</facs>
+	</wordLink>
+	<wordLink guid="4462d6be-6f15-4762-bdbd-a5df080f9d16" groundtruth="wákhiya">
+		<facs>#facs_1_r6l10w6</facs>
+	</wordLink>
+	<wordLink guid="6952fde0-4b1e-4df6-9076-60f91290d089" groundtruth="én">
+		<facs>#facs_1_r6l10w7</facs>
+	</wordLink>
+	<wordLink guid="a2680568-a012-478b-b108-e88ab8ca8e7d" groundtruth="wóyuštaŋ">
+		<facs>#facs_1_r6l11w1</facs>
+	</wordLink>
+	<wordLink guid="8b875648-1818-4f8a-9031-3cfea3170773" groundtruth="káǧapi">
+		<facs>#facs_1_r6l11w2</facs>
+	</wordLink>
+	<wordLink groundtruth="."/>
+	<wordLink guid="3e46c803-d524-4454-9754-69828419be50" groundtruth="Mar_ 29">
+		<facs>#facs_1_r7l1w1</facs>
+		<facs>#facs_1_r7l1w2</facs>
+	</wordLink>
+	<wordLink guid="c9394de7-fd75-4d4f-85a1-d95512b45f40" groundtruth="Šagdášiŋ">
+		<facs>#facs_1_r7l1w3</facs>
+	</wordLink>
+	<wordLink guid="48fb837f-f37a-479e-b802-e98e62138caf" groundtruth="akíčhita">
+		<facs>#facs_1_r7l1w4</facs>
+	</wordLink>
+	<wordLink guid="54c5e4fd-86c2-49d0-9a63-195356ed692c" groundtruth="kiŋ">
+		<facs>#facs_1_r7l1w5</facs>
+	</wordLink>
+	<wordLink guid="1c3e41ec-db8a-4e87-940c-ae59e31fc3b3" groundtruth="Turkey">
+		<facs>#facs_1_r7l1w6</facs>
+	</wordLink>
+	<wordLink guid="48fb837f-f37a-479e-b802-e98e62138caf" groundtruth="akíčhita">
+		<facs>#facs_1_r7l1w7</facs>
+	</wordLink>
+	<wordLink guid="54c5e4fd-86c2-49d0-9a63-195356ed692c" groundtruth="kiŋ">
+		<facs>#facs_1_r7l2w1</facs>
+	</wordLink>
+	<wordLink guid="648b8a48-9d83-4a0a-b9b4-73dfc59fa7bd" groundtruth="óm">
+		<facs>#facs_1_r7l2w2</facs>
+	</wordLink>
+	<wordLink guid="aa519ddc-391a-4a9d-a571-a1ca2d77a745" groundtruth="aŋpétu">
+		<facs>#facs_1_r7l2w3</facs>
+	</wordLink>
+	<wordLink guid="54c5e4fd-86c2-49d0-9a63-195356ed692c" groundtruth="kiŋ">
+		<facs>#facs_1_r7l2w4</facs>
+	</wordLink>
+	<wordLink guid="ec228e9c-9cae-440d-9c80-4aeccfd7c84c" groundtruth="hé">
+		<facs>#facs_1_r7l2w5</facs>
+	</wordLink>
+	<wordLink guid="6952fde0-4b1e-4df6-9076-60f91290d089" groundtruth="én">
+		<facs>#facs_1_r7l2w6</facs>
+	</wordLink>
+	<wordLink guid="da494423-b82e-42d2-8ee8-2dc4c63f9ba3" groundtruth="nína">
+		<facs>#facs_1_r7l2w7</facs>
+	</wordLink>
+	<wordLink guid="e06599b8-b669-4b95-8c9f-9b9548063a55" groundtruth="kičhízapi">
+		<facs>#facs_1_r7l2w8</facs>
+	</wordLink>
+	<wordLink groundtruth="."/>
+	<wordLink guid="612c67e0-c689-4554-b39e-cce6e0665005" groundtruth="Makhóčhe">
+		<facs>#facs_1_r7l2w9</facs>
+	</wordLink>
+	<wordLink guid="cb3f70b1-41bd-4bd4-844a-7efea1b35a49" groundtruth="én">
+		<facs>#facs_1_r7l3w1</facs>
+	</wordLink>
+	<wordLink guid="e06599b8-b669-4b95-8c9f-9b9548063a55" groundtruth="kičhízapi">
+		<facs>#facs_1_r7l3w2</facs>
+	</wordLink>
+	<wordLink guid="54c5e4fd-86c2-49d0-9a63-195356ed692c" groundtruth="kiŋ">
+		<facs>#facs_1_r7l3w3</facs>
+	</wordLink>
+	<wordLink guid="30c0e8bb-d369-4629-ba07-cc28218d5c15" groundtruth="dé">
+		<facs>#facs_1_r7l3w4</facs>
+	</wordLink>
+	<wordLink guid="559c3ce9-e385-4191-8c12-04bc182d45e9" groundtruth="Palestine">
+		<facs>#facs_1_r7l3w5</facs>
+	</wordLink>
+	<wordLink groundtruth=","/>
+	<wordLink guid="0b3c6623-90a3-47f0-9997-fee193f899b6" groundtruth="makhóčhe">
+		<facs>#facs_1_r7l3w6</facs>
+	</wordLink>
+	<wordLink guid="c289b5ab-1355-4f4f-851c-2f6cdd0ab079" groundtruth="wakháŋ">
+		<facs>#facs_1_r7l3w7</facs>
+	</wordLink>
+	<wordLink groundtruth=","/>
+	<wordLink guid="54c5e4fd-86c2-49d0-9a63-195356ed692c" groundtruth="kiŋ">
+		<facs>#facs_1_r7l4w1</facs>
+	</wordLink>
+	<wordLink guid="d635e2aa-53e4-4ffb-b4e5-6de5aea5e3ca" groundtruth="étu">
+		<facs>#facs_1_r7l4w2</facs>
+	</wordLink>
+	<wordLink groundtruth=","/>
+	<wordLink guid="c9394de7-fd75-4d4f-85a1-d95512b45f40" groundtruth="Šagdášiŋ">
+		<facs>#facs_1_r7l4w3</facs>
+	</wordLink>
+	<wordLink guid="54c5e4fd-86c2-49d0-9a63-195356ed692c" groundtruth="kiŋ">
+		<facs>#facs_1_r7l4w4</facs>
+	</wordLink>
+	<wordLink guid="adaccb86-4943-4945-b434-5a5abcc4f2bb" groundtruth="Egypt">
+		<facs>#facs_1_r7l4w5</facs>
+	</wordLink>
+	<wordLink guid="0b3c6623-90a3-47f0-9997-fee193f899b6" groundtruth="makhóčhe">
+		<facs>#facs_1_r7l4w6</facs>
+	</wordLink>
+	<wordLink guid="54c5e4fd-86c2-49d0-9a63-195356ed692c" groundtruth="kiŋ">
+		<facs>#facs_1_r7l4w7</facs>
+	</wordLink>
+	<wordLink guid="f9d92dee-9f0c-4943-8c36-b668ab56c6c5" groundtruth="hetáŋhaŋ">
+		<facs>#facs_1_r7l4w8</facs>
+		<facs>#facs_1_r7l5w1</facs>
+	</wordLink>
+	<wordLink guid="0b3c6623-90a3-47f0-9997-fee193f899b6" groundtruth="makhóčhe">
+		<facs>#facs_1_r7l5w2</facs>
+	</wordLink>
+	<wordLink guid="c289b5ab-1355-4f4f-851c-2f6cdd0ab079" groundtruth="wakháŋ">
+		<facs>#facs_1_r7l5w3</facs>
+	</wordLink>
+	<wordLink guid="54c5e4fd-86c2-49d0-9a63-195356ed692c" groundtruth="kiŋ">
+		<facs>#facs_1_r7l5w4</facs>
+	</wordLink>
+	<wordLink guid="2feca1b0-87a6-4d13-b885-5b31975fcdb5" groundtruth="étkiya">
+		<facs>#facs_1_r7l5w5</facs>
+	</wordLink>
+	<wordLink guid="09ca2e3e-50ae-4976-9579-1b3b9393720e" groundtruth="yápi">
+		<facs>#facs_1_r7l5w6</facs>
+	</wordLink>
+	<wordLink guid="ffbb9682-e002-41c3-b518-c0ab7f517096" groundtruth="tókhen">
+		<facs>#facs_1_r7l5w7</facs>
+	</wordLink>
+	<wordLink guid="09ca2e3e-50ae-4976-9579-1b3b9393720e" groundtruth="yápi">
+		<facs>#facs_1_r7l5w8</facs>
+		<facs>#facs_1_r7l6w1</facs>
+	</wordLink>
+	<wordLink guid="54c5e4fd-86c2-49d0-9a63-195356ed692c" groundtruth="kiŋ">
+		<facs>#facs_1_r7l6w2</facs>
+	</wordLink>
+	<wordLink guid="17b5e33b-ae17-4a5c-be09-1edde6e9214d" groundtruth="ečhén">
+		<facs>#facs_1_r7l6w3</facs>
+	</wordLink>
+	<wordLink guid="7eb87b20-2198-4a26-b2f9-93d76b378c81" groundtruth="ȟemáni čhaŋkú">
+		<facs>#facs_1_r7l6w4</facs>
+		<facs>#facs_1_r7l6w5</facs>
+	</wordLink>
+	<wordLink guid="052dc515-0c65-4881-83c7-9b1dad135576" groundtruth="nakúŋ">
+		<facs>#facs_1_r7l6w6</facs>
+	</wordLink>
+	<wordLink guid="0ee82de2-f40b-4d27-902d-6b1aac55d065" groundtruth="káȟ">
+		<facs>#facs_1_r7l6w7</facs>
+	</wordLink>
+	<wordLink guid="e27533fc-34d1-438a-b583-4c90bce3200e" groundtruth="áyapi"/>
+	<wordLink groundtruth="."/>
+	<wordLink guid="1c3e41ec-db8a-4e87-940c-ae59e31fc3b3" groundtruth="Turkey">
+		<facs>#facs_1_r7l7w1</facs>
+	</wordLink>
+	<wordLink guid="48fb837f-f37a-479e-b802-e98e62138caf" groundtruth="akíčhita">
+		<facs>#facs_1_r7l7w2</facs>
+	</wordLink>
+	<wordLink guid="54c5e4fd-86c2-49d0-9a63-195356ed692c" groundtruth="kiŋ">
+		<facs>#facs_1_r7l7w3</facs>
+	</wordLink>
+	<wordLink guid="2eee5dad-a6cb-474e-bb15-b524e61971f8" groundtruth="20000">
+		<facs>#facs_1_r7l7w4</facs>
+	</wordLink>
+	<wordLink guid="52e74252-394b-4d16-acf7-9f7af2a8d58a" groundtruth="tukhá">
+		<facs>#facs_1_r7l7w5</facs>
+	</wordLink>
+	<wordLink guid="ac147e90-2ff8-4714-b6c3-ce212a439430" groundtruth="naphéwičhayapi">
+		<facs>#facs_1_r7l7w6</facs>
+		<facs>#facs_1_r7l7w7</facs>
+	</wordLink>
+	<wordLink guid="8821c7cd-3a79-4689-952e-f1aab0f7e574" groundtruth="k’a">
+		<facs>#facs_1_r7l8w1</facs>
+	</wordLink>
+	<wordLink guid="c0887bcc-dd7e-40e1-bc44-423f581c8f30" groundtruth="etáŋhaŋ">
+		<facs>#facs_1_r7l8w2</facs>
+	</wordLink>
+	<wordLink guid="893123f6-95c0-49e0-8a31-6b283d0c9a0e" groundtruth="900">
+		<facs>#facs_1_r7l8w3</facs>
+	</wordLink>
+	<wordLink guid="486dec02-7ca8-4489-8e89-9aef0175af15" groundtruth="wayáka">
+		<facs>#facs_1_r7l8w4</facs>
+	</wordLink>
+	<wordLink guid="01294cda-6587-479f-b50d-5fac1118bfdf" groundtruth="wičháyuzapi">
+		<facs>#facs_1_r7l8w5</facs>
+	</wordLink>
+	<wordLink groundtruth="."/>
+	<wordLink guid="885e9701-0112-427e-8323-fdea9c068539" groundtruth="Akíčhita">
+		<facs>#facs_1_r7l8w6</facs>
+	</wordLink>
+	<wordLink guid="73fe77f1-d2b9-4e3b-adae-99cb91945085" groundtruth="itháŋčhaŋ">
+		<facs>#facs_1_r7l9w1</facs>
+	</wordLink>
+	<wordLink guid="7417f5d6-83ba-4ea7-8b2e-c4bb4979abed" groundtruth="tháŋka">
+		<facs>#facs_1_r7l9w2</facs>
+	</wordLink>
+	<wordLink guid="d12298a6-bf11-44aa-a065-4a0a7f997817" groundtruth="waŋ">
+		<facs>#facs_1_r7l9w3</facs>
+	</wordLink>
+	<wordLink guid="052dc515-0c65-4881-83c7-9b1dad135576" groundtruth="nakúŋ">
+		<facs>#facs_1_r7l9w4</facs>
+	</wordLink>
+	<wordLink guid="486dec02-7ca8-4489-8e89-9aef0175af15" groundtruth="wayáka">
+		<facs>#facs_1_r7l9w5</facs>
+	</wordLink>
+	<wordLink guid="ab95ea9d-a3dd-4547-ad8c-3361aad1f13f" groundtruth="yúzapi">
+		<facs>#facs_1_r7l9w6</facs>
+	</wordLink>
+	<wordLink groundtruth="."/>
+	<wordLink guid="f9d9bdb7-a72a-47ec-9190-1e5cca54275c" groundtruth="Héčhen">
+		<facs>#facs_1_r7l9w7</facs>
+		<facs>#facs_1_r7l10w1</facs>
+	</wordLink>
+	<wordLink guid="c9394de7-fd75-4d4f-85a1-d95512b45f40" groundtruth="Šagdášiŋ">
+		<facs>#facs_1_r7l10w2</facs>
+	</wordLink>
+	<wordLink guid="54c5e4fd-86c2-49d0-9a63-195356ed692c" groundtruth="kiŋ">
+		<facs>#facs_1_r7l10w3</facs>
+	</wordLink>
+	<wordLink guid="4048ed6d-2c9c-498f-835e-31d90234f07d" groundtruth="é">
+		<facs>#facs_1_r7l10w4</facs>
+	</wordLink>
+	<wordLink guid="89a639d0-036a-499b-91bc-a8623b5886c0" groundtruth="ohíyapi">
+		<facs>#facs_1_r7l10w5</facs>
+	</wordLink>
+	<wordLink guid="f9d9bdb7-a72a-47ec-9190-1e5cca54275c" groundtruth="héčhen">
+		<facs>#facs_1_r7l10w6</facs>
+	</wordLink>
+	<wordLink guid="7b97a3e3-0d83-49e3-8b71-7af5088bed3a" groundtruth="yuóthaŋiŋpi">
+		<facs>#facs_1_r7l10w7</facs>
+	</wordLink>
+	<wordLink groundtruth="."/>
+	<wordLink guid="920ab83c-f692-4e28-a80c-bf9e45e765f6" groundtruth="Apr_ 5_">
+		<facs>#facs_1_r8l1w1</facs>
+		<facs>#facs_1_r8l1w2</facs>
+	</wordLink>
+	<wordLink guid="d6e06aef-9195-47c9-9f7e-1ce12efa8598" groundtruth="Redding California">
+		<facs>#facs_1_r8l1w3</facs>
+		<facs>#facs_1_r8l1w4</facs>
+	</wordLink>
+	<wordLink guid="0339124b-0cfa-4fee-86de-bd7819ed7c04" groundtruth="pahá">
+		<facs>#facs_1_r8l1w5</facs>
+	</wordLink>
+	<wordLink guid="d12298a6-bf11-44aa-a065-4a0a7f997817" groundtruth="waŋ">
+		<facs>#facs_1_r8l1w6</facs>
+	</wordLink>
+	<wordLink guid="7ecb8675-1061-44d8-91ad-c3152ef692be" groundtruth="Lassen">
+		<facs>#facs_1_r8l1w7</facs>
+	</wordLink>
+	<wordLink guid="f688f22c-f3a3-4db9-b4f2-503e838e1164" groundtruth="ečíyapi">
+		<facs>#facs_1_r8l2w1</facs>
+	</wordLink>
+	<wordLink guid="ec228e9c-9cae-440d-9c80-4aeccfd7c84c" groundtruth="hé">
+		<facs>#facs_1_r8l2w2</facs>
+	</wordLink>
+	<wordLink guid="cac2ff80-dad7-4c7a-bb30-fab0acb61626" groundtruth="naphópa">
+		<facs>#facs_1_r8l2w3</facs>
+	</wordLink>
+	<wordLink guid="8821c7cd-3a79-4689-952e-f1aab0f7e574" groundtruth="k’a">
+		<facs>#facs_1_r8l2w4</facs>
+	</wordLink>
+	<wordLink guid="24c478d1-7f60-4b8f-8d93-3ddbae0c8dff" groundtruth="oíde">
+		<facs>#facs_1_r8l2w5</facs>
+	</wordLink>
+	<wordLink guid="8821c7cd-3a79-4689-952e-f1aab0f7e574" groundtruth="k’a">
+		<facs>#facs_1_r8l2w6</facs>
+	</wordLink>
+	<wordLink guid="c0887bcc-dd7e-40e1-bc44-423f581c8f30" groundtruth="etáŋhaŋ">
+		<facs>#facs_1_r8l2w7</facs>
+	</wordLink>
+	<wordLink groundtruth="["/>
+	<wordLink guid="ea6b31ea-a548-4419-941e-4cde37b3c218" groundtruth="ohná">
+		<facs>#facs_1_r8l2w8</facs>
+	</wordLink>
+	<wordLink groundtruth="]"/>
+	<wordLink guid="dfbd991a-a361-4001-ab66-19a9b00e6c3e" groundtruth="šóta">
+		<facs>#facs_1_r8l2w9</facs>
+	</wordLink>
+	<wordLink guid="f27f4f05-6a71-4b20-a6b9-11ba167cbb91" groundtruth="hiyú">
+		<facs>#facs_1_r8l3w1</facs>
+	</wordLink>
+	<wordLink guid="4a0d795f-d75d-42cd-bef4-66e6179dc41e" groundtruth="ečée">
+		<facs>#facs_1_r8l3w2</facs>
+	</wordLink>
+	<wordLink guid="9a94ab3e-888f-4f4f-8c49-01973606c35d" groundtruth="oyákapi">
+		<facs>#facs_1_r8l3w3</facs>
+	</wordLink>
+	<wordLink guid="d89517cf-3ab9-4467-a4b5-2b1a851219a8" groundtruth="k’uŋ">
+		<facs>#facs_1_r8l3w4</facs>
+	</wordLink>
+	<wordLink guid="4e0f5cd9-3ebc-4398-b737-30c5ba0e7418" groundtruth="deháŋn">
+		<facs>#facs_1_r8l3w5</facs>
+	</wordLink>
+	<wordLink guid="0d78f0d6-506e-4bb3-8c60-0dd35e164199" groundtruth="iyótaŋ">
+		<facs>#facs_1_r8l3w6</facs>
+	</wordLink>
+	<wordLink guid="c0887bcc-dd7e-40e1-bc44-423f581c8f30" groundtruth="etáŋhaŋ">
+		<facs>#facs_1_r8l3w7</facs>
+	</wordLink>
+	<wordLink groundtruth="["/>
+	<wordLink guid="d1c6879c-731a-4604-a33d-27e1e5872c47" groundtruth="nína">
+		<facs>#facs_1_r8l4w1</facs>
+	</wordLink>
+	<wordLink groundtruth="]"/>
+	<wordLink guid="c10451f3-c391-424e-8ca1-7c50b6ef7eec" groundtruth="ošóta">
+		<facs>#facs_1_r8l4w2</facs>
+	</wordLink>
+	<wordLink guid="8821c7cd-3a79-4689-952e-f1aab0f7e574" groundtruth="k’a">
+		<facs>#facs_1_r8l4w3</facs>
+	</wordLink>
+	<wordLink guid="c0887bcc-dd7e-40e1-bc44-423f581c8f30" groundtruth="etáŋhaŋ">
+		<facs>#facs_1_r8l4w4</facs>
+	</wordLink>
+	<wordLink guid="24f87bca-8d88-4d50-aa9b-b4b972e815e9" groundtruth="čhaȟóta">
+		<facs>#facs_1_r8l4w5</facs>
+	</wordLink>
+	<wordLink guid="54c5e4fd-86c2-49d0-9a63-195356ed692c" groundtruth="kiŋ">
+		<facs>#facs_1_r8l4w6</facs>
+	</wordLink>
+	<wordLink guid="954e0b9e-89e9-4fed-a989-faf54f069b65" groundtruth="okhókhipheya">
+		<facs>#facs_1_r8l4w7</facs>
+	</wordLink>
+	<wordLink guid="a6bdf79b-1931-4b93-8dc4-10eb089beeca" groundtruth="bomdú">
+		<facs>#facs_1_r8l4w8</facs>
+		<facs>#facs_1_r8l5w1</facs>
+	</wordLink>
+	<wordLink guid="89b9605e-9a5b-42cf-9700-f7818e0698be" groundtruth="kéyapi">
+		<facs>#facs_1_r8l5w2</facs>
+	</wordLink>
+	<wordLink groundtruth="."/>
+	<wordLink guid="8c68817a-9b22-412a-a732-80bec850d0d2" groundtruth="Apr_ 6_">
+		<facs>#facs_1_r9l1w1</facs>
+		<facs>#facs_1_r9l1w2</facs>
+	</wordLink>
+	<wordLink guid="df14bd7b-2700-4d1a-8aeb-2d67cf3b3c95" groundtruth="Washington">
+		<facs>#facs_1_r9l1w3</facs>
+	</wordLink>
+	<wordLink guid="6952fde0-4b1e-4df6-9076-60f91290d089" groundtruth="én">
+		<facs>#facs_1_r9l1w4</facs>
+	</wordLink>
+	<wordLink guid="568f863b-6a90-485b-8ef3-9d2c7306d453" groundtruth="wákhiya wičhášta">
+		<facs>#facs_1_r9l1w5</facs>
+		<facs>#facs_1_r9l1w6</facs>
+	</wordLink>
+	<wordLink guid="446e61e9-b805-405f-aeda-e00f8cec7db3" groundtruth="hená">
+		<facs>#facs_1_r9l1w7</facs>
+	</wordLink>
+	<wordLink guid="4006ba0e-956b-4d4f-9923-b33bfc58073a" groundtruth="thuŋkháŋšidaŋ">
+		<facs>#facs_1_r9l2w1</facs>
+	</wordLink>
+	<wordLink guid="8fd523bf-4c3e-4583-8924-a56c1b569427" groundtruth="Pres_ Wilson">
+		<facs>#facs_1_r9l2w2</facs>
+		<facs>#facs_1_r9l2w3</facs>
+	</wordLink>
+	<wordLink guid="66bc344f-910c-4a70-8491-862aa83618ba" groundtruth="okíčhize">
+		<facs>#facs_1_r9l2w4</facs>
+	</wordLink>
+	<wordLink guid="0ff72b4c-11f7-459a-8367-15c66c473837" groundtruth="kte">
+		<facs>#facs_1_r9l2w5</facs>
+	</wordLink>
+	<wordLink guid="52b5e237-9069-420a-8f52-e70f8c4750fe" groundtruth="k’aíš">
+		<facs>#facs_1_r9l2w6</facs>
+	</wordLink>
+	<wordLink guid="66bc344f-910c-4a70-8491-862aa83618ba" groundtruth="okíčhize">
+		<facs>#facs_1_r9l2w7</facs>
+		<facs>#facs_1_r9l3w1</facs>
+	</wordLink>
+	<wordLink guid="0ff72b4c-11f7-459a-8367-15c66c473837" groundtruth="kte">
+		<facs>#facs_1_r9l3w2</facs>
+	</wordLink>
+	<wordLink guid="521928ec-7224-4444-8064-d4c3c41b9eea" groundtruth="šni">
+		<facs>#facs_1_r9l3w3</facs>
+	</wordLink>
+	<wordLink guid="ec228e9c-9cae-440d-9c80-4aeccfd7c84c" groundtruth="hé">
+		<facs>#facs_1_r9l3w4</facs>
+	</wordLink>
+	<wordLink guid="847726df-4ac2-4a00-897e-e02227e7f052" groundtruth="iyúkčaŋ-wičháši">
+		<facs>#facs_1_r9l3w5</facs>
+		<facs>#facs_1_r9l3w6</facs>
+	</wordLink>
+	<wordLink guid="8821c7cd-3a79-4689-952e-f1aab0f7e574" groundtruth="k’a">
+		<facs>#facs_1_r9l3w7</facs>
+	</wordLink>
+	<wordLink guid="ec228e9c-9cae-440d-9c80-4aeccfd7c84c" groundtruth="hé">
+		<facs>#facs_1_r9l3w8</facs>
+	</wordLink>
+	<wordLink guid="cfb36243-5330-4a4d-bf6d-a941b6e20ad8" groundtruth="nína">
+		<facs>#facs_1_r9l3w9</facs>
+	</wordLink>
+	<wordLink guid="f555ba88-a172-4184-9c4a-12e96229c35e" groundtruth="iwóhdakapi">
+		<facs>#facs_1_r9l3w10</facs>
+		<facs>#facs_1_r9l4w1</facs>
+	</wordLink>
+	<wordLink guid="312202a6-abd9-4ebd-b130-37f5dea24cb4" groundtruth="heháŋn">
+		<facs>#facs_1_r9l4w2</facs>
+	</wordLink>
+	<wordLink guid="e219e1fd-d2d9-442f-8994-b971fc8229ef" groundtruth="uŋ">
+		<facs>#facs_1_r9l4w3</facs>
+	</wordLink>
+	<wordLink guid="90a3a834-4438-4db8-87b1-37d88fd5f0e1" groundtruth="wówapi">
+		<facs>#facs_1_r9l4w4</facs>
+	</wordLink>
+	<wordLink guid="e7ef13be-64b2-45d7-9864-9fc950cb58f7" groundtruth="oíyoȟpeyapi">
+		<facs>#facs_1_r9l4w5</facs>
+	</wordLink>
+	<wordLink groundtruth="."/>
+	<wordLink guid="357a272a-89f5-49ee-981f-33e57b64638a" groundtruth="United States">
+		<facs>#facs_1_r9l4w6</facs>
+		<facs>#facs_1_r9l5w1</facs>
+		<facs>#facs_1_r9l5w2</facs>
+	</wordLink>
+	<wordLink guid="54c5e4fd-86c2-49d0-9a63-195356ed692c" groundtruth="kiŋ">
+		<facs>#facs_1_r9l5w3</facs>
+	</wordLink>
+	<wordLink guid="8bc3df57-c905-482a-8ed4-b24839aeca91" groundtruth="German">
+		<facs>#facs_1_r9l5w4</facs>
+	</wordLink>
+	<wordLink guid="041fd876-cc07-47e8-89bc-84c510dbc37b" groundtruth="khíze">
+		<facs>#facs_1_r9l5w5</facs>
+	</wordLink>
+	<wordLink guid="ddd3d160-cf16-43e2-bfdd-b0ee644b76bb" groundtruth="kta">
+		<facs>#facs_1_r9l5w6</facs>
+	</wordLink>
+	<wordLink guid="f0dee7c7-8a58-4683-be12-4b2e2f82c424" groundtruth="čhíŋpi">
+		<facs>#facs_1_r9l5w7</facs>
+	</wordLink>
+	<wordLink guid="0d1ea678-39bb-439c-a7b8-0c91560dee0e" groundtruth="uŋ">
+		<facs>#facs_1_r9l5w8</facs>
+	</wordLink>
+	<wordLink guid="90a3a834-4438-4db8-87b1-37d88fd5f0e1" groundtruth="wówapi">
+		<facs>#facs_1_r9l5w9</facs>
+	</wordLink>
+	<wordLink guid="3c240cc1-b6fe-481b-8326-88ebc855e20f" groundtruth="iyóȟpeyapi">
+		<facs>#facs_1_r9l6w1</facs>
+	</wordLink>
+	<wordLink guid="54c5e4fd-86c2-49d0-9a63-195356ed692c" groundtruth="kiŋ">
+		<facs>#facs_1_r9l6w2</facs>
+	</wordLink>
+	<wordLink guid="95f241c2-9503-4ec7-ae68-f0426de95d2a" groundtruth="373">
+		<facs>#facs_1_r9l6w3</facs>
+	</wordLink>
+	<wordLink guid="8821c7cd-3a79-4689-952e-f1aab0f7e574" groundtruth="k’a">
+		<facs>#facs_1_r9l6w4</facs>
+	</wordLink>
+	<wordLink guid="5b50dc20-a416-426e-978b-793391e47e6c" groundtruth="čhíŋpi">
+		<facs>#facs_1_r9l6w5</facs>
+	</wordLink>
+	<wordLink guid="521928ec-7224-4444-8064-d4c3c41b9eea" groundtruth="šni">
+		<facs>#facs_1_r9l6w6</facs>
+	</wordLink>
+	<wordLink guid="54c5e4fd-86c2-49d0-9a63-195356ed692c" groundtruth="kiŋ">
+		<facs>#facs_1_r9l6w7</facs>
+	</wordLink>
+	<wordLink guid="82efb3de-8be8-4992-814e-1bc33763b617" groundtruth="50">
+		<facs>#facs_1_r9l6w8</facs>
+	</wordLink>
+	<wordLink groundtruth=","/>
+	<wordLink guid="f9d9bdb7-a72a-47ec-9190-1e5cca54275c" groundtruth="héčhen">
+		<facs>#facs_1_r9l6w9</facs>
+	</wordLink>
+	<wordLink guid="4a64d5a1-108e-4237-abdc-cafb39373e83" groundtruth="waŋná">
+		<facs>#facs_1_r9l7w1</facs>
+	</wordLink>
+	<wordLink guid="357a272a-89f5-49ee-981f-33e57b64638a" groundtruth="United States">
+		<facs>#facs_1_r9l7w2</facs>
+		<facs>#facs_1_r9l7w3</facs>
+	</wordLink>
+	<wordLink guid="8bc3df57-c905-482a-8ed4-b24839aeca91" groundtruth="German">
+		<facs>#facs_1_r9l7w4</facs>
+	</wordLink>
+	<wordLink guid="396186fc-0569-46d0-a448-4cbc8b1a849d" groundtruth="kičhí">
+		<facs>#facs_1_r9l7w5</facs>
+	</wordLink>
+	<wordLink guid="ccb39ad1-9641-4774-933c-20e81e7ea8c9" groundtruth="kičhíze">
+		<facs>#facs_1_r9l7w6</facs>
+	</wordLink>
+	<wordLink guid="ddd3d160-cf16-43e2-bfdd-b0ee644b76bb" groundtruth="kta">
+		<facs>#facs_1_r9l7w7</facs>
+	</wordLink>
+	<wordLink guid="692f9531-61c7-4621-a08a-21a5c78b9231" groundtruth="hée">
+		<facs>#facs_1_r9l7w8</facs>
+	</wordLink>
+	<wordLink guid="2af5c553-a7f5-4683-976d-329182c45ed0" groundtruth="yuštáŋpi">
+		<facs>#facs_1_r9l8w1</facs>
+	</wordLink>
+	<wordLink guid="8821c7cd-3a79-4689-952e-f1aab0f7e574" groundtruth="k’a">
+		<facs>#facs_1_r9l8w2</facs>
+	</wordLink>
+	<wordLink guid="5a1b18af-2654-4d27-b3ef-75329c5d0479" groundtruth="President Wilson">
+		<facs>#facs_1_r9l8w3</facs>
+		<facs>#facs_1_r9l8w4</facs>
+	</wordLink>
+	<wordLink guid="4a64d5a1-108e-4237-abdc-cafb39373e83" groundtruth="waŋná">
+		<facs>#facs_1_r9l8w5</facs>
+	</wordLink>
+	<wordLink guid="cd8abc24-751c-46c1-81f9-54d82421f333" groundtruth="wówapi">
+		<facs>#facs_1_r9l8w6</facs>
+	</wordLink>
+	<wordLink guid="54c5e4fd-86c2-49d0-9a63-195356ed692c" groundtruth="kiŋ">
+		<facs>#facs_1_r9l9w1</facs>
+	</wordLink>
+	<wordLink guid="650f9798-70f4-4860-8edb-2b9635504969" groundtruth="yutháŋ">
+		<facs>#facs_1_r9l9w2</facs>
+	</wordLink>
+	<wordLink groundtruth="."/>
+	<wordLink guid="2ba196d2-48e7-41e0-bb33-0112a0332e4d" groundtruth="Apr_ 9_">
+		<facs>#facs_1_r10l1w1</facs>
+		<facs>#facs_1_r10l1w2</facs>
+	</wordLink>
+	<wordLink guid="889d49e8-bca9-4109-835e-88abd707333f" groundtruth="St_ Louis">
+		<facs>#facs_1_r10l1w3</facs>
+		<facs>#facs_1_r10l1w4</facs>
+	</wordLink>
+	<wordLink guid="7df8e7e7-4288-4e85-8e05-46c065917f85" groundtruth="othúŋwe">
+		<facs>#facs_1_r10l1w5</facs>
+	</wordLink>
+	<wordLink guid="6952fde0-4b1e-4df6-9076-60f91290d089" groundtruth="én">
+		<facs>#facs_1_r10l1w6</facs>
+	</wordLink>
+	<wordLink guid="aa519ddc-391a-4a9d-a571-a1ca2d77a745" groundtruth="aŋpétu">
+		<facs>#facs_1_r10l1w7</facs>
+	</wordLink>
+	<wordLink guid="54c5e4fd-86c2-49d0-9a63-195356ed692c" groundtruth="kiŋ">
+		<facs>#facs_1_r10l1w8</facs>
+	</wordLink>
+	<wordLink guid="ec228e9c-9cae-440d-9c80-4aeccfd7c84c" groundtruth="hé">
+		<facs>#facs_1_r10l1w9</facs>
+	</wordLink>
+	<wordLink guid="c4f06a10-dda3-4ae1-943b-6caafb5af23b" groundtruth="minutes">
+		<facs>#facs_1_r10l2w1</facs>
+	</wordLink>
+	<wordLink guid="220aae03-3f72-45c8-8d34-945dd12b02fc" groundtruth="šahdóǧaŋ">
+		<facs>#facs_1_r10l2w2</facs>
+	</wordLink>
+	<wordLink guid="eabc6cdf-854c-49bc-8cfd-0ce97f08f684" groundtruth="heháŋyaŋ">
+		<facs>#facs_1_r10l2w3</facs>
+	</wordLink>
+	<wordLink guid="5664a330-eeee-4011-bdc8-2fba22542ced" groundtruth="makhá">
+		<facs>#facs_1_r10l2w4</facs>
+	</wordLink>
+	<wordLink guid="ac761bbd-4ba1-44aa-9af3-53df528bd4df" groundtruth="škaŋškáŋ">
+		<facs>#facs_1_r10l2w5</facs>
+	</wordLink>
+	<wordLink groundtruth=","/>
+	<wordLink guid="52e74252-394b-4d16-acf7-9f7af2a8d58a" groundtruth="tukhá">
+		<facs>#facs_1_r10l3w1</facs>
+	</wordLink>
+	<wordLink guid="cfb36243-5330-4a4d-bf6d-a941b6e20ad8" groundtruth="nína">
+		<facs>#facs_1_r10l3w2</facs>
+	</wordLink>
+	<wordLink guid="e36e7036-6d87-47e5-94c9-43110f66d21f" groundtruth="ȟče">
+		<facs>#facs_1_r10l3w3</facs>
+	</wordLink>
+	<wordLink guid="521928ec-7224-4444-8064-d4c3c41b9eea" groundtruth="šni">
+		<facs>#facs_1_r10l3w4</facs>
+	</wordLink>
+	<wordLink groundtruth="."/>
+	<wordLink guid="52620f6d-32a1-4098-a323-9c320bb9af53" groundtruth="Owáŋye">
+		<facs>#facs_1_r10l3w5</facs>
+	</wordLink>
+	<wordLink guid="dc891475-d2a5-4c5c-9c4c-8261227ece24" groundtruth="waŋžígži">
+		<facs>#facs_1_r10l3w6</facs>
+	</wordLink>
+	<wordLink guid="8821c7cd-3a79-4689-952e-f1aab0f7e574" groundtruth="k’a">
+		<facs>#facs_1_r10l3w7</facs>
+	</wordLink>
+	<wordLink guid="527d143b-0ece-4a43-a2f4-3c6641487312" groundtruth="íŋyaŋ očhéthi">
+		<facs>#facs_1_r10l3w8</facs>
+		<facs>#facs_1_r10l4w1</facs>
+	</wordLink>
+	<wordLink guid="dc891475-d2a5-4c5c-9c4c-8261227ece24" groundtruth="waŋžígži">
+		<facs>#facs_1_r10l4w2</facs>
+	</wordLink>
+	<wordLink guid="3fe11b2e-8516-43d6-90c8-121d33eecf00" groundtruth="yumdéča">
+		<facs>#facs_1_r10l4w3</facs>
+	</wordLink>
+	<wordLink groundtruth="."/>
+	<wordLink guid="140528b1-c587-43f6-905d-ba9efa1d670a" groundtruth="Oyáŋke">
+		<facs>#facs_1_r10l4w4</facs>
+	</wordLink>
+	<wordLink guid="30c0e8bb-d369-4629-ba07-cc28218d5c15" groundtruth="dé">
+		<facs>#facs_1_r10l4w5</facs>
+	</wordLink>
+	<wordLink guid="4400798d-6fbb-43ba-b2b8-894d7f498f70" groundtruth="én">
+		<facs>#facs_1_r10l4w6</facs>
+	</wordLink>
+	<wordLink guid="4a64d5a1-108e-4237-abdc-cafb39373e83" groundtruth="waŋná">
+		<facs>#facs_1_r10l4w7</facs>
+	</wordLink>
+	<wordLink guid="30c0e8bb-d369-4629-ba07-cc28218d5c15" groundtruth="dé">
+		<facs>#facs_1_r10l5w1</facs>
+	</wordLink>
+	<wordLink guid="44356279-004b-4a0d-82f8-5aaa9afc0d29" groundtruth="iyámni">
+		<facs>#facs_1_r10l5w2</facs>
+	</wordLink>
+	<wordLink guid="5664a330-eeee-4011-bdc8-2fba22542ced" groundtruth="makhá">
+		<facs>#facs_1_r10l5w3</facs>
+	</wordLink>
+	<wordLink guid="ac761bbd-4ba1-44aa-9af3-53df528bd4df" groundtruth="škaŋškáŋ">
+		<facs>#facs_1_r10l5w4</facs>
+	</wordLink>
+	<wordLink groundtruth=","/>
+	<wordLink guid="aee5f3ae-40a1-46f9-b5ea-e184f1adcbb4" groundtruth="eháŋna">
+		<facs>#facs_1_r10l5w5</facs>
+	</wordLink>
+	<wordLink guid="59b7454f-a94c-418f-8222-0c6a8b394145" groundtruth="ómakha">
+		<facs>#facs_1_r10l5w6</facs>
+	</wordLink>
+	<wordLink guid="aa5cf03d-133f-4967-968c-ef799b9306dd" groundtruth="1811">
+		<facs>#facs_1_r10l5w7</facs>
+	</wordLink>
+	<wordLink guid="4400798d-6fbb-43ba-b2b8-894d7f498f70" groundtruth="én">
+		<facs>#facs_1_r10l6w1</facs>
+	</wordLink>
+	<wordLink guid="53885e52-9ec6-430d-975e-4cf3a946e105" groundtruth="héčheča">
+		<facs>#facs_1_r10l6w2</facs>
+	</wordLink>
+	<wordLink guid="8821c7cd-3a79-4689-952e-f1aab0f7e574" groundtruth="k’a">
+		<facs>#facs_1_r10l6w3</facs>
+	</wordLink>
+	<wordLink guid="5eb269d2-701c-4d31-91ef-a6d42491b89b" groundtruth="akhé">
+		<facs>#facs_1_r10l6w4</facs>
+	</wordLink>
+	<wordLink guid="59b7454f-a94c-418f-8222-0c6a8b394145" groundtruth="ómakha">
+		<facs>#facs_1_r10l6w5</facs>
+	</wordLink>
+	<wordLink guid="afae0567-fd4c-4cd8-9201-df65de659168" groundtruth="1812">
+		<facs>#facs_1_r10l6w6</facs>
+	</wordLink>
+	<wordLink guid="4400798d-6fbb-43ba-b2b8-894d7f498f70" groundtruth="én">
+		<facs>#facs_1_r10l6w7</facs>
+	</wordLink>
+	<wordLink guid="53885e52-9ec6-430d-975e-4cf3a946e105" groundtruth="héčheča">
+		<facs>#facs_1_r10l6w8</facs>
+	</wordLink>
+	<wordLink guid="8821c7cd-3a79-4689-952e-f1aab0f7e574" groundtruth="k’a">
+		<facs>#facs_1_r10l6w9</facs>
+	</wordLink>
+	<wordLink guid="30c0e8bb-d369-4629-ba07-cc28218d5c15" groundtruth="dé">
+		<facs>#facs_1_r10l6w10</facs>
+	</wordLink>
+	<wordLink guid="c90dc54a-3912-4549-b5de-def5669f7963" groundtruth="nakáha">
+		<facs>#facs_1_r10l7w1</facs>
+	</wordLink>
+	<wordLink guid="5eb269d2-701c-4d31-91ef-a6d42491b89b" groundtruth="akhé">
+		<facs>#facs_1_r10l7w2</facs>
+	</wordLink>
+	<wordLink guid="53885e52-9ec6-430d-975e-4cf3a946e105" groundtruth="héčheča">
+		<facs>#facs_1_r10l7w3</facs>
+	</wordLink>
+	<wordLink groundtruth="."/>
+	<wordLink guid="039db5a9-22c6-4f5c-9334-79c5d8e84674" groundtruth="Apr_ 11_">
+		<facs>#facs_1_r11l1w1</facs>
+		<facs>#facs_1_r11l1w2</facs>
+	</wordLink>
+	<wordLink guid="df14bd7b-2700-4d1a-8aeb-2d67cf3b3c95" groundtruth="Washington">
+		<facs>#facs_1_r11l1w3</facs>
+	</wordLink>
+	<wordLink guid="11bd11c5-cbeb-4799-a5b3-4511b05dd508" groundtruth="othúŋwe">
+		<facs>#facs_1_r11l1w4</facs>
+	</wordLink>
+	<wordLink guid="4400798d-6fbb-43ba-b2b8-894d7f498f70" groundtruth="én">
+		<facs>#facs_1_r11l1w5</facs>
+	</wordLink>
+	<wordLink guid="4a64d5a1-108e-4237-abdc-cafb39373e83" groundtruth="waŋná">
+		<facs>#facs_1_r11l1w6</facs>
+	</wordLink>
+	<wordLink guid="9dc5e8bb-6abe-4827-af29-0e0169dd6102" groundtruth="ečhádaŋ">
+		<facs>#facs_1_r11l1w7</facs>
+		<facs>#facs_1_r11l2w1</facs>
+	</wordLink>
+	<wordLink guid="66bc344f-910c-4a70-8491-862aa83618ba" groundtruth="okíčhize">
+		<facs>#facs_1_r11l2w2</facs>
+	</wordLink>
+	<wordLink guid="7b468cf5-c9d0-4205-a523-c8d7e63a9a6e" groundtruth="tháŋka">
+		<facs>#facs_1_r11l2w3</facs>
+	</wordLink>
+	<wordLink guid="54c5e4fd-86c2-49d0-9a63-195356ed692c" groundtruth="kiŋ">
+		<facs>#facs_1_r11l2w4</facs>
+	</wordLink>
+	<wordLink guid="927aa057-81a6-432e-90dd-3d5474e69d1d" groundtruth="héuŋ">
+		<facs>#facs_1_r11l2w5</facs>
+	</wordLink>
+	<wordLink guid="d1605022-cd91-4de3-b65b-fca7752611f2" groundtruth="oyáte">
+		<facs>#facs_1_r11l2w6</facs>
+	</wordLink>
+	<wordLink guid="c7d48a27-50d1-4267-8a24-09a40789633c" groundtruth="etáŋhaŋhaŋ">
+		<facs>#facs_1_r11l2w7</facs>
+	</wordLink>
+	<wordLink guid="50f05a05-a548-41d1-ba47-6ddd8300033c" groundtruth="wičhášta">
+		<facs>#facs_1_r11l3w1</facs>
+	</wordLink>
+	<wordLink guid="0d78f0d6-506e-4bb3-8c60-0dd35e164199" groundtruth="iyótaŋ">
+		<facs>#facs_1_r11l3w2</facs>
+	</wordLink>
+	<wordLink guid="402755ba-b750-44e3-aa50-8a2a5d691402" groundtruth="ksápa">
+		<facs>#facs_1_r11l3w3</facs>
+	</wordLink>
+	<wordLink guid="446e61e9-b805-405f-aeda-e00f8cec7db3" groundtruth="hená">
+		<facs>#facs_1_r11l3w4</facs>
+	</wordLink>
+	<wordLink guid="199cad91-fb2a-4ed6-8a6a-8db887fd1cec" groundtruth="omníčiye">
+		<facs>#facs_1_r11l3w5</facs>
+	</wordLink>
+	<wordLink guid="d12298a6-bf11-44aa-a065-4a0a7f997817" groundtruth="waŋ">
+		<facs>#facs_1_r11l3w6</facs>
+	</wordLink>
+	<wordLink guid="ca437f73-cafd-45c8-8c28-180aa8f7ddc1" groundtruth="yuhápi">
+		<facs>#facs_1_r11l3w7</facs>
+	</wordLink>
+	<wordLink guid="ddd3d160-cf16-43e2-bfdd-b0ee644b76bb" groundtruth="kta">
+		<facs>#facs_1_r11l4w1</facs>
+	</wordLink>
+	<wordLink groundtruth="."/>
+	<wordLink guid="c9394de7-fd75-4d4f-85a1-d95512b45f40" groundtruth="Šagdášiŋ">
+		<facs>#facs_1_r11l4w2</facs>
+	</wordLink>
+	<wordLink guid="d1605022-cd91-4de3-b65b-fca7752611f2" groundtruth="oyáte">
+		<facs>#facs_1_r11l4w3</facs>
+	</wordLink>
+	<wordLink guid="c0887bcc-dd7e-40e1-bc44-423f581c8f30" groundtruth="etáŋhaŋ">
+		<facs>#facs_1_r11l4w4</facs>
+	</wordLink>
+	<wordLink guid="d12d99e1-46ef-4313-8b15-b15993295935" groundtruth="Arthur J_ Balfour">
+		<facs>#facs_1_r11l4w5</facs>
+		<facs>#facs_1_r11l4w6</facs>
+		<facs>#facs_1_r11l4w7</facs>
+		<facs>#facs_1_r11l5w1</facs>
+	</wordLink>
+	<wordLink groundtruth=","/>
+	<wordLink guid="ec228e9c-9cae-440d-9c80-4aeccfd7c84c" groundtruth="hé">
+		<facs>#facs_1_r11l5w2</facs>
+	</wordLink>
+	<wordLink guid="c9394de7-fd75-4d4f-85a1-d95512b45f40" groundtruth="Šagdášiŋ">
+		<facs>#facs_1_r11l5w3</facs>
+	</wordLink>
+	<wordLink guid="d1605022-cd91-4de3-b65b-fca7752611f2" groundtruth="oyáte">
+		<facs>#facs_1_r11l5w4</facs>
+	</wordLink>
+	<wordLink guid="6dc607f7-bc94-43c2-aac3-0862ed7ef617" groundtruth="thókičhuŋzepi">
+		<facs>#facs_1_r11l5w5</facs>
+	</wordLink>
+	<wordLink guid="4400798d-6fbb-43ba-b2b8-894d7f498f70" groundtruth="én">
+		<facs>#facs_1_r11l5w6</facs>
+	</wordLink>
+	<wordLink guid="c2924014-cc80-4d39-990c-44947f0ae8ff" groundtruth="wičhášta">
+		<facs>#facs_1_r11l5w7</facs>
+	</wordLink>
+	<wordLink guid="1ac02e51-85a7-4377-b335-ea0f92a177c0" groundtruth="ksápa">
+		<facs>#facs_1_r11l6w1</facs>
+	</wordLink>
+	<wordLink guid="8821c7cd-3a79-4689-952e-f1aab0f7e574" groundtruth="k’a">
+		<facs>#facs_1_r11l6w2</facs>
+	</wordLink>
+	<wordLink guid="cfb36243-5330-4a4d-bf6d-a941b6e20ad8" groundtruth="nína">
+		<facs>#facs_1_r11l6w3</facs>
+	</wordLink>
+	<wordLink guid="353a9051-50bd-48ed-9043-bb1c3f6a22dd" groundtruth="okhíthaŋiŋ">
+		<facs>#facs_1_r11l6w4</facs>
+	</wordLink>
+	<wordLink guid="e62d5b57-3a2f-4a23-ac90-1b6907ea8bb8" groundtruth="héčha">
+		<facs>#facs_1_r11l6w5</facs>
+	</wordLink>
+	<wordLink groundtruth=","/>
+	<wordLink guid="fa0b0616-dde5-4b80-8d11-0050ea1eefb0" groundtruth="hée">
+		<facs>#facs_1_r11l6w6</facs>
+	</wordLink>
+	<wordLink guid="8821c7cd-3a79-4689-952e-f1aab0f7e574" groundtruth="k’a">
+		<facs>#facs_1_r11l6w7</facs>
+	</wordLink>
+	<wordLink guid="d971649c-f6f8-4962-b6cc-044b825f2088" groundtruth="France">
+		<facs>#facs_1_r11l6w8</facs>
+	</wordLink>
+	<wordLink guid="b9d22a1a-8bbb-4ea3-b98d-0420984df33a" groundtruth="Wašíčuŋ ikčéka">
+		<facs>#facs_2_r1l1w1</facs>
+		<facs>#facs_2_r1l1w2</facs>
+	</wordLink>
+	<wordLink guid="d1605022-cd91-4de3-b65b-fca7752611f2" groundtruth="oyáte">
+		<facs>#facs_2_r1l1w3</facs>
+	</wordLink>
+	<wordLink guid="c0887bcc-dd7e-40e1-bc44-423f581c8f30" groundtruth="etáŋhaŋ">
+		<facs>#facs_2_r1l1w4</facs>
+	</wordLink>
+	<wordLink guid="571eee98-d4c2-4f72-b650-f67d010dedf6" groundtruth="M_ Viviani">
+		<facs>#facs_2_r1l1w5</facs>
+		<facs>#facs_2_r1l1w6</facs>
+	</wordLink>
+	<wordLink guid="ec228e9c-9cae-440d-9c80-4aeccfd7c84c" groundtruth="hé">
+		<facs>#facs_2_r1l1w7</facs>
+	</wordLink>
+	<wordLink guid="c2924014-cc80-4d39-990c-44947f0ae8ff" groundtruth="wičhášta">
+		<facs>#facs_2_r1l2w1</facs>
+	</wordLink>
+	<wordLink guid="1ac02e51-85a7-4377-b335-ea0f92a177c0" groundtruth="ksápa">
+		<facs>#facs_2_r1l2w2</facs>
+	</wordLink>
+	<wordLink guid="8821c7cd-3a79-4689-952e-f1aab0f7e574" groundtruth="k’a">
+		<facs>#facs_2_r1l2w3</facs>
+	</wordLink>
+	<wordLink guid="353a9051-50bd-48ed-9043-bb1c3f6a22dd" groundtruth="okhíthaŋiŋ">
+		<facs>#facs_2_r1l2w4</facs>
+	</wordLink>
+	<wordLink guid="ec228e9c-9cae-440d-9c80-4aeccfd7c84c" groundtruth="hé">
+		<facs>#facs_2_r1l2w5</facs>
+	</wordLink>
+	<wordLink guid="052dc515-0c65-4881-83c7-9b1dad135576" groundtruth="nakúŋ">
+		<facs>#facs_2_r1l2w6</facs>
+	</wordLink>
+	<wordLink groundtruth=","/>
+	<wordLink guid="a06793dc-f697-4b92-af15-0eab433d0baf" groundtruth="héčhen">
+		<facs>#facs_2_r1l2w7</facs>
+	</wordLink>
+	<wordLink guid="446e61e9-b805-405f-aeda-e00f8cec7db3" groundtruth="hená">
+		<facs>#facs_2_r1l2w8</facs>
+	</wordLink>
+	<wordLink guid="4006ba0e-956b-4d4f-9923-b33bfc58073a" groundtruth="thuŋkháŋšidaŋ">
+		<facs>#facs_2_r1l3w1</facs>
+	</wordLink>
+	<wordLink guid="8fd523bf-4c3e-4583-8924-a56c1b569427" groundtruth="Pres_ Wilson">
+		<facs>#facs_2_r1l3w2</facs>
+		<facs>#facs_2_r1l3w3</facs>
+	</wordLink>
+	<wordLink guid="648b8a48-9d83-4a0a-b9b4-73dfc59fa7bd" groundtruth="óm">
+		<facs>#facs_2_r1l3w4</facs>
+	</wordLink>
+	<wordLink guid="83e082c6-c301-4d18-93c5-92f2c9488af4" groundtruth="táku">
+		<facs>#facs_2_r1l3w5</facs>
+	</wordLink>
+	<wordLink guid="a841fc13-ca0f-47b4-a76c-a601bf04b9bd" groundtruth="óta">
+		<facs>#facs_2_r1l3w6</facs>
+	</wordLink>
+	<wordLink guid="9997bd7c-a8e9-44ed-aecb-a668263edaf1" groundtruth="iwóhdakapi">
+		<facs>#facs_2_r1l3w7</facs>
+		<facs>#facs_2_r1l4w1</facs>
+	</wordLink>
+	<wordLink guid="ddd3d160-cf16-43e2-bfdd-b0ee644b76bb" groundtruth="kta">
+		<facs>#facs_2_r1l4w2</facs>
+	</wordLink>
+	<wordLink guid="66bc344f-910c-4a70-8491-862aa83618ba" groundtruth="okíčhize">
+		<facs>#facs_2_r1l4w3</facs>
+	</wordLink>
+	<wordLink guid="54c5e4fd-86c2-49d0-9a63-195356ed692c" groundtruth="kiŋ">
+		<facs>#facs_2_r1l4w4</facs>
+	</wordLink>
+	<wordLink groundtruth="{"/>
+	<wordLink guid="92b3be4c-346b-4e40-8562-a2f9a2b259a9" groundtruth="hetáŋtaŋhaŋ">
+		<facs>#facs_2_r1l4w5</facs>
+		<facs>#facs_2_r1l4w6</facs>
+		<facs>#facs_2_r1l4w7</facs>
+	</wordLink>
+	<wordLink groundtruth="},"/>
+	<wordLink guid="464e01da-347e-46ae-b596-fd337444db5f" groundtruth="héuŋ">
+		<facs>#facs_2_r1l4w8</facs>
+	</wordLink>
+	<wordLink guid="357a272a-89f5-49ee-981f-33e57b64638a" groundtruth="United States">
+		<facs>#facs_2_r1l4w9</facs>
+		<facs>#facs_2_r1l5w1</facs>
+	</wordLink>
+	<wordLink guid="1075604c-1bb1-4f26-884b-66563f314124" groundtruth="ektá">
+		<facs>#facs_2_r1l5w2</facs>
+	</wordLink>
+	<wordLink guid="dd22455c-04e7-40ee-8869-0dbd177be75e" groundtruth="hípi">
+		<facs>#facs_2_r1l5w3</facs>
+	</wordLink>
+	<wordLink guid="ddd3d160-cf16-43e2-bfdd-b0ee644b76bb" groundtruth="kta">
+		<facs>#facs_2_r1l5w4</facs>
+	</wordLink>
+	<wordLink guid="8821c7cd-3a79-4689-952e-f1aab0f7e574" groundtruth="k’a">
+		<facs>#facs_2_r1l5w5</facs>
+	</wordLink>
+	<wordLink guid="cb62bfdd-b0fc-4327-afa0-236e2b58e995" groundtruth="Washington D_ C_">
+		<facs>#facs_2_r1l5w6</facs>
+		<facs>#facs_2_r1l5w7</facs>
+	</wordLink>
+	<wordLink guid="6952fde0-4b1e-4df6-9076-60f91290d089" groundtruth="én">
+		<facs>#facs_2_r1l5w8</facs>
+	</wordLink>
+	<wordLink guid="32996a87-74ce-4021-9674-2d763c07348b" groundtruth="mníčiyapi">
+		<facs>#facs_2_r1l6w1</facs>
+	</wordLink>
+	<wordLink guid="0ff72b4c-11f7-459a-8367-15c66c473837" groundtruth="kte">
+		<facs>#facs_2_r1l6w2</facs>
+	</wordLink>
+	<wordLink groundtruth="."/>
+	<wordLink guid="434223ab-ecd0-4858-b033-1be03eadcf42" groundtruth="Apr_ 22_">
+		<facs>#facs_2_r2l1w1</facs>
+		<facs>#facs_2_r2l1w2</facs>
+	</wordLink>
+	<wordLink guid="df14bd7b-2700-4d1a-8aeb-2d67cf3b3c95" groundtruth="Washington">
+		<facs>#facs_2_r2l1w3</facs>
+	</wordLink>
+	<wordLink guid="11bd11c5-cbeb-4799-a5b3-4511b05dd508" groundtruth="othúŋwe">
+		<facs>#facs_2_r2l1w4</facs>
+	</wordLink>
+	<wordLink guid="54c5e4fd-86c2-49d0-9a63-195356ed692c" groundtruth="kiŋ">
+		<facs>#facs_2_r2l1w5</facs>
+	</wordLink>
+	<wordLink guid="6952fde0-4b1e-4df6-9076-60f91290d089" groundtruth="én">
+		<facs>#facs_2_r2l1w6</facs>
+	</wordLink>
+	<wordLink guid="aa519ddc-391a-4a9d-a571-a1ca2d77a745" groundtruth="aŋpétu">
+		<facs>#facs_2_r2l1w7</facs>
+	</wordLink>
+	<wordLink guid="54c5e4fd-86c2-49d0-9a63-195356ed692c" groundtruth="kiŋ">
+		<facs>#facs_2_r2l2w1</facs>
+	</wordLink>
+	<wordLink guid="ec228e9c-9cae-440d-9c80-4aeccfd7c84c" groundtruth="hé">
+		<facs>#facs_2_r2l2w2</facs>
+	</wordLink>
+	<wordLink guid="d12d99e1-46ef-4313-8b15-b15993295935" groundtruth="Arthur J_ Balfour">
+		<facs>#facs_2_r2l2w3</facs>
+		<facs>#facs_2_r2l2w4</facs>
+		<facs>#facs_2_r2l2w5</facs>
+	</wordLink>
+	<wordLink guid="c9394de7-fd75-4d4f-85a1-d95512b45f40" groundtruth="Šagdášiŋ">
+		<facs>#facs_2_r2l2w6</facs>
+	</wordLink>
+	<wordLink guid="d1605022-cd91-4de3-b65b-fca7752611f2" groundtruth="oyáte">
+		<facs>#facs_2_r2l2w7</facs>
+	</wordLink>
+	<wordLink guid="6952fde0-4b1e-4df6-9076-60f91290d089" groundtruth="én">
+		<facs>#facs_2_r2l2w8</facs>
+	</wordLink>
+	<wordLink guid="c2924014-cc80-4d39-990c-44947f0ae8ff" groundtruth="wičhášta">
+		<facs>#facs_2_r2l2w9</facs>
+		<facs>#facs_2_r2l3w1</facs>
+	</wordLink>
+	<wordLink guid="0d78f0d6-506e-4bb3-8c60-0dd35e164199" groundtruth="iyótaŋ">
+		<facs>#facs_2_r2l3w2</facs>
+	</wordLink>
+	<wordLink guid="20e6607e-38cb-461d-8523-bba78e1b9bde" groundtruth="okínihaŋ">
+		<facs>#facs_2_r2l3w3</facs>
+	</wordLink>
+	<wordLink guid="54c5e4fd-86c2-49d0-9a63-195356ed692c" groundtruth="kiŋ">
+		<facs>#facs_2_r2l3w4</facs>
+	</wordLink>
+	<wordLink guid="a395a13a-eb47-41ea-a462-7175a2b07ac0" groundtruth="hée">
+		<facs>#facs_2_r2l3w5</facs>
+	</wordLink>
+	<wordLink guid="5ed68faa-5f8f-41ae-b7fe-dd91e156b13c" groundtruth="hén">
+		<facs>#facs_2_r2l3w6</facs>
+	</wordLink>
+	<wordLink guid="1a804bbd-8666-4209-b9b9-1b4ef9569708" groundtruth="hí">
+		<facs>#facs_2_r2l3w7</facs>
+	</wordLink>
+	<wordLink groundtruth="."/>
+	<wordLink guid="446e61e9-b805-405f-aeda-e00f8cec7db3" groundtruth="Hená">
+		<facs>#facs_2_r2l3w8</facs>
+	</wordLink>
+	<wordLink guid="385cd445-737e-4170-9693-d28b434c4054" groundtruth="thuŋkáŋšidaŋ">
+		<facs>#facs_2_r2l4w1</facs>
+	</wordLink>
+	<wordLink guid="8fd523bf-4c3e-4583-8924-a56c1b569427" groundtruth="Pres_ Wilson">
+		<facs>#facs_2_r2l4w2</facs>
+		<facs>#facs_2_r2l4w3</facs>
+	</wordLink>
+	<wordLink guid="8821c7cd-3a79-4689-952e-f1aab0f7e574" groundtruth="k’a">
+		<facs>#facs_2_r2l4w4</facs>
+	</wordLink>
+	<wordLink guid="a4696b52-0070-4e61-97ff-7c2ee905399c" groundtruth="oíthaŋčhaŋpi">
+		<facs>#facs_2_r2l4w5</facs>
+	</wordLink>
+	<wordLink guid="54c5e4fd-86c2-49d0-9a63-195356ed692c" groundtruth="kiŋ">
+		<facs>#facs_2_r2l4w6</facs>
+	</wordLink>
+	<wordLink guid="ce50a406-4ad9-4696-a589-20ccb1c3c1ce" groundtruth="uŋ">
+		<facs>#facs_2_r2l4w7</facs>
+	</wordLink>
+	<wordLink guid="66bc344f-910c-4a70-8491-862aa83618ba" groundtruth="okíčhize">
+		<facs>#facs_2_r2l5w1</facs>
+	</wordLink>
+	<wordLink guid="54c5e4fd-86c2-49d0-9a63-195356ed692c" groundtruth="kiŋ">
+		<facs>#facs_2_r2l5w2</facs>
+	</wordLink>
+	<wordLink guid="927aa057-81a6-432e-90dd-3d5474e69d1d" groundtruth="héuŋ">
+		<facs>#facs_2_r2l5w3</facs>
+	</wordLink>
+	<wordLink guid="199cad91-fb2a-4ed6-8a6a-8db887fd1cec" groundtruth="omníčiye">
+		<facs>#facs_2_r2l5w4</facs>
+	</wordLink>
+	<wordLink guid="d12298a6-bf11-44aa-a065-4a0a7f997817" groundtruth="waŋ">
+		<facs>#facs_2_r2l5w5</facs>
+	</wordLink>
+	<wordLink guid="ca437f73-cafd-45c8-8c28-180aa8f7ddc1" groundtruth="yuhápi">
+		<facs>#facs_2_r2l5w6</facs>
+	</wordLink>
+	<wordLink guid="ddd3d160-cf16-43e2-bfdd-b0ee644b76bb" groundtruth="kta">
+		<facs>#facs_2_r2l5w7</facs>
+	</wordLink>
+	<wordLink guid="8821c7cd-3a79-4689-952e-f1aab0f7e574" groundtruth="k’a">
+		<facs>#facs_2_r2l5w8</facs>
+	</wordLink>
+	<wordLink guid="6f5a13c5-f530-4b29-b7b0-91ac2f4d0097" groundtruth="taŋyáŋ">
+		<facs>#facs_2_r2l6w1</facs>
+	</wordLink>
+	<wordLink guid="fc26ee8c-d9ed-4e39-8f5a-f127e90ce161" groundtruth="iwáŋyakapi">
+		<facs>#facs_2_r2l6w2</facs>
+	</wordLink>
+	<wordLink guid="ddd3d160-cf16-43e2-bfdd-b0ee644b76bb" groundtruth="kta">
+		<facs>#facs_2_r2l6w3</facs>
+	</wordLink>
+	<wordLink groundtruth=","/>
+	<wordLink guid="ffbb9682-e002-41c3-b518-c0ab7f517096" groundtruth="tókhen">
+		<facs>#facs_2_r2l6w4</facs>
+	</wordLink>
+	<wordLink guid="7af85236-e8c1-42be-bf00-a9adc2e25462" groundtruth="ečhúŋpi">
+		<facs>#facs_2_r2l6w5</facs>
+	</wordLink>
+	<wordLink guid="8821c7cd-3a79-4689-952e-f1aab0f7e574" groundtruth="k’a">
+		<facs>#facs_2_r2l6w6</facs>
+	</wordLink>
+	<wordLink guid="66bc344f-910c-4a70-8491-862aa83618ba" groundtruth="okíčhize">
+		<facs>#facs_2_r2l6w7</facs>
+	</wordLink>
+	<wordLink guid="7b468cf5-c9d0-4205-a523-c8d7e63a9a6e" groundtruth="tháŋka">
+		<facs>#facs_2_r2l7w1</facs>
+	</wordLink>
+	<wordLink guid="54c5e4fd-86c2-49d0-9a63-195356ed692c" groundtruth="kiŋ">
+		<facs>#facs_2_r2l7w2</facs>
+	</wordLink>
+	<wordLink guid="30c0e8bb-d369-4629-ba07-cc28218d5c15" groundtruth="dé">
+		<facs>#facs_2_r2l7w3</facs>
+	</wordLink>
+	<wordLink guid="37228efd-b0a1-4bae-a30a-74b1c8d8da1c" groundtruth="ečhádaŋ">
+		<facs>#facs_2_r2l7w4</facs>
+	</wordLink>
+	<wordLink guid="6cf289e0-b842-4afc-b3a6-290a665e8214" groundtruth="ayúštaŋpi">
+		<facs>#facs_2_r2l7w5</facs>
+	</wordLink>
+	<wordLink guid="8821c7cd-3a79-4689-952e-f1aab0f7e574" groundtruth="k’a">
+		<facs>#facs_2_r2l7w6</facs>
+	</wordLink>
+	<wordLink guid="5eb269d2-701c-4d31-91ef-a6d42491b89b" groundtruth="akhé">
+		<facs>#facs_2_r2l7w7</facs>
+	</wordLink>
+	<wordLink guid="7bcf94db-f36a-4c4b-b5b0-bb2563902136" groundtruth="oyáte">
+		<facs>#facs_2_r2l7w8</facs>
+	</wordLink>
+	<wordLink guid="de94846b-a70e-45af-a61b-584232c0b4b8" groundtruth="owás’iŋ">
+		<facs>#facs_2_r2l8w1</facs>
+	</wordLink>
+	<wordLink guid="fc9049a8-a446-4aa4-b6a8-6a5f2b510a6b" groundtruth="wóokhiye">
+		<facs>#facs_2_r2l8w2</facs>
+	</wordLink>
+	<wordLink guid="4b56b011-d398-4a10-8b85-f7dd84e03ba2" groundtruth="waŋké">
+		<facs>#facs_2_r2l8w3</facs>
+	</wordLink>
+	<wordLink guid="ddd3d160-cf16-43e2-bfdd-b0ee644b76bb" groundtruth="kta">
+		<facs>#facs_2_r2l8w4</facs>
+	</wordLink>
+	<wordLink guid="da5485a9-356e-42fd-9977-8c57f46c2331" groundtruth="táku">
+		<facs>#facs_2_r2l8w5</facs>
+	</wordLink>
+	<wordLink guid="99eb4b53-b466-44a3-b509-5a8df1d778e2" groundtruth="héčheča">
+		<facs>#facs_2_r2l8w6</facs>
+	</wordLink>
+	<wordLink guid="0d1ea678-39bb-439c-a7b8-0c91560dee0e" groundtruth="uŋ">
+		<facs>#facs_2_r2l8w7</facs>
+	</wordLink>
+	<wordLink guid="199cad91-fb2a-4ed6-8a6a-8db887fd1cec" groundtruth="omníčiye">
+		<facs>#facs_2_r2l9w1</facs>
+	</wordLink>
+	<wordLink guid="30c0e8bb-d369-4629-ba07-cc28218d5c15" groundtruth="dé">
+		<facs>#facs_2_r2l9w2</facs>
+	</wordLink>
+	<wordLink guid="ca437f73-cafd-45c8-8c28-180aa8f7ddc1" groundtruth="yuhápi">
+		<facs>#facs_2_r2l9w3</facs>
+	</wordLink>
+	<wordLink guid="ddd3d160-cf16-43e2-bfdd-b0ee644b76bb" groundtruth="kta">
+		<facs>#facs_2_r2l9w4</facs>
+	</wordLink>
+	<wordLink groundtruth="."/>
+	<wordLink guid="3063ecfc-4b0e-48fb-8470-679314a6a5d9" groundtruth="Apr_ 24_">
+		<facs>#facs_2_r3l1w1</facs>
+		<facs>#facs_2_r3l1w2</facs>
+	</wordLink>
+	<wordLink guid="4fa26ef5-fe07-4c88-9d27-a002c6203d35" groundtruth="Fortress Monroe+ Va_">
+		<facs>#facs_2_r3l1w3</facs>
+		<facs>#facs_2_r3l1w4</facs>
+		<facs>#facs_2_r3l1w5</facs>
+	</wordLink>
+	<wordLink guid="4400798d-6fbb-43ba-b2b8-894d7f498f70" groundtruth="én">
+		<facs>#facs_2_r3l1w6</facs>
+	</wordLink>
+	<wordLink guid="d971649c-f6f8-4962-b6cc-044b825f2088" groundtruth="France">
+		<facs>#facs_2_r3l1w7</facs>
+	</wordLink>
+	<wordLink guid="b9d22a1a-8bbb-4ea3-b98d-0420984df33a" groundtruth="wašíčuŋ ikčéka">
+		<facs>#facs_2_r3l2w1</facs>
+		<facs>#facs_2_r3l2w2</facs>
+	</wordLink>
+	<wordLink guid="31e368dd-2513-4201-9439-e881dd462954" groundtruth="thamákhočhepi">
+		<facs>#facs_2_r3l2w3</facs>
+	</wordLink>
+	<wordLink guid="c0887bcc-dd7e-40e1-bc44-423f581c8f30" groundtruth="etáŋhaŋ">
+		<facs>#facs_2_r3l2w4</facs>
+	</wordLink>
+	<wordLink guid="c2924014-cc80-4d39-990c-44947f0ae8ff" groundtruth="wičhášta">
+		<facs>#facs_2_r3l2w5</facs>
+	</wordLink>
+	<wordLink guid="0d78f0d6-506e-4bb3-8c60-0dd35e164199" groundtruth="iyótaŋ">
+		<facs>#facs_2_r3l2w6</facs>
+		<facs>#facs_2_r3l3w1</facs>
+	</wordLink>
+	<wordLink groundtruth="["/>
+	<wordLink guid="cdfeb8a4-4932-4922-8ece-d2793c93353e" groundtruth="okhíthaŋiŋpi">
+		<facs>#facs_2_r3l3w2</facs>
+	</wordLink>
+	<wordLink groundtruth="]"/>
+	<wordLink groundtruth="["/>
+	<wordLink guid="2fc650de-9a31-425f-b709-e8a929134c7c" groundtruth="Rene Viviani">
+		<facs>#facs_2_r3l3w3</facs>
+		<facs>#facs_2_r3l3w4</facs>
+	</wordLink>
+	<wordLink groundtruth="],"/>
+	<wordLink guid="3816709a-fafd-480b-a44c-00da47c3ac6e" groundtruth="Marshal Joffre">
+		<facs>#facs_2_r3l3w5</facs>
+		<facs>#facs_2_r3l3w6</facs>
+	</wordLink>
+	<wordLink guid="446e61e9-b805-405f-aeda-e00f8cec7db3" groundtruth="hená">
+		<facs>#facs_2_r3l4w1</facs>
+	</wordLink>
+	<wordLink guid="5ed68faa-5f8f-41ae-b7fe-dd91e156b13c" groundtruth="hén">
+		<facs>#facs_2_r3l4w2</facs>
+	</wordLink>
+	<wordLink guid="756eb3f2-2956-4576-977e-1750ebfbe54a" groundtruth="hihúŋnipi">
+		<facs>#facs_2_r3l4w3</facs>
+	</wordLink>
+	<wordLink guid="8821c7cd-3a79-4689-952e-f1aab0f7e574" groundtruth="k’a">
+		<facs>#facs_2_r3l4w4</facs>
+	</wordLink>
+	<wordLink guid="f9d92dee-9f0c-4943-8c36-b668ab56c6c5" groundtruth="hetáŋhaŋ">
+		<facs>#facs_2_r3l4w5</facs>
+	</wordLink>
+	<wordLink guid="df14bd7b-2700-4d1a-8aeb-2d67cf3b3c95" groundtruth="Washington">
+		<facs>#facs_2_r3l4w6</facs>
+	</wordLink>
+	<wordLink guid="11bd11c5-cbeb-4799-a5b3-4511b05dd508" groundtruth="othúŋwe">
+		<facs>#facs_2_r3l5w1</facs>
+	</wordLink>
+	<wordLink guid="1075604c-1bb1-4f26-884b-66563f314124" groundtruth="ektá">
+		<facs>#facs_2_r3l5w2</facs>
+	</wordLink>
+	<wordLink guid="f3a13736-eb09-4df8-8329-10ed296129d1" groundtruth="iyáyapi">
+		<facs>#facs_2_r3l5w3</facs>
+	</wordLink>
+	<wordLink guid="8821c7cd-3a79-4689-952e-f1aab0f7e574" groundtruth="k’a">
+		<facs>#facs_2_r3l5w4</facs>
+	</wordLink>
+	<wordLink guid="4006ba0e-956b-4d4f-9923-b33bfc58073a" groundtruth="thuŋkháŋšidaŋ">
+		<facs>#facs_2_r3l5w5</facs>
+	</wordLink>
+	<wordLink guid="8fd523bf-4c3e-4583-8924-a56c1b569427" groundtruth="Pres_ Wilson">
+		<facs>#facs_2_r3l5w6</facs>
+		<facs>#facs_2_r3l5w7</facs>
+		<facs>#facs_2_r3l6w1</facs>
+	</wordLink>
+	<wordLink guid="446e61e9-b805-405f-aeda-e00f8cec7db3" groundtruth="hená">
+		<facs>#facs_2_r3l6w2</facs>
+	</wordLink>
+	<wordLink guid="648b8a48-9d83-4a0a-b9b4-73dfc59fa7bd" groundtruth="óm">
+		<facs>#facs_2_r3l6w3</facs>
+	</wordLink>
+	<wordLink guid="199cad91-fb2a-4ed6-8a6a-8db887fd1cec" groundtruth="omníčiye">
+		<facs>#facs_2_r3l6w4</facs>
+	</wordLink>
+	<wordLink guid="0cf8423f-d848-4175-921e-10a78d3bdfb8" groundtruth="waŋží">
+		<facs>#facs_2_r3l6w5</facs>
+	</wordLink>
+	<wordLink guid="0d78f0d6-506e-4bb3-8c60-0dd35e164199" groundtruth="iyótaŋ">
+		<facs>#facs_2_r3l6w6</facs>
+	</wordLink>
+	<wordLink guid="7b468cf5-c9d0-4205-a523-c8d7e63a9a6e" groundtruth="tháŋka">
+		<facs>#facs_2_r3l6w7</facs>
+	</wordLink>
+	<wordLink guid="ca437f73-cafd-45c8-8c28-180aa8f7ddc1" groundtruth="yuhápi">
+		<facs>#facs_2_r3l6w8</facs>
+		<facs>#facs_2_r3l7w1</facs>
+	</wordLink>
+	<wordLink guid="ddd3d160-cf16-43e2-bfdd-b0ee644b76bb" groundtruth="kta">
+		<facs>#facs_2_r3l7w2</facs>
+	</wordLink>
+	<wordLink groundtruth="."/>
+	<wordLink guid="30c0e8bb-d369-4629-ba07-cc28218d5c15" groundtruth="Dé">
+		<facs>#facs_2_r3l7w3</facs>
+	</wordLink>
+	<wordLink guid="eebb2787-960a-43ea-9147-e3382d3a4651" groundtruth="ithókam">
+		<facs>#facs_2_r3l7w4</facs>
+	</wordLink>
+	<wordLink guid="a5575909-f9ba-4415-9b71-f6ed50741aa9" groundtruth="tóhiŋna">
+		<facs>#facs_2_r3l7w5</facs>
+	</wordLink>
+	<wordLink guid="c2924014-cc80-4d39-990c-44947f0ae8ff" groundtruth="wičhášta">
+		<facs>#facs_2_r3l7w6</facs>
+	</wordLink>
+	<wordLink guid="0d78f0d6-506e-4bb3-8c60-0dd35e164199" groundtruth="iyótaŋ">
+		<facs>#facs_2_r3l7w7</facs>
+	</wordLink>
+	<wordLink guid="7bcf94db-f36a-4c4b-b5b0-bb2563902136" groundtruth="oyáte">
+		<facs>#facs_2_r3l8w1</facs>
+	</wordLink>
+	<wordLink guid="6952fde0-4b1e-4df6-9076-60f91290d089" groundtruth="én">
+		<facs>#facs_2_r3l8w2</facs>
+	</wordLink>
+	<wordLink guid="cdfeb8a4-4932-4922-8ece-d2793c93353e" groundtruth="okhíthaŋiŋpi">
+		<facs>#facs_2_r3l8w3</facs>
+	</wordLink>
+	<wordLink guid="af230088-7c34-4492-8910-8e2852833a04" groundtruth="ȟča">
+		<facs>#facs_2_r3l8w4</facs>
+	</wordLink>
+	<wordLink guid="446e61e9-b805-405f-aeda-e00f8cec7db3" groundtruth="hená">
+		<facs>#facs_2_r3l8w5</facs>
+	</wordLink>
+	<wordLink guid="f0a5b452-936a-46b0-a097-af6d9968cd32" groundtruth="wítaya">
+		<facs>#facs_2_r3l8w6</facs>
+	</wordLink>
+	<wordLink guid="a06793dc-f697-4b92-af15-0eab433d0baf" groundtruth="héčhen">
+		<facs>#facs_2_r3l8w7</facs>
+	</wordLink>
+	<wordLink guid="199cad91-fb2a-4ed6-8a6a-8db887fd1cec" groundtruth="omníčiye">
+		<facs>#facs_2_r3l9w1</facs>
+	</wordLink>
+	<wordLink guid="d12298a6-bf11-44aa-a065-4a0a7f997817" groundtruth="waŋ">
+		<facs>#facs_2_r3l9w2</facs>
+	</wordLink>
+	<wordLink guid="ca437f73-cafd-45c8-8c28-180aa8f7ddc1" groundtruth="yuhápi">
+		<facs>#facs_2_r3l9w3</facs>
+	</wordLink>
+	<wordLink guid="521928ec-7224-4444-8064-d4c3c41b9eea" groundtruth="šni">
+		<facs>#facs_2_r3l9w4</facs>
+	</wordLink>
+	<wordLink groundtruth="."/>
+</wordLinks>
