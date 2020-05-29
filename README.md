@@ -15,6 +15,8 @@ Amphisbaena may refer to either the app used by the Wóoyake Project, or the und
 
 The following build(s) are available for individuals who do not wish to build Amphisbaena themselves from Xcode. These are not likely to be the most up-to-date versions available, but will have the most stable features at the time they are provided. They are provided as-is.
 
+The apps provided here may not be notarized and may need to bypass Gatekeeper to run properly. To do this, **Option-click/Right click the app > Open**, and click **Open** in the dialog that comes up.
+
 * Amphisbaena 0.1: [Link](https://www.dropbox.com/s/tae3blqrsyk7mep/Amphisbaena%200-1.zip?raw=1)
 
 ## Documentation
