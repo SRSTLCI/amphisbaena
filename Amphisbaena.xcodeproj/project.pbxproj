@@ -1,0 +1,796 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C90E39C223FAC32500E525C2 /* ViewController_XMLViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90E39C123FAC32500E525C2 /* ViewController_XMLViewer.swift */; };
+		C90FBD562458A63B00E61BA3 /* Amphisbaena_TranskribusTEIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90FBD552458A63B00E61BA3 /* Amphisbaena_TranskribusTEIContainer.swift */; };
+		C90FBD582458BD3A00E61BA3 /* Amphisbaena_TranskribusTEIParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90FBD572458BD3A00E61BA3 /* Amphisbaena_TranskribusTEIParser.swift */; };
+		C9167876247CAC2700057399 /* Amphisbaena_TEITagContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9167875247CAC2700057399 /* Amphisbaena_TEITagContainer.swift */; };
+		C9167878247CB29D00057399 /* Amphisbaena_TEITagParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9167877247CB29D00057399 /* Amphisbaena_TEITagParser.swift */; };
+		C9217301243548BC008529D9 /* ViewController_WordLinksEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9217300243548BC008529D9 /* ViewController_WordLinksEditor.swift */; };
+		C930FA07241BDE8700D7A4FA /* CSVHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C930FA06241BDE8700D7A4FA /* CSVHandler.swift */; };
+		C931CF76243289B80057A2CE /* Amphisbaena_UnifiedContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C931CF75243289B80057A2CE /* Amphisbaena_UnifiedContainer.swift */; };
+		C9401BED246036C500366F89 /* Amphisbaena_FlexTextContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9401BEC246036C500366F89 /* Amphisbaena_FlexTextContainer.swift */; };
+		C9401BEF24603CB300366F89 /* Amphisbaena_FlexTextParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9401BEE24603CB300366F89 /* Amphisbaena_FlexTextParser.swift */; };
+		C9401BF12460643000366F89 /* Amphisbaena_WordLinksModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9401BF02460643000366F89 /* Amphisbaena_WordLinksModifier.swift */; };
+		C9401BF324606BE200366F89 /* Amphisbaena_WordLinksContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9401BF224606BE200366F89 /* Amphisbaena_WordLinksContainer.swift */; };
+		C9406E462463A56D003EF816 /* Amphisbaena_WordLinksParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9406E452463A56D003EF816 /* Amphisbaena_WordLinksParser.swift */; };
+		C96F2F1423F976A3007EC2BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96F2F1323F976A3007EC2BA /* AppDelegate.swift */; };
+		C96F2F1623F976A3007EC2BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96F2F1523F976A3007EC2BA /* ViewController.swift */; };
+		C96F2F1823F976A3007EC2BA /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96F2F1723F976A3007EC2BA /* Document.swift */; };
+		C96F2F1A23F976A4007EC2BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C96F2F1923F976A4007EC2BA /* Assets.xcassets */; };
+		C96F2F1D23F976A4007EC2BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C96F2F1B23F976A4007EC2BA /* Main.storyboard */; };
+		C96F2F2923F976A4007EC2BA /* AmphisbaenaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96F2F2823F976A4007EC2BA /* AmphisbaenaTests.swift */; };
+		C96F2F3423F976A4007EC2BA /* AmphisbaenaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96F2F3323F976A4007EC2BA /* AmphisbaenaUITests.swift */; };
+		C96F2F4423F98345007EC2BA /* FileHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96F2F4323F98345007EC2BA /* FileHandler.swift */; };
+		C96FBD40242D0D32000F3032 /* Amphisbaena_ELANContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96FBD3F242D0D32000F3032 /* Amphisbaena_ELANContainer.swift */; };
+		C97E8FEE2466D15F00B71A28 /* Amphisbaena_UnifiedTokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97E8FED2466D15F00B71A28 /* Amphisbaena_UnifiedTokenizer.swift */; };
+		C97FA9612429723900FCD55E /* Amphisbaena_Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97FA9602429723900FCD55E /* Amphisbaena_Container.swift */; };
+		C97FA963242972FC00FCD55E /* Amphisbaena_Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97FA962242972FC00FCD55E /* Amphisbaena_Element.swift */; };
+		C99A2B4F24291BAD00F70B5C /* ViewController_IngestFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99A2B4D24291BAD00F70B5C /* ViewController_IngestFileManager.swift */; };
+		C99A2B5024291BAD00F70B5C /* ViewController_IngestFileManager.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99A2B4E24291BAD00F70B5C /* ViewController_IngestFileManager.xib */; };
+		C99A2B5324291C0600F70B5C /* View_IngestFileManager_FileRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99A2B5224291C0600F70B5C /* View_IngestFileManager_FileRow.swift */; };
+		C99A2B5524291C2500F70B5C /* View_IngestFileManager_FileRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99A2B5424291C2500F70B5C /* View_IngestFileManager_FileRow.xib */; };
+		C9BCE887242BC8B6001DA29A /* Amphisbaena_ELANParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BCE886242BC8B6001DA29A /* Amphisbaena_ELANParser.swift */; };
+		C9D5A36B242B970A00D2B821 /* AmphisbaenaXMLTaggable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D5A36A242B970A00D2B821 /* AmphisbaenaXMLTaggable.swift */; };
+		C9D5A36E242B9DBB00D2B821 /* AmphisbaenaTagFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D5A36D242B9DBB00D2B821 /* AmphisbaenaTagFormatting.swift */; };
+		C9DE2189246D8C110091B4EB /* Amphisbaena_UnifiedContainer_ELAN.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DE2188246D8C110091B4EB /* Amphisbaena_UnifiedContainer_ELAN.swift */; };
+		C9DE218B246D93E20091B4EB /* Amphisbaena_UnifiedContainer_TextBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DE218A246D93E20091B4EB /* Amphisbaena_UnifiedContainer_TextBody.swift */; };
+		C9DE218D246D940C0091B4EB /* Amphisbaena_UnifiedContainer_TextBody_ELAN.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DE218C246D940C0091B4EB /* Amphisbaena_UnifiedContainer_TextBody_ELAN.swift */; };
+		C9DE218F246D94F30091B4EB /* Amphisbaena_UnifiedContainer_TextBody_MultipleFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DE218E246D94F30091B4EB /* Amphisbaena_UnifiedContainer_TextBody_MultipleFiles.swift */; };
+		C9DE2191246D967D0091B4EB /* Amphisbaena_UnifiedContainer_MultipleFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DE2190246D967D0091B4EB /* Amphisbaena_UnifiedContainer_MultipleFiles.swift */; };
+		C9F953FE243BAB09009E6B67 /* View_GenerateUnifiedFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F953FD243BAB09009E6B67 /* View_GenerateUnifiedFile.swift */; };
+		C9F95400243BAB1C009E6B67 /* View_GenerateUnifiedFile.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9F953FF243BAB1C009E6B67 /* View_GenerateUnifiedFile.xib */; };
+		C9F95403243BB3CE009E6B67 /* ViewController_UnifiedFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F95401243BB3CE009E6B67 /* ViewController_UnifiedFiles.swift */; };
+		C9F95404243BB3CE009E6B67 /* ViewController_UnifiedFiles.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9F95402243BB3CE009E6B67 /* ViewController_UnifiedFiles.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C96F2F2523F976A4007EC2BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C96F2F0823F976A3007EC2BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C96F2F0F23F976A3007EC2BA;
+			remoteInfo = Amphisbaena;
+		};
+		C96F2F3023F976A4007EC2BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C96F2F0823F976A3007EC2BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C96F2F0F23F976A3007EC2BA;
+			remoteInfo = Amphisbaena;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C90E39C123FAC32500E525C2 /* ViewController_XMLViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_XMLViewer.swift; sourceTree = "<group>"; };
+		C90FBD552458A63B00E61BA3 /* Amphisbaena_TranskribusTEIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amphisbaena_TranskribusTEIContainer.swift; sourceTree = "<group>"; };
+		C90FBD572458BD3A00E61BA3 /* Amphisbaena_TranskribusTEIParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amphisbaena_TranskribusTEIParser.swift; sourceTree = "<group>"; };
+		C9167875247CAC2700057399 /* Amphisbaena_TEITagContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amphisbaena_TEITagContainer.swift; sourceTree = "<group>"; };
+		C9167877247CB29D00057399 /* Amphisbaena_TEITagParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amphisbaena_TEITagParser.swift; sourceTree = "<group>"; };
+		C9217300243548BC008529D9 /* ViewController_WordLinksEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_WordLinksEditor.swift; sourceTree = "<group>"; };
+		C930FA06241BDE8700D7A4FA /* CSVHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVHandler.swift; sourceTree = "<group>"; };
+		C931CF75243289B80057A2CE /* Amphisbaena_UnifiedContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amphisbaena_UnifiedContainer.swift; sourceTree = "<group>"; };
+		C9401BEC246036C500366F89 /* Amphisbaena_FlexTextContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amphisbaena_FlexTextContainer.swift; sourceTree = "<group>"; };
+		C9401BEE24603CB300366F89 /* Amphisbaena_FlexTextParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amphisbaena_FlexTextParser.swift; sourceTree = "<group>"; };
+		C9401BF02460643000366F89 /* Amphisbaena_WordLinksModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amphisbaena_WordLinksModifier.swift; sourceTree = "<group>"; };
+		C9401BF224606BE200366F89 /* Amphisbaena_WordLinksContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amphisbaena_WordLinksContainer.swift; sourceTree = "<group>"; };
+		C9406E452463A56D003EF816 /* Amphisbaena_WordLinksParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amphisbaena_WordLinksParser.swift; sourceTree = "<group>"; };
+		C96F2F1023F976A3007EC2BA /* Amphisbaena.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amphisbaena.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C96F2F1323F976A3007EC2BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C96F2F1523F976A3007EC2BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C96F2F1723F976A3007EC2BA /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		C96F2F1923F976A4007EC2BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C96F2F1C23F976A4007EC2BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C96F2F1E23F976A4007EC2BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C96F2F1F23F976A4007EC2BA /* Amphisbaena.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Amphisbaena.entitlements; sourceTree = "<group>"; };
+		C96F2F2423F976A4007EC2BA /* AmphisbaenaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmphisbaenaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C96F2F2823F976A4007EC2BA /* AmphisbaenaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmphisbaenaTests.swift; sourceTree = "<group>"; };
+		C96F2F2A23F976A4007EC2BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C96F2F2F23F976A4007EC2BA /* AmphisbaenaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmphisbaenaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C96F2F3323F976A4007EC2BA /* AmphisbaenaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmphisbaenaUITests.swift; sourceTree = "<group>"; };
+		C96F2F3523F976A4007EC2BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C96F2F4323F98345007EC2BA /* FileHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileHandler.swift; sourceTree = "<group>"; };
+		C96FBD3F242D0D32000F3032 /* Amphisbaena_ELANContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amphisbaena_ELANContainer.swift; sourceTree = "<group>"; };
+		C97E8FED2466D15F00B71A28 /* Amphisbaena_UnifiedTokenizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amphisbaena_UnifiedTokenizer.swift; sourceTree = "<group>"; };
+		C97FA9602429723900FCD55E /* Amphisbaena_Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amphisbaena_Container.swift; sourceTree = "<group>"; };
+		C97FA962242972FC00FCD55E /* Amphisbaena_Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amphisbaena_Element.swift; sourceTree = "<group>"; };
+		C99A2B4D24291BAD00F70B5C /* ViewController_IngestFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_IngestFileManager.swift; sourceTree = "<group>"; };
+		C99A2B4E24291BAD00F70B5C /* ViewController_IngestFileManager.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController_IngestFileManager.xib; sourceTree = "<group>"; };
+		C99A2B5224291C0600F70B5C /* View_IngestFileManager_FileRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_IngestFileManager_FileRow.swift; sourceTree = "<group>"; };
+		C99A2B5424291C2500F70B5C /* View_IngestFileManager_FileRow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View_IngestFileManager_FileRow.xib; sourceTree = "<group>"; };
+		C9BCE886242BC8B6001DA29A /* Amphisbaena_ELANParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amphisbaena_ELANParser.swift; sourceTree = "<group>"; };
+		C9D5A36A242B970A00D2B821 /* AmphisbaenaXMLTaggable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmphisbaenaXMLTaggable.swift; sourceTree = "<group>"; };
+		C9D5A36D242B9DBB00D2B821 /* AmphisbaenaTagFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmphisbaenaTagFormatting.swift; sourceTree = "<group>"; };
+		C9DE2188246D8C110091B4EB /* Amphisbaena_UnifiedContainer_ELAN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amphisbaena_UnifiedContainer_ELAN.swift; sourceTree = "<group>"; };
+		C9DE218A246D93E20091B4EB /* Amphisbaena_UnifiedContainer_TextBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amphisbaena_UnifiedContainer_TextBody.swift; sourceTree = "<group>"; };
+		C9DE218C246D940C0091B4EB /* Amphisbaena_UnifiedContainer_TextBody_ELAN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amphisbaena_UnifiedContainer_TextBody_ELAN.swift; sourceTree = "<group>"; };
+		C9DE218E246D94F30091B4EB /* Amphisbaena_UnifiedContainer_TextBody_MultipleFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amphisbaena_UnifiedContainer_TextBody_MultipleFiles.swift; sourceTree = "<group>"; };
+		C9DE2190246D967D0091B4EB /* Amphisbaena_UnifiedContainer_MultipleFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amphisbaena_UnifiedContainer_MultipleFiles.swift; sourceTree = "<group>"; };
+		C9F953FD243BAB09009E6B67 /* View_GenerateUnifiedFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_GenerateUnifiedFile.swift; sourceTree = "<group>"; };
+		C9F953FF243BAB1C009E6B67 /* View_GenerateUnifiedFile.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View_GenerateUnifiedFile.xib; sourceTree = "<group>"; };
+		C9F95401243BB3CE009E6B67 /* ViewController_UnifiedFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_UnifiedFiles.swift; sourceTree = "<group>"; };
+		C9F95402243BB3CE009E6B67 /* ViewController_UnifiedFiles.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController_UnifiedFiles.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C96F2F0D23F976A3007EC2BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C96F2F2123F976A4007EC2BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C96F2F2C23F976A4007EC2BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C935D98124813AFB0062E875 /* ELAN */ = {
+			isa = PBXGroup;
+			children = (
+				C9BCE886242BC8B6001DA29A /* Amphisbaena_ELANParser.swift */,
+				C96FBD3F242D0D32000F3032 /* Amphisbaena_ELANContainer.swift */,
+			);
+			path = ELAN;
+			sourceTree = "<group>";
+		};
+		C935D98224813B0F0062E875 /* Transkribus TEI */ = {
+			isa = PBXGroup;
+			children = (
+				C90FBD572458BD3A00E61BA3 /* Amphisbaena_TranskribusTEIParser.swift */,
+				C90FBD552458A63B00E61BA3 /* Amphisbaena_TranskribusTEIContainer.swift */,
+				C9167877247CB29D00057399 /* Amphisbaena_TEITagParser.swift */,
+				C9167875247CAC2700057399 /* Amphisbaena_TEITagContainer.swift */,
+			);
+			path = "Transkribus TEI";
+			sourceTree = "<group>";
+		};
+		C935D98324813B260062E875 /* FLExText */ = {
+			isa = PBXGroup;
+			children = (
+				C9401BEE24603CB300366F89 /* Amphisbaena_FlexTextParser.swift */,
+				C9401BEC246036C500366F89 /* Amphisbaena_FlexTextContainer.swift */,
+			);
+			path = FLExText;
+			sourceTree = "<group>";
+		};
+		C935D98424813B3D0062E875 /* Word Links */ = {
+			isa = PBXGroup;
+			children = (
+				C9401BF02460643000366F89 /* Amphisbaena_WordLinksModifier.swift */,
+				C9401BF224606BE200366F89 /* Amphisbaena_WordLinksContainer.swift */,
+				C9406E452463A56D003EF816 /* Amphisbaena_WordLinksParser.swift */,
+			);
+			path = "Word Links";
+			sourceTree = "<group>";
+		};
+		C935D98524813B940062E875 /* Unified File */ = {
+			isa = PBXGroup;
+			children = (
+				C931CF75243289B80057A2CE /* Amphisbaena_UnifiedContainer.swift */,
+				C9DE218A246D93E20091B4EB /* Amphisbaena_UnifiedContainer_TextBody.swift */,
+				C935D98624813BB00062E875 /* Multiple Files */,
+				C935D98724813BC80062E875 /* ELAN */,
+			);
+			path = "Unified File";
+			sourceTree = "<group>";
+		};
+		C935D98624813BB00062E875 /* Multiple Files */ = {
+			isa = PBXGroup;
+			children = (
+				C97E8FED2466D15F00B71A28 /* Amphisbaena_UnifiedTokenizer.swift */,
+				C9DE2190246D967D0091B4EB /* Amphisbaena_UnifiedContainer_MultipleFiles.swift */,
+				C9DE218E246D94F30091B4EB /* Amphisbaena_UnifiedContainer_TextBody_MultipleFiles.swift */,
+			);
+			path = "Multiple Files";
+			sourceTree = "<group>";
+		};
+		C935D98724813BC80062E875 /* ELAN */ = {
+			isa = PBXGroup;
+			children = (
+				C9DE2188246D8C110091B4EB /* Amphisbaena_UnifiedContainer_ELAN.swift */,
+				C9DE218C246D940C0091B4EB /* Amphisbaena_UnifiedContainer_TextBody_ELAN.swift */,
+			);
+			path = ELAN;
+			sourceTree = "<group>";
+		};
+		C96F2F0723F976A3007EC2BA = {
+			isa = PBXGroup;
+			children = (
+				C96F2F1223F976A3007EC2BA /* Amphisbaena */,
+				C96F2F2723F976A4007EC2BA /* AmphisbaenaTests */,
+				C96F2F3223F976A4007EC2BA /* AmphisbaenaUITests */,
+				C96F2F1123F976A3007EC2BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C96F2F1123F976A3007EC2BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C96F2F1023F976A3007EC2BA /* Amphisbaena.app */,
+				C96F2F2423F976A4007EC2BA /* AmphisbaenaTests.xctest */,
+				C96F2F2F23F976A4007EC2BA /* AmphisbaenaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C96F2F1223F976A3007EC2BA /* Amphisbaena */ = {
+			isa = PBXGroup;
+			children = (
+				C96F2F1323F976A3007EC2BA /* AppDelegate.swift */,
+				C9D5A36C242B9D9E00D2B821 /* Amphisbaena Basic Types */,
+				C9BCE885242BC892001DA29A /* Amphisbaena Specific Types */,
+				C99A2B5124291BCC00F70B5C /* ViewControllers */,
+				C96F2F1723F976A3007EC2BA /* Document.swift */,
+				C96F2F4323F98345007EC2BA /* FileHandler.swift */,
+				C930FA06241BDE8700D7A4FA /* CSVHandler.swift */,
+				C96F2F1923F976A4007EC2BA /* Assets.xcassets */,
+				C96F2F1E23F976A4007EC2BA /* Info.plist */,
+				C96F2F1F23F976A4007EC2BA /* Amphisbaena.entitlements */,
+			);
+			path = Amphisbaena;
+			sourceTree = "<group>";
+		};
+		C96F2F2723F976A4007EC2BA /* AmphisbaenaTests */ = {
+			isa = PBXGroup;
+			children = (
+				C96F2F2823F976A4007EC2BA /* AmphisbaenaTests.swift */,
+				C96F2F2A23F976A4007EC2BA /* Info.plist */,
+			);
+			path = AmphisbaenaTests;
+			sourceTree = "<group>";
+		};
+		C96F2F3223F976A4007EC2BA /* AmphisbaenaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C96F2F3323F976A4007EC2BA /* AmphisbaenaUITests.swift */,
+				C96F2F3523F976A4007EC2BA /* Info.plist */,
+			);
+			path = AmphisbaenaUITests;
+			sourceTree = "<group>";
+		};
+		C99A2B5124291BCC00F70B5C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C96F2F1B23F976A4007EC2BA /* Main.storyboard */,
+				C96F2F1523F976A3007EC2BA /* ViewController.swift */,
+				C90E39C123FAC32500E525C2 /* ViewController_XMLViewer.swift */,
+				C99A2B4D24291BAD00F70B5C /* ViewController_IngestFileManager.swift */,
+				C99A2B4E24291BAD00F70B5C /* ViewController_IngestFileManager.xib */,
+				C99A2B5224291C0600F70B5C /* View_IngestFileManager_FileRow.swift */,
+				C99A2B5424291C2500F70B5C /* View_IngestFileManager_FileRow.xib */,
+				C9217300243548BC008529D9 /* ViewController_WordLinksEditor.swift */,
+				C9F953FF243BAB1C009E6B67 /* View_GenerateUnifiedFile.xib */,
+				C9F953FD243BAB09009E6B67 /* View_GenerateUnifiedFile.swift */,
+				C9F95401243BB3CE009E6B67 /* ViewController_UnifiedFiles.swift */,
+				C9F95402243BB3CE009E6B67 /* ViewController_UnifiedFiles.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C9BCE885242BC892001DA29A /* Amphisbaena Specific Types */ = {
+			isa = PBXGroup;
+			children = (
+				C935D98124813AFB0062E875 /* ELAN */,
+				C935D98224813B0F0062E875 /* Transkribus TEI */,
+				C935D98324813B260062E875 /* FLExText */,
+				C935D98424813B3D0062E875 /* Word Links */,
+				C935D98524813B940062E875 /* Unified File */,
+			);
+			path = "Amphisbaena Specific Types";
+			sourceTree = "<group>";
+		};
+		C9D5A36C242B9D9E00D2B821 /* Amphisbaena Basic Types */ = {
+			isa = PBXGroup;
+			children = (
+				C97FA9602429723900FCD55E /* Amphisbaena_Container.swift */,
+				C97FA962242972FC00FCD55E /* Amphisbaena_Element.swift */,
+				C9D5A36A242B970A00D2B821 /* AmphisbaenaXMLTaggable.swift */,
+				C9D5A36D242B9DBB00D2B821 /* AmphisbaenaTagFormatting.swift */,
+			);
+			path = "Amphisbaena Basic Types";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C96F2F0F23F976A3007EC2BA /* Amphisbaena */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C96F2F3823F976A4007EC2BA /* Build configuration list for PBXNativeTarget "Amphisbaena" */;
+			buildPhases = (
+				C96F2F0C23F976A3007EC2BA /* Sources */,
+				C96F2F0D23F976A3007EC2BA /* Frameworks */,
+				C96F2F0E23F976A3007EC2BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Amphisbaena;
+			productName = Amphisbaena;
+			productReference = C96F2F1023F976A3007EC2BA /* Amphisbaena.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C96F2F2323F976A4007EC2BA /* AmphisbaenaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C96F2F3B23F976A4007EC2BA /* Build configuration list for PBXNativeTarget "AmphisbaenaTests" */;
+			buildPhases = (
+				C96F2F2023F976A4007EC2BA /* Sources */,
+				C96F2F2123F976A4007EC2BA /* Frameworks */,
+				C96F2F2223F976A4007EC2BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C96F2F2623F976A4007EC2BA /* PBXTargetDependency */,
+			);
+			name = AmphisbaenaTests;
+			productName = AmphisbaenaTests;
+			productReference = C96F2F2423F976A4007EC2BA /* AmphisbaenaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C96F2F2E23F976A4007EC2BA /* AmphisbaenaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C96F2F3E23F976A4007EC2BA /* Build configuration list for PBXNativeTarget "AmphisbaenaUITests" */;
+			buildPhases = (
+				C96F2F2B23F976A4007EC2BA /* Sources */,
+				C96F2F2C23F976A4007EC2BA /* Frameworks */,
+				C96F2F2D23F976A4007EC2BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C96F2F3123F976A4007EC2BA /* PBXTargetDependency */,
+			);
+			name = AmphisbaenaUITests;
+			productName = AmphisbaenaUITests;
+			productReference = C96F2F2F23F976A4007EC2BA /* AmphisbaenaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C96F2F0823F976A3007EC2BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Casey Fasthorse";
+				TargetAttributes = {
+					C96F2F0F23F976A3007EC2BA = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					C96F2F2323F976A4007EC2BA = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = C96F2F0F23F976A3007EC2BA;
+					};
+					C96F2F2E23F976A4007EC2BA = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = C96F2F0F23F976A3007EC2BA;
+					};
+				};
+			};
+			buildConfigurationList = C96F2F0B23F976A3007EC2BA /* Build configuration list for PBXProject "Amphisbaena" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C96F2F0723F976A3007EC2BA;
+			productRefGroup = C96F2F1123F976A3007EC2BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C96F2F0F23F976A3007EC2BA /* Amphisbaena */,
+				C96F2F2323F976A4007EC2BA /* AmphisbaenaTests */,
+				C96F2F2E23F976A4007EC2BA /* AmphisbaenaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C96F2F0E23F976A3007EC2BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C96F2F1A23F976A4007EC2BA /* Assets.xcassets in Resources */,
+				C99A2B5524291C2500F70B5C /* View_IngestFileManager_FileRow.xib in Resources */,
+				C9F95400243BAB1C009E6B67 /* View_GenerateUnifiedFile.xib in Resources */,
+				C96F2F1D23F976A4007EC2BA /* Main.storyboard in Resources */,
+				C99A2B5024291BAD00F70B5C /* ViewController_IngestFileManager.xib in Resources */,
+				C9F95404243BB3CE009E6B67 /* ViewController_UnifiedFiles.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C96F2F2223F976A4007EC2BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C96F2F2D23F976A4007EC2BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C96F2F0C23F976A3007EC2BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9401BF12460643000366F89 /* Amphisbaena_WordLinksModifier.swift in Sources */,
+				C90E39C223FAC32500E525C2 /* ViewController_XMLViewer.swift in Sources */,
+				C90FBD562458A63B00E61BA3 /* Amphisbaena_TranskribusTEIContainer.swift in Sources */,
+				C97E8FEE2466D15F00B71A28 /* Amphisbaena_UnifiedTokenizer.swift in Sources */,
+				C9BCE887242BC8B6001DA29A /* Amphisbaena_ELANParser.swift in Sources */,
+				C9D5A36B242B970A00D2B821 /* AmphisbaenaXMLTaggable.swift in Sources */,
+				C9401BEF24603CB300366F89 /* Amphisbaena_FlexTextParser.swift in Sources */,
+				C90FBD582458BD3A00E61BA3 /* Amphisbaena_TranskribusTEIParser.swift in Sources */,
+				C9DE2191246D967D0091B4EB /* Amphisbaena_UnifiedContainer_MultipleFiles.swift in Sources */,
+				C9DE2189246D8C110091B4EB /* Amphisbaena_UnifiedContainer_ELAN.swift in Sources */,
+				C9217301243548BC008529D9 /* ViewController_WordLinksEditor.swift in Sources */,
+				C9167876247CAC2700057399 /* Amphisbaena_TEITagContainer.swift in Sources */,
+				C930FA07241BDE8700D7A4FA /* CSVHandler.swift in Sources */,
+				C99A2B5324291C0600F70B5C /* View_IngestFileManager_FileRow.swift in Sources */,
+				C96F2F1623F976A3007EC2BA /* ViewController.swift in Sources */,
+				C99A2B4F24291BAD00F70B5C /* ViewController_IngestFileManager.swift in Sources */,
+				C9167878247CB29D00057399 /* Amphisbaena_TEITagParser.swift in Sources */,
+				C9DE218F246D94F30091B4EB /* Amphisbaena_UnifiedContainer_TextBody_MultipleFiles.swift in Sources */,
+				C9F953FE243BAB09009E6B67 /* View_GenerateUnifiedFile.swift in Sources */,
+				C97FA963242972FC00FCD55E /* Amphisbaena_Element.swift in Sources */,
+				C9DE218D246D940C0091B4EB /* Amphisbaena_UnifiedContainer_TextBody_ELAN.swift in Sources */,
+				C96FBD40242D0D32000F3032 /* Amphisbaena_ELANContainer.swift in Sources */,
+				C931CF76243289B80057A2CE /* Amphisbaena_UnifiedContainer.swift in Sources */,
+				C9401BF324606BE200366F89 /* Amphisbaena_WordLinksContainer.swift in Sources */,
+				C96F2F1423F976A3007EC2BA /* AppDelegate.swift in Sources */,
+				C9DE218B246D93E20091B4EB /* Amphisbaena_UnifiedContainer_TextBody.swift in Sources */,
+				C96F2F4423F98345007EC2BA /* FileHandler.swift in Sources */,
+				C97FA9612429723900FCD55E /* Amphisbaena_Container.swift in Sources */,
+				C9D5A36E242B9DBB00D2B821 /* AmphisbaenaTagFormatting.swift in Sources */,
+				C96F2F1823F976A3007EC2BA /* Document.swift in Sources */,
+				C9406E462463A56D003EF816 /* Amphisbaena_WordLinksParser.swift in Sources */,
+				C9401BED246036C500366F89 /* Amphisbaena_FlexTextContainer.swift in Sources */,
+				C9F95403243BB3CE009E6B67 /* ViewController_UnifiedFiles.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C96F2F2023F976A4007EC2BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C96F2F2923F976A4007EC2BA /* AmphisbaenaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C96F2F2B23F976A4007EC2BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C96F2F3423F976A4007EC2BA /* AmphisbaenaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C96F2F2623F976A4007EC2BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C96F2F0F23F976A3007EC2BA /* Amphisbaena */;
+			targetProxy = C96F2F2523F976A4007EC2BA /* PBXContainerItemProxy */;
+		};
+		C96F2F3123F976A4007EC2BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C96F2F0F23F976A3007EC2BA /* Amphisbaena */;
+			targetProxy = C96F2F3023F976A4007EC2BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C96F2F1B23F976A4007EC2BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C96F2F1C23F976A4007EC2BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C96F2F3623F976A4007EC2BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C96F2F3723F976A4007EC2BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C96F2F3923F976A4007EC2BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Amphisbaena/Amphisbaena.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Amphisbaena/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cfasthorse.Amphisbaena;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C96F2F3A23F976A4007EC2BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Amphisbaena/Amphisbaena.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Amphisbaena/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cfasthorse.Amphisbaena;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C96F2F3C23F976A4007EC2BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AmphisbaenaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cfasthorse.AmphisbaenaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amphisbaena.app/Contents/MacOS/Amphisbaena";
+			};
+			name = Debug;
+		};
+		C96F2F3D23F976A4007EC2BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AmphisbaenaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cfasthorse.AmphisbaenaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amphisbaena.app/Contents/MacOS/Amphisbaena";
+			};
+			name = Release;
+		};
+		C96F2F3F23F976A4007EC2BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AmphisbaenaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cfasthorse.AmphisbaenaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Amphisbaena;
+			};
+			name = Debug;
+		};
+		C96F2F4023F976A4007EC2BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AmphisbaenaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cfasthorse.AmphisbaenaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Amphisbaena;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C96F2F0B23F976A3007EC2BA /* Build configuration list for PBXProject "Amphisbaena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C96F2F3623F976A4007EC2BA /* Debug */,
+				C96F2F3723F976A4007EC2BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C96F2F3823F976A4007EC2BA /* Build configuration list for PBXNativeTarget "Amphisbaena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C96F2F3923F976A4007EC2BA /* Debug */,
+				C96F2F3A23F976A4007EC2BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C96F2F3B23F976A4007EC2BA /* Build configuration list for PBXNativeTarget "AmphisbaenaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C96F2F3C23F976A4007EC2BA /* Debug */,
+				C96F2F3D23F976A4007EC2BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C96F2F3E23F976A4007EC2BA /* Build configuration list for PBXNativeTarget "AmphisbaenaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C96F2F3F23F976A4007EC2BA /* Debug */,
+				C96F2F4023F976A4007EC2BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C96F2F0823F976A3007EC2BA /* Project object */;
+}

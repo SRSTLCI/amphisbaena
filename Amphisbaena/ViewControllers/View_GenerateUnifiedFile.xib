@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="16096" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16096"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="c22-O7-iKe" customClass="View_GenerateUnifiedFile" customModule="Amphisbaena" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="181"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hcG-c8-KPe">
+                    <rect key="frame" x="20" y="85" width="128" height="64"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="hcG-c8-KPe" secondAttribute="height" multiplier="2:1" id="VCF-7r-K0g"/>
+                        <constraint firstAttribute="width" constant="128" id="ky8-DM-1es"/>
+                    </constraints>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="ELANtoUnify" id="DQH-fx-TEx"/>
+                </imageView>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="hXK-nx-MoF">
+                    <rect key="frame" x="156" y="153" width="222" height="16"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" title="Synthesize Unified File with ELAN" id="eGc-ND-kVL">
+                        <font key="font" metaFont="systemBold"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="qrf-qo-0v2">
+                    <rect key="frame" x="158" y="117" width="304" height="28"/>
+                    <textFieldCell key="cell" controlSize="small" selectable="YES" title="Create a unified file with an ELAN .eaf file. A full finalized unified XML can be created with a single ELAN file." id="xWS-CA-0ad">
+                        <font key="font" metaFont="menu" size="11"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="hOO-A2-67W">
+                    <rect key="frame" x="156" y="93" width="96" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="16" id="OYD-bI-R6O"/>
+                    </constraints>
+                    <textFieldCell key="cell" lineBreakMode="clipping" title="Requirements:" id="7Km-DB-RYg">
+                        <font key="font" metaFont="systemSemibold" size="13"/>
+                        <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="YK7-uc-1Vd">
+                    <rect key="frame" x="158" y="71" width="304" height="14"/>
+                    <textFieldCell key="cell" controlSize="small" selectable="YES" title="• ELAN .eaf file" id="sAp-7v-43a">
+                        <font key="font" metaFont="menu" size="11"/>
+                        <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ogv-Xn-QXg">
+                    <rect key="frame" x="152" y="11" width="137" height="32"/>
+                    <buttonCell key="cell" type="push" title="Synthesize New" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="vEv-Sf-zGV">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="button_synthesizeNew_Action:" target="c22-O7-iKe" id="u2g-bN-DOs"/>
+                    </connections>
+                </button>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="0JZ-du-BmJ">
+                    <rect key="frame" x="289" y="11" width="106" height="32"/>
+                    <buttonCell key="cell" type="push" title="View File..." bezelStyle="rounded" alignment="center" enabled="NO" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="d1m-On-aNc">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="button_ViewFile_Action:" target="c22-O7-iKe" id="cxG-E9-d06"/>
+                    </connections>
+                </button>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3Zj-hU-6VF">
+                    <rect key="frame" x="160" y="47" width="16" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="16" id="7QA-i8-oHs"/>
+                        <constraint firstAttribute="width" constant="16" id="tBe-EO-eYK"/>
+                    </constraints>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="NSStatusUnavailable" id="WCF-Ax-a6s"/>
+                </imageView>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="yIo-dJ-BmE">
+                    <rect key="frame" x="182" y="48" width="280" height="14"/>
+                    <textFieldCell key="cell" controlSize="small" lineBreakMode="clipping" title="Label" id="gpT-uX-rcu">
+                        <font key="font" metaFont="menu" size="11"/>
+                        <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+            <constraints>
+                <constraint firstItem="qrf-qo-0v2" firstAttribute="leading" secondItem="hcG-c8-KPe" secondAttribute="trailing" constant="12" id="5Sg-wu-sfm"/>
+                <constraint firstItem="hcG-c8-KPe" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="20" id="9eK-MW-wYb"/>
+                <constraint firstItem="hXK-nx-MoF" firstAttribute="top" secondItem="hcG-c8-KPe" secondAttribute="top" constant="-20" id="BDq-RE-8p7"/>
+                <constraint firstItem="YK7-uc-1Vd" firstAttribute="top" secondItem="hOO-A2-67W" secondAttribute="bottom" constant="8" id="C1U-k7-YGk"/>
+                <constraint firstItem="0JZ-du-BmJ" firstAttribute="centerY" secondItem="ogv-Xn-QXg" secondAttribute="centerY" id="DNK-8a-nir"/>
+                <constraint firstItem="0JZ-du-BmJ" firstAttribute="leading" secondItem="ogv-Xn-QXg" secondAttribute="trailing" constant="12" id="EO7-s6-MsX"/>
+                <constraint firstItem="ogv-Xn-QXg" firstAttribute="top" secondItem="3Zj-hU-6VF" secondAttribute="bottom" constant="8" id="EUa-hW-5fw"/>
+                <constraint firstItem="3Zj-hU-6VF" firstAttribute="leading" secondItem="YK7-uc-1Vd" secondAttribute="leading" id="Eix-tD-W76"/>
+                <constraint firstItem="3Zj-hU-6VF" firstAttribute="top" secondItem="YK7-uc-1Vd" secondAttribute="bottom" constant="8" id="FGR-E6-E86"/>
+                <constraint firstAttribute="trailing" secondItem="yIo-dJ-BmE" secondAttribute="trailing" constant="20" id="FHq-os-60h"/>
+                <constraint firstItem="hXK-nx-MoF" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" constant="12" id="Ga1-tE-AoS"/>
+                <constraint firstItem="hXK-nx-MoF" firstAttribute="leading" secondItem="hcG-c8-KPe" secondAttribute="trailing" constant="10" id="Klb-e3-RKz"/>
+                <constraint firstItem="ogv-Xn-QXg" firstAttribute="leading" secondItem="hXK-nx-MoF" secondAttribute="leading" id="Lbh-km-q7V"/>
+                <constraint firstItem="YK7-uc-1Vd" firstAttribute="leading" secondItem="qrf-qo-0v2" secondAttribute="leading" id="Qd6-Br-ifq"/>
+                <constraint firstItem="yIo-dJ-BmE" firstAttribute="centerY" secondItem="3Zj-hU-6VF" secondAttribute="centerY" id="Uat-D5-VPC"/>
+                <constraint firstAttribute="trailing" secondItem="YK7-uc-1Vd" secondAttribute="trailing" constant="20" id="gvn-gx-H1E"/>
+                <constraint firstAttribute="bottom" secondItem="ogv-Xn-QXg" secondAttribute="bottom" constant="18" id="iMw-iK-IWN"/>
+                <constraint firstItem="qrf-qo-0v2" firstAttribute="top" secondItem="hXK-nx-MoF" secondAttribute="bottom" constant="8" id="jds-P0-Jdj"/>
+                <constraint firstItem="hOO-A2-67W" firstAttribute="leading" secondItem="hcG-c8-KPe" secondAttribute="trailing" constant="10" id="kMz-V7-0c5"/>
+                <constraint firstItem="yIo-dJ-BmE" firstAttribute="leading" secondItem="3Zj-hU-6VF" secondAttribute="trailing" constant="8" id="kX3-zj-lJq"/>
+                <constraint firstAttribute="trailing" secondItem="qrf-qo-0v2" secondAttribute="trailing" constant="20" id="oGG-6J-itv"/>
+                <constraint firstItem="hOO-A2-67W" firstAttribute="top" secondItem="qrf-qo-0v2" secondAttribute="bottom" constant="8" id="rlT-zt-KwJ"/>
+            </constraints>
+            <connections>
+                <outlet property="button_synthesizeNew" destination="ogv-Xn-QXg" id="U7W-1G-CMZ"/>
+                <outlet property="button_viewFile" destination="0JZ-du-BmJ" id="dKA-YZ-W9K"/>
+                <outlet property="imageView_image" destination="hcG-c8-KPe" id="kPT-s7-Eum"/>
+                <outlet property="imageView_status" destination="3Zj-hU-6VF" id="h7F-qf-QIn"/>
+                <outlet property="label_descriptionLabel" destination="qrf-qo-0v2" id="DAE-wn-Af1"/>
+                <outlet property="label_headerLabel" destination="hXK-nx-MoF" id="YOK-GK-ONU"/>
+                <outlet property="label_requirements" destination="YK7-uc-1Vd" id="4Gu-6x-hPh"/>
+                <outlet property="label_status" destination="yIo-dJ-BmE" id="XMr-FS-vhF"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="153"/>
+        </customView>
+    </objects>
+    <resources>
+        <image name="ELANtoUnify" width="512" height="256"/>
+        <image name="NSStatusUnavailable" width="16" height="16"/>
+    </resources>
+</document>
