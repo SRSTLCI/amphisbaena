@@ -21,7 +21,7 @@ The apps provided here may not be notarized and may need to bypass Gatekeeper to
 
 ## Documentation
 
-Documentation of Amphisbaena is currently being written and will be updated at a later time.
+Documentation of Amphisbaena is on the wiki here: https://github.com/SRSTLCI/amphisbaena/wiki
 
 ## Project
 
