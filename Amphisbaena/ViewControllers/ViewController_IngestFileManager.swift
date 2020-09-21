@@ -92,22 +92,31 @@ class ViewController_IngestFileManager: NSViewController {
     }
     
     func showGenerateWordLinksWindow() {
-        if rootViewController?.containerTranskribusTEI == nil || rootViewController?.containerFlexText == nil {
+        if rootViewController?.containerWordLink?.version != .v02 && rootViewController?.containerWordLink != nil {
             let alert = NSAlert()
             alert.alertStyle = .warning
             alert.icon = NSImage(named: NSImage.cautionName)
-            alert.messageText = "A Transkribus TEI file or a FLExText file was not imported. This may cause difficulties when editing word links."
-            alert.informativeText = "You should import your Transkribus TEI file and FLExText file before proceeding. Are you sure you want to proceed?"
-            alert.addButton(withTitle: "Yes")
-            alert.addButton(withTitle: "No")
-            alert.beginSheetModal(for: self.view.window!) { (response) in
-                if response == .alertFirstButtonReturn {
-                    self.presentWordLinkWindow()
-                }
-                else if response == .alertSecondButtonReturn {
-                    return;
-                }
-            }
+            alert.messageText = "You cannot edit Word Links files created with an older version of Amphisbaena."
+            alert.informativeText = """
+            If you have the original Transkribus TEI file and FLExText file for this Word Links file, you can convert this file to the newer version.
+            
+            To do this, import the Transkribus TEI file and the FLExText file. Then, attempt to import this Word Links file. Finally, click "Convert" to create a new, editable Word Links file.
+            """
+            alert.addButton(withTitle: "OK")
+            alert.beginSheetModal(for: self.view.window!)
+        }
+        else if rootViewController?.containerTranskribusTEI == nil || rootViewController?.containerFlexText == nil {
+            let alert = NSAlert()
+            alert.alertStyle = .warning
+            alert.icon = NSImage(named: NSImage.cautionName)
+            alert.messageText = "You cannot edit Word Links because a Transkribus TEI file or a FLExText file was not imported or is missing."
+            alert.informativeText = """
+            If you wish to edit this Word Links file, import both the Transkribus TEI file and a FLExText file which accompany this Word Links file, and try again.
+            
+            Old versions of Amphisbaena permitted you to edit Word Links while missing one or both of these files. Newer versions require these files to ensure data integrity.
+            """
+            alert.addButton(withTitle: "OK")
+            alert.beginSheetModal(for: self.view.window!)
         }
         else {
             presentWordLinkWindow()
@@ -119,10 +128,11 @@ class ViewController_IngestFileManager: NSViewController {
     private func presentWordLinkWindow() {
         if windowGenerateWordLinks == nil {
             let window = NSWindow()
-            window.styleMask = [.titled]
+            window.styleMask = [.titled, .resizable]
             window.backingType = .buffered
             window.animationBehavior = .alertPanel
             window.title = "Word Links Editor"
+            
             
             let newVC = NSStoryboard.main?.instantiateController(withIdentifier: "WordLinksEditor") as? ViewController_WordLinksEditor
             newVC?.wordLinkEditorDelegate = self;
@@ -175,6 +185,7 @@ class ViewController_IngestFileManager: NSViewController {
     
     struct ButtonTitles {
         static let viewXML = "View XML..."
+        static let edit = "Edit..."
         static let generate = "Generate..."
     }
     
@@ -249,7 +260,7 @@ class ViewController_IngestFileManager: NSViewController {
         if let row = fileRows[.ELANEAF] {
             addFileRow(fileLabel: "Transkribus/FLEx Word Linking:", type: .WordLinksXML, previous: row)
             setFileRow_ButtonVisibility(forType: .WordLinksXML, button2Visible: true, button3Visible: true)
-            setFileRow_ButtonLabels(forType: .WordLinksXML, button2Label: ButtonTitles.viewXML, button3Label: ButtonTitles.generate)
+            setFileRow_ButtonLabels(forType: .WordLinksXML, button2Label: ButtonTitles.viewXML, button3Label: ButtonTitles.edit)
             setFileRow_ButtonEnable(forType: .WordLinksXML, button2Enable: false, button3Enable: false)
             fileRows[.WordLinksXML]?.setStatus_NoFileLoaded();
         }
@@ -471,18 +482,93 @@ class ViewController_IngestFileManager: NSViewController {
                 print("Open file successful.")
                 do {
                     let fileContents = try String(contentsOf: url, encoding: .utf8)
-                    let parser = Amphisbaena_WordLinksParser(XMLString: fileContents)
-                    if let parser = parser {
-                        parser.parse();
-                        if let container = parser.resultContainer {
-                            self.rootViewController?.containerWordLink = container;
-                            self.enableGenerateWordLinksIfFilesPresent()
-                            fileRow.setStatus_FileLoadSuccessful()
-                            self.setFileRow_ButtonEnable(forType: .WordLinksXML, button2Enable: true)
+                    let version: String? = Amphisbaena_WordLinksParserProvider.determineVersion(forText: fileContents)
+                    let parser = Amphisbaena_WordLinksParserProvider.getParser(forText: fileContents)
+                    var resultContainer: Amphisbaena_WordLinksContainer?
+                    if version != Amphisbaena_WordLinksContainer.Version.v02.rawValue {
+                        /*
+                        print(self.rootViewController?.containerTranskribusTEI)
+                        print(self.rootViewController?.containerFlexText);
+                        print(version)
+                        */
+                        if version == Amphisbaena_WordLinksContainer.Version.v01.rawValue || version == nil,
+                            let transkribusContainer = self.rootViewController?.containerTranskribusTEI,
+                            let flexContainer = self.rootViewController?.containerFlexText {
+                            let alert = NSAlert()
+                            alert.alertStyle = .warning
+                            alert.icon = NSImage(named: NSImage.infoName)
+                            alert.messageText = "This Word Links file was created with an older version of Amphisbaena. You can convert this file to the current version."
+                            alert.informativeText = """
+                            A Transkribus TEI file and a FLEx flextext file were found and will be used to aid in conversion. Do you want to convert your file?
                             
-                            if self.readOption_checkboxOpenXMLOnImport() {
-                                self.viewXML(withXML: container.generateXML(), title: ViewerTitles.wordLink)
+                            Note that if you do not convert your file, it will be incompatible with other functionality in Amphisbaena.
+                            """
+                            alert.addButton(withTitle: "Convert")
+                            alert.addButton(withTitle: "Import")
+                            alert.addButton(withTitle: "Cancel")
+                            alert.beginSheetModal(for: self.view.window!) { (response) in
+                                if response == .alertFirstButtonReturn {
+                                    parser?.parse();
+                                    resultContainer = parser?.resultContainer
+                                    if resultContainer?.version == .v01 {
+                                        resultContainer = resultContainer?.convertContainerFrom01(withTranskribusContainer: transkribusContainer, withFLExFile: flexContainer)
+                                        print(resultContainer?.version)
+                                        self.populateWordLinks(withContainer: resultContainer, fileRow: fileRow)
+                                    }
+                                }
+                                else if response == .alertSecondButtonReturn {
+                                    parser?.parse();
+                                    resultContainer = parser?.resultContainer
+                                    print(resultContainer?.version)
+                                    self.populateWordLinks(withContainer: resultContainer, fileRow: fileRow)
+                                }
                             }
+                        }
+                        else {
+                            let alert = NSAlert()
+                            alert.alertStyle = .warning
+                            alert.icon = NSImage(named: NSImage.cautionName)
+                            alert.messageText = "This Word Links file was created with an older version of Amphisbaena. Do you want to import this file anyway?"
+                            alert.informativeText = """
+                            If you have a Transkribus TEI file and a FLEx flextext file that go together with this Word Links file, you can convert this file to the new version. However, these files were not found. Import them first and try again if you want to try converting this Word Links file.
+                            """
+                            alert.addButton(withTitle: "Yes")
+                            alert.addButton(withTitle: "No")
+                            alert.beginSheetModal(for: self.view.window!) { (response) in
+                                if response == .alertFirstButtonReturn {
+                                    parser?.parse();
+                                    resultContainer = parser?.resultContainer
+                                    print(resultContainer?.version)
+                                    self.populateWordLinks(withContainer: resultContainer, fileRow: fileRow)
+                                }
+                            }
+                        }
+                    }
+                    else {
+                        print("File is a v02 file")
+                        if let transkribusContainer = self.rootViewController?.containerTranskribusTEI,
+                            let flexContainer = self.rootViewController?.containerFlexText {
+                            parser?.parse();
+                            if let parser = parser as? Amphisbaena_WordLinksParser_Format02 {
+                                let importModifier = Amphisbaena_WordLinksModifier(fromExistingWordLinks: parser.modifierWordLinks, transkribusContainer: transkribusContainer, flexContainer: flexContainer)
+                                importModifier.setupNewContainer()
+                                resultContainer = importModifier.resultContainer
+                                print(resultContainer?.version)
+                                self.populateWordLinks(withContainer: resultContainer, fileRow: fileRow)
+                            }
+                        }
+                        else {
+                            let alert = NSAlert()
+                            alert.alertStyle = .warning
+                            alert.icon = NSImage(named: NSImage.infoName)
+                            alert.messageText = "This is a Word Links file that has been created with the current version of Amphisbaena. This file requires that you import both a Transkribus and a FLEx file to accompany it."
+                            alert.informativeText = """
+                            Please import the Transkribus TEI file and FLEx flextext file that accompanies this Word Links file, and try again.
+                            
+                            Old versions of Amphisbaena allowed you to import a Word Links file without an accompanying Transkribus TEI or FLEx flextext file. Word Links now require these files to be present before you can import them.
+                            """
+                            alert.addButton(withTitle: "OK")
+                            alert.beginSheetModal(for: self.view.window!)
                         }
                     }
                 }
@@ -519,6 +605,19 @@ class ViewController_IngestFileManager: NSViewController {
             }
         }
         fileRow.trashActionClosure = trashAction
+    }
+    
+    private func populateWordLinks(withContainer resultContainer: Amphisbaena_WordLinksContainer?, fileRow: View_IngestFileManager_File) {
+        if let container = resultContainer {
+            rootViewController?.containerWordLink = container;
+            enableGenerateWordLinksIfFilesPresent()
+            fileRow.setStatus_FileLoadSuccessful()
+            setFileRow_ButtonEnable(forType: .WordLinksXML, button2Enable: true)
+            
+            if readOption_checkboxOpenXMLOnImport() {
+                viewXML(withXML: container.generateXML(), title: ViewerTitles.wordLink)
+            }
+        }
     }
     
     func setFileRow_ButtonVisibility(forType type: FileIngestTypes, button2Visible visible2: Bool, button3Visible visible3: Bool) {

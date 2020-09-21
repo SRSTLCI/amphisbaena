@@ -25,6 +25,24 @@ class ViewController_WordLinksEditor: NSViewController {
     var wordLinkModifier: Amphisbaena_WordLinksModifier?
     var wordLinkSelection: IndexSet?
     
+    enum WordLinkStatus: Int, CaseIterable {
+        case doesNotExist    = 0
+        case newlyGenerated  = 1
+        case newlyImported   = 2
+        case modified        = 3
+        case complete        = 4
+    }
+    
+    struct wordLinkStatusStrings {
+        static let strings: [WordLinkStatus : String ] = [
+            .doesNotExist   :   "No word links exist.",
+            .newlyGenerated :   "Word Links successfully generated.",
+            .newlyImported  :   "Word Links successfully imported.",
+            .modified       :   "Word Links have been modified.",
+            .complete       :   "Word Links have been flagged as complete by the user."
+        ]
+    }
+    
     func clearWordLinks() {
         print("Word links clear called.")
         self.containerWordLinks = nil
@@ -38,7 +56,7 @@ class ViewController_WordLinksEditor: NSViewController {
     
     func wordMatcherHasContent() -> Bool {
         guard let wordMatcher = wordLinkModifier else {return false}
-        return (wordMatcher.transkribusWords.count > 0 && wordMatcher.flexGuids.count > 0)
+        return (wordMatcher.wordLinks.count > 0)
     }
     
     func setupWordLinkButtons() {
@@ -59,12 +77,28 @@ class ViewController_WordLinksEditor: NSViewController {
     }
     
     func autoGenerateWordLinks() {
-        if let wordLinkContainer = containerWordLinks {
-            self.wordLinkModifier = Amphisbaena_WordLinksModifier(fromExistingContainer: wordLinkContainer, withOptionalTranskribusContainer: containerTranskribus, optionalFlexTextContainer: containerFLEx)
+        if let wordLinkContainer = containerWordLinks,
+            let transkribusContainer = containerTranskribus,
+            let flextextContainer = containerFLEx {
+            self.wordLinkModifier = Amphisbaena_WordLinksModifier(fromExistingContainer: wordLinkContainer, transkribusContainer: transkribusContainer, flexContainer: flextextContainer)
         }
     }
     
     @IBAction func button_matchWords_Action(_ sender: Any) {
+        if wordLinkModifier != nil {
+            let alert = NSAlert()
+            alert.alertStyle = .informational
+            alert.icon = NSImage(named: NSImage.infoName)
+            alert.messageText = "Word links already exist within this project. Generating new word links will overwrite existing word links you have."
+            alert.informativeText = "Are you sure you want to proceed? You cannot undo your changes."
+            alert.addButton(withTitle: "Yes")
+            alert.addButton(withTitle: "No")
+            alert.beginSheetModal(for: self.view.window!) { (response) in
+                if response == .alertSecondButtonReturn {
+                    return;
+                }
+            }
+        }
         guard let containerTranskribus = containerTranskribus, let containerFLEx = containerFLEx else {return;}
         wordLinkModifier = Amphisbaena_WordLinksModifier(fromFileContainers: containerTranskribus, flexContainer: containerFLEx)
         table_wordLink.reloadData()
@@ -75,7 +109,16 @@ class ViewController_WordLinksEditor: NSViewController {
         guard let wordLinkModifier = wordLinkModifier else {return}
         if let combineSelection = wordLinkSelection,
             matchWords_IndexSetCanBeCombined(indexSet: combineSelection) {
-            wordLinkModifier.combineSelected(fromIndexSet: combineSelection)
+            wordLinkModifier.combineSelectedIntoGuid(fromIndexSet: combineSelection)
+            table_wordLink.reloadData()
+        }
+    }
+    
+    @IBAction func button_combineSelected_underTranskribus_Action(_ sender: Any) {
+        guard let wordLinkModifier = wordLinkModifier else {return}
+        if let combineSelection = wordLinkSelection,
+            matchWords_IndexSetCanBeCombined(indexSet: combineSelection) {
+            wordLinkModifier.combineSelectedIntoFacs(fromIndexSet: combineSelection)
             table_wordLink.reloadData()
         }
     }
@@ -88,6 +131,7 @@ class ViewController_WordLinksEditor: NSViewController {
             table_wordLink.reloadData()
         }
     }
+    
     @IBAction func button_saveWordLinks(_ sender: Any) {
         let alert = NSAlert()
         alert.alertStyle = .informational
@@ -129,6 +173,13 @@ class ViewController_WordLinksEditor: NSViewController {
             if let resultContainer = modifier.resultContainer {
                 print(resultContainer.generateXML())
             }
+        }
+    }
+    @IBAction func button_debugPrintLinks(_ sender: Any) {
+        if let modifier = wordLinkModifier {
+            print(modifier.wordLinks.compactMap {
+                return [$0.facsFirst, $0.facsCount, $0.facsRange, $0.guidsFirst, $0.guidsCount, $0.guidsRange]
+            })
         }
     }
     
@@ -176,14 +227,7 @@ protocol ViewController_WordLinksEditor_Delegate: AnyObject {
 extension ViewController_WordLinksEditor: NSTableViewDataSource {
     func numberOfRows(in tableView: NSTableView) -> Int {
         guard let modifier = wordLinkModifier else {return 0}
-        var facsKeysCount: Int!
-        if let keysCount = modifier.transkribusWords.keys.max() {
-            facsKeysCount = keysCount+1;
-        }
-        else {
-            facsKeysCount = 0
-        }
-        return max(modifier.flexGuids.count, facsKeysCount)
+        return modifier.wordLinks.count
     }
 }
 
@@ -202,57 +246,130 @@ extension ViewController_WordLinksEditor: NSTableViewDelegate {
         
         guard let wordLinkModifier = wordLinkModifier else {return nil;}
         
-        var currentGuid: Amphisbaena_WordLinksModifier.FlexWord?
-        if row < wordLinkModifier.flexGuids.count {
-            currentGuid = wordLinkModifier.flexGuids[row]
-        }
-        let currentFacs = wordLinkModifier.transkribusWords[row]
+        let wordLink = wordLinkModifier.wordLinks[row];
+        
+        var wordLinkTranskribusFacs: [Int]? = wordLink.facsRange.compactMap {$0}
+        var wordLinkFLExGuid: [Int]? = wordLink.guidsRange.compactMap {$0}
         
         var text = "";
         var identifier: NSUserInterfaceItemIdentifier!
         
         if tableColumn == tableView.tableColumns[0] {
             identifier = TableIdentifiers.FLEx_itemIndex;
-            if row < wordLinkModifier.flexGuids.count {
-                text = String(row)
+            var txt = ""
+            if let wordLinkFLExGuid = wordLinkFLExGuid {
+                for i in 0..<wordLinkFLExGuid.count {
+                    txt += String(wordLinkFLExGuid[i])
+                    if (i < wordLinkFLExGuid.count-1) {
+                        txt += ", "
+                    }
+                }
             }
-            
+            text = txt
         }
         else if tableColumn == tableView.tableColumns[1] {
             identifier = TableIdentifiers.FLEx_txtItem;
+            var txt = ""
+            if let wordLinkFLExGuid = wordLinkFLExGuid {
+                for i in 0..<wordLinkFLExGuid.count {
+                    let flexWordIndex = wordLinkFLExGuid[i]
+                    let flexWordGuid = wordLinkModifier.flexWords[flexWordIndex].guid
+                    txt += flexWordGuid
+                    if (i < wordLinkFLExGuid.count-1) {
+                        txt += ", "
+                    }
+                }
+            }
+            text = txt
+            /*
             if let currentGuid = currentGuid {
                 text = currentGuid.guid
             }
+            */
         }
         else if tableColumn == tableView.tableColumns[2] {
             identifier = TableIdentifiers.FLEx_guid
+            var txt = ""
+            if let wordLinkFLExGuid = wordLinkFLExGuid {
+                for i in 0..<wordLinkFLExGuid.count {
+                    let flexWordIndex = wordLinkFLExGuid[i]
+                    let flexWordGuid = wordLinkModifier.flexWords[flexWordIndex].content
+                    txt += flexWordGuid
+                    if (i < wordLinkFLExGuid.count-1) {
+                        txt += ", "
+                    }
+                }
+            }
+            text = txt
+            /*
             if let currentGuid = currentGuid {
                 text = currentGuid.content
             }
+            */
         }
         else if tableColumn == tableView.tableColumns[3] {
             identifier = TableIdentifiers.FLEx_itemIndex
+            var txt = ""
+            if let wordLinkTranskribusFacs = wordLinkTranskribusFacs {
+                for i in 0..<wordLinkTranskribusFacs.count {
+                    txt += String(wordLinkTranskribusFacs[i])
+                    if (i < wordLinkTranskribusFacs.count-1) {
+                        txt += ", "
+                    }
+                }
+            }
+            text = txt
+            /*
             if currentFacs != nil {
                 text = String(row)
             }
+            */
         }
         else if tableColumn == tableView.tableColumns[4] {
             identifier = TableIdentifiers.Transkribus_w
+            var txt = ""
+            if let wordLinkTranskribusFacs = wordLinkTranskribusFacs {
+                for i in 0..<wordLinkTranskribusFacs.count {
+                    let transkribusFacsIndex = wordLinkTranskribusFacs[i]
+                    let transkribusFacs = wordLinkModifier.transkribusWords[transkribusFacsIndex].facs
+                    txt += transkribusFacs
+                    if (i < wordLinkTranskribusFacs.count-1) {
+                        txt += ", "
+                    }
+                }
+            }
+            text = txt
+            /*
             if let currentFacs = currentFacs {
                 for w in 0..<currentFacs.count {
                     text += currentFacs[w].content
                     if (w < currentFacs.count-1) {text += ", "}
                 }
             }
+            */
         }
         else if tableColumn == tableView.tableColumns[5] {
             identifier = TableIdentifiers.Transkribus_facs
+            var txt = ""
+            if let wordLinkTranskribusFacs = wordLinkTranskribusFacs {
+                for i in 0..<wordLinkTranskribusFacs.count {
+                    let transkribusFacsIndex = wordLinkTranskribusFacs[i]
+                    let transkribusFacs = wordLinkModifier.transkribusWords[transkribusFacsIndex].content
+                    txt += transkribusFacs
+                    if (i < wordLinkTranskribusFacs.count-1) {
+                        txt += ", "
+                    }
+                }
+            }
+            text = txt
+            /*
             if let currentFacs = currentFacs {
                 for w in 0..<currentFacs.count {
                     text += currentFacs[w].facs
                     if (w < currentFacs.count-1) {text += ", "}
                 }
             }
+            */
         }
         
         if let cell = tableView.makeView(withIdentifier: identifier, owner: nil) as? NSTableCellView {

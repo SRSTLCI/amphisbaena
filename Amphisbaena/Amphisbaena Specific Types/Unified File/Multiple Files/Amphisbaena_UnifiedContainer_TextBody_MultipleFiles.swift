@@ -16,12 +16,38 @@ extension Amphisbaena_UnifiedContainer_TextBody {
     
     struct SortCriteria {
         static let sortCriteria: ((AmphisbaenaXMLTaggable, AmphisbaenaXMLTaggable) -> Bool) = {(taggable1, taggable2) -> Bool in
-            if taggable1.elementName == "flex" {return true;}
+            if taggable1.elementName == "flex",
+                taggable2.elementName == "flex" {
+                if let taggable1guid = taggable1.getAttribute(attributeName: "guid"),
+                    let taggable2guid = taggable2.getAttribute(attributeName: "guid") {
+                    let taggable1order = flexWordOrder[taggable1guid]
+                    let taggable2order = flexWordOrder[taggable2guid]
+                    if let value1 = taggable1order, let value2 = taggable2order {
+                        return value1 < value2
+                    }
+                    else if taggable1order != nil {
+                        return true
+                    }
+                    else {
+                        return false
+                    }
+                }
+                else {
+                    if taggable1.getAttribute(attributeName: "guid") != nil {
+                        return true
+                    }
+                    else {
+                        return false
+                    }
+                }
+            }
+            else if taggable1.elementName == "flex" {return true;}
             else if taggable2.elementName == "flex" {return false;}
             else if taggable1.elementName == "orig" {return false;}
             else if taggable2.elementName == "orig" {return true;}
             else {return taggable1.elementName < taggable2.elementName}
         }
+        static var flexWordOrder = [String : Int]();
     }
     
     func generateContent(tokensFromTranskribusFlex tokens: [Amphisbaena_UnifiedTokenizer.Token], transkribusContainer: Amphisbaena_TranskribusTEIContainer, flexContainer: Amphisbaena_FlexTextContainer, TEITagsContainer: Amphisbaena_TEITagContainer?, elanContainer: Amphisbaena_ELANContainer?) {
@@ -32,7 +58,7 @@ extension Amphisbaena_UnifiedContainer_TextBody {
         var currentUtterance: Amphisbaena_Container?
         var currentWords: Amphisbaena_Container?
         var currentWord: Amphisbaena_Container?
-        
+        /*
         var tokensString = ""
         for token in tokens {
             tokensString += token.type
@@ -43,6 +69,7 @@ extension Amphisbaena_UnifiedContainer_TextBody {
             tokensString += "]\n"
         }
         print(tokensString)
+        */
         
         var currentPhraseGuid: String?
         var currentParagraphFacs: String?
@@ -68,12 +95,15 @@ extension Amphisbaena_UnifiedContainer_TextBody {
             print("ELAN CONTAINER FOUND, PHRASES FOUND: "+String(elanPhrases?.count ?? 0))
         }
         
+        var canCreateNewWord = true;
+        
         for token in tokens {
             let type = token.type
             switch type {
             case "flexparagraph":
                 guard let guid = token.identifier else {break;}
                 
+                canCreateNewWord = true;
                 let newParagraph = Amphisbaena_Container(withName: "p", isRoot: false)
                 newParagraph.elementAttributes = ["guid" : guid]
                 containerParagraphs.addElement(element: newParagraph)
@@ -89,6 +119,8 @@ extension Amphisbaena_UnifiedContainer_TextBody {
             case "flexphrase":
                 guard let guid = token.identifier,
                     let currentPhrases = currentPhrases else {break;}
+                
+                canCreateNewWord = true;
                 let phrase = Amphisbaena_Container(withName: "phr", isRoot: false)
                 phrase.elementAttributes = ["guid" : guid]
                 
@@ -124,10 +156,14 @@ extension Amphisbaena_UnifiedContainer_TextBody {
             case "flexw":
                 currentWord?.sortElements(by: SortCriteria.sortCriteria)
                 if let currentWords = currentWords {
-                    let word = Amphisbaena_Container(withName: "word", isRoot: false)
-                    word.elementAttributes = ["xml:id" : ""]
-                    currentWords.addElement(element: word)
-                    currentWord = word
+                    if (canCreateNewWord == true) {
+                        let word = Amphisbaena_Container(withName: "word", isRoot: false)
+                        word.elementAttributes = ["xml:id" : ""]
+                        currentWords.addElement(element: word)
+                        currentWord = word
+                        canCreateNewWord = false;
+                        SortCriteria.flexWordOrder = [:]
+                    }
                     
                     let flex = Amphisbaena_Container(withName: "flex", isRoot: false)
                     if let guid = token.identifier {
@@ -145,11 +181,15 @@ extension Amphisbaena_UnifiedContainer_TextBody {
                     }
                     currentWord?.addElement(element: flex)
                     currentWord?.sortElements(by: SortCriteria.sortCriteria)
+                    if let guid = token.identifier {
+                        let count = SortCriteria.flexWordOrder.count
+                        SortCriteria.flexWordOrder[guid] = count
+                    }
                 }
             case "transkribusteipb":
                 if let identifier = token.identifier,
                     let currentWord = currentWord {
-                    
+                    canCreateNewWord = true;
                     let orig = multipleFiles_getWordOrig(word: currentWord)
                     
                     let transkribusPb = Amphisbaena_Element(elementName: "pb")
@@ -165,7 +205,7 @@ extension Amphisbaena_UnifiedContainer_TextBody {
             case "transkribusteilb":
             if let identifier = token.identifier,
                 let currentWord = currentWord {
-                
+                canCreateNewWord = true;
                 let orig = multipleFiles_getWordOrig(word: currentWord)
                 
                 let transkribusLb = Amphisbaena_Element(elementName: "lb")
@@ -182,7 +222,7 @@ extension Amphisbaena_UnifiedContainer_TextBody {
             case "transkribusteiw":
                 if let identifier = token.identifier,
                     let currentWord = currentWord {
-                    
+                    canCreateNewWord = true;
                     //add tags
                     if let teiTagsContainer = TEITagsContainer {
                         let tagFacs = identifier.replacingOccurrences(of: "#", with: "")
@@ -233,6 +273,7 @@ extension Amphisbaena_UnifiedContainer_TextBody {
                     let flexPhrase = flexContainer.searchForElement(withAttribute: "guid", ofValue: guid, recursively: true).first as? Amphisbaena_Container,
                     let gloss = flexPhrase.searchForElement(withName: "item", withAttribute: "type", ofValue: "gls", recursively: false).first,
                     let lang = gloss.getAttribute(attributeName: "lang") {
+                    canCreateNewWord = true;
                     let newGloss = Amphisbaena_Element(elementName: "gloss", attributes: ["lang" : lang, "cert" : ""], elementContent: gloss.elementContent)
                     newGloss.preferredAttributeOrder = ElementAttributeOrder.gloss
                     currentPhrase?.addElement(element: newGloss)

@@ -14,6 +14,8 @@ class Amphisbaena_UnifiedContainer_TextBody: Amphisbaena_Container {
     var containerParagraphsP: [Amphisbaena_Container] = [];
     var currentContainerParagraphP: Amphisbaena_Container?
     var participants: [Participant] = [];
+    
+    //var flexWordOrder: [String : Int] = [:]
 
     typealias Participant = String
 
