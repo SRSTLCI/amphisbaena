@@ -73,7 +73,27 @@ class ViewController_WordLinksEditor: NSViewController {
     func setup() {
         autoGenerateWordLinks()
         setupWordLinkButtons()
+
+        clearUndo()
+        
         table_wordLink.reloadData()
+        becomeFirstResponder()
+    }
+    
+    func clearUndo() {
+        undoManager?.removeAllActions()
+    }
+    
+    func wordLinkDidChange(fromWordLinks: [Amphisbaena_WordLinksModifier.WordLink]) {
+        print(undoManager)
+        self.table_wordLink.reloadData()
+        
+        undoManager?.registerUndo(withTarget: self) { target in
+            let fromWordLinks = fromWordLinks.compactMap { $0 }
+            let currentWordLinks = self.wordLinkModifier?.wordLinks ?? []
+            self.wordLinkModifier?.wordLinks = fromWordLinks
+            self.wordLinkDidChange(fromWordLinks: currentWordLinks)
+        }
     }
     
     func autoGenerateWordLinks() {
@@ -94,23 +114,34 @@ class ViewController_WordLinksEditor: NSViewController {
             alert.addButton(withTitle: "Yes")
             alert.addButton(withTitle: "No")
             alert.beginSheetModal(for: self.view.window!) { (response) in
-                if response == .alertSecondButtonReturn {
-                    return;
+                if response == .alertFirstButtonReturn {
+                    self.generateWordLinks()
                 }
             }
         }
-        guard let containerTranskribus = containerTranskribus, let containerFLEx = containerFLEx else {return;}
-        wordLinkModifier = Amphisbaena_WordLinksModifier(fromFileContainers: containerTranskribus, flexContainer: containerFLEx)
-        table_wordLink.reloadData()
-        setupWordLinkButtons()
+        else {
+            self.generateWordLinks()
+        }
+    }
+    
+    func generateWordLinks() {
+        guard let containerTranskribus = self.containerTranskribus, let containerFLEx = self.containerFLEx else {return;}
+        self.wordLinkModifier = Amphisbaena_WordLinksModifier(fromFileContainers: containerTranskribus, flexContainer: containerFLEx)
+        self.clearUndo()
+        self.table_wordLink.reloadData()
+        self.setupWordLinkButtons()
     }
     
     @IBAction func button_combineSelected_underFLEx_Action(_ sender: Any) {
         guard let wordLinkModifier = wordLinkModifier else {return}
         if let combineSelection = wordLinkSelection,
             matchWords_IndexSetCanBeCombined(indexSet: combineSelection) {
+            
+            let fromWordLinks = wordLinkModifier.wordLinks.compactMap {$0}
             wordLinkModifier.combineSelectedIntoGuid(fromIndexSet: combineSelection)
-            table_wordLink.reloadData()
+            
+            wordLinkDidChange(fromWordLinks: fromWordLinks)
+            //table_wordLink.reloadData()
         }
     }
     
@@ -118,8 +149,12 @@ class ViewController_WordLinksEditor: NSViewController {
         guard let wordLinkModifier = wordLinkModifier else {return}
         if let combineSelection = wordLinkSelection,
             matchWords_IndexSetCanBeCombined(indexSet: combineSelection) {
+            
+            let fromWordLinks = wordLinkModifier.wordLinks.compactMap {$0}
             wordLinkModifier.combineSelectedIntoFacs(fromIndexSet: combineSelection)
-            table_wordLink.reloadData()
+            
+            wordLinkDidChange(fromWordLinks: fromWordLinks)
+            //table_wordLink.reloadData()
         }
     }
     
@@ -127,8 +162,12 @@ class ViewController_WordLinksEditor: NSViewController {
         guard let wordLinkModifier = wordLinkModifier else {return}
         if let singleSelection = wordLinkSelection,
             matchWords_IndexIsSingleIndex(indexSet: singleSelection) {
+            
+            let fromWordLinks = wordLinkModifier.wordLinks.compactMap {$0}
             wordLinkModifier.insertEmptyTranskribus(atIndexSet: singleSelection)
-            table_wordLink.reloadData()
+            
+            wordLinkDidChange(fromWordLinks: fromWordLinks)
+            //table_wordLink.reloadData()
         }
     }
     
