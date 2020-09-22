@@ -62,32 +62,6 @@ class ViewController_IngestFileManager: NSViewController {
             }
         }
         
-        /*
-        //Transkribus
-        if rootViewController?.containerTranskribusTEI != nil {
-            let fileRow = fileRows[.TranskribusTEIXML]
-            fileRow?.setStatus_FileLoadSuccessful()
-            self.setFileRow_ButtonEnable(forType: .TranskribusTEIXML, button2Enable: true)
-        }
-        else {
-            let fileRow = fileRows[.TranskribusTEIXML]
-            fileRow?.setStatus_NoFileLoaded()
-            self.setFileRow_ButtonEnable(forType: .TranskribusTEIXML, button2Enable: false)
-        }
-        
-        //FLExText
-        if rootViewController?.containerFlexText != nil {
-            let fileRow = fileRows[.FLExXML]
-            fileRow?.setStatus_FileLoadSuccessful()
-            self.setFileRow_ButtonEnable(forType: .FLExXML, button2Enable: true)
-        }
-        else {
-            let fileRow = fileRows[.FLExXML]
-            fileRow?.setStatus_NoFileLoaded()
-            self.setFileRow_ButtonEnable(forType: .FLExXML, button2Enable: false)
-        }
-        */
-        
         self.enableGenerateWordLinksIfFilesPresent()
     }
     

@@ -64,9 +64,41 @@ class Document: NSDocument {
         }
         
         if let wordLink = plistData[FileDictionaryKeys.wordLinks] as? String,
-            let wordLinkParser = Amphisbaena_WordLinksParser(XMLString: wordLink) {
-            wordLinkParser.parse()
-            viewController.containerWordLink = wordLinkParser.resultContainer
+           let wordLinkParser = Amphisbaena_WordLinksParserProvider.getParser(forText: wordLink) {
+            let version: String? = Amphisbaena_WordLinksParserProvider.determineVersion(forText: wordLink)
+            var resultContainer: Amphisbaena_WordLinksContainer?
+            if version == Amphisbaena_WordLinksContainer.Version.v01.rawValue || version == nil {
+                Swift.print("Importing a v01 word link container.")
+                if let transkribusContainer = viewController.containerTranskribusTEI, let flexTextContainer = viewController.containerFlexText {
+                    wordLinkParser.parse()
+                    resultContainer = wordLinkParser.resultContainer
+                    resultContainer = resultContainer?.convertContainerFrom01(withTranskribusContainer: transkribusContainer, withFLExFile: flexTextContainer)
+                    viewController.containerWordLink = resultContainer
+                }
+                else {
+                    wordLinkParser.parse()
+                    viewController.containerWordLink = wordLinkParser.resultContainer
+                }
+            }
+            else {
+                Swift.print("Importing a v02 word link container.")
+                if let transkribusContainer = viewController.containerTranskribusTEI,
+                   let flexTextContainer = viewController.containerFlexText {
+                    wordLinkParser.parse();
+                    if let parser = wordLinkParser as? Amphisbaena_WordLinksParser_Format02 {
+                        Swift.print(transkribusContainer.getAll_w().count)
+                        Swift.print(flexTextContainer.getAll_Word().count)
+                        Swift.print(parser.modifierWordLinks )
+                        let importModifier = Amphisbaena_WordLinksModifier(fromExistingWordLinks: parser.modifierWordLinks, transkribusContainer: transkribusContainer, flexContainer: flexTextContainer)
+                        Swift.print(importModifier.flexWords)
+                        Swift.print(importModifier.transkribusWords)
+                        importModifier.setupNewContainer()
+                        resultContainer = importModifier.resultContainer
+                        Swift.print(resultContainer?.version)
+                        viewController.containerWordLink = resultContainer
+                    }
+                }
+            }
         }
         
         if let transkribusTags = plistData[FileDictionaryKeys.transkribusTags] as? String {

@@ -256,6 +256,17 @@ class Amphisbaena_UnifiedTokenizer {
                         }
                     case "languages":
                         lookForPhraseGloss = true;
+                    /*
+                    case "item":
+                        let attributes = element.elementAttributes;
+                        if let attributes = attributes,
+                            let elementType = attributes["type"] {
+                            if elementType == "gls" {
+                                let tokenGloss = Token(type: "flexphrasegloss", identifier: nil, content: element.elementContent)
+                                tokens.append(tokenGloss)
+                            }
+                        }
+                    */
                     default:
                         break;
                     }
@@ -264,12 +275,23 @@ class Amphisbaena_UnifiedTokenizer {
                 //phrase glosses exist at the transition to a new phrase or paragraph, so check
                 //the previous item in the flatmap when a transition occurs
                 if (lookForPhraseGloss) {
-                    let possibleGloss = flexFlatMap[max(0,flexFlatMapIndex-1)]
-                    let possibleGlossType = possibleGloss.getAttribute(attributeName: "type") ?? ""
-                    
-                    if (possibleGlossType == "gls") {
-                        let tokenGloss = Token(type: "flexphrasegloss", identifier: nil, content: possibleGloss.elementContent)
-                        tokens.append(tokenGloss)
+                    var foundGloss = false;
+                    for i in 1...2 {
+                        let possibleGloss = flexFlatMap[max(0,flexFlatMapIndex-i)]
+                        let possibleGlossType = possibleGloss.getAttribute(attributeName: "type") ?? ""
+                        
+                        if (foundGloss == false) {
+                            if (possibleGlossType == "gls") {
+                                let tokenGloss = Token(type: "flexphrasegloss", identifier: nil, content: possibleGloss.elementContent)
+                                tokens.append(tokenGloss)
+                                foundGloss = true;
+                            }
+                        }
+                        
+                        if (possibleGlossType == "note") {
+                            let tokenGloss = Token(type: "flexphrasenote", identifier: nil, content: possibleGloss.elementContent)
+                            tokens.append(tokenGloss)
+                        }
                     }
                 }
                 

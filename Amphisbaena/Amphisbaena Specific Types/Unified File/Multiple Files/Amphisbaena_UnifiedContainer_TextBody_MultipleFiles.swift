@@ -279,6 +279,15 @@ extension Amphisbaena_UnifiedContainer_TextBody {
                     currentPhrase?.addElement(element: newGloss)
                     
                 }
+            case "flexphrasenote":
+                if let guid = currentPhrase?.getAttribute(attributeName: "guid") ,
+                    let flexPhrase = flexContainer.searchForElement(withAttribute: "guid", ofValue: guid, recursively: true).first as? Amphisbaena_Container,
+                    let note = flexPhrase.searchForElement(withName: "item", withAttribute: "type", ofValue: "note", recursively: false).first {
+                    
+                    let newNote = Amphisbaena_Container(withName: "note", isRoot: false)
+                    currentPhrase?.addElement(element: newNote)
+                    
+                }
             default:
                 break;
             }
