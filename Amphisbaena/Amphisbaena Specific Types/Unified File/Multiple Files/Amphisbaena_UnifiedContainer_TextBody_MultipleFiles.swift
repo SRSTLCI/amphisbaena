@@ -50,6 +50,184 @@ extension Amphisbaena_UnifiedContainer_TextBody {
         static var flexWordOrder = [String : Int]();
     }
     
+    struct RegEx {
+        static let regexNoteGloss   = try! NSRegularExpression(pattern: #"(\«)(.+?)(\»)"#, options: [])
+        static let regexNoteReg     = try! NSRegularExpression(pattern: #"(\{)(.+?)(\})"#, options: [])
+    }
+    
+    struct PhraseNotes {
+        var contentRaw: String
+        var content: String?
+        
+        var glossRanges: [NSRange] = []
+        var regRanges: [NSRange] = []
+        
+        func getGlossContent() -> [String] {
+            guard let content = content else {return []}
+            var strings: [String] = []
+            for glossRange in glossRanges {
+                if let range = Range(glossRange, in: content) {
+                    strings.append(String(content[range]))
+                }
+            }
+            return strings
+        }
+        
+        func getRegContent() -> [String] {
+            guard let content = content else {return []}
+            var strings: [String] = []
+            for regRange in regRanges {
+                if let range = Range(regRange, in: content) {
+                    strings.append(String(content[range]))
+                }
+            }
+            return strings
+        }
+        
+        mutating func format() {
+            let newContent = contentRaw;
+            let matchRange = NSRange(newContent.startIndex..<newContent.endIndex, in: newContent)
+            let glossMatches = RegEx.regexNoteGloss.matches(in: newContent, options: [], range: matchRange)
+            let regMatches = RegEx.regexNoteReg.matches(in: newContent, options: [], range: matchRange)
+            
+            print("NOTE TEXT: "+newContent)
+            var glossCount = 0;
+            for match in glossMatches {
+                glossCount += 1;
+                print(String(format: "MATCHES IN GLOSS %d: ", glossCount))
+                for r in 0..<match.numberOfRanges {
+                    guard let matchRange = Range(match.range(at: r), in: newContent) else {continue;}
+                    let matchStr = String(newContent[matchRange])
+                    print(matchStr)
+                }
+            }
+            var regCount = 0;
+            for match in regMatches {
+                regCount += 1;
+                print(String(format: "MATCHES IN REG %d: ", regCount))
+                for r in 0..<match.numberOfRanges {
+                    guard let matchRange = Range(match.range(at: r), in: newContent) else {continue;}
+                    let matchStr = String(newContent[matchRange])
+                    print(matchStr)
+                }
+            }
+            print("NOTE TEXT END.")
+            
+            let allMatches = glossMatches + regMatches;
+            var allRanges = allMatches.reduce([Range<String.Index>]()) { (resultArr, newResult) in
+                var resultRange = resultArr
+                for r in 1..<newResult.numberOfRanges {
+                    guard let matchRange = Range(newResult.range(at: r), in: newContent) else {continue}
+                    resultRange.append(matchRange)
+                }
+                return resultRange
+            }
+            var startIndex = 0;
+            var currentMemoRange: Range<String.Index>?
+            for c in 1..<newContent.count {
+                guard let newRange = Range(NSRange(startIndex...c), in: newContent) else {continue;}
+                print(newRange)
+                var collision = false
+                for range in allRanges {
+                    collision = range.overlaps(newRange)
+                    if (collision) {break;}
+                }
+                if collision == true {
+                    if let currentMemoRange = currentMemoRange {allRanges.append(currentMemoRange)}
+                    startIndex = c;
+                    currentMemoRange = nil
+                }
+                else {
+                    currentMemoRange = newRange
+                }
+            }
+            var orderedRanges = allRanges.sorted { (range1, range2) -> Bool in
+                if range1.overlaps(range2) == false {
+                    return range1.lowerBound < range2.lowerBound
+                }
+                else {
+                    return false
+                }
+            }
+            //add last range
+            var lastRange: Range<String.Index>?
+            if let lastOrderedRange = orderedRanges.last {
+                let nsRange = NSRange(lastOrderedRange.upperBound..<newContent.endIndex, in: newContent)
+                lastRange = Range(nsRange, in: newContent)
+            }
+            if let lastRange = lastRange {orderedRanges.append(lastRange)}
+            
+            /*
+            print(orderedRanges.compactMap({ (range) -> [Int] in
+                var indices = [Int]()
+                let range = NSRange(range, in: newContent)
+                indices.append(range.lowerBound)
+                indices.append(range.upperBound)
+                return indices
+            }))
+            print(newContent.count)
+            
+            print(orderedRanges.compactMap({ (range) -> String in
+                let newStr = String(newContent[range]);
+                return newStr
+            }))
+            */
+            
+            let textTokens = orderedRanges.compactMap({ (range) -> String in
+                let newStr = String(newContent[range]);
+                return newStr
+            })
+            if orderedRanges.count > 0 {
+                content = ""
+                var foundCurlyBrace = false
+                var foundFrenchQuote = false
+                var offsetCorrection = 1;
+                for range in orderedRanges {
+                    let textToken = String(newContent[range])
+                    if textToken.contains("{") {
+                        foundCurlyBrace = true;
+                    }
+                    else if textToken.contains("}") {
+                        foundCurlyBrace = false;
+                    }
+                    else if (foundCurlyBrace == true) {
+                        let nsRange = NSRange(range, in: contentRaw)
+                        let newRange = NSRange(location: nsRange.lowerBound-offsetCorrection, length: nsRange.length)
+                        guard let finalRange = Range(newRange, in: contentRaw) else {continue;}
+                        regRanges.append(NSRange(finalRange, in: contentRaw))
+                        offsetCorrection += 2;
+                    }
+                    if textToken.contains("«") {
+                        foundFrenchQuote = true;
+                    }
+                    else if textToken.contains("»") {
+                        foundFrenchQuote = false;
+                    }
+                    else if (foundFrenchQuote == true) {
+                        let nsRange = NSRange(range, in: contentRaw)
+                        let newRange = NSRange(location: nsRange.lowerBound-offsetCorrection, length: nsRange.length)
+                        guard let finalRange = Range(newRange, in: contentRaw) else {continue;}
+                        glossRanges.append(NSRange(finalRange, in: contentRaw))
+                        offsetCorrection += 2;
+                    }
+                    if textToken.rangeOfCharacter(from: .alphanumerics) != nil {
+                        content?.append(textToken)
+                    }
+                }
+            }
+            print(getRegContent())
+            print(getGlossContent())
+            print(regRanges)
+            print(glossRanges)
+        }
+    }
+    
+    func formatPhraseNote(noteString: String) -> Amphisbaena_Container? {
+        var newPhraseNote = PhraseNotes(contentRaw: noteString)
+        
+        return nil
+    }
+    
     func generateContent(tokensFromTranskribusFlex tokens: [Amphisbaena_UnifiedTokenizer.Token], transkribusContainer: Amphisbaena_TranskribusTEIContainer, flexContainer: Amphisbaena_FlexTextContainer, TEITagsContainer: Amphisbaena_TEITagContainer?, elanContainer: Amphisbaena_ELANContainer?) {
         
         var currentPhrases: Amphisbaena_Container?
@@ -96,6 +274,7 @@ extension Amphisbaena_UnifiedContainer_TextBody {
         }
         
         var canCreateNewWord = true;
+        var badCert_flexWord = false;
         
         for token in tokens {
             let type = token.type
@@ -152,7 +331,10 @@ extension Amphisbaena_UnifiedContainer_TextBody {
                 currentWords = words
                 
                 phraseCount += 1;
-                
+            case "flexw_BadCertBegin":
+                badCert_flexWord = true;
+            case "flexw_BadCertEnd":
+                badCert_flexWord = false;
             case "flexw":
                 currentWord?.sortElements(by: SortCriteria.sortCriteria)
                 if let currentWords = currentWords {
@@ -170,11 +352,20 @@ extension Amphisbaena_UnifiedContainer_TextBody {
                         flex.elementAttributes = ["guid" : guid]
                     }
                     if let content = token.content {
-                        flex.addElement(element: Amphisbaena_Element(elementName: "reg", attributes: nil, elementContent: content))
+                        var regAttributes = [String : String]()
+                        regAttributes["cert"] = badCert_flexWord ? "no" : "yes"
+                        flex.addElement(element: Amphisbaena_Element(elementName: "reg", attributes: regAttributes, elementContent: content))
                         if let guid = token.identifier,
                             let wordElement = flexContainer.searchForElement(withName: "word", withAttribute: "guid", ofValue: guid, recursively: true).first as? Amphisbaena_Container,
                             let itemGloss = wordElement.searchForElement(withName: "item", withAttribute: "type", ofValue: "gls").first {
-                            let gloss = Amphisbaena_Element(elementName: "gloss", attributes: nil, elementContent: itemGloss.elementContent)
+                            
+                            var glossAttributes = [String : String]()
+                            glossAttributes["cert"] = "yes"
+                            if itemGloss.elementContent?.contains("{") ?? false || itemGloss.elementContent?.contains("}") ?? false {
+                                glossAttributes["cert"] = "no"
+                            }
+                            
+                            let gloss = Amphisbaena_Element(elementName: "gloss", attributes: glossAttributes, elementContent: itemGloss.elementContent)
                             flex.addElement(element: gloss)
                             
                         }
@@ -227,7 +418,6 @@ extension Amphisbaena_UnifiedContainer_TextBody {
                     if let teiTagsContainer = TEITagsContainer {
                         let tagFacs = identifier.replacingOccurrences(of: "#", with: "")
                         if let tagContainer = teiTagsContainer.searchForElement(withName: "tag", withAttribute: "facs", ofValue: tagFacs).first as? Amphisbaena_Container {
-                            //print(identifier+" has tags.")
                             
                             if let elements = tagContainer.elementEnclosing {
                                 for tag in elements {
@@ -246,11 +436,16 @@ extension Amphisbaena_UnifiedContainer_TextBody {
                     let orig = multipleFiles_getWordOrig(word: currentWord)
                     
                     let transkribusW = Amphisbaena_Element(elementName: "w")
-                    transkribusW.preferredAttributeOrder = ElementAttributeOrder.w
-                    transkribusW.elementAttributes = [
+                    var transkribusWAttributes = [
                         "facs" : identifier,
-                        "cert" : ""
+                        "cert" : "yes"
                     ]
+                    transkribusW.preferredAttributeOrder = ElementAttributeOrder.w
+                    if token.content?.contains("{") ?? false ||
+                        token.content?.contains("}") ?? false {
+                        transkribusWAttributes["cert"] = "no"
+                    }
+                    transkribusW.elementAttributes = transkribusWAttributes
                     transkribusW.elementContent = token.content
                     
                     orig.addElement(element: transkribusW)
@@ -274,7 +469,14 @@ extension Amphisbaena_UnifiedContainer_TextBody {
                     let gloss = flexPhrase.searchForElement(withName: "item", withAttribute: "type", ofValue: "gls", recursively: false).first,
                     let lang = gloss.getAttribute(attributeName: "lang") {
                     canCreateNewWord = true;
-                    let newGloss = Amphisbaena_Element(elementName: "gloss", attributes: ["lang" : lang, "cert" : ""], elementContent: gloss.elementContent)
+                    
+                    var attributes: [String : String] = ["lang" : lang, "cert" : "yes"]
+                    if gloss.elementContent?.contains("{") ?? false ||
+                        gloss.elementContent?.contains("}") ?? false {
+                        attributes["cert"] = "no"
+                    }
+                    
+                    let newGloss = Amphisbaena_Element(elementName: "gloss", attributes: attributes, elementContent: gloss.elementContent)
                     newGloss.preferredAttributeOrder = ElementAttributeOrder.gloss
                     currentPhrase?.addElement(element: newGloss)
                     
@@ -287,6 +489,32 @@ extension Amphisbaena_UnifiedContainer_TextBody {
                     let newNote = Amphisbaena_Container(withName: "note", isRoot: false)
                     currentPhrase?.addElement(element: newNote)
                     
+                    let noteContent = note.elementContent
+                    
+                    var noteStruct = PhraseNotes(contentRaw: noteContent ?? "")
+                    noteStruct.format()
+                    if let content = noteStruct.content {
+                        let noteContentElement = Amphisbaena_Element(elementName: "content", attributes: nil, elementContent: content)
+                        newNote.addElement(element: noteContentElement)
+                    }
+                    if noteStruct.glossRanges.count > 0 {
+                        for glossRange in noteStruct.glossRanges {
+                            let beginIndex = String(glossRange.lowerBound)
+                            let length = String(glossRange.length)
+                            let glossElement = Amphisbaena_Element(elementName: "gloss", attributes: ["begin" : beginIndex, "length" : length], elementContent: nil)
+                            glossElement.preferredAttributeOrder = ["begin", "length"]
+                            newNote.addElement(element: glossElement)
+                        }
+                    }
+                    if noteStruct.regRanges.count > 0 {
+                        for regRange in noteStruct.regRanges {
+                            let beginIndex = String(regRange.lowerBound)
+                            let length = String(regRange.length)
+                            let regElement = Amphisbaena_Element(elementName: "reg", attributes: ["begin" : beginIndex, "length" : length], elementContent: nil)
+                            regElement.preferredAttributeOrder = ["begin", "length"]
+                            newNote.addElement(element: regElement)
+                        }
+                    }
                 }
             default:
                 break;

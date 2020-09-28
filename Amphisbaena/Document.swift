@@ -86,15 +86,15 @@ class Document: NSDocument {
                    let flexTextContainer = viewController.containerFlexText {
                     wordLinkParser.parse();
                     if let parser = wordLinkParser as? Amphisbaena_WordLinksParser_Format02 {
-                        Swift.print(transkribusContainer.getAll_w().count)
-                        Swift.print(flexTextContainer.getAll_Word().count)
-                        Swift.print(parser.modifierWordLinks )
+                        //Swift.print(transkribusContainer.getAll_w().count)
+                        //Swift.print(flexTextContainer.getAll_Word().count)
+                        //Swift.print(parser.modifierWordLinks )
                         let importModifier = Amphisbaena_WordLinksModifier(fromExistingWordLinks: parser.modifierWordLinks, transkribusContainer: transkribusContainer, flexContainer: flexTextContainer)
-                        Swift.print(importModifier.flexWords)
-                        Swift.print(importModifier.transkribusWords)
+                        //Swift.print(importModifier.flexWords)
+                        //Swift.print(importModifier.transkribusWords)
                         importModifier.setupNewContainer()
                         resultContainer = importModifier.resultContainer
-                        Swift.print(resultContainer?.version)
+                        //Swift.print(resultContainer?.version)
                         viewController.containerWordLink = resultContainer
                     }
                 }

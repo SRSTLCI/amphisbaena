@@ -256,17 +256,6 @@ class Amphisbaena_UnifiedTokenizer {
                         }
                     case "languages":
                         lookForPhraseGloss = true;
-                    /*
-                    case "item":
-                        let attributes = element.elementAttributes;
-                        if let attributes = attributes,
-                            let elementType = attributes["type"] {
-                            if elementType == "gls" {
-                                let tokenGloss = Token(type: "flexphrasegloss", identifier: nil, content: element.elementContent)
-                                tokens.append(tokenGloss)
-                            }
-                        }
-                    */
                     default:
                         break;
                     }
@@ -310,9 +299,23 @@ class Amphisbaena_UnifiedTokenizer {
             if let flexIDs = flexIDs {
                 for flexID in flexIDs {
                     let flexguid = flexID.elementContent ?? ""
-                    let groundtruth = flexID.getAttribute(attributeName: "groundtruth") ?? ""
-                    let flexToken = Token(type: "flexw", identifier: flexguid, content: groundtruth)
-                    tokens.append(flexToken)
+                    let groundtruth = (flexID.getAttribute(attributeName: "groundtruth") ?? "").trimmingCharacters(in: .whitespacesAndNewlines)
+                    if groundtruth.contains("{") && groundtruth.rangeOfCharacter(from: .alphanumerics) == nil {
+                        let uncertainBeginToken = Token(type: "flexw_BadCertBegin", identifier: flexguid, content: groundtruth)
+                        tokens.append(uncertainBeginToken)
+                    }
+                    else if groundtruth.contains("}") && groundtruth.rangeOfCharacter(from: .alphanumerics) == nil {
+                        let uncertainEndToken = Token(type: "flexw_BadCertEnd", identifier: flexguid, content: groundtruth)
+                        tokens.append(uncertainEndToken)
+                    }
+                    else {
+                        var flexWordContent = groundtruth;
+                        if flexWordContent.rangeOfCharacter(from: .alphanumerics) != nil && flexWordContent.contains("_") {
+                            flexWordContent = flexWordContent.replacingOccurrences(of: "_", with: ".")
+                        }
+                        let flexToken = Token(type: "flexw", identifier: flexguid, content: flexWordContent)
+                        tokens.append(flexToken)
+                    }
                 }
             }
             
