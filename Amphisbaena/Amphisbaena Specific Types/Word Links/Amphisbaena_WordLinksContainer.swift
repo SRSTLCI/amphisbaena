@@ -34,8 +34,6 @@ extension Amphisbaena_WordLinksContainer {
             print("Attempted to convert word link container. This container is not v0.1")
             return nil
         }
-        
-        //guard let transkribusContainer = transkribusContainer, let flexContainer = flexContainer else {return nil}
         let wordLinkModifier = Amphisbaena_WordLinksModifier()
         wordLinkModifier.containerFlexText = flexContainer
         wordLinkModifier.containerTranskribusTEI = transkribusContainer

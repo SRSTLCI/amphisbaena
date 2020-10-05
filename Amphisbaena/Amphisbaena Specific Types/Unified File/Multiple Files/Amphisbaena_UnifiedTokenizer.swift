@@ -296,7 +296,8 @@ class Amphisbaena_UnifiedTokenizer {
             }
             
             let flexIDs = wordLink.getOrderedElements(ofName: "guid") as? [Amphisbaena_Element]
-            if let flexIDs = flexIDs {
+            if let flexIDs = flexIDs,
+               flexIDs.count > 0 {
                 for flexID in flexIDs {
                     let flexguid = flexID.elementContent ?? ""
                     let groundtruth = (flexID.getAttribute(attributeName: "groundtruth") ?? "").trimmingCharacters(in: .whitespacesAndNewlines)
@@ -317,6 +318,10 @@ class Amphisbaena_UnifiedTokenizer {
                         tokens.append(flexToken)
                     }
                 }
+            }
+            else {
+                let flexToken = Token(type: "flexwNotPresent", identifier: "NA", content: "NA")
+                tokens.append(flexToken)
             }
             
             let facsElements = wordLink.getOrderedElements(ofName: "facs").compactMap{$0 as? Amphisbaena_Element}

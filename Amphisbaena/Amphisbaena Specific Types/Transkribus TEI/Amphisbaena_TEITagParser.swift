@@ -167,20 +167,6 @@ class Amphisbaena_TEITagParser {
                 elementSic.preferredAttributeOrder = ElementAttributeOrders.sic
                 facsContainer?.addElement(element: elementSic)
                 
-                /*
-                var sic = Sic()
-                if let correction = dict["correction"] {
-                    sic.correction = correction
-                }
-                if sics.contains(sic) == false {
-                    sics.append(sic)
-                }
-                let sicIndex = sics.firstIndex(of: sic)
-                if let sicIndex = sicIndex {
-                    sics[sicIndex].associatedFacs.append(addedFacs);
-                }
-                */
-                
             case "person":
                 
                 var attributes: [String : String] = [:]
@@ -193,23 +179,6 @@ class Amphisbaena_TEITagParser {
                 let elementPerson = Amphisbaena_Element(elementName: "person", attributes: attributes, elementContent: nil)
                 elementPerson.preferredAttributeOrder = ElementAttributeOrders.person
                 facsContainer?.addElement(element: elementPerson)
-                
-                /*
-                var person = Person()
-                if let firstName = dict["firstname"] {
-                    person.firstName = firstName
-                }
-                if let lastName = dict["lastname"] {
-                    person.lastName = lastName
-                }
-                if people.contains(person) == false {
-                    people.append(person)
-                }
-                let peopleIndex = people.firstIndex(of: person)
-                if let peopleIndex = peopleIndex {
-                    people[peopleIndex].associatedFacs.append(addedFacs);
-                }
-                */
                 
             case "place":
                 
@@ -226,30 +195,6 @@ class Amphisbaena_TEITagParser {
                 let elementPlace = Amphisbaena_Element(elementName: "place", attributes: attributes, elementContent: nil)
                 elementPlace.preferredAttributeOrder = ElementAttributeOrders.place
                 facsContainer?.addElement(element: elementPlace)
-                
-                /*
-                var place = Place()
-                if let geo = dict["geo"] {
-                    let coords = geo.components(separatedBy: ",")
-                    let geoLat = coords[0]
-                    let geoLong = coords[1]
-                    place.geoLat = geoLat
-                    place.geoLong = geoLong
-                }
-                if let placeName = dict["placeName"] {
-                    place.placeName = placeName
-                }
-                if let type = dict["type"] {
-                    place.type = type
-                }
-                if places.contains(place) == false {
-                    places.append(place)
-                }
-                let placeIndex = places.firstIndex(of: place)
-                if let placeIndex = placeIndex {
-                    places[placeIndex].associatedFacs.append(addedFacs);
-                }
-                */
             case "date":
                 
                 var attributes: [String : String] = [:]
@@ -265,26 +210,26 @@ class Amphisbaena_TEITagParser {
                 let elementDate = Amphisbaena_Element(elementName: "date", attributes: attributes, elementContent: nil)
                 elementDate.preferredAttributeOrder = ElementAttributeOrders.date
                 facsContainer?.addElement(element: elementDate)
-                
-                /*
-                var date = Date()
-                if let month = dict["month"] {
-                    date.month = month
+            case "edit":
+                var attributes: [String : String] = [:]
+                if let month = dict["original"] {
+                    attributes["original"] = month
                 }
-                if let year = dict["year"] {
-                    date.year = year
+                let elementEdit = Amphisbaena_Element(elementName: "edit", attributes: attributes, elementContent: nil)
+                facsContainer?.addElement(element: elementEdit)
+            case "edited", "merged", "split":
+                var attributes: [String : String] = [:]
+                if let month = dict["unedited"] {
+                    attributes["unedited"] = month
                 }
-                if let day = dict["day"] {
-                    date.day = day
-                }
-                if dates.contains(date) == false {
-                    dates.append(date)
-                }
-                let dateIndex = dates.firstIndex(of: date)
-                if let dateIndex = dateIndex {
-                    dates[dateIndex].associatedFacs.append(addedFacs)
-                }
-                */
+                let elementEdit = Amphisbaena_Element(elementName: key, attributes: attributes, elementContent: nil)
+                facsContainer?.addElement(element: elementEdit)
+            case "del":
+                let elementDel = Amphisbaena_Element(elementName: "del", attributes: nil, elementContent: nil)
+                facsContainer?.addElement(element: elementDel)
+            case "addition":
+                let elementAddition = Amphisbaena_Element(elementName: "addition", attributes: nil, elementContent: nil)
+                facsContainer?.addElement(element: elementAddition)
             default:
                 print("Ingesting keys: Unhandled data type of kind "+key)
             }

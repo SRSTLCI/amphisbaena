@@ -115,87 +115,17 @@ class Amphisbaena_WordLinksModifier {
         initialWordLinks = wordLinks.compactMap {$0}
         resultContainer = Amphisbaena_WordLinksContainer();
     }
-    
-    /*
-    init(fromExistingContainer wordLinkContainer: Amphisbaena_WordLinksContainer, withOptionalTranskribusContainer transkribusContainer: Amphisbaena_TranskribusTEIContainer? = nil, optionalFlexTextContainer flexContainer: Amphisbaena_FlexTextContainer? = nil) {
-        
-        let wordLinks = wordLinkContainer.getOrderedElements(ofName: "wordLink").compactMap{$0 as? Amphisbaena_Container}
-        
-        //PROCESSING FLEX
-        print(wordLinks.count)
-        
-        var wordCountMatches = false
-        var flexWords: [Amphisbaena_Container]?
-        if let flexContainer = flexContainer {
-            flexWords = flexContainer.getAll_Word()
-            wordCountMatches = (flexWords!.count == wordLinks.count)
-        }
-        print(wordCountMatches)
-        
-        for w in 0..<wordLinks.count {
-            let wordLink = wordLinks[w]
-            let guid = wordLink.getAttribute(attributeName: "guid") ?? ""
-            var content: String!
-            if wordCountMatches == true,
-                let flexWords = flexWords,
-                guid.trimmingCharacters(in: .whitespacesAndNewlines) != "" {
-                
-                let txt = flexWords[w].searchForElement(withName: "item", withAttribute: "type", ofValue: "txt").first as? Amphisbaena_Element
-                content = txt?.elementContent ?? Placeholder.notFound
-                
-            }
-            else {
-                content = wordLink.getAttribute(attributeName: "groundtruth") ?? Placeholder.notFound
-            }
-            let flexWord = FlexWord(guid: guid, content: content)
-            //flexGuids.append(flexWord)
-        }
-        
-        //PROCESSING TRANSKRIBUS
-        var transkribusAll_w: [Amphisbaena_Element]?
-        if let transkribusContainer = transkribusContainer {
-            transkribusAll_w = transkribusContainer.getAll_w()
-        }
-        for w in 0..<wordLinks.count {
-            let wordLink = wordLinks[w]
-            let guid = wordLink.getAttribute(attributeName: "guid") ?? ""
-            guard guid.trimmingCharacters(in: .whitespacesAndNewlines) != "" else {continue;}
-            
-            var importedFacs: [TranskribusWord] = []
-            
-            let facsElements = wordLink.getOrderedElements(ofName: "facs")
-            for facsElement in facsElements {
-                let facs = facsElement.elementContent
-                var content = Placeholder.notFound
-                
-                if let transkribusAll_w = transkribusAll_w,
-                    let facs = facs,
-                    facs.trimmingCharacters(in: .whitespacesAndNewlines) != "" {
-                    for wElement in transkribusAll_w {
-                        if wElement.getAttribute(attributeName: "facs") == facs,
-                            let wElementContent = wElement.elementContent {
-                            content = wElementContent
-                        }
-                    }
-                }
-                
-                if let facs = facs {
-                    let word = TranskribusWord(facs: facs, content: content)
-                    importedFacs.append(word)
-                }
-            }
-            //transkribusWords[w] = importedFacs;
-        }
-        
-        resultContainer = Amphisbaena_WordLinksContainer()
-    }
-    */
+
     func makeTranskribusList(fromTranskribusContainer transkribusContainer: Amphisbaena_TranskribusTEIContainer) {
         transkribusWords = [];
         let transkribus_w = transkribusContainer.getAll_w()
         for i in 0..<transkribus_w.count {
             let facs = transkribus_w[i].getAttribute(attributeName: "facs") ?? "FACS_MISSING"
-            let text = transkribus_w[i].elementContent
+            var text = transkribus_w[i].elementContent
+            if let hiElement = transkribus_w[i].getFirstElement(ofName: "hi"),
+               text == nil {
+                text = hiElement.elementContent
+            }
             let sic = transkribus_w[i].getFirstElement(ofName: "sic")?.elementContent
             let transkribusWord = TranskribusWord(facs: facs, content: text ?? sic ?? "")
             transkribusWords.append(transkribusWord)
@@ -285,41 +215,6 @@ class Amphisbaena_WordLinksModifier {
             consolidateWordLinks()
             trimEmptyWordLinks()
         }
-        
-        /*
-        if let first = indexSet.first,
-            let last = indexSet.last,
-            first >= 0,
-            last < itemCount {
-            
-            var firstWordLink = wordLinks[first];
-            var memoFacs = [[Int]]()
-            
-            indexSet.forEach { (index) in
-                if index != first {
-                    let wordLink = wordLinks[index];
-                    memoFacs.append(wordLink.facs)
-                    firstWordLink.guids.append(contentsOf: wordLink.guids);
-                }
-            }
-            
-            wordLinks[first] = firstWordLink;
-            wordLinks.removeSubrange(first+1...last)
-            
-            var cascadeMemoFacs = [Int]()
-            for i in first+1..<wordLinks.count {
-                var wordLinkCurrent = wordLinks[i];
-                if (memoFacs.count > 0) {
-                    wordLinkCurrent.facs = memoFacs.removeFirst()
-                }
-                else {
-                    wordLinkCurrent.facs = cascadeMemoFacs;
-                }
-                cascadeMemoFacs = wordLinks[i].facs;
-                wordLinks[i] = wordLinkCurrent
-            }
-        }
-    */
     }
     
     private func indexSetIsContinuous(indexSet: IndexSet) -> Bool {
@@ -396,17 +291,26 @@ class Amphisbaena_WordLinksModifier {
             trimEmptyWordLinks()
             let newEmptyGuid = WordLink(guidsFirst: 0, guidsCount: 0, facsFirst: memoFacs.0, facsCount: memoFacs.1)
             wordLinks.append(newEmptyGuid)
-            /*
-            for key in transkribusWords.keys.sorted().dropFirst().reversed() {
-                if key >= first {
-                    let newKey = key+1;
-                    let oldValue = transkribusWords[key]
-                    transkribusWords[newKey] = oldValue
-                }
+        }
+    }
+    
+    func insertEmptyFLEx(atIndexSet indexSet: IndexSet) {
+        if let first = indexSet.first,
+        first >= 0,
+        first < itemCount {
+            let wordLink = wordLinks[first]
+            var memoGuid = (wordLink.guidsFirst, wordLink.guidsCount)
+            wordLinks[first].guidsCount = -1;
+            for i in first+1..<wordLinks.count {
+                var currentWordLink = wordLinks[i];
+                currentWordLink.guidsFirst = memoGuid.0
+                currentWordLink.guidsCount = memoGuid.1
+                memoGuid = (wordLinks[i].guidsFirst, wordLinks[i].guidsCount);
+                wordLinks[i] = currentWordLink
             }
-            
-            transkribusWords[first] = nil
-            */
+            trimEmptyWordLinks()
+            let newEmptyGuid = WordLink(guidsFirst: memoGuid.0, guidsCount: memoGuid.1, facsFirst: 0, facsCount: 0)
+            wordLinks.append(newEmptyGuid)
         }
     }
     
@@ -421,7 +325,15 @@ class Amphisbaena_WordLinksModifier {
             var attributes: [String : String] = [:]
             let preferredAttributeOrder = ["guid", "guidFirst", "guidCount", "facs", "facsFirst", "facsCount"]
             if wordLink.guidsCount != 0 {
-                attributes["guid"] = flexWords[wordLink.guidsFirst].guid
+                //attributes["guid"] = flexWords[wordLink.guidsFirst].guid
+                
+                if wordLink.guidsCount > 0 {
+                    attributes["guid"] = flexWords[wordLink.guidsFirst].guid
+                }
+                else {
+                    attributes["guid"] = ""
+                }
+                
                 attributes["guidCount"] = String(wordLink.guidsCount)
                 attributes["guidFirst"] = String(wordLink.guidsFirst)
                 
@@ -440,9 +352,18 @@ class Amphisbaena_WordLinksModifier {
                 }
             }
             if wordLink.facsCount != 0 {
-                attributes["facs"] = transkribusWords[wordLink.facsFirst].facs
+                //attributes["facs"] = transkribusWords[wordLink.facsFirst].facs
+                
+                if wordLink.facsCount > 0 {
+                    attributes["facs"] = transkribusWords[wordLink.facsFirst].facs
+                }
+                else {
+                    attributes["facs"] = ""
+                }
+                
                 attributes["facsCount"] = String(wordLink.facsCount)
                 attributes["facsFirst"] = String(wordLink.facsFirst)
+                
                 wordLink.facsRange.forEach { (facsIndex) in
                     let facsWord = transkribusWords[facsIndex]
                     var facsAttributes: [String : String] = [:]

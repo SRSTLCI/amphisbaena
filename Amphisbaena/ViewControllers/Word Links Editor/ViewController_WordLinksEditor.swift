@@ -84,9 +84,17 @@ class ViewController_WordLinksEditor: NSViewController {
         undoManager?.removeAllActions()
     }
     
-    func wordLinkDidChange(fromWordLinks: [Amphisbaena_WordLinksModifier.WordLink]) {
-        print(undoManager)
+    func tableWordLinkReload() {
+        let selectedIndex = self.table_wordLink.selectedRowIndexes.first
         self.table_wordLink.reloadData()
+        if let selectedIndex = selectedIndex {
+            let selectedCell = self.table_wordLink.frameOfCell(atColumn: 0, row: selectedIndex)
+            self.table_wordLink.scrollToVisible(selectedCell)
+        }
+    }
+    
+    func wordLinkDidChange(fromWordLinks: [Amphisbaena_WordLinksModifier.WordLink]) {
+        tableWordLinkReload();
         
         undoManager?.registerUndo(withTarget: self) { target in
             let fromWordLinks = fromWordLinks.compactMap { $0 }
@@ -167,7 +175,17 @@ class ViewController_WordLinksEditor: NSViewController {
             wordLinkModifier.insertEmptyTranskribus(atIndexSet: singleSelection)
             
             wordLinkDidChange(fromWordLinks: fromWordLinks)
-            //table_wordLink.reloadData()
+        }
+    }
+    @IBAction func button_insertEmpty_Flex(_ sender: Any) {
+        guard let wordLinkModifier = wordLinkModifier else {return}
+        if let singleSelection = wordLinkSelection,
+            matchWords_IndexIsSingleIndex(indexSet: singleSelection) {
+            
+            let fromWordLinks = wordLinkModifier.wordLinks.compactMap {$0}
+            wordLinkModifier.insertEmptyFLEx(atIndexSet: singleSelection)
+            
+            wordLinkDidChange(fromWordLinks: fromWordLinks)
         }
     }
     
@@ -226,7 +244,9 @@ class ViewController_WordLinksEditor: NSViewController {
         var difference: Int = 0;
         var previous: Int = 0;
         var canCombine = true;
-        if let first = indexSet.first {
+        if let first = indexSet.first,
+           let last = indexSet.last {
+            if (first - last == 0) {return false;}
             previous = first as Int;
             indexSet.forEach { (index) in
                 if (canCombine == true) {
@@ -270,6 +290,14 @@ extension ViewController_WordLinksEditor: NSTableViewDataSource {
     }
 }
 
+extension ViewController_WordLinksEditor {
+    func strikeThroughText (_ text:String) -> NSAttributedString {
+        let attributeString: NSMutableAttributedString =  NSMutableAttributedString(string: text)
+        attributeString.addAttribute(NSAttributedString.Key.strikethroughStyle, value: 1, range: NSMakeRange(0, attributeString.length))
+        return attributeString
+    }
+}
+
 extension ViewController_WordLinksEditor: NSTableViewDelegate {
     
     struct TableIdentifiers {
@@ -292,6 +320,7 @@ extension ViewController_WordLinksEditor: NSTableViewDelegate {
         
         var text = "";
         var identifier: NSUserInterfaceItemIdentifier!
+        var shouldStrikethrough = false;
         
         if tableColumn == tableView.tableColumns[0] {
             identifier = TableIdentifiers.FLEx_itemIndex;
@@ -320,11 +349,6 @@ extension ViewController_WordLinksEditor: NSTableViewDelegate {
                 }
             }
             text = txt
-            /*
-            if let currentGuid = currentGuid {
-                text = currentGuid.guid
-            }
-            */
         }
         else if tableColumn == tableView.tableColumns[2] {
             identifier = TableIdentifiers.FLEx_guid
@@ -340,11 +364,6 @@ extension ViewController_WordLinksEditor: NSTableViewDelegate {
                 }
             }
             text = txt
-            /*
-            if let currentGuid = currentGuid {
-                text = currentGuid.content
-            }
-            */
         }
         else if tableColumn == tableView.tableColumns[3] {
             identifier = TableIdentifiers.FLEx_itemIndex
@@ -358,11 +377,6 @@ extension ViewController_WordLinksEditor: NSTableViewDelegate {
                 }
             }
             text = txt
-            /*
-            if currentFacs != nil {
-                text = String(row)
-            }
-            */
         }
         else if tableColumn == tableView.tableColumns[4] {
             identifier = TableIdentifiers.Transkribus_w
@@ -377,15 +391,15 @@ extension ViewController_WordLinksEditor: NSTableViewDelegate {
                     }
                 }
             }
-            text = txt
-            /*
-            if let currentFacs = currentFacs {
-                for w in 0..<currentFacs.count {
-                    text += currentFacs[w].content
-                    if (w < currentFacs.count-1) {text += ", "}
+            var hasFLEx = true;
+            if let wordLinkFLExGuid = wordLinkFLExGuid {
+                if wordLinkFLExGuid.count <= 0 {
+                    hasFLEx = false
                 }
             }
-            */
+            else {hasFLEx = false}
+            if hasFLEx == false {shouldStrikethrough = true;}
+            text = txt
         }
         else if tableColumn == tableView.tableColumns[5] {
             identifier = TableIdentifiers.Transkribus_facs
@@ -400,20 +414,26 @@ extension ViewController_WordLinksEditor: NSTableViewDelegate {
                     }
                 }
             }
-            text = txt
-            /*
-            if let currentFacs = currentFacs {
-                for w in 0..<currentFacs.count {
-                    text += currentFacs[w].facs
-                    if (w < currentFacs.count-1) {text += ", "}
+            var hasFLEx = true;
+            if let wordLinkFLExGuid = wordLinkFLExGuid {
+                if wordLinkFLExGuid.count <= 0 {
+                    hasFLEx = false
                 }
             }
-            */
+            else {hasFLEx = false}
+            if hasFLEx == false {shouldStrikethrough = true;}
+            text = txt
         }
         
         if let cell = tableView.makeView(withIdentifier: identifier, owner: nil) as? NSTableCellView {
             cell.textField?.stringValue = text
-            //cell.imageView?.image = image
+            
+            if shouldStrikethrough,
+               let string = cell.textField?.stringValue {
+                let strikethroughText = strikeThroughText(string);
+                cell.textField?.attributedStringValue = strikethroughText
+            }
+            
             return cell
         }
         return nil

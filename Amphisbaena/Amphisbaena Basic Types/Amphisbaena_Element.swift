@@ -36,7 +36,6 @@ class Amphisbaena_Element: AmphisbaenaXMLTaggable {
             }
             
             if let elementContent = elementContent {
-                //xml += AmphisbaenaTagFormatting.XML.newline
                 xml += elementContent;
             }
             

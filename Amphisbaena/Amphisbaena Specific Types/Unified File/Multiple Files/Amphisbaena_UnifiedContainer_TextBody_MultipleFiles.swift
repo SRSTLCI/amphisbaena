@@ -157,26 +157,11 @@ extension Amphisbaena_UnifiedContainer_TextBody {
             }
             if let lastRange = lastRange {orderedRanges.append(lastRange)}
             
-            /*
-            print(orderedRanges.compactMap({ (range) -> [Int] in
-                var indices = [Int]()
-                let range = NSRange(range, in: newContent)
-                indices.append(range.lowerBound)
-                indices.append(range.upperBound)
-                return indices
-            }))
-            print(newContent.count)
-            
-            print(orderedRanges.compactMap({ (range) -> String in
-                let newStr = String(newContent[range]);
-                return newStr
-            }))
-            */
-            
             let textTokens = orderedRanges.compactMap({ (range) -> String in
                 let newStr = String(newContent[range]);
                 return newStr
             })
+            print("TEXT TOKENS: "+String(describing: textTokens))
             if orderedRanges.count > 0 {
                 content = ""
                 var foundCurlyBrace = false
@@ -220,6 +205,86 @@ extension Amphisbaena_UnifiedContainer_TextBody {
             print(regRanges)
             print(glossRanges)
         }
+    }
+    
+    struct TagSpecifiers {
+        enum TagLevel: Int {
+            case word       = 0
+            case orig       = 1
+            case orig_w     = 2
+        }
+        
+        static let defaultTagLevel: TagLevel = .orig_w
+        
+        static let tagRename: [String : String] = [
+            "edit"      :   "corr",
+            "addition"  :   "add",
+            "original"  :   "misprint"
+        ]
+        
+        static let tagLevels: [String : TagLevel] = [
+            "addition"  :   .orig_w,
+            "edit"      :   .orig_w,
+            "del"       :   .orig_w
+        ]
+        
+        static let tagInjectContent: [String : String] = [
+            "addition"  :   "yes",
+            "del"       :   "yes",
+            "edit"      :   "yes",
+            "edited"    :   "yes",
+            "merged"    :   "yes",
+            "split"     :   "yes"
+        ]
+        
+        static let tagSplitAttribute: [String : String] = [
+            "edit"      :   "original",
+            "edited"    :   "unedited",
+            "merged"    :   "unedited",
+            "split"    :   "unedited"
+        ]
+    }
+    
+    func tagLevel(forTag tagName: String) -> TagSpecifiers.TagLevel {
+        if let tagLevel = TagSpecifiers.tagLevels[tagName] {return tagLevel}
+        return TagSpecifiers.defaultTagLevel
+    }
+    
+    func tagNewName(forTag tagName: String) -> String? {
+        return TagSpecifiers.tagRename[tagName]
+    }
+    
+    func tagInjectContent(forTag tagName: String) -> String? {
+        return TagSpecifiers.tagInjectContent[tagName]
+    }
+    
+    func tagSplitAttribute(forTag tagElement: Amphisbaena_Element) -> Amphisbaena_Element? {
+        if let attributeSplit = TagSpecifiers.tagSplitAttribute[tagElement.elementName],
+           let attributes = tagElement.elementAttributes,
+           let attributeValue = attributes[attributeSplit] {
+            
+            //modify the tag in place to remove its tag
+            let newAttributes = attributes.filter { (key, _) -> Bool in
+                key != attributeSplit
+            }
+            tagElement.elementAttributes = newAttributes
+            
+            //create a new tag and return it
+            let newElement = Amphisbaena_Element(elementName: attributeSplit)
+            newElement.elementContent = attributeValue
+            return newElement
+        }
+        else {return nil}
+    }
+    
+    func findTags(forFacs identifier: String, usingTagContainer TEITagsContainer: Amphisbaena_TEITagContainer?) -> [Amphisbaena_Element] {
+        guard let teiTagsContainer = TEITagsContainer else {return []}
+        let tagFacs = identifier.replacingOccurrences(of: "#", with: "")
+        if let tagContainer = teiTagsContainer.searchForElement(withName: "tag", withAttribute: "facs", ofValue: tagFacs).first as? Amphisbaena_Container,
+           let elements = tagContainer.elementEnclosing?.compactMap({ $0 as? Amphisbaena_Element }) {
+            return elements
+        }
+        else {return []}
     }
     
     func formatPhraseNote(noteString: String) -> Amphisbaena_Container? {
@@ -340,7 +405,7 @@ extension Amphisbaena_UnifiedContainer_TextBody {
                 if let currentWords = currentWords {
                     if (canCreateNewWord == true) {
                         let word = Amphisbaena_Container(withName: "word", isRoot: false)
-                        word.elementAttributes = ["xml:id" : ""]
+                        //word.elementAttributes = ["xml:id" : ""]
                         currentWords.addElement(element: word)
                         currentWord = word
                         canCreateNewWord = false;
@@ -375,6 +440,16 @@ extension Amphisbaena_UnifiedContainer_TextBody {
                     if let guid = token.identifier {
                         let count = SortCriteria.flexWordOrder.count
                         SortCriteria.flexWordOrder[guid] = count
+                    }
+                }
+            case "flexwNotPresent":
+                if let currentWords = currentWords {
+                    if (canCreateNewWord == true) {
+                        let word = Amphisbaena_Container(withName: "word", isRoot: false)
+                        currentWords.addElement(element: word)
+                        currentWord = word
+                        canCreateNewWord = false;
+                        SortCriteria.flexWordOrder = [:]
                     }
                 }
             case "transkribusteipb":
@@ -415,38 +490,67 @@ extension Amphisbaena_UnifiedContainer_TextBody {
                     let currentWord = currentWord {
                     canCreateNewWord = true;
                     //add tags
-                    if let teiTagsContainer = TEITagsContainer {
-                        let tagFacs = identifier.replacingOccurrences(of: "#", with: "")
-                        if let tagContainer = teiTagsContainer.searchForElement(withName: "tag", withAttribute: "facs", ofValue: tagFacs).first as? Amphisbaena_Container {
-                            
-                            if let elements = tagContainer.elementEnclosing {
-                                for tag in elements {
-                                    guard let tag = tag as? Amphisbaena_Element else {continue;}
-                                    if currentWord.hasElementsMatching(name: tag.elementName, matchingAttributes: tag.elementAttributes).isEmpty == false {continue;}
-                                    
-                                    let newTag = tag.copy() as! Amphisbaena_Element
-                                    currentWord.addElement(element: newTag)
-                                }
-                            }
+                    
+                    let foundTags = findTags(forFacs: identifier, usingTagContainer: TEITagsContainer)
+                    /*
+                    for tag in foundTags {
+                        guard tagLevel(forTag: tag.elementName) == .word else {continue;}
+                        if currentWord.hasElementsMatching(name: tag.elementName, matchingAttributes: tag.elementAttributes).isEmpty == false {continue;}
+                        
+                        let newTag = tag.copy() as! Amphisbaena_Element
+                        if let tagName = tagNewName(forTag: tag.elementName) {
+                            newTag.elementName = tagName
                         }
+                        if let tagInjectContent = tagInjectContent(forTag: tag.elementName) {
+                            newTag.elementContent = tagInjectContent
+                        }
+                        currentWord.addElement(element: newTag)
                     }
-                    
+                    */
                     //add transkribus w
-                    
                     let orig = multipleFiles_getWordOrig(word: currentWord)
                     
-                    let transkribusW = Amphisbaena_Element(elementName: "w")
+                    let transkribusW =  Amphisbaena_Element(elementName: "w")
                     var transkribusWAttributes = [
                         "facs" : identifier,
-                        "cert" : "yes"
                     ]
                     transkribusW.preferredAttributeOrder = ElementAttributeOrder.w
+                    transkribusW.elementContent = token.content
+
+                    //cert element
+                    transkribusWAttributes["cert"] = "yes"
                     if token.content?.contains("{") ?? false ||
                         token.content?.contains("}") ?? false {
                         transkribusWAttributes["cert"] = "no"
                     }
+                    
+                    //add tags to transkribus w
+                    for tag in foundTags {
+                        guard tagLevel(forTag: tag.elementName) == .orig_w else {continue;}
+                        var newAttribute = [String : String]();
+                        
+                        let newTag = tag.copy() as! Amphisbaena_Element
+                        let splitTag = tagSplitAttribute(forTag: newTag)
+                        
+                        if let tagName = tagNewName(forTag: tag.elementName) {
+                            newTag.elementName = tagName
+                        }
+                        if let tagInjectContent = tagInjectContent(forTag: tag.elementName) {
+                            newTag.elementContent = tagInjectContent
+                        }
+                        newAttribute[newTag.elementName] = newTag.elementContent
+                        if let splitTag = splitTag {
+                            if let splitTagName = tagNewName(forTag: splitTag.elementName) {
+                                splitTag.elementName = splitTagName
+                            }
+                            newAttribute[splitTag.elementName] = splitTag.elementContent
+                        }
+                        transkribusWAttributes.merge(newAttribute) { (key1, key2) -> String in
+                            return key1;
+                        }
+                    }
+                    
                     transkribusW.elementAttributes = transkribusWAttributes
-                    transkribusW.elementContent = token.content
                     
                     orig.addElement(element: transkribusW)
                     
