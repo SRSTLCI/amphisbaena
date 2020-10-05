@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16097"/>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17156"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -705,8 +706,8 @@
         <scene sceneID="hIz-AP-VOD">
             <objects>
                 <viewController id="5gI-5U-AMq" customClass="ViewController" customModule="Amphisbaena" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" misplaced="YES" id="ERx-hH-rdd">
-                        <rect key="frame" x="0.0" y="0.0" width="720" height="166"/>
+                    <view key="view" id="ERx-hH-rdd">
+                        <rect key="frame" x="0.0" y="0.0" width="720" height="218"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <tabView translatesAutoresizingMaskIntoConstraints="NO" id="Shr-rc-sXp">
@@ -831,7 +832,7 @@
                                                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="LJH-dB-1dk">
                                                     <rect key="frame" x="263" y="93" width="92" height="14"/>
                                                     <textFieldCell key="cell" controlSize="small" lineBreakMode="clipping" title="No file imported." id="sED-IP-o1F">
-                                                        <font key="font" metaFont="menu" size="11"/>
+                                                        <font key="font" metaFont="message" size="11"/>
                                                         <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                     </textFieldCell>
@@ -846,7 +847,7 @@
                                                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="r0U-CA-M7U">
                                                     <rect key="frame" x="18" y="37" width="594" height="28"/>
                                                     <textFieldCell key="cell" controlSize="small" selectable="YES" id="AqH-et-7O1">
-                                                        <font key="font" metaFont="menu" size="11"/>
+                                                        <font key="font" metaFont="message" size="11"/>
                                                         <string key="title">Before you regenerate files:
 Please note that files regenerated here will overwrite any files you have imported for Transkribus TEI or FLEx.</string>
                                                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -932,7 +933,7 @@ Please note that files regenerated here will overwrite any files you have import
                                                 <rect key="frame" x="0.0" y="0.0" width="968" height="493"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
-                                                    <textView editable="NO" importsGraphics="NO" richText="NO" verticallyResizable="YES" findStyle="bar" spellingCorrection="YES" smartInsertDelete="YES" id="oGQ-5g-rXH">
+                                                    <textView editable="NO" importsGraphics="NO" richText="NO" verticallyResizable="YES" baseWritingDirection="leftToRight" findStyle="bar" spellingCorrection="YES" smartInsertDelete="YES" id="oGQ-5g-rXH">
                                                         <rect key="frame" x="0.0" y="0.0" width="968" height="493"/>
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -944,7 +945,7 @@ Please note that files regenerated here will overwrite any files you have import
                                                                 <attributes>
                                                                     <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                                     <font key="NSFont" metaFont="fixedUser" size="11"/>
-                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="charWrapping" baseWritingDirection="leftToRight" tighteningFactorForTruncation="0.0"/>
                                                                 </attributes>
                                                             </fragment>
                                                         </attributedString>
@@ -996,11 +997,11 @@ Please note that files regenerated here will overwrite any files you have import
             <objects>
                 <viewController storyboardIdentifier="WordLinksEditor" id="5KB-FK-lmn" customClass="ViewController_WordLinksEditor" customModule="Amphisbaena" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="8Nj-y3-J25">
-                        <rect key="frame" x="0.0" y="0.0" width="800" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="802" height="860"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="zBE-wC-Wg1">
-                                <rect key="frame" x="18" y="776" width="192" height="16"/>
+                                <rect key="frame" x="18" y="824" width="192" height="16"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="Step 1: Generate Word Links" id="6Ye-Zl-HBh">
                                     <font key="font" metaFont="systemHeavy" size="13"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -1008,7 +1009,7 @@ Please note that files regenerated here will overwrite any files you have import
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="fLf-QU-2kb">
-                                <rect key="frame" x="18" y="648" width="175" height="16"/>
+                                <rect key="frame" x="18" y="696" width="175" height="16"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="Step 2: Refine Word Links" id="jDI-7d-BI3">
                                     <font key="font" metaFont="systemHeavy" size="13"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -1024,7 +1025,7 @@ Please note that files regenerated here will overwrite any files you have import
                                 </textFieldCell>
                             </textField>
                             <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="Awd-Fs-q53">
-                                <rect key="frame" x="18" y="740" width="764" height="28"/>
+                                <rect key="frame" x="18" y="788" width="766" height="28"/>
                                 <textFieldCell key="cell" controlSize="small" selectable="YES" id="ml5-xD-Rts">
                                     <font key="font" metaFont="message" size="11"/>
                                     <string key="title">Word links are how Amphisbaena matches Transkribus zones to FLEx words. You can use Amphisbaena to generate new word links. Once your word links are generated, you need to make sure that all the content matches 1:1 with each other.</string>
@@ -1033,7 +1034,7 @@ Please note that files regenerated here will overwrite any files you have import
                                 </textFieldCell>
                             </textField>
                             <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="Khu-dg-CVl">
-                                <rect key="frame" x="18" y="556" width="764" height="84"/>
+                                <rect key="frame" x="18" y="604" width="766" height="84"/>
                                 <textFieldCell key="cell" controlSize="small" selectable="YES" id="kx1-r8-JC8">
                                     <font key="font" metaFont="message" size="11"/>
                                     <string key="title">Once you have generated your word links, you will need to curate and refine how the words match to each other. Transkribus and FLEx words do not have an implicit relationship to one another, so you must establish one by providing the correct Transkribus zones under the FLEx words.
@@ -1045,7 +1046,7 @@ You can select a row in the Word Match Table, and then click a Tool button to ma
                                 </textFieldCell>
                             </textField>
                             <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="sXh-yE-0TN">
-                                <rect key="frame" x="18" y="53" width="764" height="28"/>
+                                <rect key="frame" x="18" y="53" width="766" height="28"/>
                                 <textFieldCell key="cell" controlSize="small" selectable="YES" id="a1P-bJ-7we">
                                     <font key="font" metaFont="message" size="11"/>
                                     <string key="title">When you are sure that all of your Transkribus zones are matched under the appropriate FLEx words, click Save Word Links below to commit these changes to your project file. You may also choose to Close Without Saving if you do not wish to apply your changes.</string>
@@ -1054,7 +1055,7 @@ You can select a row in the Word Match Table, and then click a Tool button to ma
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="CCt-Mx-HAH">
-                                <rect key="frame" x="18" y="718" width="474" height="14"/>
+                                <rect key="frame" x="18" y="766" width="474" height="14"/>
                                 <textFieldCell key="cell" controlSize="small" lineBreakMode="clipping" title="Note: You do not need to generate word links if you already imported a word links xml file." id="BLr-Dv-l8G">
                                     <font key="font" metaFont="message" size="11"/>
                                     <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
@@ -1062,7 +1063,7 @@ You can select a row in the Word Match Table, and then click a Tool button to ma
                                 </textFieldCell>
                             </textField>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="QfT-87-kfE">
-                                <rect key="frame" x="14" y="678" width="197" height="32"/>
+                                <rect key="frame" x="14" y="726" width="197" height="32"/>
                                 <buttonCell key="cell" type="push" title="Generate New Word Links" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Ktm-3d-Uzw">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -1072,22 +1073,22 @@ You can select a row in the Word Match Table, and then click a Tool button to ma
                                 </connections>
                             </button>
                             <box verticalHuggingPriority="750" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="pYJ-PG-fEO">
-                                <rect key="frame" x="20" y="670" width="760" height="5"/>
+                                <rect key="frame" x="20" y="718" width="762" height="5"/>
                             </box>
                             <box title="Word Match Table" translatesAutoresizingMaskIntoConstraints="NO" id="WW1-Zt-0yL">
-                                <rect key="frame" x="7" y="122" width="786" height="422"/>
+                                <rect key="frame" x="7" y="122" width="788" height="470"/>
                                 <view key="contentView" id="lC2-SK-LYc">
-                                    <rect key="frame" x="3" y="3" width="780" height="404"/>
+                                    <rect key="frame" x="3" y="3" width="782" height="452"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
-                                        <scrollView verticalCompressionResistancePriority="250" autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ech-BY-l3I">
-                                            <rect key="frame" x="8" y="8" width="764" height="342"/>
+                                        <scrollView verticalCompressionResistancePriority="250" autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ech-BY-l3I">
+                                            <rect key="frame" x="8" y="8" width="766" height="340"/>
                                             <clipView key="contentView" id="hgE-wB-tFf">
-                                                <rect key="frame" x="1" y="0.0" width="762" height="341"/>
+                                                <rect key="frame" x="1" y="0.0" width="764" height="339"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
-                                                    <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" alternatingRowBackgroundColors="YES" columnReordering="NO" autosaveColumns="NO" typeSelect="NO" rowSizeStyle="automatic" headerView="TjS-UP-6gM" viewBased="YES" id="uAZ-hc-75l">
-                                                        <rect key="frame" x="0.0" y="0.0" width="762" height="316"/>
+                                                    <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" alternatingRowBackgroundColors="YES" columnReordering="NO" autosaveColumns="NO" typeSelect="NO" usesAutomaticRowHeights="YES" headerView="TjS-UP-6gM" viewBased="YES" id="uAZ-hc-75l">
+                                                        <rect key="frame" x="0.0" y="0.0" width="764" height="314"/>
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <size key="intercellSpacing" width="3" height="2"/>
                                                         <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -1109,16 +1110,21 @@ You can select a row in the Word Match Table, and then click a Tool button to ma
                                                                         <rect key="frame" x="1" y="1" width="64" height="17"/>
                                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                         <subviews>
-                                                                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hku-BV-Ex7">
-                                                                                <rect key="frame" x="0.0" y="1" width="64" height="16"/>
-                                                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                                                                <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cell" id="MlS-OV-mIT">
+                                                                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="Hku-BV-Ex7">
+                                                                                <rect key="frame" x="0.0" y="-15" width="64" height="32"/>
+                                                                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Table View Cell" id="MlS-OV-mIT">
                                                                                     <font key="font" metaFont="system"/>
                                                                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                                                 </textFieldCell>
                                                                             </textField>
                                                                         </subviews>
+                                                                        <constraints>
+                                                                            <constraint firstItem="Hku-BV-Ex7" firstAttribute="leading" secondItem="F0N-aR-qol" secondAttribute="leading" constant="2" id="P2L-Xa-apo"/>
+                                                                            <constraint firstItem="Hku-BV-Ex7" firstAttribute="top" secondItem="F0N-aR-qol" secondAttribute="top" id="Rrh-WD-h23"/>
+                                                                            <constraint firstAttribute="trailing" secondItem="Hku-BV-Ex7" secondAttribute="trailing" constant="2" id="Y1U-4i-x6Z"/>
+                                                                            <constraint firstAttribute="bottom" secondItem="Hku-BV-Ex7" secondAttribute="bottom" priority="450" constant="1" id="rok-nY-2sM"/>
+                                                                        </constraints>
                                                                         <connections>
                                                                             <outlet property="textField" destination="Hku-BV-Ex7" id="lIg-Ff-zZ6"/>
                                                                         </connections>
@@ -1141,23 +1147,29 @@ You can select a row in the Word Match Table, and then click a Tool button to ma
                                                                         <rect key="frame" x="68" y="1" width="144" height="17"/>
                                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                         <subviews>
-                                                                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gMU-V4-dDU">
+                                                                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="gMU-V4-dDU">
                                                                                 <rect key="frame" x="0.0" y="1" width="144" height="16"/>
-                                                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                                                                <textFieldCell key="cell" lineBreakMode="truncatingMiddle" sendsActionOnEndEditing="YES" title="Table View Cell" id="K5x-ZT-W9E">
+                                                                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Table View Cell" id="K5x-ZT-W9E">
                                                                                     <font key="font" metaFont="system"/>
                                                                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                                                 </textFieldCell>
                                                                             </textField>
                                                                         </subviews>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="gMU-V4-dDU" secondAttribute="bottom" constant="1" id="Ncg-3h-Rsw"/>
+                                                                            <constraint firstAttribute="trailing" secondItem="gMU-V4-dDU" secondAttribute="trailing" constant="2" id="OvX-fP-XK0"/>
+                                                                            <constraint firstAttribute="bottom" secondItem="gMU-V4-dDU" secondAttribute="bottom" priority="500" constant="1" id="UYJ-ei-m5d"/>
+                                                                            <constraint firstItem="gMU-V4-dDU" firstAttribute="leading" secondItem="Itw-77-vZX" secondAttribute="leading" constant="2" id="XHj-6X-DL0"/>
+                                                                            <constraint firstItem="gMU-V4-dDU" firstAttribute="top" secondItem="Itw-77-vZX" secondAttribute="top" id="vLU-99-0xj"/>
+                                                                        </constraints>
                                                                         <connections>
                                                                             <outlet property="textField" destination="gMU-V4-dDU" id="Vi3-dW-s7E"/>
                                                                         </connections>
                                                                     </tableCellView>
                                                                 </prototypeCellViews>
                                                             </tableColumn>
-                                                            <tableColumn width="148.5" minWidth="40" maxWidth="1000" id="F0W-4g-iee">
+                                                            <tableColumn width="148" minWidth="40" maxWidth="1000" id="F0W-4g-iee">
                                                                 <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" title="FLEx item content">
                                                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
@@ -1173,9 +1185,8 @@ You can select a row in the Word Match Table, and then click a Tool button to ma
                                                                         <rect key="frame" x="215" y="1" width="148" height="17"/>
                                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                         <subviews>
-                                                                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x2Y-Jg-YHB">
+                                                                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="x2Y-Jg-YHB">
                                                                                 <rect key="frame" x="0.0" y="1" width="148" height="16"/>
-                                                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                                                                 <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Table View Cell" id="HRq-7e-eSB">
                                                                                     <font key="font" metaFont="system"/>
                                                                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -1183,13 +1194,19 @@ You can select a row in the Word Match Table, and then click a Tool button to ma
                                                                                 </textFieldCell>
                                                                             </textField>
                                                                         </subviews>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="bottom" secondItem="x2Y-Jg-YHB" secondAttribute="bottom" priority="425" constant="1" id="89e-2r-EHv"/>
+                                                                            <constraint firstItem="x2Y-Jg-YHB" firstAttribute="top" secondItem="YuN-Qs-LTU" secondAttribute="top" id="Ci8-4P-2AY"/>
+                                                                            <constraint firstItem="x2Y-Jg-YHB" firstAttribute="leading" secondItem="YuN-Qs-LTU" secondAttribute="leading" constant="2" id="gh3-Z9-lR4"/>
+                                                                            <constraint firstAttribute="trailing" secondItem="x2Y-Jg-YHB" secondAttribute="trailing" constant="2" id="pkb-W9-3Co"/>
+                                                                        </constraints>
                                                                         <connections>
                                                                             <outlet property="textField" destination="x2Y-Jg-YHB" id="YIg-Fs-j04"/>
                                                                         </connections>
                                                                     </tableCellView>
                                                                 </prototypeCellViews>
                                                             </tableColumn>
-                                                            <tableColumn width="64" minWidth="10" maxWidth="3.4028234663852886e+38" id="mUi-lK-fJZ">
+                                                            <tableColumn width="63.5" minWidth="10" maxWidth="3.4028234663852886e+38" id="mUi-lK-fJZ">
                                                                 <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Transkribus Index">
                                                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1202,19 +1219,24 @@ You can select a row in the Word Match Table, and then click a Tool button to ma
                                                                 <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                                 <prototypeCellViews>
                                                                     <tableCellView identifier="Transkribus_itemIndex" id="Tf3-T7-I3Z">
-                                                                        <rect key="frame" x="366" y="1" width="64" height="17"/>
+                                                                        <rect key="frame" x="366" y="1" width="63" height="17"/>
                                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                         <subviews>
-                                                                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JmJ-h4-QFr">
-                                                                                <rect key="frame" x="0.0" y="1" width="64" height="16"/>
-                                                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                                                                <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cell" id="xMb-hW-hxu">
+                                                                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="JmJ-h4-QFr">
+                                                                                <rect key="frame" x="0.0" y="-15" width="63" height="32"/>
+                                                                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Table View Cell" id="xMb-hW-hxu">
                                                                                     <font key="font" metaFont="system"/>
                                                                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                                                 </textFieldCell>
                                                                             </textField>
                                                                         </subviews>
+                                                                        <constraints>
+                                                                            <constraint firstItem="JmJ-h4-QFr" firstAttribute="leading" secondItem="Tf3-T7-I3Z" secondAttribute="leading" constant="2" id="3bK-Re-7vq"/>
+                                                                            <constraint firstAttribute="bottom" secondItem="JmJ-h4-QFr" secondAttribute="bottom" priority="450" constant="1" id="CpG-kP-VU0"/>
+                                                                            <constraint firstAttribute="trailing" secondItem="JmJ-h4-QFr" secondAttribute="trailing" constant="2" id="Pnw-Ad-mr6"/>
+                                                                            <constraint firstItem="JmJ-h4-QFr" firstAttribute="top" secondItem="Tf3-T7-I3Z" secondAttribute="top" id="ap1-Rl-I1V"/>
+                                                                        </constraints>
                                                                         <connections>
                                                                             <outlet property="textField" destination="JmJ-h4-QFr" id="GtH-bd-ejo"/>
                                                                         </connections>
@@ -1222,7 +1244,7 @@ You can select a row in the Word Match Table, and then click a Tool button to ma
                                                                 </prototypeCellViews>
                                                             </tableColumn>
                                                             <tableColumn width="147" minWidth="10" maxWidth="3.4028234663852886e+38" id="0np-tS-hds">
-                                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Transkribus w">
+                                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Transkribus facs">
                                                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </tableHeaderCell>
@@ -1234,12 +1256,11 @@ You can select a row in the Word Match Table, and then click a Tool button to ma
                                                                 <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                                 <prototypeCellViews>
                                                                     <tableCellView identifier="Transkribus_w" id="bmz-GB-SK0">
-                                                                        <rect key="frame" x="433" y="1" width="147" height="17"/>
+                                                                        <rect key="frame" x="432" y="1" width="147" height="17"/>
                                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                         <subviews>
-                                                                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="idF-2t-owJ">
+                                                                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="idF-2t-owJ">
                                                                                 <rect key="frame" x="0.0" y="1" width="147" height="16"/>
-                                                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                                                                 <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Table View Cell" id="nnl-em-BiI">
                                                                                     <font key="font" metaFont="system"/>
                                                                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -1247,14 +1268,21 @@ You can select a row in the Word Match Table, and then click a Tool button to ma
                                                                                 </textFieldCell>
                                                                             </textField>
                                                                         </subviews>
+                                                                        <constraints>
+                                                                            <constraint firstItem="idF-2t-owJ" firstAttribute="top" secondItem="bmz-GB-SK0" secondAttribute="top" id="9SE-i8-JRj"/>
+                                                                            <constraint firstAttribute="trailing" secondItem="idF-2t-owJ" secondAttribute="trailing" constant="2" id="Enh-BX-OxM"/>
+                                                                            <constraint firstAttribute="bottom" secondItem="idF-2t-owJ" secondAttribute="bottom" priority="500" constant="1" id="Fv6-cD-BUO"/>
+                                                                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="idF-2t-owJ" secondAttribute="bottom" constant="1" id="V86-qK-IzN"/>
+                                                                            <constraint firstItem="idF-2t-owJ" firstAttribute="leading" secondItem="bmz-GB-SK0" secondAttribute="leading" constant="2" id="aQ3-a8-JBh"/>
+                                                                        </constraints>
                                                                         <connections>
                                                                             <outlet property="textField" destination="idF-2t-owJ" id="9bs-VX-1F8"/>
                                                                         </connections>
                                                                     </tableCellView>
                                                                 </prototypeCellViews>
                                                             </tableColumn>
-                                                            <tableColumn width="177" minWidth="10" maxWidth="3.4028234663852886e+38" id="Fpx-ci-c8I">
-                                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Transkribus facs">
+                                                            <tableColumn width="180" minWidth="10" maxWidth="3.4028234663852886e+38" id="Fpx-ci-c8I">
+                                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Transkribus w">
                                                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </tableHeaderCell>
@@ -1266,19 +1294,24 @@ You can select a row in the Word Match Table, and then click a Tool button to ma
                                                                 <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                                 <prototypeCellViews>
                                                                     <tableCellView identifier="Transkribus_facs" id="PuB-c6-s8u">
-                                                                        <rect key="frame" x="583" y="1" width="177" height="17"/>
+                                                                        <rect key="frame" x="582" y="1" width="180" height="17"/>
                                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                         <subviews>
-                                                                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZeP-Vz-crd">
-                                                                                <rect key="frame" x="0.0" y="1" width="177" height="16"/>
-                                                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                                                                <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cell" id="hmS-4c-sdx">
+                                                                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="ZeP-Vz-crd">
+                                                                                <rect key="frame" x="0.0" y="1" width="180" height="16"/>
+                                                                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Table View Cell" id="hmS-4c-sdx">
                                                                                     <font key="font" metaFont="system"/>
                                                                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                                                 </textFieldCell>
                                                                             </textField>
                                                                         </subviews>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="bottom" secondItem="ZeP-Vz-crd" secondAttribute="bottom" priority="425" constant="1" id="6Q9-gn-5b2"/>
+                                                                            <constraint firstAttribute="trailing" secondItem="ZeP-Vz-crd" secondAttribute="trailing" constant="2" id="Iyt-wf-COe"/>
+                                                                            <constraint firstItem="ZeP-Vz-crd" firstAttribute="leading" secondItem="PuB-c6-s8u" secondAttribute="leading" constant="2" id="fAl-Z4-Fkw"/>
+                                                                            <constraint firstItem="ZeP-Vz-crd" firstAttribute="top" secondItem="PuB-c6-s8u" secondAttribute="top" id="wOf-AK-hzT"/>
+                                                                        </constraints>
                                                                         <connections>
                                                                             <outlet property="textField" destination="ZeP-Vz-crd" id="Eru-dl-cnh"/>
                                                                         </connections>
@@ -1293,7 +1326,7 @@ You can select a row in the Word Match Table, and then click a Tool button to ma
                                                 <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="340" id="QOV-Tt-BQf"/>
                                             </constraints>
                                             <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="v4Y-y6-CtV">
-                                                <rect key="frame" x="1" y="325" width="762" height="16"/>
+                                                <rect key="frame" x="-100" y="-100" width="762" height="16"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                             </scroller>
                                             <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="fb2-R0-b1n">
@@ -1301,65 +1334,208 @@ You can select a row in the Word Match Table, and then click a Tool button to ma
                                                 <autoresizingMask key="autoresizingMask"/>
                                             </scroller>
                                             <tableHeaderView key="headerView" id="TjS-UP-6gM">
-                                                <rect key="frame" x="0.0" y="0.0" width="762" height="25"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="764" height="25"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                             </tableHeaderView>
                                         </scrollView>
-                                        <button horizontalHuggingPriority="750" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="xW8-Pe-MkJ">
-                                            <rect key="frame" x="22" y="354" width="25" height="25"/>
-                                            <buttonCell key="cell" type="help" bezelStyle="helpButton" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="fBt-F9-iT6">
-                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                                <font key="font" metaFont="system"/>
-                                            </buttonCell>
-                                        </button>
-                                        <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="WBU-VD-hhu">
-                                            <rect key="frame" x="51" y="351" width="200" height="32"/>
-                                            <buttonCell key="cell" type="push" title="Combine Selected to FLEx" bezelStyle="rounded" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="TSI-VZ-kzL">
-                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                                <font key="font" metaFont="system"/>
-                                            </buttonCell>
-                                            <connections>
-                                                <action selector="button_combineSelected_underFLEx_Action:" target="5KB-FK-lmn" id="fvM-t8-j2O"/>
-                                            </connections>
-                                        </button>
-                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Bbl-jd-S8U">
-                                            <rect key="frame" x="22" y="383" width="45" height="13"/>
-                                            <textFieldCell key="cell" controlSize="small" lineBreakMode="clipping" title="TOOLS:" id="vO5-xB-W7b">
-                                                <font key="font" size="11" name="HelveticaNeue-Bold"/>
-                                                <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
-                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                            </textFieldCell>
-                                        </textField>
-                                        <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Jk2-lO-kgV">
-                                            <rect key="frame" x="251" y="351" width="275" height="32"/>
-                                            <buttonCell key="cell" type="push" title="Insert Empty Transkribus Into Selected" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="bz7-oF-u14">
-                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                                <font key="font" metaFont="system"/>
-                                            </buttonCell>
-                                            <connections>
-                                                <action selector="button_insertEmpty_Transkribus:" target="5KB-FK-lmn" id="Fc7-Gn-x85"/>
-                                            </connections>
-                                        </button>
+                                        <stackView distribution="fill" orientation="vertical" alignment="leading" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hPg-ui-hh3">
+                                            <rect key="frame" x="8" y="356" width="766" height="92"/>
+                                            <subviews>
+                                                <stackView distribution="fill" orientation="vertical" alignment="leading" spacing="7" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QwC-UG-99P">
+                                                    <rect key="frame" x="0.0" y="50" width="331" height="42"/>
+                                                    <subviews>
+                                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="d2b-5x-w5J">
+                                                            <rect key="frame" x="-2" y="29" width="61" height="13"/>
+                                                            <textFieldCell key="cell" controlSize="small" lineBreakMode="clipping" title="FLEx Tools" id="hGg-fH-S6r">
+                                                                <font key="font" size="11" name="HelveticaNeue-Bold"/>
+                                                                <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
+                                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                            </textFieldCell>
+                                                        </textField>
+                                                        <stackView distribution="fillProportionally" orientation="horizontal" alignment="top" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ang-eT-JvX">
+                                                            <rect key="frame" x="0.0" y="0.0" width="331" height="22"/>
+                                                            <subviews>
+                                                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="btq-Ay-o0h">
+                                                                    <rect key="frame" x="-2" y="6" width="23" height="11"/>
+                                                                    <textFieldCell key="cell" lineBreakMode="clipping" title="⌘+[" id="4Hg-o9-kna">
+                                                                        <font key="font" metaFont="miniSystem"/>
+                                                                        <color key="textColor" name="tertiaryLabelColor" catalog="System" colorSpace="catalog"/>
+                                                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                                    </textFieldCell>
+                                                                </textField>
+                                                                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="WBU-VD-hhu">
+                                                                    <rect key="frame" x="21" y="-6" width="143" height="32"/>
+                                                                    <buttonCell key="cell" type="push" title="Combine to FLEx" bezelStyle="rounded" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="TSI-VZ-kzL">
+                                                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                                        <font key="font" metaFont="system"/>
+                                                                        <string key="keyEquivalent">[</string>
+                                                                        <modifierMask key="keyEquivalentModifierMask" command="YES"/>
+                                                                    </buttonCell>
+                                                                    <connections>
+                                                                        <action selector="button_combineSelected_underFLEx_Action:" target="5KB-FK-lmn" id="fvM-t8-j2O"/>
+                                                                    </connections>
+                                                                </button>
+                                                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="9xS-Wi-Stx">
+                                                                    <rect key="frame" x="164" y="6" width="23" height="11"/>
+                                                                    <textFieldCell key="cell" lineBreakMode="clipping" title="⌘+]" id="Hfx-wq-V5c">
+                                                                        <font key="font" metaFont="miniSystem"/>
+                                                                        <color key="textColor" name="tertiaryLabelColor" catalog="System" colorSpace="catalog"/>
+                                                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                                    </textFieldCell>
+                                                                </textField>
+                                                                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="dmH-b2-yZT">
+                                                                    <rect key="frame" x="187" y="-6" width="150" height="32"/>
+                                                                    <buttonCell key="cell" type="push" title="Insert Empty FLEx" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="olu-dQ-QeX">
+                                                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                                        <font key="font" metaFont="system"/>
+                                                                        <string key="keyEquivalent">]</string>
+                                                                        <modifierMask key="keyEquivalentModifierMask" command="YES"/>
+                                                                    </buttonCell>
+                                                                    <connections>
+                                                                        <action selector="button_insertEmpty_Flex:" target="5KB-FK-lmn" id="tEq-4l-xDY"/>
+                                                                    </connections>
+                                                                </button>
+                                                            </subviews>
+                                                            <constraints>
+                                                                <constraint firstItem="WBU-VD-hhu" firstAttribute="firstBaseline" secondItem="9xS-Wi-Stx" secondAttribute="firstBaseline" id="JkH-Sy-PqF"/>
+                                                                <constraint firstItem="dmH-b2-yZT" firstAttribute="firstBaseline" secondItem="btq-Ay-o0h" secondAttribute="firstBaseline" id="eeK-fD-QeP"/>
+                                                            </constraints>
+                                                            <visibilityPriorities>
+                                                                <integer value="1000"/>
+                                                                <integer value="1000"/>
+                                                                <integer value="1000"/>
+                                                                <integer value="1000"/>
+                                                            </visibilityPriorities>
+                                                            <customSpacing>
+                                                                <real value="3.4028234663852886e+38"/>
+                                                                <real value="3.4028234663852886e+38"/>
+                                                                <real value="3.4028234663852886e+38"/>
+                                                                <real value="3.4028234663852886e+38"/>
+                                                            </customSpacing>
+                                                        </stackView>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="42" id="Op1-Q4-FKO"/>
+                                                    </constraints>
+                                                    <visibilityPriorities>
+                                                        <integer value="1000"/>
+                                                        <integer value="1000"/>
+                                                    </visibilityPriorities>
+                                                    <customSpacing>
+                                                        <real value="3.4028234663852886e+38"/>
+                                                        <real value="3.4028234663852886e+38"/>
+                                                    </customSpacing>
+                                                </stackView>
+                                                <stackView distribution="fill" orientation="vertical" alignment="leading" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4AT-zS-Fyg">
+                                                    <rect key="frame" x="0.0" y="0.0" width="411" height="42"/>
+                                                    <subviews>
+                                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="5nW-WT-Rio">
+                                                            <rect key="frame" x="-2" y="29" width="97" height="13"/>
+                                                            <textFieldCell key="cell" controlSize="small" lineBreakMode="clipping" title="Transkribus Tools" id="CzS-8A-gB1">
+                                                                <font key="font" size="11" name="HelveticaNeue-Bold"/>
+                                                                <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
+                                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                            </textFieldCell>
+                                                        </textField>
+                                                        <stackView distribution="fillProportionally" orientation="horizontal" alignment="top" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cgE-YO-t7g">
+                                                            <rect key="frame" x="0.0" y="0.0" width="411" height="21"/>
+                                                            <subviews>
+                                                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="oFf-I3-a1G">
+                                                                    <rect key="frame" x="-2" y="5" width="22" height="11"/>
+                                                                    <textFieldCell key="cell" lineBreakMode="clipping" title="⌘+;" id="Y2j-fL-zSe">
+                                                                        <font key="font" metaFont="miniSystem"/>
+                                                                        <color key="textColor" name="tertiaryLabelColor" catalog="System" colorSpace="catalog"/>
+                                                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                                    </textFieldCell>
+                                                                </textField>
+                                                                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="2WY-ki-aQo">
+                                                                    <rect key="frame" x="20" y="-7" width="184" height="32"/>
+                                                                    <buttonCell key="cell" type="push" title="Combine to Transkribus" bezelStyle="rounded" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="eV4-7i-WR1">
+                                                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                                        <font key="font" metaFont="system"/>
+                                                                        <string key="keyEquivalent">;</string>
+                                                                        <modifierMask key="keyEquivalentModifierMask" command="YES"/>
+                                                                    </buttonCell>
+                                                                    <connections>
+                                                                        <action selector="button_combineSelected_underTranskribus_Action:" target="5KB-FK-lmn" id="mfw-ms-rds"/>
+                                                                    </connections>
+                                                                </button>
+                                                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="mMe-Xz-Hhk">
+                                                                    <rect key="frame" x="204" y="5" width="21" height="11"/>
+                                                                    <textFieldCell key="cell" lineBreakMode="clipping" title="⌘+'" id="EsM-wn-gMT">
+                                                                        <font key="font" metaFont="miniSystem"/>
+                                                                        <color key="textColor" name="tertiaryLabelColor" catalog="System" colorSpace="catalog"/>
+                                                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                                    </textFieldCell>
+                                                                </textField>
+                                                                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Jk2-lO-kgV">
+                                                                    <rect key="frame" x="225" y="-7" width="192" height="32"/>
+                                                                    <buttonCell key="cell" type="push" title="Insert Empty Transkribus" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="bz7-oF-u14">
+                                                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                                        <font key="font" metaFont="system"/>
+                                                                        <string key="keyEquivalent">'</string>
+                                                                        <modifierMask key="keyEquivalentModifierMask" command="YES"/>
+                                                                    </buttonCell>
+                                                                    <connections>
+                                                                        <action selector="button_insertEmpty_Transkribus:" target="5KB-FK-lmn" id="Fc7-Gn-x85"/>
+                                                                    </connections>
+                                                                </button>
+                                                            </subviews>
+                                                            <constraints>
+                                                                <constraint firstItem="Jk2-lO-kgV" firstAttribute="firstBaseline" secondItem="mMe-Xz-Hhk" secondAttribute="firstBaseline" id="pVM-YS-izU"/>
+                                                                <constraint firstItem="2WY-ki-aQo" firstAttribute="firstBaseline" secondItem="oFf-I3-a1G" secondAttribute="firstBaseline" id="zHU-Xh-MDt"/>
+                                                            </constraints>
+                                                            <visibilityPriorities>
+                                                                <integer value="1000"/>
+                                                                <integer value="1000"/>
+                                                                <integer value="1000"/>
+                                                                <integer value="1000"/>
+                                                            </visibilityPriorities>
+                                                            <customSpacing>
+                                                                <real value="3.4028234663852886e+38"/>
+                                                                <real value="3.4028234663852886e+38"/>
+                                                                <real value="3.4028234663852886e+38"/>
+                                                                <real value="3.4028234663852886e+38"/>
+                                                            </customSpacing>
+                                                        </stackView>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="42" id="l4y-Tw-iJz"/>
+                                                    </constraints>
+                                                    <visibilityPriorities>
+                                                        <integer value="1000"/>
+                                                        <integer value="1000"/>
+                                                    </visibilityPriorities>
+                                                    <customSpacing>
+                                                        <real value="3.4028234663852886e+38"/>
+                                                        <real value="3.4028234663852886e+38"/>
+                                                    </customSpacing>
+                                                </stackView>
+                                            </subviews>
+                                            <visibilityPriorities>
+                                                <integer value="1000"/>
+                                                <integer value="1000"/>
+                                            </visibilityPriorities>
+                                            <customSpacing>
+                                                <real value="3.4028234663852886e+38"/>
+                                                <real value="3.4028234663852886e+38"/>
+                                            </customSpacing>
+                                        </stackView>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="Jk2-lO-kgV" firstAttribute="leading" secondItem="WBU-VD-hhu" secondAttribute="trailing" constant="12" id="6TC-gU-M4P"/>
-                                        <constraint firstItem="Ech-BY-l3I" firstAttribute="top" secondItem="lC2-SK-LYc" secondAttribute="top" constant="54" id="Dw3-Oz-8hN"/>
-                                        <constraint firstItem="Jk2-lO-kgV" firstAttribute="centerY" secondItem="WBU-VD-hhu" secondAttribute="centerY" id="ETc-uK-3FJ"/>
-                                        <constraint firstItem="Bbl-jd-S8U" firstAttribute="top" secondItem="lC2-SK-LYc" secondAttribute="top" constant="8" id="EdH-58-anY"/>
-                                        <constraint firstItem="WBU-VD-hhu" firstAttribute="centerY" secondItem="xW8-Pe-MkJ" secondAttribute="centerY" id="EjP-OS-zpF"/>
+                                        <constraint firstItem="hPg-ui-hh3" firstAttribute="top" secondItem="lC2-SK-LYc" secondAttribute="top" constant="4" id="Df3-iZ-uqG"/>
+                                        <constraint firstAttribute="trailing" secondItem="hPg-ui-hh3" secondAttribute="trailing" constant="8" id="I9O-MU-bdZ"/>
                                         <constraint firstAttribute="trailing" secondItem="Ech-BY-l3I" secondAttribute="trailing" constant="8" id="QPh-sq-GDo"/>
-                                        <constraint firstItem="xW8-Pe-MkJ" firstAttribute="leading" secondItem="Bbl-jd-S8U" secondAttribute="leading" id="SfX-8B-9PZ"/>
                                         <constraint firstItem="Ech-BY-l3I" firstAttribute="leading" secondItem="lC2-SK-LYc" secondAttribute="leading" constant="8" id="h7K-17-kpp"/>
-                                        <constraint firstItem="xW8-Pe-MkJ" firstAttribute="leading" secondItem="lC2-SK-LYc" secondAttribute="leading" constant="24" id="jHr-KG-xB8"/>
+                                        <constraint firstItem="hPg-ui-hh3" firstAttribute="leading" secondItem="lC2-SK-LYc" secondAttribute="leading" constant="8" id="iQX-md-YLi"/>
                                         <constraint firstAttribute="bottom" secondItem="Ech-BY-l3I" secondAttribute="bottom" constant="8" id="mBe-4Q-PKp"/>
-                                        <constraint firstItem="WBU-VD-hhu" firstAttribute="leading" secondItem="xW8-Pe-MkJ" secondAttribute="trailing" constant="12" id="xBH-zR-tJF"/>
-                                        <constraint firstItem="Ech-BY-l3I" firstAttribute="top" secondItem="xW8-Pe-MkJ" secondAttribute="bottom" constant="8" id="y77-Pg-k0A"/>
+                                        <constraint firstItem="Ech-BY-l3I" firstAttribute="top" secondItem="hPg-ui-hh3" secondAttribute="bottom" constant="8" id="r39-1H-vb0"/>
                                     </constraints>
                                 </view>
                                 <font key="titleFont" metaFont="systemSemibold" size="11"/>
                             </box>
                             <box verticalHuggingPriority="750" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="Jaq-6N-kw9">
-                                <rect key="frame" x="20" y="111" width="760" height="5"/>
+                                <rect key="frame" x="20" y="111" width="762" height="5"/>
                             </box>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="TYm-pF-50a">
                                 <rect key="frame" x="14" y="13" width="140" height="32"/>
@@ -1382,13 +1558,23 @@ You can select a row in the Word Match Table, and then click a Tool button to ma
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ymh-qU-SgU">
-                                <rect key="frame" x="615" y="13" width="171" height="32"/>
+                                <rect key="frame" x="617" y="13" width="171" height="32"/>
                                 <buttonCell key="cell" type="push" title="View Word Links XML" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="w3C-xw-9bL">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
                                     <action selector="button_viewWordLinks_Action:" target="5KB-FK-lmn" id="XDr-a9-eao"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ZYh-He-bgG">
+                                <rect key="frame" x="480" y="13" width="137" height="32"/>
+                                <buttonCell key="cell" type="push" title="Print to Console" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="50e-y2-BEb">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="button_debugPrintLinks:" target="5KB-FK-lmn" id="cQz-Zd-PWb"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1413,6 +1599,7 @@ You can select a row in the Word Match Table, and then click a Tool button to ma
                             <constraint firstItem="fLf-QU-2kb" firstAttribute="leading" secondItem="8Nj-y3-J25" secondAttribute="leading" constant="20" id="Oaw-i3-yJM"/>
                             <constraint firstItem="zBE-wC-Wg1" firstAttribute="leading" secondItem="8Nj-y3-J25" secondAttribute="leading" constant="20" id="T1x-mG-SG5"/>
                             <constraint firstItem="h1E-hA-n3i" firstAttribute="leading" secondItem="fLf-QU-2kb" secondAttribute="leading" id="U8T-Tz-32c"/>
+                            <constraint firstItem="ymh-qU-SgU" firstAttribute="leading" secondItem="ZYh-He-bgG" secondAttribute="trailing" constant="12" id="WPS-nX-M7z"/>
                             <constraint firstAttribute="trailing" secondItem="Jaq-6N-kw9" secondAttribute="trailing" constant="20" id="cxY-vg-QRK"/>
                             <constraint firstItem="QfT-87-kfE" firstAttribute="leading" secondItem="8Nj-y3-J25" secondAttribute="leading" constant="20" id="ddw-hV-Vgg"/>
                             <constraint firstItem="pYJ-PG-fEO" firstAttribute="leading" secondItem="8Nj-y3-J25" secondAttribute="leading" constant="20" id="e2T-cW-o3j"/>
@@ -1425,6 +1612,7 @@ You can select a row in the Word Match Table, and then click a Tool button to ma
                             <constraint firstAttribute="trailing" secondItem="Khu-dg-CVl" secondAttribute="trailing" constant="20" id="nzU-gl-Iy3"/>
                             <constraint firstItem="TYm-pF-50a" firstAttribute="top" secondItem="sXh-yE-0TN" secondAttribute="bottom" constant="12" id="onT-3Y-mgf"/>
                             <constraint firstAttribute="trailing" secondItem="sXh-yE-0TN" secondAttribute="trailing" constant="20" id="qiM-6k-7vy"/>
+                            <constraint firstItem="ymh-qU-SgU" firstAttribute="centerY" secondItem="ZYh-He-bgG" secondAttribute="centerY" id="viG-Gd-XEy"/>
                             <constraint firstItem="Awd-Fs-q53" firstAttribute="leading" secondItem="8Nj-y3-J25" secondAttribute="leading" constant="20" id="w1n-ca-XUN"/>
                             <constraint firstItem="QfT-87-kfE" firstAttribute="top" secondItem="CCt-Mx-HAH" secondAttribute="bottom" constant="12" id="yUi-2I-jWK"/>
                             <constraint firstItem="Jaq-6N-kw9" firstAttribute="leading" secondItem="8Nj-y3-J25" secondAttribute="leading" constant="20" id="yve-P0-Fbn"/>
@@ -1439,7 +1627,7 @@ You can select a row in the Word Match Table, and then click a Tool button to ma
                 </viewController>
                 <customObject id="6r2-AH-jim" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="957" y="1700"/>
+            <point key="canvasLocation" x="956.5" y="1699.5"/>
         </scene>
     </scenes>
     <resources>

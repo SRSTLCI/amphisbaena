@@ -32,6 +32,8 @@ class Amphisbaena_TranskribusTEIParser: NSObject {
     var currentWord: Amphisbaena_Element?
     var currentSic: Amphisbaena_Element?
     
+    var hiAttributes: [String : String]?
+    
     var currentAnnotation: Amphisbaena_Container?
     var currentAnnotationInner: Amphisbaena_Container?
     var currentAnnotationValue: Amphisbaena_Element?
@@ -62,7 +64,7 @@ extension Amphisbaena_TranskribusTEIParser: XMLParserDelegate {
     func parser(_ parser: XMLParser, didStartElement elementName: String, namespaceURI: String?, qualifiedName qName: String?, attributes attributeDict: [String : String] = [:]) {
         skipCharacters = false;
         switch (elementName) {
-        case "TEI", "hi", "date", "placeName", "persName":
+        case "TEI", "date", "placeName", "persName", "edit", "addition":
             break;
         case "teiHeader":
             let teiHeaderContainer = Amphisbaena_Container(withName: "teiHeader", isRoot: false)
@@ -163,6 +165,8 @@ extension Amphisbaena_TranskribusTEIParser: XMLParserDelegate {
             let newSic = Amphisbaena_Element(elementName: "sic", attributes: attributeDict, elementContent: nil)
             word.addElement(element: newSic)
             currentSic = newSic
+        case "hi":
+            self.hiAttributes = attributeDict;
         case "forename", "surname":
             skipCharacters = true;
         default:
@@ -211,7 +215,14 @@ extension Amphisbaena_TranskribusTEIParser: XMLParserDelegate {
             currentParagraph = nil
         case "w":
             if let word = currentWord, foundCharacters.trimmingCharacters(in: .whitespacesAndNewlines) != "" {
-                word.elementContent = foundCharacters
+                if let hiAttributes = hiAttributes {
+                    let hiElement = Amphisbaena_Element(elementName: "hi", attributes: hiAttributes, elementContent: foundCharacters)
+                    word.addElement(element: hiElement)
+                }
+                else {
+                    word.elementContent = foundCharacters
+                }
+                hiAttributes = nil
             }
             currentWord = nil
         case "sic":
@@ -219,7 +230,7 @@ extension Amphisbaena_TranskribusTEIParser: XMLParserDelegate {
                 sic.elementContent = foundCharacters
             }
             currentSic = nil
-        case "hi", "date", "placeName", "persName":
+        case "hi", "date", "placeName", "persName", "edit", "addition":
             rememberCharacters = true;
         default:
             print("UNHANDLED End Element:" + elementName)

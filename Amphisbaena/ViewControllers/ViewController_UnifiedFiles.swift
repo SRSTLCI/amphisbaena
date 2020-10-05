@@ -53,8 +53,19 @@ class ViewController_UnifiedFiles: NSViewController {
         self.view.translatesAutoresizingMaskIntoConstraints = false;
         
         addFileRow(fileLabel: "Synthesize with Multiple Files",
-                   description: "Create a unified file with multiple separate files. Using data from Transkribus, FLEx, and a mapping of word links, you can generate a unified file for digital scans.",
-                   requirements: "• Transkribus .tei file\n• FLEx .xml file\n• Amphisbaena word links .xml file\n• (optional) Transkribus tags .csv\n• (optional) ELAN .eaf for timestamp positioning",
+                   description: """
+                                Create a unified file with multiple separate files. Using data from Transkribus, FLEx, and a mapping of word links, you can generate a unified file for digital scans.
+
+                                Amphisbaena can synthesize a unified file with both the new v0.2 Word Links format, as well as older v0.1 Word Links files. Before synthesis begins, you will be prompted to confirm the Word Links version you are using.
+                                """,
+                   requirements: """
+                                • Transkribus .tei file
+                                • FLEx .xml file
+                                • Amphisbaena word links .xml file
+                                    • Both v0.1 and v0.2 files are supported.
+                                • (optional) Transkribus tags .csv
+                                • (optional) ELAN .eaf for timestamp positioning
+                                """,
                    image: NSImage(named: "FilestoUnify"),
                    type: .FullUnified,
                    previous: nil);

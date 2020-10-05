@@ -14,6 +14,8 @@ class Amphisbaena_UnifiedContainer_TextBody: Amphisbaena_Container {
     var containerParagraphsP: [Amphisbaena_Container] = [];
     var currentContainerParagraphP: Amphisbaena_Container?
     var participants: [Participant] = [];
+    
+    //var flexWordOrder: [String : Int] = [:]
 
     typealias Participant = String
 
@@ -27,7 +29,7 @@ class Amphisbaena_UnifiedContainer_TextBody: Amphisbaena_Container {
         static let utterance = ["start", "end"]
         static let gloss = ["lang", "cert"]
         static let phr = ["guid", "start", "end", "who", "media-file"]
-        static let w = ["facs", "cert"]
+        static let w = ["facs", "cert", "add", "del", "corr", "misprint", "edited", "split", "merged", "unedited"]
         static let lb = ["facs", "n"]
         static let pb = ["facs", "n"]
     }

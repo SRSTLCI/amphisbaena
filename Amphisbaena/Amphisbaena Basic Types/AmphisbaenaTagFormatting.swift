@@ -96,7 +96,11 @@ struct AmphisbaenaTagFormatting {
         var newAtt = XML.attribute;
         
         newAtt = newAtt.replacingOccurrences(of: XML.placeholderAttributeName, with: attributeName)
-        newAtt = newAtt.replacingOccurrences(of: XML.placeholderAttributeValue, with: attributeValue)
+        var value = attributeValue
+        value = value.replacingOccurrences(of: """
+"
+""", with: "&quot;")
+        newAtt = newAtt.replacingOccurrences(of: XML.placeholderAttributeValue, with: value)
         
         return newAtt;
     }

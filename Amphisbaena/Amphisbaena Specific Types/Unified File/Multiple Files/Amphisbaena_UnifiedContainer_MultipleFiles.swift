@@ -35,10 +35,32 @@ extension Amphisbaena_UnifiedContainer {
             }
         }
         
-        let tokens = tokenizer.flexTranskribus_tokenizeData(transkribusContainer: transkribusContainer, flexContainer: flexContainer, wordLinkContainer: wordlinkContainer)
-        let textBody = Amphisbaena_UnifiedContainer_TextBody(tokensFromTranskribusFlex: tokens, transkribusContainer: transkribusContainer, flexContainer: flexContainer, TEITagsContainer: TEITagsContainer, elanContainer: elanContainer)
-        self.textBody = textBody;
-        self.addElement(element: textBody)
+        if wordlinkContainer.version == .v02 {
+            print("Word link version is v02.")
+            let tokens = tokenizer.flexTranskribus_tokenizeData_v02(transkribusContainer: transkribusContainer, flexContainer: flexContainer, wordLinkContainer: wordlinkContainer)
+            let textBody = Amphisbaena_UnifiedContainer_TextBody(tokensFromTranskribusFlex: tokens, transkribusContainer: transkribusContainer, flexContainer: flexContainer, TEITagsContainer: TEITagsContainer, elanContainer: elanContainer)
+            self.textBody = textBody;
+            self.addElement(element: textBody)
+            
+            var tokensString = ""
+            for token in tokens {
+                tokensString += token.type
+                tokensString += ": ["
+                tokensString += token.identifier ?? "No ID"
+                tokensString += " -> "
+                tokensString += token.content ?? "No Content"
+                tokensString += "]\n"
+            }
+            print(tokensString)
+            
+        }
+        else if wordlinkContainer.version == .v01 {
+            print("Word link version is v01.")
+            let tokens = tokenizer.flexTranskribus_tokenizeData(transkribusContainer: transkribusContainer, flexContainer: flexContainer, wordLinkContainer: wordlinkContainer)
+            let textBody = Amphisbaena_UnifiedContainer_TextBody(tokensFromTranskribusFlex: tokens, transkribusContainer: transkribusContainer, flexContainer: flexContainer, TEITagsContainer: TEITagsContainer, elanContainer: elanContainer)
+            self.textBody = textBody;
+            self.addElement(element: textBody)
+        }
     }
     
     private func generateXenoData(transkribusContainer: Amphisbaena_TranskribusTEIContainer,
