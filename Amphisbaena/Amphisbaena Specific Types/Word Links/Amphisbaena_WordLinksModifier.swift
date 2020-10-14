@@ -34,6 +34,7 @@ class Amphisbaena_WordLinksModifier {
     }
     
     struct WordLink: Equatable {
+        var uuid: String
         var guidsFirst: Int = 0
         var guidsCount: Int = 0
         var facsFirst: Int = 0
@@ -104,7 +105,8 @@ class Amphisbaena_WordLinksModifier {
         let wordLinkContainers = wordLinkContainer.getOrderedElements(ofName: "wordLink").compactMap {$0 as? Amphisbaena_Container}
         for wordLinkContainer in wordLinkContainers {
             if let attributes = wordLinkContainer.elementAttributes {
-                var modifierWordLink = Amphisbaena_WordLinksModifier.WordLink()
+                let uuid = attributes["uuid"] ?? UUID().uuidString
+                var modifierWordLink = Amphisbaena_WordLinksModifier.WordLink(uuid: uuid)
                 if let facsFirst = attributes["facsFirst"], let facsFirstInt = Int(facsFirst) {modifierWordLink.facsFirst = facsFirstInt}
                 if let facsCount = attributes["facsCount"], let facsCountInt = Int(facsCount) {modifierWordLink.facsCount = facsCountInt}
                 if let guidFirst = attributes["guidFirst"], let guidFirstInt = Int(guidFirst) {modifierWordLink.guidsFirst = guidFirstInt}
@@ -155,7 +157,7 @@ class Amphisbaena_WordLinksModifier {
             var transkribusValues = [Int]()
             if (i < flexWords.count) {flexValues.append(i)}
             if (i < transkribusWords.count) {transkribusValues.append(i)}
-            let wordLink = WordLink(guidsFirst: i, guidsCount: flexValues.count, facsFirst: i, facsCount: transkribusValues.count)
+            let wordLink = WordLink(uuid: UUID().uuidString, guidsFirst: i, guidsCount: flexValues.count, facsFirst: i, facsCount: transkribusValues.count)
             self.wordLinks.append(wordLink)
         }
         initialWordLinks = wordLinks.compactMap {$0}
@@ -289,7 +291,7 @@ class Amphisbaena_WordLinksModifier {
                 wordLinks[i] = currentWordLink
             }
             trimEmptyWordLinks()
-            let newEmptyGuid = WordLink(guidsFirst: 0, guidsCount: 0, facsFirst: memoFacs.0, facsCount: memoFacs.1)
+            let newEmptyGuid = WordLink(uuid: UUID().uuidString, guidsFirst: 0, guidsCount: 0, facsFirst: memoFacs.0, facsCount: memoFacs.1)
             wordLinks.append(newEmptyGuid)
         }
     }
@@ -309,7 +311,7 @@ class Amphisbaena_WordLinksModifier {
                 wordLinks[i] = currentWordLink
             }
             trimEmptyWordLinks()
-            let newEmptyGuid = WordLink(guidsFirst: memoGuid.0, guidsCount: memoGuid.1, facsFirst: 0, facsCount: 0)
+            let newEmptyGuid = WordLink(uuid: UUID().uuidString, guidsFirst: memoGuid.0, guidsCount: memoGuid.1, facsFirst: 0, facsCount: 0)
             wordLinks.append(newEmptyGuid)
         }
     }
@@ -323,10 +325,9 @@ class Amphisbaena_WordLinksModifier {
             
             let wordLinkContainer = Amphisbaena_Container(withName: "wordLink", isRoot: false)
             var attributes: [String : String] = [:]
-            let preferredAttributeOrder = ["guid", "guidFirst", "guidCount", "facs", "facsFirst", "facsCount"]
+            let preferredAttributeOrder = ["uuid", "guid", "guidFirst", "guidCount", "facs", "facsFirst", "facsCount"]
             if wordLink.guidsCount != 0 {
-                //attributes["guid"] = flexWords[wordLink.guidsFirst].guid
-                
+                attributes["uuid"] = wordLink.uuid;
                 if wordLink.guidsCount > 0 {
                     attributes["guid"] = flexWords[wordLink.guidsFirst].guid
                 }
@@ -352,7 +353,6 @@ class Amphisbaena_WordLinksModifier {
                 }
             }
             if wordLink.facsCount != 0 {
-                //attributes["facs"] = transkribusWords[wordLink.facsFirst].facs
                 
                 if wordLink.facsCount > 0 {
                     attributes["facs"] = transkribusWords[wordLink.facsFirst].facs

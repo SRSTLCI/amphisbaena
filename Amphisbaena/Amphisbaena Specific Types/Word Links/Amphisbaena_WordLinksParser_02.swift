@@ -38,12 +38,14 @@ extension Amphisbaena_WordLinksParser_Format02 {
         skipCharacters = false;
         switch (elementName) {
         case "wordLink":
-            currentModifierWordLink = Amphisbaena_WordLinksModifier.WordLink()
             let attributes = attributeDict
+            let uuid = attributes["uuid"] ?? UUID().uuidString;
+            currentModifierWordLink = Amphisbaena_WordLinksModifier.WordLink(uuid: uuid)
             if let facsFirst = attributes["facsFirst"], let facsFirstInt = Int(facsFirst) {currentModifierWordLink?.facsFirst = facsFirstInt}
             if let facsCount = attributes["facsCount"], let facsCountInt = Int(facsCount) {currentModifierWordLink?.facsCount = facsCountInt}
             if let guidFirst = attributes["guidFirst"], let guidFirstInt = Int(guidFirst) {currentModifierWordLink?.guidsFirst = guidFirstInt}
             if let guidCount = attributes["guidCount"], let guidCountInt = Int(guidCount) {currentModifierWordLink?.guidsCount = guidCountInt}
+            print(currentModifierWordLink)
         case "wordLinks", "formatVersion", "guid", "facs":
             break;
         default:

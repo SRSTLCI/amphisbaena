@@ -53,6 +53,7 @@ extension Amphisbaena_UnifiedContainer_TextBody {
     struct RegEx {
         static let regexNoteGloss   = try! NSRegularExpression(pattern: #"(\«)(.+?)(\»)"#, options: [])
         static let regexNoteReg     = try! NSRegularExpression(pattern: #"(\{)(.+?)(\})"#, options: [])
+        static let regexNoteWs      = try! NSRegularExpression(pattern: #"\s+"#, options: [])
     }
     
     struct PhraseNotes {
@@ -61,6 +62,7 @@ extension Amphisbaena_UnifiedContainer_TextBody {
         
         var glossRanges: [NSRange] = []
         var regRanges: [NSRange] = []
+        var wsRanges: [NSRange] = []
         
         func getGlossContent() -> [String] {
             guard let content = content else {return []}
@@ -89,6 +91,7 @@ extension Amphisbaena_UnifiedContainer_TextBody {
             let matchRange = NSRange(newContent.startIndex..<newContent.endIndex, in: newContent)
             let glossMatches = RegEx.regexNoteGloss.matches(in: newContent, options: [], range: matchRange)
             let regMatches = RegEx.regexNoteReg.matches(in: newContent, options: [], range: matchRange)
+            let wsMatches = RegEx.regexNoteWs.matches(in: newContent, options: [], range: matchRange)
             
             print("NOTE TEXT: "+newContent)
             var glossCount = 0;
@@ -111,6 +114,16 @@ extension Amphisbaena_UnifiedContainer_TextBody {
                     print(matchStr)
                 }
             }
+            var wsCount = 0;
+            for match in wsMatches {
+                wsCount += 1;
+                print(String(format: "WHITESPACE MATCHES %d: ", wsCount))
+                for r in 0..<match.numberOfRanges {
+                    guard let matchRange = Range(match.range(at: r), in: newContent) else {continue;}
+                    let nsrange = NSRange(matchRange, in: newContent)
+                    print(String(format: "[begin: %d , length: %d ]", nsrange.lowerBound, nsrange.length))
+                }
+            }
             print("NOTE TEXT END.")
             
             let allMatches = glossMatches + regMatches;
@@ -122,25 +135,47 @@ extension Amphisbaena_UnifiedContainer_TextBody {
                 }
                 return resultRange
             }
+            let wsRanges = wsMatches.reduce([Range<String.Index>]()) { (resultArr, newResult) in
+                var resultRange = resultArr
+                for r in 1..<newResult.numberOfRanges {
+                    guard let matchRange = Range(newResult.range(at: r), in: newContent) else {continue}
+                    for range in allRanges {
+                        if matchRange.overlaps(range) == false {
+                            resultRange.append(matchRange)
+                        }
+                    }
+                }
+                return resultRange
+            }
+            allRanges.append(contentsOf: wsRanges)
             var startIndex = 0;
             var currentMemoRange: Range<String.Index>?
-            for c in 1..<newContent.count {
+            var c = 0;
+            while (c < newContent.count) {
                 guard let newRange = Range(NSRange(startIndex...c), in: newContent) else {continue;}
                 print(newRange)
                 var collision = false
                 for range in allRanges {
                     collision = range.overlaps(newRange)
-                    if (collision) {break;}
+                    if (collision) {
+                        break;
+                    }
                 }
                 if collision == true {
-                    if let currentMemoRange = currentMemoRange {allRanges.append(currentMemoRange)}
+                    if let currentMemoRange = currentMemoRange {
+                        let nsrange = NSRange(currentMemoRange, in: newContent)
+                        allRanges.append(currentMemoRange)
+                        print("FOUND NEW RANGE: ["+String(format: newContent[currentMemoRange]+"], in { %d, %d }", nsrange.lowerBound, nsrange.length))
+                    }
                     startIndex = c;
                     currentMemoRange = nil
                 }
                 else {
                     currentMemoRange = newRange
                 }
+                c += 1;
             }
+            
             var orderedRanges = allRanges.sorted { (range1, range2) -> Bool in
                 if range1.overlaps(range2) == false {
                     return range1.lowerBound < range2.lowerBound
@@ -167,10 +202,14 @@ extension Amphisbaena_UnifiedContainer_TextBody {
                 var foundCurlyBrace = false
                 var foundFrenchQuote = false
                 var offsetCorrection = 1;
+                var previousTextToken: String?
                 for range in orderedRanges {
                     let textToken = String(newContent[range])
+
                     if textToken.contains("{") {
                         foundCurlyBrace = true;
+                        if (previousTextToken == "}" ||
+                            previousTextToken == "»") {content?.append(" ")}
                     }
                     else if textToken.contains("}") {
                         foundCurlyBrace = false;
@@ -184,6 +223,8 @@ extension Amphisbaena_UnifiedContainer_TextBody {
                     }
                     if textToken.contains("«") {
                         foundFrenchQuote = true;
+                        if (previousTextToken == "}" ||
+                            previousTextToken == "»") {content?.append(" ");}
                     }
                     else if textToken.contains("»") {
                         foundFrenchQuote = false;
@@ -195,9 +236,13 @@ extension Amphisbaena_UnifiedContainer_TextBody {
                         glossRanges.append(NSRange(finalRange, in: contentRaw))
                         offsetCorrection += 2;
                     }
-                    if textToken.rangeOfCharacter(from: .alphanumerics) != nil {
+                    if textToken != "{",
+                       textToken != "}",
+                       textToken != "«",
+                       textToken != "»" {
                         content?.append(textToken)
                     }
+                    previousTextToken = textToken;
                 }
             }
             print(getRegContent())
@@ -217,9 +262,8 @@ extension Amphisbaena_UnifiedContainer_TextBody {
         static let defaultTagLevel: TagLevel = .orig_w
         
         static let tagRename: [String : String] = [
-            "edit"      :   "corr",
+            "edit"      :   "edited",
             "addition"  :   "add",
-            "original"  :   "misprint"
         ]
         
         static let tagLevels: [String : TagLevel] = [
@@ -232,16 +276,23 @@ extension Amphisbaena_UnifiedContainer_TextBody {
             "addition"  :   "yes",
             "del"       :   "yes",
             "edit"      :   "yes",
-            "edited"    :   "yes",
+            "corr"      :   "yes",
             "merged"    :   "yes",
             "split"     :   "yes"
         ]
         
         static let tagSplitAttribute: [String : String] = [
             "edit"      :   "original",
-            "edited"    :   "unedited",
+            "corr"      :   "error",
+            "merged"    :   "original",
+            "split"     :   "original"
+        ]
+        
+        static let tagRenameSplitAttribute: [String : String] = [
+            "corr"      :   "misprint",
+            "edit"      :   "unedited",
             "merged"    :   "unedited",
-            "split"    :   "unedited"
+            "split"     :   "unedited"
         ]
     }
     
@@ -301,7 +352,7 @@ extension Amphisbaena_UnifiedContainer_TextBody {
         var currentUtterance: Amphisbaena_Container?
         var currentWords: Amphisbaena_Container?
         var currentWord: Amphisbaena_Container?
-        /*
+        
         var tokensString = ""
         for token in tokens {
             tokensString += token.type
@@ -312,10 +363,11 @@ extension Amphisbaena_UnifiedContainer_TextBody {
             tokensString += "]\n"
         }
         print(tokensString)
-        */
+        
         
         var currentPhraseGuid: String?
         var currentParagraphFacs: String?
+        var currentWordLinkUUID: String?
         
         var elanPhrases: [(String, String)]?
         var phraseCount = 0;
@@ -344,6 +396,8 @@ extension Amphisbaena_UnifiedContainer_TextBody {
         for token in tokens {
             let type = token.type
             switch type {
+            case "wordLinkBegin":
+                currentWordLinkUUID = token.content
             case "flexparagraph":
                 guard let guid = token.identifier else {break;}
                 
@@ -405,7 +459,7 @@ extension Amphisbaena_UnifiedContainer_TextBody {
                 if let currentWords = currentWords {
                     if (canCreateNewWord == true) {
                         let word = Amphisbaena_Container(withName: "word", isRoot: false)
-                        //word.elementAttributes = ["xml:id" : ""]
+                        if let uuid = currentWordLinkUUID {word.elementAttributes = ["uuid" : uuid]}
                         currentWords.addElement(element: word)
                         currentWord = word
                         canCreateNewWord = false;
@@ -446,6 +500,7 @@ extension Amphisbaena_UnifiedContainer_TextBody {
                 if let currentWords = currentWords {
                     if (canCreateNewWord == true) {
                         let word = Amphisbaena_Container(withName: "word", isRoot: false)
+                        if let uuid = currentWordLinkUUID {word.elementAttributes = ["uuid" : uuid]}
                         currentWords.addElement(element: word)
                         currentWord = word
                         canCreateNewWord = false;

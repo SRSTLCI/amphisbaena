@@ -219,7 +219,9 @@ class Amphisbaena_UnifiedTokenizer {
         
         for w in 0..<wordLinks.count {
             let wordLink = wordLinks[w]
-            tokens.append(Token(type: "wordLinkBegin", identifier: String(w), content: nil))
+            guard let attributes = wordLink.elementAttributes,
+                  let uuid = attributes["uuid"] else {continue;}
+            tokens.append(Token(type: "wordLinkBegin", identifier: String(w), content: uuid))
             let guid = wordLink.getAttribute(attributeName: "guid")
             let facs = wordLink.getAttribute(attributeName: "facs")
             

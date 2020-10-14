@@ -217,10 +217,10 @@ class Amphisbaena_TEITagParser {
                 }
                 let elementEdit = Amphisbaena_Element(elementName: "edit", attributes: attributes, elementContent: nil)
                 facsContainer?.addElement(element: elementEdit)
-            case "edited", "merged", "split":
+            case "corr", "merged", "split":
                 var attributes: [String : String] = [:]
-                if let month = dict["unedited"] {
-                    attributes["unedited"] = month
+                if let month = dict["original"] {
+                    attributes["original"] = month
                 }
                 let elementEdit = Amphisbaena_Element(elementName: key, attributes: attributes, elementContent: nil)
                 facsContainer?.addElement(element: elementEdit)

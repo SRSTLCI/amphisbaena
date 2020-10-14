@@ -79,7 +79,7 @@ extension Amphisbaena_WordLinksContainer {
             let facs = facsIndices[i]
             let guidCount = guid.count
             let facsCount = facs.count == 0 ? -1 : facs.count
-            let wordLink = Amphisbaena_WordLinksModifier.WordLink(guidsFirst: guid.first ?? 0, guidsCount: guidCount, facsFirst: facs.first ?? 0, facsCount: facsCount)
+            let wordLink = Amphisbaena_WordLinksModifier.WordLink(uuid: UUID().uuidString, guidsFirst: guid.first ?? 0, guidsCount: guidCount, facsFirst: facs.first ?? 0, facsCount: facsCount)
             wordLinksFinal.append(wordLink)
         }
         wordLinkModifier.wordLinks = wordLinksFinal
