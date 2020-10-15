@@ -114,16 +114,6 @@ extension Amphisbaena_UnifiedContainer_TextBody {
                     print(matchStr)
                 }
             }
-            var wsCount = 0;
-            for match in wsMatches {
-                wsCount += 1;
-                print(String(format: "WHITESPACE MATCHES %d: ", wsCount))
-                for r in 0..<match.numberOfRanges {
-                    guard let matchRange = Range(match.range(at: r), in: newContent) else {continue;}
-                    let nsrange = NSRange(matchRange, in: newContent)
-                    print(String(format: "[begin: %d , length: %d ]", nsrange.lowerBound, nsrange.length))
-                }
-            }
             print("NOTE TEXT END.")
             
             let allMatches = glossMatches + regMatches;
@@ -135,19 +125,6 @@ extension Amphisbaena_UnifiedContainer_TextBody {
                 }
                 return resultRange
             }
-            let wsRanges = wsMatches.reduce([Range<String.Index>]()) { (resultArr, newResult) in
-                var resultRange = resultArr
-                for r in 1..<newResult.numberOfRanges {
-                    guard let matchRange = Range(newResult.range(at: r), in: newContent) else {continue}
-                    for range in allRanges {
-                        if matchRange.overlaps(range) == false {
-                            resultRange.append(matchRange)
-                        }
-                    }
-                }
-                return resultRange
-            }
-            allRanges.append(contentsOf: wsRanges)
             var startIndex = 0;
             var currentMemoRange: Range<String.Index>?
             var c = 0;
@@ -175,7 +152,6 @@ extension Amphisbaena_UnifiedContainer_TextBody {
                 }
                 c += 1;
             }
-            
             var orderedRanges = allRanges.sorted { (range1, range2) -> Bool in
                 if range1.overlaps(range2) == false {
                     return range1.lowerBound < range2.lowerBound
@@ -348,6 +324,7 @@ extension Amphisbaena_UnifiedContainer_TextBody {
         
         var currentPhrases: Amphisbaena_Container?
         var currentPhrase: Amphisbaena_Container?
+        var currentNoteCount: Int = 0;
         var currentUtterances: Amphisbaena_Container?
         var currentUtterance: Amphisbaena_Container?
         var currentWords: Amphisbaena_Container?
@@ -417,7 +394,7 @@ extension Amphisbaena_UnifiedContainer_TextBody {
             case "flexphrase":
                 guard let guid = token.identifier,
                     let currentPhrases = currentPhrases else {break;}
-                
+                currentNoteCount = 0;
                 canCreateNewWord = true;
                 let phrase = Amphisbaena_Container(withName: "phr", isRoot: false)
                 phrase.elementAttributes = ["guid" : guid]
@@ -642,8 +619,9 @@ extension Amphisbaena_UnifiedContainer_TextBody {
                 }
             case "flexphrasenote":
                 if let guid = currentPhrase?.getAttribute(attributeName: "guid") ,
-                    let flexPhrase = flexContainer.searchForElement(withAttribute: "guid", ofValue: guid, recursively: true).first as? Amphisbaena_Container,
-                    let note = flexPhrase.searchForElement(withName: "item", withAttribute: "type", ofValue: "note", recursively: false).first {
+                    let flexPhrase = flexContainer.searchForElement(withAttribute: "guid", ofValue: guid, recursively: true).first as? Amphisbaena_Container {
+                    
+                    let note = flexPhrase.searchForElement(withName: "item", withAttribute: "type", ofValue: "note", recursively: false)[currentNoteCount]
                     
                     let newNote = Amphisbaena_Container(withName: "note", isRoot: false)
                     currentPhrase?.addElement(element: newNote)
@@ -675,6 +653,7 @@ extension Amphisbaena_UnifiedContainer_TextBody {
                         }
                     }
                 }
+                currentNoteCount += 1;
             default:
                 break;
             }
