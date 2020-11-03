@@ -170,11 +170,16 @@ class Amphisbaena_TEITagParser {
             case "person":
                 
                 var attributes: [String : String] = [:]
+                /*
                 if let firstName = dict["firstname"] {
                     attributes["firstname"] = firstName
                 }
                 if let lastName = dict["lastname"] {
                     attributes["lastname"] = lastName
+                }
+                */
+                if let personID = dict["personID"] {
+                    attributes["personID"] = personID
                 }
                 let elementPerson = Amphisbaena_Element(elementName: "person", attributes: attributes, elementContent: nil)
                 elementPerson.preferredAttributeOrder = ElementAttributeOrders.person
@@ -183,6 +188,7 @@ class Amphisbaena_TEITagParser {
             case "place":
                 
                 var attributes: [String : String] = [:]
+                /*
                 if let geo = dict["geo"] {
                     attributes["geo"] = geo
                 }
@@ -191,6 +197,10 @@ class Amphisbaena_TEITagParser {
                 }
                 if let type = dict["type"] {
                     attributes["type"] = type
+                }
+                */
+                if let placeID = dict["placeID"] {
+                    attributes["placeID"] = placeID
                 }
                 let elementPlace = Amphisbaena_Element(elementName: "place", attributes: attributes, elementContent: nil)
                 elementPlace.preferredAttributeOrder = ElementAttributeOrders.place
