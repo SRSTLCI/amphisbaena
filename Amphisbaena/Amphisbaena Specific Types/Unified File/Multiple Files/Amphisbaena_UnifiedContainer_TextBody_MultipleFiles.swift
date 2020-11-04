@@ -270,6 +270,12 @@ extension Amphisbaena_UnifiedContainer_TextBody {
             "merged"    :   "unedited",
             "split"     :   "unedited"
         ]
+        
+        static let tagCopyAttributes: [String] = [
+            "date",
+            "person",
+            "place"
+        ]
     }
     
     func tagLevel(forTag tagName: String) -> TagSpecifiers.TagLevel {
@@ -283,6 +289,10 @@ extension Amphisbaena_UnifiedContainer_TextBody {
     
     func tagInjectContent(forTag tagName: String) -> String? {
         return TagSpecifiers.tagInjectContent[tagName]
+    }
+    
+    func tagShouldCopyAttributes(forTag tagName: String) -> Bool {
+        return TagSpecifiers.tagCopyAttributes.contains(tagName)
     }
     
     func tagSplitAttribute(forTag tagElement: Amphisbaena_Element) -> Amphisbaena_Element? {
@@ -316,7 +326,6 @@ extension Amphisbaena_UnifiedContainer_TextBody {
     
     func formatPhraseNote(noteString: String) -> Amphisbaena_Container? {
         var newPhraseNote = PhraseNotes(contentRaw: noteString)
-        
         return nil
     }
     
@@ -524,21 +533,6 @@ extension Amphisbaena_UnifiedContainer_TextBody {
                     //add tags
                     
                     let foundTags = findTags(forFacs: identifier, usingTagContainer: TEITagsContainer)
-                    /*
-                    for tag in foundTags {
-                        guard tagLevel(forTag: tag.elementName) == .word else {continue;}
-                        if currentWord.hasElementsMatching(name: tag.elementName, matchingAttributes: tag.elementAttributes).isEmpty == false {continue;}
-                        
-                        let newTag = tag.copy() as! Amphisbaena_Element
-                        if let tagName = tagNewName(forTag: tag.elementName) {
-                            newTag.elementName = tagName
-                        }
-                        if let tagInjectContent = tagInjectContent(forTag: tag.elementName) {
-                            newTag.elementContent = tagInjectContent
-                        }
-                        currentWord.addElement(element: newTag)
-                    }
-                    */
                     //add transkribus w
                     let orig = multipleFiles_getWordOrig(word: currentWord)
                     
@@ -577,9 +571,15 @@ extension Amphisbaena_UnifiedContainer_TextBody {
                             }
                             newAttribute[splitTag.elementName] = splitTag.elementContent
                         }
+                        if tagShouldCopyAttributes(forTag: tag.elementName) {
+                            transkribusWAttributes.merge(tag.getAttributes()) { (key1, key2) -> String in
+                                return key1;
+                            }
+                        }
                         transkribusWAttributes.merge(newAttribute) { (key1, key2) -> String in
                             return key1;
                         }
+                        print(transkribusWAttributes)
                     }
                     
                     transkribusW.elementAttributes = transkribusWAttributes
