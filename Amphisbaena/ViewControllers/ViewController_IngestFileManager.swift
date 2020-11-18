@@ -267,6 +267,8 @@ class ViewController_IngestFileManager: NSViewController {
                     let parser = Amphisbaena_FlexTextParser(XMLString: fileContents)
                     //let parser = Amphisbaena_FLExParser(XMLString: fileContents)
                     if let parser = parser {
+                        var passesValidation = true;
+                        var validationModifier: Amphisbaena_WordLinksModifier?
                         parser.parse()
                         self.rootViewController?.containerFlexText = parser.resultContainer
                         fileRow.setStatus_FileLoadSuccessful()
@@ -274,15 +276,24 @@ class ViewController_IngestFileManager: NSViewController {
                         
                         self.enableGenerateWordLinksIfFilesPresent()
                         
+                        if let modifier = self.makeWordLinkModifier() {
+                            passesValidation = self.validateWordLinks(withExistingModifier: modifier)
+                            validationModifier = modifier
+                        }
+                        
                         if self.readOption_checkboxOpenXMLOnImport(),
-                            let containerFLEx = self.rootViewController?.containerFlexText {
+                           let containerFLEx = self.rootViewController?.containerFlexText,
+                           passesValidation {
                             
                             //let phrasesByGuid = containerFLEx.getAll_Word().compactMap{$0.getAttribute(attributeName: "guid") ?? "PUNCT"}
                             //print(phrasesByGuid)
                             
                             self.viewXML(withXML: containerFLEx.generateXML(), title: ViewerTitles.flex)
                             
-                            
+                        }
+                        
+                        if passesValidation == false, validationModifier != nil {
+                            self.postImportValidate(messageText: "The FlexText file you imported contains structural inconsistencies that require you to repair Word Links.", withWordLinkModifier: validationModifier!)
                         }
                     }
                 }
@@ -320,6 +331,8 @@ class ViewController_IngestFileManager: NSViewController {
                     //let parser = Amphisbaena_TranskribusParser(XMLString: fileContents)
                     let parser = Amphisbaena_TranskribusTEIParser(XMLString: fileContents)
                     if let parser = parser {
+                        var passesValidation = true;
+                        var validationModifier: Amphisbaena_WordLinksModifier?
                         parser.parse()
                         self.rootViewController?.containerTranskribusTEI = parser.resultContainer
                         fileRow.setStatus_FileLoadSuccessful()
@@ -327,8 +340,14 @@ class ViewController_IngestFileManager: NSViewController {
                         
                         self.enableGenerateWordLinksIfFilesPresent()
                         
+                        if let modifier = self.makeWordLinkModifier() {
+                            passesValidation = self.validateWordLinks(withExistingModifier: modifier)
+                            validationModifier = modifier
+                        }
+                        
                         if self.readOption_checkboxOpenXMLOnImport(),
-                            let containerTranskribus = self.rootViewController?.containerTranskribusTEI {
+                            let containerTranskribus = self.rootViewController?.containerTranskribusTEI,
+                            passesValidation {
                             
                             let words = containerTranskribus.getAll_w().compactMap{$0.elementContent ?? "NESTED"
                             }
@@ -338,6 +357,10 @@ class ViewController_IngestFileManager: NSViewController {
                             self.viewXML(withXML: containerTranskribus.generateXML(), title: ViewerTitles.transkribus)
                             
                             
+                        }
+                        
+                        if passesValidation == false, validationModifier != nil {
+                            self.postImportValidate(messageText: "The TEI file you imported contains structural inconsistencies that require you to repair Word Links.", withWordLinkModifier: validationModifier!)
                         }
                     }
                 }
@@ -460,11 +483,6 @@ class ViewController_IngestFileManager: NSViewController {
                     let parser = Amphisbaena_WordLinksParserProvider.getParser(forText: fileContents)
                     var resultContainer: Amphisbaena_WordLinksContainer?
                     if version != Amphisbaena_WordLinksContainer.Version.v02.rawValue {
-                        /*
-                        print(self.rootViewController?.containerTranskribusTEI)
-                        print(self.rootViewController?.containerFlexText);
-                        print(version)
-                        */
                         if version == Amphisbaena_WordLinksContainer.Version.v01.rawValue || version == nil,
                             let transkribusContainer = self.rootViewController?.containerTranskribusTEI,
                             let flexContainer = self.rootViewController?.containerFlexText {
@@ -562,7 +580,30 @@ class ViewController_IngestFileManager: NSViewController {
         fileRow.button2ActionClosure = button2action;
         
         let button3action = {() -> Void in
-            self.showGenerateWordLinksWindow()
+            
+            var passesValidation = true;
+            
+            if let modifier = self.makeWordLinkModifier() {
+                passesValidation = self.validateWordLinks(withExistingModifier: modifier)
+            }
+            
+            if passesValidation == true {
+                self.showGenerateWordLinksWindow()
+            }
+            else {
+                NSSound.beep()
+                let alert = NSAlert()
+                alert.alertStyle = .warning
+                alert.icon = NSImage(named: NSImage.infoName)
+                alert.messageText = "You cannot edit Word Links because there are structural inconsistencies in the file."
+                alert.informativeText = """
+                To fix this, try importing your TEI, FlexText, or Word Links file again. Accept a prompt to Repair the file to restore consistency and edit Word Links.
+
+                If you do not want to Repair, try importing a TEI, FlexText, or Word Links file that does not create inconsistencies with the rest of the data, such as a file that has had only content adjustments.
+                """
+                alert.addButton(withTitle: "OK")
+                alert.beginSheetModal(for: self.view.window!)
+            }
         }
         fileRow.button3ActionClosure = button3action
         
@@ -583,13 +624,25 @@ class ViewController_IngestFileManager: NSViewController {
     
     private func populateWordLinks(withContainer resultContainer: Amphisbaena_WordLinksContainer?, fileRow: View_IngestFileManager_File) {
         if let container = resultContainer {
+            var passesValidation = true;
+            var validationModifier: Amphisbaena_WordLinksModifier?
+            
             rootViewController?.containerWordLink = container;
             enableGenerateWordLinksIfFilesPresent()
             fileRow.setStatus_FileLoadSuccessful()
             setFileRow_ButtonEnable(forType: .WordLinksXML, button2Enable: true)
             
-            if readOption_checkboxOpenXMLOnImport() {
+            if let modifier = self.makeWordLinkModifier() {
+                passesValidation = self.validateWordLinks(withExistingModifier: modifier)
+                validationModifier = modifier
+            }
+            
+            if readOption_checkboxOpenXMLOnImport(), passesValidation {
                 viewXML(withXML: container.generateXML(), title: ViewerTitles.wordLink)
+            }
+            
+            if passesValidation == false, validationModifier != nil {
+                self.postImportValidate(messageText: "The Word Links file you imported does not match the data in the TEI or FlexText files. You need to repair the file to ensure consistency.", withWordLinkModifier: validationModifier!)
             }
         }
     }
@@ -669,5 +722,60 @@ extension ViewController_IngestFileManager: ViewController_WordLinksEditor_Deleg
     
     func showWordLinkXML(withXML XML: String) {
         self.viewXML(withXML: XML, title: "View Word Links XML")
+    }
+}
+
+extension ViewController_IngestFileManager {
+    private func makeWordLinkModifier() -> Amphisbaena_WordLinksModifier? {
+        if let wordLinkContainer = rootViewController?.containerWordLink,
+           let transkribusContainer = rootViewController?.containerTranskribusTEI,
+           let flexTextContainer = rootViewController?.containerFlexText {
+            let modifier = Amphisbaena_WordLinksModifier(fromExistingContainer: wordLinkContainer, transkribusContainer: transkribusContainer, flexContainer: flexTextContainer)
+            return modifier;
+        }
+        else {
+            return nil;
+        }
+    }
+    
+    private func validateWordLinks(withExistingModifier wordLinkModifier: Amphisbaena_WordLinksModifier) -> Bool {
+        return Amphisbaena_WordLinksModifier.performValidation(ofWordLinksModifier: wordLinkModifier)
+    }
+    
+    private func validateWordLinks() -> Bool? {
+        if let modifier = makeWordLinkModifier() {
+            return validateWordLinks(withExistingModifier: modifier)
+        }
+        else {return nil;}
+    }
+    
+    private func postImportValidate(messageText: String, withWordLinkModifier wordLinkModifier: Amphisbaena_WordLinksModifier) {
+        if let validation = validateWordLinks(),
+           validation == false {
+            let alert = NSAlert()
+            alert.alertStyle = .warning
+            alert.icon = NSImage(named: NSImage.infoName)
+            alert.messageText = messageText
+            alert.informativeText = """
+            Amphisbaena can repair the data structure when you click Repair, attempting to maintain facs/guid relationships as much as possible. If you choose not to perform a repair, your data may not remain accurate or consistent, and can cause crashes while working with it.
+
+            If you need the original Word Links for any reason, click Cancel and export them before proceeding with a repair.
+            """
+            alert.addButton(withTitle: "Repair")
+            alert.addButton(withTitle: "Cancel")
+            alert.beginSheetModal(for: self.view.window!) { (response) in
+                if response == .alertFirstButtonReturn {
+                    if let containerTranskribus = self.rootViewController?.containerTranskribusTEI,
+                       let containerFLExText = self.rootViewController?.containerFlexText,
+                       let containerWordLinks = self.rootViewController?.containerWordLink {
+                        let repair = Amphisbaena_WordLinksRepair(containerWordLinks: containerWordLinks, containerTranskribus: containerTranskribus, containerFlexText: containerFLExText)
+                        repair.performRepair()
+                        if let resultOfRepair = repair.resultWordLinksContainer {
+                            self.rootViewController?.containerWordLink = resultOfRepair
+                        }
+                    }
+                }
+            }
+        }
     }
 }

@@ -98,6 +98,8 @@ class Amphisbaena_WordLinksModifier {
     }
     
     init(fromExistingContainer wordLinkContainer: Amphisbaena_WordLinksContainer, transkribusContainer: Amphisbaena_TranskribusTEIContainer, flexContainer: Amphisbaena_FlexTextContainer) {
+        self.containerFlexText = flexContainer
+        self.containerTranskribusTEI = transkribusContainer
         makeFlexList(fromFlexContainer: flexContainer)
         makeTranskribusList(fromTranskribusContainer: transkribusContainer)
         
@@ -327,8 +329,12 @@ class Amphisbaena_WordLinksModifier {
             var attributes: [String : String] = [:]
             let preferredAttributeOrder = ["uuid", "guid", "guidFirst", "guidCount", "facs", "facsFirst", "facsCount"]
             if wordLink.guidsCount != 0 {
+                print(String(format: "GUID FIRST INDEX: %d", wordLink.guidsFirst))
+                print(String(format: "GUID COUNT: %d", flexWords.count))
+                
                 attributes["uuid"] = wordLink.uuid;
-                if wordLink.guidsCount > 0 {
+                if wordLink.guidsCount > 0,
+                   wordLink.guidsFirst < flexWords.count {
                     attributes["guid"] = flexWords[wordLink.guidsFirst].guid
                 }
                 else {
@@ -339,22 +345,33 @@ class Amphisbaena_WordLinksModifier {
                 attributes["guidFirst"] = String(wordLink.guidsFirst)
                 
                 wordLink.guidsRange.forEach { (guidIndex) in
-                    let flexWord = flexWords[guidIndex]
-                    var flexAttributes: [String : String] = [:]
-                    let guidElement = Amphisbaena_Element(elementName: "guid")
-                    if flexWord.content.trimmingCharacters(in: .whitespacesAndNewlines) != "" {
-                        flexAttributes["groundtruth"] = flexWord.content
-                        guidElement.elementContent = flexWord.guid
+                    if guidIndex < flexWords.count {
+                        let flexWord = flexWords[guidIndex]
+                        var flexAttributes: [String : String] = [:]
+                        let guidElement = Amphisbaena_Element(elementName: "guid")
+                        if flexWord.content.trimmingCharacters(in: .whitespacesAndNewlines) != "" {
+                            flexAttributes["groundtruth"] = flexWord.content
+                            guidElement.elementContent = flexWord.guid
+                        }
+                        flexAttributes["index"] = String(guidIndex)
+                        guidElement.preferredAttributeOrder = ["index", "groundtruth"]
+                        guidElement.elementAttributes = flexAttributes
+                        wordLinkContainer.addElement(element: guidElement)
                     }
-                    flexAttributes["index"] = String(guidIndex)
-                    guidElement.preferredAttributeOrder = ["index", "groundtruth"]
-                    guidElement.elementAttributes = flexAttributes
-                    wordLinkContainer.addElement(element: guidElement)
+                    else {
+                        print("GUID INDEX OUT OF BOUNDS: ");
+                        print(wordLink)
+                        print(guidIndex)
+                        resultContainer.failedValidation = true;
+                    }
                 }
             }
             if wordLink.facsCount != 0 {
+                print(String(format: "FACS FIRST INDEX: %d", wordLink.facsFirst))
+                print(String(format: "FACS COUNT: %d", transkribusWords.count))
                 
-                if wordLink.facsCount > 0 {
+                if wordLink.facsCount > 0,
+                   wordLink.facsFirst < transkribusWords.count {
                     attributes["facs"] = transkribusWords[wordLink.facsFirst].facs
                 }
                 else {
@@ -365,17 +382,25 @@ class Amphisbaena_WordLinksModifier {
                 attributes["facsFirst"] = String(wordLink.facsFirst)
                 
                 wordLink.facsRange.forEach { (facsIndex) in
-                    let facsWord = transkribusWords[facsIndex]
-                    var facsAttributes: [String : String] = [:]
-                    let facsElement = Amphisbaena_Element(elementName: "facs")
-                    if facsWord.content.trimmingCharacters(in: .whitespacesAndNewlines) != "" {
-                        facsAttributes["groundtruth"] = facsWord.content
+                    if facsIndex < transkribusWords.count {
+                        let facsWord = transkribusWords[facsIndex]
+                        var facsAttributes: [String : String] = [:]
+                        let facsElement = Amphisbaena_Element(elementName: "facs")
+                        if facsWord.content.trimmingCharacters(in: .whitespacesAndNewlines) != "" {
+                            facsAttributes["groundtruth"] = facsWord.content
+                        }
+                        facsAttributes["index"] = String(facsIndex)
+                        facsElement.preferredAttributeOrder = ["index", "groundtruth"]
+                        facsElement.elementContent = facsWord.facs
+                        facsElement.elementAttributes = facsAttributes
+                        wordLinkContainer.addElement(element: facsElement)
                     }
-                    facsAttributes["index"] = String(facsIndex)
-                    facsElement.preferredAttributeOrder = ["index", "groundtruth"]
-                    facsElement.elementContent = facsWord.facs
-                    facsElement.elementAttributes = facsAttributes
-                    wordLinkContainer.addElement(element: facsElement)
+                    else {
+                        print("FACS INDEX OUT OF BOUNDS: ");
+                        print(wordLink)
+                        print(facsIndex)
+                        resultContainer.failedValidation = true;
+                    }
                 }
             }
             wordLinkContainer.preferredAttributeOrder = preferredAttributeOrder
@@ -405,5 +430,39 @@ class Amphisbaena_WordLinksModifier {
             }
             resultContainer.addElement(element: wordLinkContainer)
         }*/
+    }
+    
+    static func performValidation(ofWordLinksModifier wordLinksModifier: Amphisbaena_WordLinksModifier) -> Bool {
+        let wordLinks = wordLinksModifier.wordLinks
+        let flexWords = wordLinksModifier.flexWords
+        let transkribusWords = wordLinksModifier.transkribusWords
+        var result = true;
+        var resultInformation = (index: 0, memo: "No info available")
+        for wordLink in wordLinks {
+            if wordLink.guidsCount != 0 {
+                wordLink.guidsRange.forEach { (guidIndex) in
+                    if guidIndex >= flexWords.count && result == true{
+                        result = false;
+                        resultInformation.index = guidIndex
+                        resultInformation.memo = "GUID INDEX IS OUT OF RANGE"
+                    }
+                }
+            }
+            if wordLink.facsCount != 0 {
+                wordLink.facsRange.forEach { (facsIndex) in
+                    if facsIndex >= transkribusWords.count && result == true {
+                        resultInformation.index = facsIndex
+                        resultInformation.memo = "FACS INDEX IS OUT OF RANGE"
+                        result = false;
+                    }
+                }
+            }
+        }
+        if result == true {print("WORD LINKS VALIDATION HAS PASSED.")}
+        else {
+            print("WORD LINKS VALIDATION FAILED.")
+            print("REASON: "+String(format: "Problem at index %d: ", resultInformation.index)+resultInformation.memo)
+        }
+        return result;
     }
 }

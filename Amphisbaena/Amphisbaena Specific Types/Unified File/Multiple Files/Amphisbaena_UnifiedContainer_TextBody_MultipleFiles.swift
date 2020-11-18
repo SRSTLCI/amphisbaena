@@ -18,19 +18,27 @@ extension Amphisbaena_UnifiedContainer_TextBody {
         static let sortCriteria: ((AmphisbaenaXMLTaggable, AmphisbaenaXMLTaggable) -> Bool) = {(taggable1, taggable2) -> Bool in
             if taggable1.elementName == "flex",
                 taggable2.elementName == "flex" {
-                if let taggable1guid = taggable1.getAttribute(attributeName: "guid"),
-                    let taggable2guid = taggable2.getAttribute(attributeName: "guid") {
-                    let taggable1order = flexWordOrder[taggable1guid]
-                    let taggable2order = flexWordOrder[taggable2guid]
-                    if let value1 = taggable1order, let value2 = taggable2order {
-                        return value1 < value2
-                    }
-                    else if taggable1order != nil {
-                        return true
-                    }
-                    else {
-                        return false
-                    }
+                
+                let taggable1guid = taggable1.getAttribute(attributeName: "guid") ?? ""
+                let taggable2guid = taggable2.getAttribute(attributeName: "guid") ?? ""
+                let taggable1content = taggable1.elementContent ?? ""
+                let taggable2content = taggable2.elementContent ?? ""
+                
+                let identity1 = taggable1guid + taggable1content
+                let identity2 = taggable2guid + taggable2content
+                
+                let taggable1order = flexWordOrder[identity1]
+                let taggable2order = flexWordOrder[identity2]
+                if let value1 = taggable1order, let value2 = taggable2order {
+                    return value1 < value2
+                }
+                else if taggable1order != nil {
+                    return true
+                }
+                else {
+                    return false
+                }
+                /*
                 }
                 else {
                     if taggable1.getAttribute(attributeName: "guid") != nil {
@@ -40,6 +48,7 @@ extension Amphisbaena_UnifiedContainer_TextBody {
                         return false
                     }
                 }
+                */
             }
             else if taggable1.elementName == "flex" {return true;}
             else if taggable2.elementName == "flex" {return false;}
@@ -477,10 +486,9 @@ extension Amphisbaena_UnifiedContainer_TextBody {
                     }
                     currentWord?.addElement(element: flex)
                     currentWord?.sortElements(by: SortCriteria.sortCriteria)
-                    if let guid = token.identifier {
-                        let count = SortCriteria.flexWordOrder.count
-                        SortCriteria.flexWordOrder[guid] = count
-                    }
+                    let identity = (token.identifier ?? "") + (token.content ?? "")
+                    let count = SortCriteria.flexWordOrder.count
+                    SortCriteria.flexWordOrder[identity] = count
                 }
             case "flexwNotPresent":
                 if let currentWords = currentWords {

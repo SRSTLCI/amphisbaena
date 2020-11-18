@@ -37,6 +37,7 @@
 		C99A2B5324291C0600F70B5C /* View_IngestFileManager_FileRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99A2B5224291C0600F70B5C /* View_IngestFileManager_FileRow.swift */; };
 		C99A2B5524291C2500F70B5C /* View_IngestFileManager_FileRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99A2B5424291C2500F70B5C /* View_IngestFileManager_FileRow.xib */; };
 		C9A13016250FCFA500CE7752 /* ViewController_WordLinksEditor.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9A13015250FCFA500CE7752 /* ViewController_WordLinksEditor.xib */; };
+		C9BBBBBC2562EB20000E0416 /* Amphisbaena_WordLinksRepair.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BBBBBB2562EB20000E0416 /* Amphisbaena_WordLinksRepair.swift */; };
 		C9BCE887242BC8B6001DA29A /* Amphisbaena_ELANParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BCE886242BC8B6001DA29A /* Amphisbaena_ELANParser.swift */; };
 		C9C2E41D25112661008468CD /* Amphisbaena_WordLinksParser_01.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C2E41C25112661008468CD /* Amphisbaena_WordLinksParser_01.swift */; };
 		C9C2E41F251128FE008468CD /* Amphisbaena_WordLinksParserProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C2E41E251128FE008468CD /* Amphisbaena_WordLinksParserProvider.swift */; };
@@ -115,6 +116,7 @@
 		C99A2B5224291C0600F70B5C /* View_IngestFileManager_FileRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_IngestFileManager_FileRow.swift; sourceTree = "<group>"; };
 		C99A2B5424291C2500F70B5C /* View_IngestFileManager_FileRow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View_IngestFileManager_FileRow.xib; sourceTree = "<group>"; };
 		C9A13015250FCFA500CE7752 /* ViewController_WordLinksEditor.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController_WordLinksEditor.xib; sourceTree = "<group>"; };
+		C9BBBBBB2562EB20000E0416 /* Amphisbaena_WordLinksRepair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amphisbaena_WordLinksRepair.swift; sourceTree = "<group>"; };
 		C9BCE886242BC8B6001DA29A /* Amphisbaena_ELANParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amphisbaena_ELANParser.swift; sourceTree = "<group>"; };
 		C9C2E41C25112661008468CD /* Amphisbaena_WordLinksParser_01.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Amphisbaena_WordLinksParser_01.swift; sourceTree = "<group>"; };
 		C9C2E41E251128FE008468CD /* Amphisbaena_WordLinksParserProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amphisbaena_WordLinksParserProvider.swift; sourceTree = "<group>"; };
@@ -201,6 +203,7 @@
 				C9C2E41C25112661008468CD /* Amphisbaena_WordLinksParser_01.swift */,
 				C9C2E4202513A798008468CD /* Amphisbaena_WordLinksParser_02.swift */,
 				C9C2E41E251128FE008468CD /* Amphisbaena_WordLinksParserProvider.swift */,
+				C9BBBBBB2562EB20000E0416 /* Amphisbaena_WordLinksRepair.swift */,
 			);
 			path = "Word Links";
 			sourceTree = "<group>";
@@ -525,6 +528,7 @@
 				C9DE218B246D93E20091B4EB /* Amphisbaena_UnifiedContainer_TextBody.swift in Sources */,
 				C9C2E41F251128FE008468CD /* Amphisbaena_WordLinksParserProvider.swift in Sources */,
 				C96F2F4423F98345007EC2BA /* FileHandler.swift in Sources */,
+				C9BBBBBC2562EB20000E0416 /* Amphisbaena_WordLinksRepair.swift in Sources */,
 				C97FA9612429723900FCD55E /* Amphisbaena_Container.swift in Sources */,
 				C9D5A36E242B9DBB00D2B821 /* AmphisbaenaTagFormatting.swift in Sources */,
 				C96F2F1823F976A3007EC2BA /* Document.swift in Sources */,

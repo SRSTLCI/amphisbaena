@@ -132,6 +132,25 @@ class ViewController_WordLinksEditor: NSViewController {
         }
     }
     
+    @IBAction func button_repairWordLinks_Action(_ sender: Any) {
+        print(containerTranskribus)
+        print(containerFLEx)
+        print(containerWordLinks)
+        if let containerTranskribus = containerTranskribus,
+           let containerFlexText = containerFLEx,
+           let containerWordLinks = containerWordLinks {
+            let wordLinksRepair = Amphisbaena_WordLinksRepair(containerWordLinks: containerWordLinks, containerTranskribus: containerTranskribus, containerFlexText: containerFlexText)
+            wordLinksRepair.performRepair()
+        }
+        
+    }
+    
+    @IBAction func button_validateWordLinks_Action(_ sender: Any) {
+        if let wordLinksModifier = wordLinkModifier {
+            Amphisbaena_WordLinksModifier.performValidation(ofWordLinksModifier: wordLinksModifier)
+        }
+    }
+    
     func generateWordLinks() {
         guard let containerTranskribus = self.containerTranskribus, let containerFLEx = self.containerFLEx else {return;}
         self.wordLinkModifier = Amphisbaena_WordLinksModifier(fromFileContainers: containerTranskribus, flexContainer: containerFLEx)

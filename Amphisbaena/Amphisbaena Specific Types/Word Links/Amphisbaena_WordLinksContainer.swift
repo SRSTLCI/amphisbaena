@@ -14,6 +14,8 @@ class Amphisbaena_WordLinksContainer: Amphisbaena_Container {
         case v02    = "0.2"
     }
     
+    var failedValidation: Bool = false;
+    
     var version: Version = .v01
     
     init() {

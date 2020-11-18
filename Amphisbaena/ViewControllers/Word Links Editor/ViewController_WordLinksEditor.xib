@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="17506" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16097.3"/>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17506"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -21,7 +22,7 @@
                     </textFieldCell>
                 </textField>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="1qX-5G-xQO">
-                    <rect key="frame" x="18" y="648" width="175" height="16"/>
+                    <rect key="frame" x="18" y="649" width="175" height="16"/>
                     <textFieldCell key="cell" lineBreakMode="clipping" title="Step 2: Refine Word Links" id="elE-sA-0Gf">
                         <font key="font" metaFont="systemHeavy" size="13"/>
                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -29,7 +30,7 @@
                     </textFieldCell>
                 </textField>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="0Xz-RE-Nqu">
-                    <rect key="frame" x="18" y="89" width="149" height="16"/>
+                    <rect key="frame" x="18" y="88" width="149" height="16"/>
                     <textFieldCell key="cell" lineBreakMode="clipping" title="Step 3: Save Changes" id="uGC-7K-k8t">
                         <font key="font" metaFont="systemHeavy" size="13"/>
                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -46,7 +47,7 @@
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="nnt-O1-DnU">
-                    <rect key="frame" x="18" y="556" width="764" height="84"/>
+                    <rect key="frame" x="18" y="557" width="764" height="84"/>
                     <textFieldCell key="cell" controlSize="small" selectable="YES" id="l9V-ri-wdj">
                         <font key="font" metaFont="message" size="11"/>
                         <string key="title">Once you have generated your word links, you will need to curate and refine how the words match to each other. Transkribus and FLEx words do not have an implicit relationship to one another, so you must establish one by providing the correct Transkribus zones under the FLEx words.
@@ -58,7 +59,7 @@ You can select a row in the Word Match Table, and then click a Tool button to ma
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="TkK-Ea-Kva">
-                    <rect key="frame" x="18" y="53" width="764" height="28"/>
+                    <rect key="frame" x="18" y="52" width="764" height="28"/>
                     <textFieldCell key="cell" controlSize="small" selectable="YES" id="JWS-W8-IYX">
                         <font key="font" metaFont="message" size="11"/>
                         <string key="title">When you are sure that all of your Transkribus zones are matched under the appropriate FLEx words, click Save Word Links below to commit these changes to your project file. You may also choose to Close Without Saving if you do not wish to apply your changes.</string>
@@ -75,35 +76,35 @@ You can select a row in the Word Match Table, and then click a Tool button to ma
                     </textFieldCell>
                 </textField>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="5wh-aZ-4ps">
-                    <rect key="frame" x="14" y="678" width="197" height="32"/>
-                    <buttonCell key="cell" type="push" title="Generate New Word Links" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="iVM-Hg-8WH">
+                    <rect key="frame" x="13" y="679" width="121" height="32"/>
+                    <buttonCell key="cell" type="push" title="Generate New" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="iVM-Hg-8WH">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
                     </buttonCell>
                 </button>
                 <box verticalHuggingPriority="750" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="STm-bQ-ga5">
-                    <rect key="frame" x="20" y="670" width="760" height="5"/>
+                    <rect key="frame" x="20" y="671" width="760" height="5"/>
                 </box>
                 <box title="Word Match Table" translatesAutoresizingMaskIntoConstraints="NO" id="wJi-Sc-Hd0">
-                    <rect key="frame" x="7" y="122" width="786" height="422"/>
+                    <rect key="frame" x="7" y="121" width="786" height="424"/>
                     <view key="contentView" id="VW2-Jv-SXF">
-                        <rect key="frame" x="3" y="3" width="780" height="404"/>
+                        <rect key="frame" x="3" y="3" width="780" height="406"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView verticalCompressionResistancePriority="250" autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RJm-xv-WXy">
-                                <rect key="frame" x="8" y="8" width="764" height="342"/>
+                            <scrollView verticalCompressionResistancePriority="250" autohidesScrollers="YES" horizontalLineScroll="44" horizontalPageScroll="10" verticalLineScroll="44" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RJm-xv-WXy">
+                                <rect key="frame" x="8" y="8" width="764" height="344"/>
                                 <clipView key="contentView" id="VmJ-I9-pZo">
-                                    <rect key="frame" x="1" y="0.0" width="762" height="341"/>
+                                    <rect key="frame" x="1" y="1" width="762" height="342"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
-                                        <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" alternatingRowBackgroundColors="YES" columnReordering="NO" autosaveColumns="NO" typeSelect="NO" rowSizeStyle="automatic" headerView="fK5-Js-PUO" viewBased="YES" id="ZGH-2h-6Bz">
-                                            <rect key="frame" x="0.0" y="0.0" width="762" height="316"/>
+                                        <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" alternatingRowBackgroundColors="YES" columnReordering="NO" autosaveColumns="NO" typeSelect="NO" rowHeight="42" rowSizeStyle="automatic" headerView="fK5-Js-PUO" viewBased="YES" id="ZGH-2h-6Bz">
+                                            <rect key="frame" x="0.0" y="0.0" width="762" height="317"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <size key="intercellSpacing" width="3" height="2"/>
                                             <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                             <tableColumns>
-                                                <tableColumn width="63.5" minWidth="10" maxWidth="64" id="zvW-Ba-r56">
+                                                <tableColumn width="62" minWidth="10" maxWidth="64" id="zvW-Ba-r56">
                                                     <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="FLEx Index">
                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -116,11 +117,11 @@ You can select a row in the Word Match Table, and then click a Tool button to ma
                                                     <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                     <prototypeCellViews>
                                                         <tableCellView identifier="FLEx_itemIndex" id="0Lt-hw-oxL">
-                                                            <rect key="frame" x="1" y="1" width="64" height="42"/>
+                                                            <rect key="frame" x="1" y="1" width="67" height="42"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
                                                                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qt1-i1-3ku">
-                                                                    <rect key="frame" x="0.0" y="26" width="64" height="16"/>
+                                                                    <rect key="frame" x="0.0" y="26" width="67" height="16"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                                                     <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cell" id="TWw-mN-nPV">
                                                                         <font key="font" metaFont="system"/>
@@ -135,7 +136,7 @@ You can select a row in the Word Match Table, and then click a Tool button to ma
                                                         </tableCellView>
                                                     </prototypeCellViews>
                                                 </tableColumn>
-                                                <tableColumn width="144" minWidth="40" maxWidth="1000" id="e1W-Oq-vtX">
+                                                <tableColumn width="142.5" minWidth="40" maxWidth="1000" id="e1W-Oq-vtX">
                                                     <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" title="FLEx guid">
                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
@@ -148,11 +149,11 @@ You can select a row in the Word Match Table, and then click a Tool button to ma
                                                     <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                     <prototypeCellViews>
                                                         <tableCellView identifier="FLEx_txtItem" id="Org-P4-j6e">
-                                                            <rect key="frame" x="68" y="1" width="144" height="42"/>
+                                                            <rect key="frame" x="71" y="1" width="142" height="42"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
                                                                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DrI-Dc-edq">
-                                                                    <rect key="frame" x="0.0" y="26" width="144" height="16"/>
+                                                                    <rect key="frame" x="0.0" y="26" width="142" height="16"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                                                     <textFieldCell key="cell" lineBreakMode="truncatingMiddle" sendsActionOnEndEditing="YES" title="Table View Cell" id="1DK-3u-vjN">
                                                                         <font key="font" metaFont="system"/>
@@ -167,7 +168,7 @@ You can select a row in the Word Match Table, and then click a Tool button to ma
                                                         </tableCellView>
                                                     </prototypeCellViews>
                                                 </tableColumn>
-                                                <tableColumn width="148.5" minWidth="40" maxWidth="1000" id="Vi4-0n-WoQ">
+                                                <tableColumn width="147" minWidth="40" maxWidth="1000" id="Vi4-0n-WoQ">
                                                     <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" title="FLEx item content">
                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
@@ -180,11 +181,11 @@ You can select a row in the Word Match Table, and then click a Tool button to ma
                                                     <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                     <prototypeCellViews>
                                                         <tableCellView identifier="FLEx_guid" id="2QR-vB-2uS">
-                                                            <rect key="frame" x="215" y="1" width="148" height="42"/>
+                                                            <rect key="frame" x="216" y="1" width="147" height="42"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
                                                                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r52-Bx-UrJ">
-                                                                    <rect key="frame" x="0.0" y="26" width="148" height="16"/>
+                                                                    <rect key="frame" x="0.0" y="26" width="147" height="16"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                                                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Table View Cell" id="XZM-vz-fbz">
                                                                         <font key="font" metaFont="system"/>
@@ -199,7 +200,7 @@ You can select a row in the Word Match Table, and then click a Tool button to ma
                                                         </tableCellView>
                                                     </prototypeCellViews>
                                                 </tableColumn>
-                                                <tableColumn width="64" minWidth="10" maxWidth="3.4028234663852886e+38" id="k9G-TN-g6x">
+                                                <tableColumn width="62.5" minWidth="10" maxWidth="3.4028234663852886e+38" id="k9G-TN-g6x">
                                                     <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Transkribus Index">
                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -212,11 +213,11 @@ You can select a row in the Word Match Table, and then click a Tool button to ma
                                                     <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                     <prototypeCellViews>
                                                         <tableCellView identifier="Transkribus_itemIndex" id="YDe-lf-7DO">
-                                                            <rect key="frame" x="366" y="1" width="64" height="42"/>
+                                                            <rect key="frame" x="366" y="1" width="63" height="42"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
                                                                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cve-yi-MxF">
-                                                                    <rect key="frame" x="0.0" y="26" width="64" height="16"/>
+                                                                    <rect key="frame" x="0.0" y="26" width="63" height="16"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                                                     <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cell" id="XAz-7a-tnq">
                                                                         <font key="font" metaFont="system"/>
@@ -231,7 +232,7 @@ You can select a row in the Word Match Table, and then click a Tool button to ma
                                                         </tableCellView>
                                                     </prototypeCellViews>
                                                 </tableColumn>
-                                                <tableColumn width="147" minWidth="10" maxWidth="3.4028234663852886e+38" id="bni-aW-EKH">
+                                                <tableColumn width="145.5" minWidth="10" maxWidth="3.4028234663852886e+38" id="bni-aW-EKH">
                                                     <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Transkribus w">
                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -244,11 +245,11 @@ You can select a row in the Word Match Table, and then click a Tool button to ma
                                                     <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                     <prototypeCellViews>
                                                         <tableCellView identifier="Transkribus_w" id="Qt3-0c-qA1">
-                                                            <rect key="frame" x="433" y="1" width="147" height="42"/>
+                                                            <rect key="frame" x="432" y="1" width="145" height="42"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
                                                                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CXZ-8x-rPA">
-                                                                    <rect key="frame" x="0.0" y="26" width="147" height="16"/>
+                                                                    <rect key="frame" x="0.0" y="26" width="145" height="16"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                                                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Table View Cell" id="mLF-76-wIc">
                                                                         <font key="font" metaFont="system"/>
@@ -263,7 +264,7 @@ You can select a row in the Word Match Table, and then click a Tool button to ma
                                                         </tableCellView>
                                                     </prototypeCellViews>
                                                 </tableColumn>
-                                                <tableColumn width="177" minWidth="10" maxWidth="3.4028234663852886e+38" id="wLw-SB-4eO">
+                                                <tableColumn width="175.5" minWidth="10" maxWidth="3.4028234663852886e+38" id="wLw-SB-4eO">
                                                     <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Transkribus facs">
                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -276,11 +277,11 @@ You can select a row in the Word Match Table, and then click a Tool button to ma
                                                     <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                     <prototypeCellViews>
                                                         <tableCellView identifier="Transkribus_facs" id="lVj-HA-q4n">
-                                                            <rect key="frame" x="583" y="1" width="177" height="42"/>
+                                                            <rect key="frame" x="580" y="1" width="180" height="42"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
                                                                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2PH-zm-btJ">
-                                                                    <rect key="frame" x="0.0" y="26" width="177" height="16"/>
+                                                                    <rect key="frame" x="0.0" y="26" width="180" height="16"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                                                     <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cell" id="b8g-l4-Fh7">
                                                                         <font key="font" metaFont="system"/>
@@ -310,27 +311,27 @@ You can select a row in the Word Match Table, and then click a Tool button to ma
                                     <rect key="frame" x="224" y="17" width="15" height="102"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
-                                <tableHeaderView key="headerView" id="fK5-Js-PUO">
+                                <tableHeaderView key="headerView" wantsLayer="YES" id="fK5-Js-PUO">
                                     <rect key="frame" x="0.0" y="0.0" width="762" height="25"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableHeaderView>
                             </scrollView>
                             <button horizontalHuggingPriority="750" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Gu0-Ms-S7l">
-                                <rect key="frame" x="22" y="354" width="25" height="25"/>
+                                <rect key="frame" x="21" y="356" width="25" height="25"/>
                                 <buttonCell key="cell" type="help" bezelStyle="helpButton" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Udj-eU-KVL">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                             </button>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ffC-aH-uHj">
-                                <rect key="frame" x="51" y="351" width="200" height="32"/>
+                                <rect key="frame" x="49" y="353" width="194" height="32"/>
                                 <buttonCell key="cell" type="push" title="Combine Selected to FLEx" bezelStyle="rounded" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="lpl-IM-Chh">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                             </button>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Vea-JZ-tg2">
-                                <rect key="frame" x="22" y="383" width="45" height="13"/>
+                                <rect key="frame" x="22" y="385" width="45" height="13"/>
                                 <textFieldCell key="cell" controlSize="small" lineBreakMode="clipping" title="TOOLS:" id="1K8-Oj-JjR">
                                     <font key="font" size="11" name="HelveticaNeue-Bold"/>
                                     <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
@@ -338,7 +339,7 @@ You can select a row in the Word Match Table, and then click a Tool button to ma
                                 </textFieldCell>
                             </textField>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="an0-MC-jRl">
-                                <rect key="frame" x="251" y="351" width="275" height="32"/>
+                                <rect key="frame" x="241" y="353" width="269" height="32"/>
                                 <buttonCell key="cell" type="push" title="Insert Empty Transkribus Into Selected" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="t41-ay-PWp">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -363,28 +364,38 @@ You can select a row in the Word Match Table, and then click a Tool button to ma
                     <font key="titleFont" metaFont="systemSemibold" size="11"/>
                 </box>
                 <box verticalHuggingPriority="750" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="wg9-di-1Ut">
-                    <rect key="frame" x="20" y="111" width="760" height="5"/>
+                    <rect key="frame" x="20" y="110" width="760" height="5"/>
                 </box>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="dLh-TF-oxc">
-                    <rect key="frame" x="14" y="13" width="140" height="32"/>
+                    <rect key="frame" x="13" y="13" width="134" height="32"/>
                     <buttonCell key="cell" type="push" title="Save Word Links" bezelStyle="rounded" alignment="center" enabled="NO" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="HAW-CN-eCj">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
                     </buttonCell>
                 </button>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="pbP-yT-FSx">
-                    <rect key="frame" x="154" y="13" width="170" height="32"/>
+                    <rect key="frame" x="145" y="13" width="164" height="32"/>
                     <buttonCell key="cell" type="push" title="Close Without Saving" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="aqa-4X-fx9">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
                     </buttonCell>
                 </button>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="0ud-xg-zm6">
-                    <rect key="frame" x="615" y="13" width="171" height="32"/>
+                    <rect key="frame" x="622" y="13" width="165" height="32"/>
                     <buttonCell key="cell" type="push" title="View Word Links XML" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Bey-P0-u5O">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
                     </buttonCell>
+                </button>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="nhI-GH-QGx">
+                    <rect key="frame" x="132" y="679" width="119" height="32"/>
+                    <buttonCell key="cell" type="push" title="Repair Links..." bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="toI-9C-VDD">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="button_repairWordLinks_Action:" target="-1" id="DDy-Qz-oLW"/>
+                    </connections>
                 </button>
             </subviews>
             <constraints>
@@ -414,10 +425,12 @@ You can select a row in the Word Match Table, and then click a Tool button to ma
                 <constraint firstItem="2VY-cB-yqw" firstAttribute="leading" secondItem="vgr-Vc-unv" secondAttribute="leading" constant="20" id="eJb-Vq-7y5"/>
                 <constraint firstItem="wg9-di-1Ut" firstAttribute="leading" secondItem="vgr-Vc-unv" secondAttribute="leading" constant="20" id="eRV-Oz-TvL"/>
                 <constraint firstItem="dLh-TF-oxc" firstAttribute="top" secondItem="TkK-Ea-Kva" secondAttribute="bottom" constant="12" id="fO3-gT-Vac"/>
+                <constraint firstItem="nhI-GH-QGx" firstAttribute="firstBaseline" secondItem="5wh-aZ-4ps" secondAttribute="firstBaseline" id="hTJ-sb-8vv"/>
                 <constraint firstAttribute="trailing" secondItem="TkK-Ea-Kva" secondAttribute="trailing" constant="20" id="jh3-F3-mKc"/>
                 <constraint firstItem="ixY-k5-8XX" firstAttribute="top" secondItem="2VY-cB-yqw" secondAttribute="bottom" constant="8" id="ktU-r1-fAb"/>
                 <constraint firstItem="0Xz-RE-Nqu" firstAttribute="top" secondItem="wg9-di-1Ut" secondAttribute="bottom" constant="8" id="lg7-fO-Mqz"/>
                 <constraint firstItem="zdH-q3-O8i" firstAttribute="top" secondItem="vgr-Vc-unv" secondAttribute="top" constant="20" id="pCb-9a-yJf"/>
+                <constraint firstItem="nhI-GH-QGx" firstAttribute="leading" secondItem="5wh-aZ-4ps" secondAttribute="trailing" constant="12" id="pc5-H4-8Zq"/>
                 <constraint firstItem="nnt-O1-DnU" firstAttribute="leading" secondItem="vgr-Vc-unv" secondAttribute="leading" constant="20" id="shu-YS-G3g"/>
                 <constraint firstItem="5wh-aZ-4ps" firstAttribute="top" secondItem="ixY-k5-8XX" secondAttribute="bottom" constant="12" id="uCz-fl-5H5"/>
                 <constraint firstAttribute="trailing" secondItem="0ud-xg-zm6" secondAttribute="trailing" constant="20" id="uXH-hK-ila"/>
@@ -443,13 +456,13 @@ You can select a row in the Word Match Table, and then click a Tool button to ma
                                         <rect key="frame" x="10" y="414" width="758" height="80"/>
                                         <textFieldCell key="cell" controlSize="small" selectable="YES" id="Luu-Ql-heD">
                                             <font key="font" metaFont="system"/>
-                                            <mutableString key="title">Word links are how Amphisbaena matches Transkribus zones to FLEx words. You can use Amphisbaena to generate new word links, or import existing word links that you have saved before.  NOTE: You should only use this page if you are working on a new set of word links for this project. Generating or importing word links will overwrite existing word links for this project.</mutableString>
+                                            <string key="title">Word links are how Amphisbaena matches Transkribus zones to FLEx words. You can use Amphisbaena to generate new word links, or import existing word links that you have saved before.  NOTE: You should only use this page if you are working on a new set of word links for this project. Generating or importing word links will overwrite existing word links for this project.</string>
                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                     </textField>
                                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="lJ3-Lk-CWO">
-                                        <rect key="frame" x="6" y="219" width="766" height="48"/>
+                                        <rect key="frame" x="6" y="220" width="766" height="48"/>
                                         <textFieldCell key="cell" controlSize="small" selectable="YES" id="dEt-Pi-fNb">
                                             <font key="font" metaFont="system"/>
                                             <string key="title">If you have an existing word links file that was previously generated for this Transkribus and/or FLEx file, then you can import them here. To do this, click "Import Word Links" below. You can also import a Word Links file from within the previous window.</string>
@@ -458,14 +471,14 @@ You can select a row in the Word Match Table, and then click a Tool button to ma
                                         </textFieldCell>
                                     </textField>
                                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="At4-Cb-YDx">
-                                        <rect key="frame" x="6" y="301" width="197" height="32"/>
+                                        <rect key="frame" x="5" y="302" width="191" height="32"/>
                                         <buttonCell key="cell" type="push" title="Generate New Word Links" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="4hg-XN-mi2">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="system"/>
                                         </buttonCell>
                                     </button>
                                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="lrQ-X9-4hv">
-                                        <rect key="frame" x="6" y="179" width="182" height="32"/>
+                                        <rect key="frame" x="5" y="181" width="176" height="32"/>
                                         <buttonCell key="cell" type="push" title="Import New Word Links" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="5UX-6e-k2R">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="system"/>
@@ -483,10 +496,10 @@ You can select a row in the Word Match Table, and then click a Tool button to ma
                                         </textFieldCell>
                                     </textField>
                                     <box verticalHuggingPriority="750" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="7er-sp-aad">
-                                        <rect key="frame" x="8" y="273" width="762" height="5"/>
+                                        <rect key="frame" x="8" y="274" width="762" height="5"/>
                                     </box>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="fGT-KY-XrZ">
-                                        <rect key="frame" x="10" y="278" width="103" height="16"/>
+                                        <rect key="frame" x="10" y="279" width="103" height="16"/>
                                         <textFieldCell key="cell" lineBreakMode="clipping" title="Import Existing" id="pyI-wL-Cy6">
                                             <font key="font" metaFont="systemBold"/>
                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
