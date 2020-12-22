@@ -150,14 +150,20 @@ extension Amphisbaena_UnifiedContainer_TextBody {
     func singleElan_addPhrase(fromElanContainer elanContainer: Amphisbaena_ELANContainer, speakerID: String, withinPhrases phrases: Amphisbaena_Container, xmlID: String?, start: String?, end: String?, who: String?, mediaFile: String?, glossLang: String?, glossContent: String?) {
         
         let phraseContainer = Amphisbaena_Container(withName: "phr", isRoot: false)
-        let preferredAttributeOrder = ["xml:id", "guid", "start", "end", "who", "media-file"]
+        let preferredAttributeOrder = ["uuid", "guid", "start", "end", "who", "media-file"]
         
         var attributes: [String : String] = [:]
-        if let xmlID = xmlID {attributes["xml:id"] = xmlID;}
+        if let xmlID = xmlID {attributes["uuid"] = xmlID;}
         if let start = start {attributes["start"] = start}
         if let end = end {attributes["end"] = end}
         if let who = who {attributes["who"] = who}
         if let mediaFile = mediaFile {attributes["mediaFile"] = mediaFile}
+        
+        if xmlID != nil,
+           xmlID!.count < 36 {
+            let newUUID = UUID().uuidString
+            attributes["uuid"] = newUUID
+        }
         
         phraseContainer.elementAttributes = attributes
         phraseContainer.preferredAttributeOrder = preferredAttributeOrder;
@@ -208,12 +214,16 @@ extension Amphisbaena_UnifiedContainer_TextBody {
     func singleElan_addUtterance(fromElanContainer elanContainer: Amphisbaena_ELANContainer, speakerID: String, withinUtterances utterancesContainer: Amphisbaena_Container, withID annotationID: String, withStart start: Int, withEnd end: Int) {
         
         let utteranceContainer = Amphisbaena_Container(withName: "u", isRoot: false)
-        let preferredAttributeOrder = ["xml:id", "start", "end"]
+        let preferredAttributeOrder = ["uuid", "start", "end"]
         
         var attributes: [String : String] = [:]
-        attributes["xml:id"] = annotationID;
+        attributes["uuid"] = annotationID;
         attributes["start"] = String(start)
         attributes["end"] = String(end)
+        if annotationID.count < 36 {
+            let newUUID = UUID().uuidString
+            attributes["uuid"] = newUUID
+        }
         
         utteranceContainer.elementAttributes = attributes
         utteranceContainer.preferredAttributeOrder = preferredAttributeOrder;
@@ -247,13 +257,24 @@ extension Amphisbaena_UnifiedContainer_TextBody {
     func singleElan_addWord(fromElanContainer elanContainer: Amphisbaena_ELANContainer, speakerID: String, withinWords wordsContainer: Amphisbaena_Container, withWordID wordID: String, ofLanguage lang: String, refAnnotation: Amphisbaena_Container) {
         
         let wordContainer = Amphisbaena_Container(withName: "word", isRoot: false)
-        let preferredAttributeOrder = ["xml:id"]
+        let preferredAttributeOrder = ["uuid"]
         var attributes: [String : String] = [:]
-        attributes["xml:id"] = wordID
+        attributes["uuid"] = wordID
+        if wordID.count < 36 {
+            let newUUID = UUID().uuidString
+            attributes["uuid"] = newUUID
+        }
         
         wordContainer.elementAttributes = attributes
         wordContainer.preferredAttributeOrder = preferredAttributeOrder
         wordsContainer.addElement(element: wordContainer)
+        
+        let flexContainer = Amphisbaena_Container(withName: "flex", isRoot: false)
+        wordContainer.addElement(element: flexContainer)
+        
+        let origDummyContainer = Amphisbaena_Element(elementName: "orig", attributes: nil, elementContent: nil)
+        origDummyContainer.elementContent = ""
+        wordContainer.addElement(element: origDummyContainer)
         
         //get lak/dak word
         if let annotationValue = refAnnotation.getFirstElement(ofName: "ANNOTATION_VALUE"),
@@ -265,7 +286,7 @@ extension Amphisbaena_UnifiedContainer_TextBody {
                 let newPC = Amphisbaena_Element(elementName: "pc")
                 newPC.elementContent = wordContent
                 
-                wordContainer.addElement(element: newPC)
+                flexContainer.addElement(element: newPC)
             }
             else {
                 let newReg = Amphisbaena_Element(elementName: "reg")
@@ -275,7 +296,7 @@ extension Amphisbaena_UnifiedContainer_TextBody {
                 newReg.elementAttributes = attributes
                 newReg.elementContent = wordContent
                 
-                wordContainer.addElement(element: newReg)
+                flexContainer.addElement(element: newReg)
             }
         }
         
@@ -297,7 +318,7 @@ extension Amphisbaena_UnifiedContainer_TextBody {
                 newGloss.preferredAttributeOrder = ["lang", "cert"]
                 newGloss.elementContent = glossContent
                     
-                wordContainer.addElement(element: newGloss)
+                flexContainer.addElement(element: newGloss)
             }
         }
         
