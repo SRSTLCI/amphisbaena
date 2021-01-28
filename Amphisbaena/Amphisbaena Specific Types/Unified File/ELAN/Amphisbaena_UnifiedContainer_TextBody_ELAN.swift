@@ -9,6 +9,12 @@
 import Foundation
 
 extension Amphisbaena_UnifiedContainer_TextBody {
+    
+    struct RegEx_ELAN {
+        static let regexELANTag      = try! NSRegularExpression(pattern: #"(\w+?)="(.+?)""#, options: [])
+    }
+    
+    
     struct ELANConstants {
         enum Level: Int {
             case paragraph = 0
@@ -16,6 +22,7 @@ extension Amphisbaena_UnifiedContainer_TextBody {
             case phraseSegnum = 2
             case wordTxtLkt = 3
             case wordGlossEn = 4
+            case wordTags = 5
         }
         
         static let levelParagraph       = "paragraph"
@@ -23,13 +30,15 @@ extension Amphisbaena_UnifiedContainer_TextBody {
         static let levelPhraseSegnum    = "phrase-segnum-en"
         static let levelWordTextLkt     = "word-txt-lkt"
         static let levelWordGlossEn     = "word-gls-en"
+        static let levelTags            = "tags"
         
         static let levelLabel: [Level : String] = [
             .paragraph      : ELANConstants.levelParagraph,
             .sentence       : ELANConstants.levelSentence,
             .phraseSegnum   : ELANConstants.levelPhraseSegnum,
             .wordTxtLkt     : ELANConstants.levelWordTextLkt,
-            .wordGlossEn    : ELANConstants.levelWordGlossEn
+            .wordGlossEn    : ELANConstants.levelWordGlossEn,
+            .wordTags       : ELANConstants.levelTags
         ]
         
         static let speakerIdentifiers   = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -257,7 +266,7 @@ extension Amphisbaena_UnifiedContainer_TextBody {
     func singleElan_addWord(fromElanContainer elanContainer: Amphisbaena_ELANContainer, speakerID: String, withinWords wordsContainer: Amphisbaena_Container, withWordID wordID: String, ofLanguage lang: String, refAnnotation: Amphisbaena_Container) {
         
         let wordContainer = Amphisbaena_Container(withName: "word", isRoot: false)
-        let preferredAttributeOrder = ["uuid"]
+        let preferredAttributeOrder = ["uuid", "personID", "placeID"]
         var attributes: [String : String] = [:]
         attributes["uuid"] = wordID
         if wordID.count < 36 {
@@ -322,5 +331,51 @@ extension Amphisbaena_UnifiedContainer_TextBody {
             }
         }
         
+        //get tags
+        let tierWordTag = ELANConstants.speakerLevelName(speakerID: speakerID, level: .wordTags)
+        let wordTags    = elanContainer.tier_GetOrderedAnnotations(tierID: tierWordTag)
+        let tagAnnotation = wordTags.first { (taggable) -> Bool in
+            guard let taggable = taggable as? Amphisbaena_Container,
+                  let refAnnotation = taggable.getFirstElement(ofName: "REF_ANNOTATION") as? Amphisbaena_Container,
+                  let annotationRef = refAnnotation.getAttribute(attributeName: "ANNOTATION_REF"),
+                  annotationRef == wordID,
+                  let annotationValue = refAnnotation.getFirstElement(ofName: "ANNOTATION_VALUE"),
+                  annotationValue.elementContent != nil
+            else {return false}
+            return true;
+        }
+        if let tagAnnotation = tagAnnotation as? Amphisbaena_Container,
+           let refAnnotation = tagAnnotation.getFirstElement(ofName: "REF_ANNOTATION") as? Amphisbaena_Container,
+           let annotationValue = refAnnotation.getFirstElement(ofName: "ANNOTATION_VALUE"),
+           let elementContent = annotationValue.elementContent {
+            let unwrappedTags = unwrapTags(tagString: elementContent)
+            for (label, value) in unwrappedTags {
+                wordContainer.elementAttributes?[label] = value
+            }
+        }
+    }
+    
+    func unwrapTags(tagString: String) -> [String : String] {
+        var tags: [String : String] = [:]
+        
+        let tagStringRange = NSRange(tagString.startIndex..<tagString.endIndex, in: tagString)
+        let tagStringMatches = RegEx_ELAN.regexELANTag.matches(in: tagString, options: [], range: tagStringRange)
+        for match in tagStringMatches {
+            var label: String?
+            var value: String?
+            
+            for r in 1..<match.numberOfRanges {
+                guard let range = Range( match.range(at: r), in: tagString) else {continue;}
+                let matchRangeString = String(tagString[range])
+                if (r == 1) {label = matchRangeString} else
+                if (r == 2) {value = matchRangeString}
+            }
+            
+            if let label = label, let value = value {
+                tags[label] = value
+            }
+        }
+        
+        return tags
     }
 }
