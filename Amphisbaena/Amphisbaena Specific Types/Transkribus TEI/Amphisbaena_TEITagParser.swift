@@ -188,17 +188,6 @@ class Amphisbaena_TEITagParser {
             case "place":
                 
                 var attributes: [String : String] = [:]
-                /*
-                if let geo = dict["geo"] {
-                    attributes["geo"] = geo
-                }
-                if let placeName = dict["placeName"] {
-                    attributes["placeName"] = placeName
-                }
-                if let type = dict["type"] {
-                    attributes["type"] = type
-                }
-                */
                 if let placeID = dict["placeID"] {
                     attributes["placeID"] = placeID
                 }
@@ -227,7 +216,14 @@ class Amphisbaena_TEITagParser {
                 }
                 let elementEdit = Amphisbaena_Element(elementName: "edit", attributes: attributes, elementContent: nil)
                 facsContainer?.addElement(element: elementEdit)
-            case "corr", "merged", "split":
+            case "corr":
+                var attributes: [String : String] = [:]
+                if let errorValue = dict["error"] {
+                    attributes["error"] = errorValue
+                }
+                let elementCorr = Amphisbaena_Element(elementName: key, attributes: attributes, elementContent: nil)
+                facsContainer?.addElement(element: elementCorr)
+            case "merged", "split":
                 var attributes: [String : String] = [:]
                 if let month = dict["original"] {
                     attributes["original"] = month
