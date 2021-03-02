@@ -278,12 +278,12 @@ extension Amphisbaena_UnifiedContainer_TextBody {
         wordContainer.preferredAttributeOrder = preferredAttributeOrder
         wordsContainer.addElement(element: wordContainer)
         
-        let flexContainer = Amphisbaena_Container(withName: "flex", isRoot: false)
-        wordContainer.addElement(element: flexContainer)
-        
         let origDummyContainer = Amphisbaena_Element(elementName: "orig", attributes: nil, elementContent: nil)
         origDummyContainer.elementContent = ""
         wordContainer.addElement(element: origDummyContainer)
+        
+        let flexContainer = Amphisbaena_Container(withName: "flex", isRoot: false)
+        wordContainer.addElement(element: flexContainer)
         
         //get lak/dak word
         if let annotationValue = refAnnotation.getFirstElement(ofName: "ANNOTATION_VALUE"),

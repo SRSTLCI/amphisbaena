@@ -50,10 +50,10 @@ extension Amphisbaena_UnifiedContainer_TextBody {
                 }
                 */
             }
-            else if taggable1.elementName == "flex" {return true;}
-            else if taggable2.elementName == "flex" {return false;}
-            else if taggable1.elementName == "orig" {return false;}
-            else if taggable2.elementName == "orig" {return true;}
+            else if taggable1.elementName == "flex" {return false;}
+            else if taggable2.elementName == "flex" {return true;}
+            else if taggable1.elementName == "orig" {return true;}
+            else if taggable2.elementName == "orig" {return false;}
             else {return taggable1.elementName < taggable2.elementName}
         }
         static var flexWordOrder = [String : Int]();
