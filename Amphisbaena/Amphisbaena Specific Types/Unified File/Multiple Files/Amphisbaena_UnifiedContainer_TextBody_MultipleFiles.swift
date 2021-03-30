@@ -38,22 +38,18 @@ extension Amphisbaena_UnifiedContainer_TextBody {
                 else {
                     return false
                 }
-                /*
-                }
-                else {
-                    if taggable1.getAttribute(attributeName: "guid") != nil {
-                        return true
-                    }
-                    else {
-                        return false
-                    }
-                }
-                */
             }
             else if taggable1.elementName == "flex" {return false;}
             else if taggable2.elementName == "flex" {return true;}
             else if taggable1.elementName == "orig" {return true;}
             else if taggable2.elementName == "orig" {return false;}
+            else {return taggable1.elementName < taggable2.elementName}
+        }
+        static let sortCriteriaFlexElement: ((AmphisbaenaXMLTaggable, AmphisbaenaXMLTaggable) -> Bool) = {(taggable1, taggable2) -> Bool in
+            if taggable1.elementName == "gloss" {return true}
+            else if taggable2.elementName == "gloss" {return false}
+            else if taggable1.elementName == "reg" {return false}
+            else if taggable2.elementName == "reg" {return true}
             else {return taggable1.elementName < taggable2.elementName}
         }
         static var flexWordOrder = [String : Int]();
@@ -100,7 +96,7 @@ extension Amphisbaena_UnifiedContainer_TextBody {
             let matchRange = NSRange(newContent.startIndex..<newContent.endIndex, in: newContent)
             let glossMatches = RegEx.regexNoteGloss.matches(in: newContent, options: [], range: matchRange)
             let regMatches = RegEx.regexNoteReg.matches(in: newContent, options: [], range: matchRange)
-            let wsMatches = RegEx.regexNoteWs.matches(in: newContent, options: [], range: matchRange)
+            //let wsMatches = RegEx.regexNoteWs.matches(in: newContent, options: [], range: matchRange)
             
             print("NOTE TEXT: "+newContent)
             var glossCount = 0;
@@ -244,7 +240,7 @@ extension Amphisbaena_UnifiedContainer_TextBody {
             case orig_w     = 2
         }
         
-        static let defaultTagLevel: TagLevel = .orig_w
+        static let defaultTagLevel: TagLevel = .word
         
         static let tagRename: [String : String] = [
             "edit"      :   "edited",
@@ -457,6 +453,7 @@ extension Amphisbaena_UnifiedContainer_TextBody {
                         if let uuid = currentWordLinkUUID {word.elementAttributes = ["uuid" : uuid]}
                         currentWords.addElement(element: word)
                         currentWord = word
+                        currentWord?.preferredAttributeOrder = ["uuid","placeID","personID"]
                         canCreateNewWord = false;
                         SortCriteria.flexWordOrder = [:]
                     }
@@ -484,6 +481,7 @@ extension Amphisbaena_UnifiedContainer_TextBody {
                             
                         }
                     }
+                    flex.sortElements(by: SortCriteria.sortCriteriaFlexElement)
                     currentWord?.addElement(element: flex)
                     currentWord?.sortElements(by: SortCriteria.sortCriteria)
                     let identity = (token.identifier ?? "") + (token.content ?? "")
@@ -541,7 +539,6 @@ extension Amphisbaena_UnifiedContainer_TextBody {
                     //add tags
                     
                     let foundTags = findTags(forFacs: identifier, usingTagContainer: TEITagsContainer)
-                    //add transkribus w
                     let orig = multipleFiles_getWordOrig(word: currentWord)
                     
                     let transkribusW =  Amphisbaena_Element(elementName: "w")
@@ -557,6 +554,32 @@ extension Amphisbaena_UnifiedContainer_TextBody {
                         token.content?.contains("}") ?? false {
                         transkribusWAttributes["cert"] = "no"
                     }
+                    var wordTagAttributes = currentWord.elementAttributes ?? [String : String]();
+                    
+                    //add tags to word
+                    for tag in foundTags {
+                        guard tagLevel(forTag: tag.elementName) == .word else {continue;}
+                        var newAttribute = [String : String]();
+                        
+                        let newTag = tag.copy() as! Amphisbaena_Element
+                        let splitTag = tagSplitAttribute(forTag: newTag)
+                        if let tagInjectContent = tagInjectContent(forTag: tag.elementName) {
+                            newTag.elementContent = tagInjectContent
+                        }
+                        newAttribute[newTag.elementName] = newTag.elementContent
+                        if let splitTag = splitTag {
+                            if let splitTagName = tagNewName(forTag: splitTag.elementName) {
+                                splitTag.elementName = splitTagName
+                            }
+                            newAttribute[splitTag.elementName] = splitTag.elementContent
+                        }
+                        if tagShouldCopyAttributes(forTag: tag.elementName) {
+                            wordTagAttributes.merge(tag.getAttributes()) { (key1, key2) -> String in
+                                return key1;
+                            }
+                        }
+                    }
+                    currentWord.elementAttributes = wordTagAttributes;
                     
                     //add tags to transkribus w
                     for tag in foundTags {
